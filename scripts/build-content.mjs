@@ -2,11 +2,14 @@
 // 之后的同步（syncCourseAssets）和搜索索引由 npm 脚本 build:content 接着跑。
 import { spawnSync } from "node:child_process";
 import { SUBJECTS, REPO_ROOT } from "../src/lib/contentPack.mjs";
-import { existsSync } from "node:fs";
 import path from "node:path";
 
-// 本机用系统 Python（带 YAML 库）；云端构建机没有这个路径，用环境变量 PYTHON 或 PATH 里的 python3。
-const PYTHON = process.env.PYTHON || (existsSync("/usr/bin/python3") ? "/usr/bin/python3" : "python3");
+// 找一个装了 PyYAML 的 Python：环境变量 PYTHON 优先，其次本机系统 Python，最后 PATH 里的 python3
+// （云端构建机的系统 Python 没有 PyYAML，pip 装进的是 PATH 里的 python3）。
+const candidates = [process.env.PYTHON, "/usr/bin/python3", "python3"].filter(Boolean);
+const PYTHON =
+  candidates.find((c) => spawnSync(c, ["-c", "import yaml"], { stdio: "ignore" }).status === 0) ??
+  candidates[0];
 
 for (const subject of SUBJECTS) {
   const r = spawnSync(PYTHON, [path.join(REPO_ROOT, "scripts/export-course-json.py"), subject], {
