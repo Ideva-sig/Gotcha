@@ -1,0 +1,647 @@
+/* 练一练题卡：作答、对答案、错因、解析 */
+
+.panel {
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  display: grid;
+  gap: 16px;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- 展开 / 收起 ---------- */
+
+.reveal {
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 380ms var(--ease-out),
+    opacity 260ms ease;
+}
+
+.reveal[data-open="true"] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.revealInner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* 刚打开页面、读取已有记录时不播过渡 */
+.question[data-live="false"] .reveal,
+.reveal[data-animate="false"] {
+  transition: none;
+}
+
+/* ---------- 题卡 ---------- */
+
+.question {
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--tint-neutral);
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
+/* 平铺：放在知识点页的整张纸面里，不再套灰底题卡，题与题之间用细线分开 */
+.panel[data-flat="true"] {
+  gap: 0;
+}
+
+.panel[data-flat="true"] .question {
+  padding: 20px 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.panel[data-flat="true"] .question:first-child {
+  padding-top: 4px;
+}
+
+.panel[data-flat="true"] .question + .question {
+  border-top: 1px dashed var(--border-strong);
+}
+
+.question:target {
+  animation: targetFlash 1.6s ease;
+}
+
+@keyframes targetFlash {
+  0%,
+  40% {
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+}
+
+.qHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.qSource {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
+  margin: 0;
+  color: var(--text-faint);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.qIndex {
+  color: var(--text);
+  font-weight: 650;
+}
+
+.qSourceText {
+  color: var(--text-soft);
+}
+
+.qNote {
+  color: var(--accent);
+  font-weight: 650;
+}
+
+.qStatus {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-faint);
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.question[data-live="true"] .qStatus {
+  animation: statusIn 320ms var(--ease-out) both;
+}
+
+@keyframes statusIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+}
+
+.qStatus i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.toneIdle {
+  color: var(--text-faint);
+}
+
+.toneCorrect {
+  color: var(--green);
+}
+
+.toneWrong {
+  color: var(--coral);
+}
+
+.stem {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* ---------- 选项 ---------- */
+
+.options {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.optionsGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.option {
+  --key-bg: var(--surface-strong);
+  --key-fg: var(--text-soft);
+  position: relative;
+  display: grid;
+  min-height: 48px;
+  grid-template-columns: 28px minmax(0, 1fr) 18px;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.55;
+  text-align: left;
+  transition:
+    background-color 200ms ease,
+    border-color 200ms ease,
+    opacity 260ms ease,
+    transform 140ms ease;
+}
+
+.option:hover {
+  border-color: var(--border-strong);
+}
+
+.option:active {
+  transform: scale(0.99);
+}
+
+.optionKey {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--key-bg);
+  color: var(--key-fg);
+  font-size: 13px;
+  font-weight: 700;
+  transition:
+    background-color 220ms ease,
+    color 220ms ease;
+}
+
+.optionText {
+  min-width: 0;
+}
+
+.optionText img {
+  max-width: 100%;
+  border-radius: 4px;
+  background: var(--figure-paper);
+}
+
+.optionMark {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.option[data-state="right"],
+.option[data-state="answer"] {
+  --key-bg: var(--green);
+  --key-fg: var(--surface);
+  border-color: color-mix(in srgb, var(--green) 45%, transparent);
+  background: var(--tint-green);
+}
+
+.option[data-state="right"] .optionMark,
+.option[data-state="answer"] .optionMark {
+  color: var(--green);
+}
+
+.option[data-state="wrong"] {
+  --key-bg: var(--coral);
+  --key-fg: var(--surface);
+  border-color: color-mix(in srgb, var(--coral) 45%, transparent);
+  background: var(--tint-coral);
+}
+
+.option[data-state="wrong"] .optionMark {
+  color: var(--coral);
+}
+
+.option[data-state="dim"] {
+  opacity: 0.55;
+}
+
+.option[data-state="dim"]:hover {
+  opacity: 0.85;
+}
+
+/* 当场作答时：对勾 / 叉号一笔画出，选错的轻轻晃一下 */
+.question[data-live="true"] .optionMark path {
+  stroke-dasharray: 1;
+  animation: draw 360ms 80ms var(--ease-out) both;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.question[data-live="true"] .option[data-shake] {
+  animation: shake 360ms ease;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(-4px);
+  }
+  45% {
+    transform: translateX(4px);
+  }
+  70% {
+    transform: translateX(-2px);
+  }
+}
+
+.question[data-live="true"] .option[data-state="right"] .optionKey,
+.question[data-live="true"] .option[data-state="answer"] .optionKey {
+  animation: pop 320ms var(--ease-out);
+}
+
+@keyframes pop {
+  50% {
+    transform: scale(1.12);
+  }
+}
+
+/* ---------- 自评题 ---------- */
+
+.selfGrade {
+  margin-top: 14px;
+}
+
+.secondaryButton {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 18px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--btn-face);
+  box-shadow: 0 4px 0 var(--btn-shadow);
+  margin-bottom: 4px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 650;
+  transition:
+    background-color 160ms ease,
+    transform 140ms ease;
+}
+
+.secondaryButton:hover {
+  background: var(--surface-raised);
+}
+
+.secondaryButton:active {
+  box-shadow: 0 0 0 var(--btn-shadow);
+  transform: translateY(4px);
+}
+
+.selfGradeRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+}
+
+.selfGradePrompt {
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.segmented {
+  display: inline-flex;
+  padding: 2px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.segmented button {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 650;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.segmented button[data-tone="correct"][aria-pressed="true"] {
+  background: var(--tint-green);
+  color: var(--green);
+}
+
+.segmented button[data-tone="wrong"][aria-pressed="true"] {
+  background: var(--tint-coral);
+  color: var(--coral);
+}
+
+/* ---------- 错因 ---------- */
+
+.diagnose {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.diagnosePrompt {
+  margin: 0 0 10px;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  min-width: 56px;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.tag {
+  border-color: transparent;
+  background: var(--rs);
+  color: var(--rsi);
+  font-weight: 700;
+}
+
+.tag:hover {
+  border-color: var(--rf);
+}
+
+.tag[aria-pressed="true"] {
+  border-color: var(--rb);
+  background: var(--rf);
+  color: var(--rt);
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--tint-yellow);
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.reviewLink {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.reviewLink svg {
+  transition: transform 200ms var(--ease-out);
+}
+
+.reviewLink:hover svg {
+  transform: translateX(3px);
+}
+
+/* ---------- 答案与解析 ---------- */
+
+.solution {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+.answerRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+}
+
+.answerLabel {
+  color: var(--text-faint);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.answerText {
+  min-width: 0;
+  flex: 1 1 auto;
+  font-weight: 650;
+}
+
+.needsReview {
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--yellow-soft);
+  color: var(--yellow);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* 解析步骤：竖线把每一步串起来 */
+.steps {
+  position: relative;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.steps > li:not(:last-child)::before {
+  position: absolute;
+  top: 26px;
+  bottom: 2px;
+  left: 10.5px;
+  width: 1px;
+  background: var(--border);
+  content: "";
+}
+
+.thinkFirst {
+  margin: 12px 0 0;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.stepsToggle {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 0 12px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 650;
+  transition:
+    background-color 160ms ease,
+    transform 140ms ease;
+}
+
+.stepsToggle:hover {
+  background: var(--surface-raised);
+}
+
+.stepsToggle:active {
+  transform: scale(0.98);
+}
+
+.stepsChevron {
+  color: var(--text-soft);
+  transition: transform 260ms var(--ease-out);
+}
+
+.stepsToggle[aria-expanded="true"] .stepsChevron {
+  transform: rotate(180deg);
+}
+
+.stepsReveal[data-open="true"] .steps > li {
+  animation: stepIn 380ms var(--ease-out) both;
+  animation-delay: calc(140ms + var(--k, 0) * 90ms);
+}
+
+@keyframes stepIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+.stepNum {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text-soft);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.stepText {
+  min-width: 0;
+}
+
+.retry {
+  min-height: 40px;
+  margin-top: 4px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 4px;
+}
+
+.retry:hover {
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .question {
+    padding: 16px;
+  }
+
+  .optionsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 平铺时选项在白纸上，给一圈浅边；对错状态的边色照常覆盖它 */
+:where(.panel[data-flat="true"]) .option {
+  border-color: var(--border);
+}

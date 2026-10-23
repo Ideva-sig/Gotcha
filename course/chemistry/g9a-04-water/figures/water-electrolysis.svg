@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" role="img" aria-labelledby="elys-t elys-d">
+  <title id="elys-t">霍夫曼电解水器实验示意图</title>
+  <desc id="elys-d">接直流电源的电解水器，正极生成氧气，负极生成氢气，两管气体体积比为1比2（正氧负氢，氢二氧一）。</desc>
+  <style>
+    .elys-bg { fill: #ffffff; }
+    .elys-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .elys-water { fill: #e3f2fd; stroke: #287fc4; stroke-width: 1.2; }
+    .elys-gas-o2 { fill: #fff3e0; stroke: #bf8d08; stroke-width: 1.2; }
+    .elys-gas-h2 { fill: #e8f5e9; stroke: #197a60; stroke-width: 1.2; }
+    .elys-grad { stroke: #7d8990; stroke-width: 1.2; }
+    .elys-elec { fill: #37474f; stroke: #263238; stroke-width: 1.4; }
+    .elys-bubble { fill: #ffffff; stroke: #287fc4; stroke-width: 1; }
+    .elys-pos { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.6; rx: 4px; }
+    .elys-neg { fill: #f4f8fb; stroke: #287fc4; stroke-width: 1.6; rx: 4px; }
+    .elys-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .elys-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .elys-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .elys-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+  </style>
+  <rect class="elys-bg" width="660" height="380"/>
+
+  <!-- Left: Hofmann Apparatus (cx=220) -->
+  <!-- Left Tube: Positive (O2, 1 volume) | Center: Funnel | Right Tube: Negative (H2, 2 volumes) -->
+
+  <!-- Top Stopcocks / Taps -->
+  <!-- Left tap (x=160, y=55) -->
+  <rect x="156" y="45" width="8" height="15" fill="#52626a"/>
+  <line x1="150" y1="52" x2="170" y2="52" stroke="#c9554d" stroke-width="3"/>
+  <!-- Right tap (x=280, y=55) -->
+  <rect x="276" y="45" width="8" height="15" fill="#52626a"/>
+  <line x1="270" y1="52" x2="290" y2="52" stroke="#287fc4" stroke-width="3"/>
+
+  <!-- Center Reservoir Funnel -->
+  <!-- Bulb: cx=220, cy=85, r=22 -->
+  <circle cx="220" cy="85" r="22" class="elys-glass"/>
+  <path d="M 214 45 L 226 45 L 226 65 L 214 65 Z" class="elys-glass"/>
+  <!-- Center connecting pipe down to bottom horizontal manifold -->
+  <rect class="elys-glass" x="214" y="107" width="12" height="135"/>
+  <path d="M 215 110 L 225 110 L 225 240 L 215 240 Z" class="elys-water"/>
+
+  <!-- Left Tube: x=144..172 (w=28), length y=60..240 -->
+  <rect class="elys-glass" x="144" y="60" width="28" height="180"/>
+  <!-- Right Tube: x=268..296 (w=28), length y=60..240 -->
+  <rect class="elys-glass" x="268" y="60" width="28" height="180"/>
+
+  <!-- Bottom Horizontal Connecting Manifold -->
+  <rect class="elys-glass" x="144" y="235" width="152" height="15"/>
+  <rect class="elys-water" x="145" y="236" width="150" height="13"/>
+
+  <!-- Liquids and Gases in Left and Right Tubes -->
+  <!-- Left Tube: O2 collected (1 vol = 30px height, from y=60 to y=90) -->
+  <rect class="elys-gas-o2" x="145" y="61" width="26" height="30"/>
+  <text x="158" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#bf8d08">O₂</text>
+  <!-- Liquid in Left Tube: from y=91 to y=235 -->
+  <rect class="elys-water" x="145" y="91" width="26" height="144"/>
+  <line x1="145" y1="91" x2="171" y2="91" stroke="#287fc4" stroke-width="1.8"/>
+
+  <!-- Right Tube: H2 collected (2 vols = 60px height, from y=60 to y=120) -->
+  <rect class="elys-gas-h2" x="269" y="61" width="26" height="60"/>
+  <text x="282" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#197a60">H₂</text>
+  <!-- Liquid in Right Tube: from y=121 to y=235 -->
+  <rect class="elys-water" x="269" y="121" width="26" height="114"/>
+  <line x1="269" y1="121" x2="295" y2="121" stroke="#287fc4" stroke-width="1.8"/>
+
+  <!-- Graduation Marks on Tubes -->
+  <line class="elys-grad" x1="166" y1="90" x2="172" y2="90"/>
+  <line class="elys-grad" x1="166" y1="120" x2="172" y2="120"/>
+  <line class="elys-grad" x1="166" y1="150" x2="172" y2="150"/>
+  <line class="elys-grad" x1="166" y1="180" x2="172" y2="180"/>
+
+  <line class="elys-grad" x1="268" y1="90" x2="274" y2="90"/>
+  <line class="elys-grad" x1="268" y1="120" x2="274" y2="120"/>
+  <line class="elys-grad" x1="268" y1="150" x2="274" y2="150"/>
+  <line class="elys-grad" x1="268" y1="180" x2="274" y2="180"/>
+
+  <!-- Electrodes at bottom of tubes -->
+  <rect class="elys-elec" x="155" y="215" width="6" height="25"/>
+  <rect class="elys-elec" x="279" y="215" width="6" height="25"/>
+
+  <!-- Bubbles rising from electrodes -->
+  <circle class="elys-bubble" cx="158" cy="205" r="1.8"/>
+  <circle class="elys-bubble" cx="156" cy="190" r="2.2"/>
+  <circle class="elys-bubble" cx="160" cy="165" r="2"/>
+  <circle class="elys-bubble" cx="157" cy="135" r="2.5"/>
+
+  <circle class="elys-bubble" cx="282" cy="205" r="2"/>
+  <circle class="elys-bubble" cx="279" cy="195" r="2.2"/>
+  <circle class="elys-bubble" cx="284" cy="180" r="2.5"/>
+  <circle class="elys-bubble" cx="280" cy="160" r="2.5"/>
+  <circle class="elys-bubble" cx="283" cy="145" r="2.8"/>
+
+  <!-- Electrode Wires connecting to Power Source -->
+  <path d="M 158 240 L 158 280 L 188 280" fill="none" stroke="#c9554d" stroke-width="2.2"/>
+  <path d="M 282 240 L 282 280 L 252 280" fill="none" stroke="#287fc4" stroke-width="2.2"/>
+
+  <!-- DC Power Supply (x=175, y=265, w=90, h=35) -->
+  <rect x="175" y="265" width="90" height="35" rx="4" fill="#ffffff" stroke="#52626a" stroke-width="1.8"/>
+  <circle cx="188" cy="282" r="5" fill="#c9554d"/>
+  <text x="188" y="285" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <circle cx="252" cy="282" r="5" fill="#287fc4"/>
+  <text x="252" y="285" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+  <text class="elys-sub" x="220" y="286" text-anchor="middle" font-weight="600">直流电</text>
+  <text class="elys-sub" x="220" y="320" text-anchor="middle">直流电源（加少量 NaOH 增导）</text>
+
+  <!-- Left Callout: Positive Electrode (O2) -->
+  <path d="M 144 75 L 138 75" fill="none" stroke="#c9554d" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <rect class="elys-pos" x="8" y="48" width="130" height="68"/>
+  <text class="elys-label" x="16" y="70" fill="#c9554d">正极（阳极）</text>
+  <text class="elys-sub" x="16" y="89">产生气体：<tspan font-weight="600">氧气（O₂）</tspan></text>
+  <text class="elys-sub" x="16" y="105">气体体积：<tspan font-weight="700" fill="#c9554d">1 格</tspan></text>
+
+  <!-- Right Callout: Negative Electrode (H2) -->
+  <path d="M 296 90 L 305 90" fill="none" stroke="#287fc4" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <rect class="elys-neg" x="305" y="48" width="130" height="68"/>
+  <text class="elys-label" x="313" y="70" fill="#287fc4">负极（阴极）</text>
+  <text class="elys-sub" x="313" y="89">产生气体：<tspan font-weight="600">氢气（H₂）</tspan></text>
+  <text class="elys-sub" x="313" y="105">气体体积：<tspan font-weight="700" fill="#287fc4">2 格</tspan></text>
+
+  <!-- Right Side Explanatory Card -->
+  <rect class="elys-card" x="465" y="40" width="180" height="300"/>
+  <text class="elys-title" x="555" y="68" text-anchor="middle">实验核心结论</text>
+
+  <!-- Mnemonic Banner -->
+  <rect x="477" y="85" width="156" height="36" rx="4" fill="#e8f5e9" stroke="#197a60" stroke-width="1.2"/>
+  <text x="555" y="108" text-anchor="middle" font-weight="700" font-size="14" fill="#197a60">正氧负氢，氢二氧一</text>
+
+  <!-- Ratio -->
+  <text class="elys-label" x="480" y="146">体积比：</text>
+  <text class="elys-sub" x="480" y="166">V(O₂) : V(H₂) ≈ 1 : 2</text>
+  <text class="elys-sub" x="480" y="184">（质量比约为 8 : 1）</text>
+
+  <!-- Testing methods -->
+  <text class="elys-label" x="480" y="215">气体检验：</text>
+  <text class="elys-sub" x="480" y="235">O₂：带火星木条复燃</text>
+  <text class="elys-sub" x="480" y="253">H₂：点燃产生淡蓝火焰</text>
+
+  <!-- Chemical reaction and conclusion -->
+  <text class="elys-label" x="480" y="284">微观与宏观结论：</text>
+  <text class="elys-sub" x="480" y="304">水由氢元素和氧元素组成</text>
+  <text class="elys-sub" x="480" y="320">化学反应中分子可分，</text>
+  <text class="elys-sub" x="480" y="336">原子不可再分</text>
+</svg>

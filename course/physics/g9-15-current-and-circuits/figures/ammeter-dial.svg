@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="amd-t amd-d">
+  <title id="amd-t">电流表表盘的两排刻度</title>
+  <desc id="amd-d">电流表表盘从 0 到最右端共 30 个小格。上排刻度 0～3 A，接“3”接线柱时读上排，每小格 0.1 A；下排刻度 0～0.6 A，接“0.6”接线柱时读下排，每小格 0.02 A。同一指针位置，按上排读是按下排读的 5 倍。静态图。</desc>
+  <style>.amd-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.amd-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="300" fill="#fff" stroke="none"/>
+  <path d="M180.7 152.5A170 170 0 0 1 459.3 152.5" stroke="#20272b" stroke-width="1.6" fill="none"/>
+  <path d="M180.7 152.5L167.6 143.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M187.3 143.8L181.8 139.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194.3 135.5L189.2 130.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M201.9 127.7L197 122.7" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M210 120.4L205.4 115.1" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M218.5 113.6L211.9 104.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M227.4 107.4L223.6 101.6" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M236.7 101.8L233.3 95.7" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M246.4 96.8L243.3 90.5" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M256.3 92.4L253.7 85.9" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M266.5 88.6L261.5 73.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M277 85.5L275.2 78.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M287.6 83.1L286.2 76.3" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M298.3 81.4L297.4 74.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M309.1 80.3L308.7 73.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M320 80L320 69" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M330.9 80.3L331.3 73.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M341.7 81.4L342.6 74.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M352.4 83.1L353.8 76.3" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M363 85.5L364.8 78.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M373.5 88.6L378.5 73.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M383.7 92.4L386.3 85.9" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M393.6 96.8L396.7 90.5" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M403.3 101.8L406.7 95.7" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M412.6 107.4L416.4 101.6" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M421.5 113.6L428.1 104.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M430 120.4L434.6 115.1" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M438.1 127.7L443 122.7" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M445.7 135.5L450.8 130.8" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M452.7 143.8L458.2 139.4" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M459.3 152.5L472.4 143.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="amd-lb" x="154.5" y="139.1" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">0</text>
+  <text class="amd-lb" x="198.8" y="170.1" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">0</text>
+  <text class="amd-lb" x="256.5" y="63.3" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">1</text>
+  <text class="amd-lb" x="273.4" y="114.5" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">0.2</text>
+  <text class="amd-lb" x="383.5" y="63.3" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">2</text>
+  <text class="amd-lb" x="366.6" y="114.5" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">0.4</text>
+  <text class="amd-lb" x="485.5" y="139.1" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">3</text>
+  <text class="amd-lb" x="441.2" y="170.1" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">0.6</text>
+  <path d="M320 250L320 76" stroke="#20272b" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="320" cy="250" r="7" fill="#20272b" stroke="#20272b" stroke-width="2"/>
+  <text class="amd-lb" x="280" y="256" text-anchor="middle" style="fill:#20272b;font-size:20px;font-weight:600">A</text>
+  <text class="amd-lb" x="40" y="40" text-anchor="start" style="fill:#287fc4;font-size:14px;font-weight:600">接“3”：读上排</text>
+  <text class="amd-lb" x="40" y="62" text-anchor="start" style="fill:#287fc4;font-size:13px;font-weight:500">每小格 0.1 A</text>
+  <text class="amd-lb" x="600" y="40" text-anchor="end" style="fill:#c9554d;font-size:14px;font-weight:600">接“0.6”：读下排</text>
+  <text class="amd-lb" x="600" y="62" text-anchor="end" style="fill:#c9554d;font-size:13px;font-weight:500">每小格 0.02 A</text>
+  <text class="amd-lb" x="40" y="284" text-anchor="start" style="fill:#5d6970;font-size:13px;font-weight:500">0～3 A 和 0～0.6 A 都是 30 小格</text>
+</svg>

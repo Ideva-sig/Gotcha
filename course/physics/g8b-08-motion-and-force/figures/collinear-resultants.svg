@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 335" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-collinear-resultants-t opt-a-collinear-resultants-d">
+  <title id="opt-a-collinear-resultants-t">共线二力同向和反向的合力</title>
+  <desc id="opt-a-collinear-resultants-d">左侧两个共线力同向，合力方向相同、长度为两长度之和；右侧共线力反向，合力方向与较大的力相同、长度为两长度之差。各列上行为两个力，下行为单独作用的合力。同向两力为便于辨识上下平移，实际在同一直线上。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-collinear-resultants-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-collinear-resultants-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="335" fill="#fff" stroke="none"/>
+  <text class="opt-a-collinear-resultants-lb" x="137" y="35" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">同向</text>
+  <rect x="80" y="80" width="24" height="48" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M104 92L207.2 92" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M216 92L205 97L205 87Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M104 116L159.8 116" stroke="#c9554d" stroke-width="2" stroke-linecap="butt"/>
+  <path d="M167 116L158 120L158 112Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="104" cy="92" r="3" fill="#287fc4"/>
+  <circle cx="104" cy="116" r="3" fill="#c9554d"/>
+  <text class="opt-a-collinear-resultants-sy" x="213" y="76" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-collinear-resultants-sy" x="167" y="150" text-anchor="middle" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-collinear-resultants-lb" x="137" y="174" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">同一直线</text>
+  <rect x="80" y="214" width="24" height="24" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M104 226L270.2 226" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M279 226L268 230.9L268 221.1Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <circle cx="104" cy="226" r="3" fill="#287fc4"/>
+  <text class="opt-a-collinear-resultants-lb" x="294" y="231" text-anchor="start" style="fill:#287fc4;font-size:14px;font-weight:600">合力</text>
+  <text class="opt-a-collinear-resultants-lb" x="160" y="293" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">合力 = 两力之和</text>
+  <text class="opt-a-collinear-resultants-lb" x="160" y="316" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">方向相同</text>
+  <text class="opt-a-collinear-resultants-lb" x="482" y="35" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">反向</text>
+  <rect x="425" y="92" width="24" height="24" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M449 104L552.2 104" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M561 104L550 109L550 99Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M425 104L369.2 104" stroke="#c9554d" stroke-width="2" stroke-linecap="butt"/>
+  <path d="M362 104L371 100L371 108Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="449" cy="104" r="3" fill="#287fc4"/>
+  <circle cx="425" cy="104" r="3" fill="#c9554d"/>
+  <text class="opt-a-collinear-resultants-sy" x="558" y="88" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-collinear-resultants-sy" x="362" y="138" text-anchor="middle" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-collinear-resultants-lb" x="482" y="174" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">同一直线</text>
+  <rect x="425" y="214" width="24" height="24" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M449 226L489.2 226" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M498 226L487 230.9L487 221.1Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <circle cx="449" cy="226" r="3" fill="#287fc4"/>
+  <text class="opt-a-collinear-resultants-lb" x="513" y="231" text-anchor="start" style="fill:#287fc4;font-size:14px;font-weight:600">合力</text>
+  <text class="opt-a-collinear-resultants-lb" x="480" y="293" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">合力 = 大力减小力</text>
+  <text class="opt-a-collinear-resultants-lb" x="480" y="316" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">方向同大力</text>
+</svg>

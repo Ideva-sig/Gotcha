@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="coreduce-t coreduce-d">
+  <title id="coreduce-t">一氧化碳还原氧化铜实验装置示意图</title>
+  <desc id="coreduce-d">一氧化碳还原氧化铜实验装置图：CO气体通入装有氧化铜的硬质玻璃管，酒精灯加热反应，尾气通入澄清石灰水检验并用酒精灯点燃处理尾气。</desc>
+  <style>
+    .coreduce-bg { fill: #ffffff; }
+    .coreduce-stand { fill: #52626a; stroke: #37474f; stroke-width: 2; }
+    .coreduce-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .coreduce-plug { fill: #8d6e63; stroke: #5d4037; stroke-width: 1.4; }
+    .coreduce-tube { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .coreduce-powder { fill: #263238; stroke: #000000; stroke-width: 1; }
+    .coreduce-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .coreduce-flame-blue { fill: #81d4fa; stroke: #0288d1; stroke-width: 1.2; }
+    .coreduce-burner { fill: #eceff1; stroke: #52626a; stroke-width: 1.6; }
+    .coreduce-limewater { fill: #e8f5e9; stroke: #197a60; stroke-width: 1.2; fill-opacity: 0.8; }
+    .coreduce-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .coreduce-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .coreduce-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .coreduce-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .coreduce-badge { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .coreduce-chem { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+  </style>
+  <rect class="coreduce-bg" width="760" height="380"/>
+
+  <!-- Left: CO Inlet Tube -->
+  <path class="coreduce-tube" d="M 25 150 L 70 150"/>
+  <polygon points="60,146 70,150 60,154" fill="#287fc4"/>
+  <rect x="12" y="95" width="70" height="46" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="coreduce-label" x="47" y="114" text-anchor="middle" fill="#287fc4">通入 CO</text>
+  <text class="coreduce-sub" x="47" y="132" text-anchor="middle">(纯净气体)</text>
+
+  <!-- Hard Glass Tube (x=70..210, y=140..160, h=20, w=140) -->
+  <rect class="coreduce-glass" x="70" y="138" width="140" height="24" rx="2"/>
+  <!-- Left rubber stopper -->
+  <polygon class="coreduce-plug" points="70,138 78,138 78,162 70,162"/>
+  <!-- Right rubber stopper -->
+  <polygon class="coreduce-plug" points="202,138 210,138 210,162 202,162"/>
+
+  <!-- Black CuO powder inside middle of tube -->
+  <rect class="coreduce-powder" x="120" y="152" width="40" height="8" rx="2"/>
+
+  <!-- Iron clamp holding tube at x=95 -->
+  <rect x="92" y="132" width="6" height="36" fill="#37474f"/>
+  <path d="M 92 150 L 80 150 L 80 280" stroke="#52626a" stroke-width="2.5"/>
+
+  <!-- Alcohol Lamp 1 (Heating CuO) at x=140, y=200..280 -->
+  <path class="coreduce-burner" d="M 125 280 L 125 240 L 133 230 L 133 218 L 147 218 L 147 230 L 155 240 L 155 280 Z"/>
+  <!-- Flame heating glass tube -->
+  <path class="coreduce-flame" d="M 140 218 C 132 198 135 180 140 165 C 145 180 148 198 140 218 Z"/>
+  <text class="coreduce-sub" x="140" y="300" text-anchor="middle">酒精灯加热</text>
+
+  <!-- Delivery Tube from Glass Tube to Test Tube -->
+  <!-- Outlet from right stopper (210, 150) -> bends down into test tube -->
+  <path class="coreduce-tube" d="M 210 150 L 250 150 L 250 255"/>
+
+  <!-- Test Tube with Limewater (x=240..264, y=170..275) -->
+  <rect class="coreduce-glass" x="240" y="170" width="24" height="105" rx="10"/>
+  <!-- Two-hole rubber stopper -->
+  <rect class="coreduce-plug" x="238" y="170" width="28" height="12"/>
+  <!-- Limewater in test tube -->
+  <rect class="coreduce-limewater" x="241" y="215" width="22" height="58" rx="8"/>
+  <line x1="241" y1="215" x2="263" y2="215" stroke="#197a60" stroke-width="1.2"/>
+  <!-- Bubbles -->
+  <circle cx="250" cy="240" r="1.8" fill="#ffffff" stroke="#197a60" stroke-width="1"/>
+  <circle cx="252" cy="255" r="2" fill="#ffffff" stroke="#197a60" stroke-width="1"/>
+
+  <!-- Outlet / Exhaust Tube from Test Tube leading to Tail Gas Burner -->
+  <!-- Short tube starting above limewater in test tube (x=258, y=190), goes up to y=130, right to x=325, down to flame -->
+  <path class="coreduce-tube" d="M 258 190 L 258 130 L 325 130 L 325 195"/>
+
+  <!-- Alcohol Lamp 2 (Tail Gas Burner) at x=325, y=210..280 -->
+  <path class="coreduce-burner" d="M 310 280 L 310 240 L 318 230 L 318 218 L 332 218 L 332 230 L 340 240 L 340 280 Z"/>
+  <!-- Blue flame of burning CO at outlet tube tip -->
+  <path class="coreduce-flame-blue" d="M 325 218 C 318 200 320 185 325 175 C 330 185 332 200 325 218 Z"/>
+  <text class="coreduce-sub" x="325" y="300" text-anchor="middle">尾气点燃灯</text>
+
+  <!-- Labels on Apparatus -->
+  <!-- Hard glass tube & powder callout (above) -->
+  <rect x="100" y="55" width="115" height="48" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="coreduce-label" x="157" y="74" text-anchor="middle">硬质玻璃管</text>
+  <text class="coreduce-sub" x="157" y="91" text-anchor="middle">盛放黑色 CuO 粉末</text>
+  <line x1="157" y1="103" x2="157" y2="136" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Limewater callout (above) -->
+  <rect x="218" y="55" width="96" height="48" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="coreduce-label" x="266" y="74" text-anchor="middle">澄清石灰水</text>
+  <text class="coreduce-sub" x="266" y="91" text-anchor="middle">检验生成的 CO₂</text>
+  <line x1="266" y1="103" x2="252" y2="168" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Tail gas flame label -->
+  <rect x="320" y="65" width="92" height="48" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="coreduce-label" x="366" y="85" text-anchor="middle" fill="#0288d1">尾气处理</text>
+  <text class="coreduce-sub" x="366" y="103" text-anchor="middle">点燃未反应 CO</text>
+  <line x1="366" y1="113" x2="335" y2="178" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Right Side Explanatory Card -->
+  <rect class="coreduce-card" x="420" y="25" width="320" height="340"/>
+  <text class="coreduce-title" x="580" y="52" text-anchor="middle">一氧化碳还原氧化铜核心要点</text>
+
+  <!-- Chemical Equations Banner -->
+  <rect class="coreduce-badge" x="435" y="70" width="290" height="48"/>
+  <text class="coreduce-chem" x="580" y="90" text-anchor="middle">CuO ＋ CO → Cu ＋ CO₂（加热 △）</text>
+  <text class="coreduce-sub" x="580" y="108" text-anchor="middle">尾气燃烧：2CO ＋ O₂ → 2CO₂（点燃）</text>
+
+  <!-- Experimental Phenomenon -->
+  <text class="coreduce-label" x="435" y="142">实验现象：</text>
+  <text class="coreduce-sub" x="435" y="162">① 玻璃管内黑色粉末逐渐变为<tspan font-weight="600" fill="#c9554d">光亮紫红色单质铜</tspan></text>
+  <text class="coreduce-sub" x="435" y="180">② 试管内澄清石灰水变浑浊</text>
+  <text class="coreduce-sub" x="435" y="198">③ 导管口尾气燃烧产生<tspan font-weight="600" fill="#0288d1">纯净淡蓝色火焰</tspan></text>
+
+  <!-- Critical Safety Sequence -->
+  <text class="coreduce-label" x="435" y="230">安全操作关键（先通后点，先熄后停）：</text>
+  <text class="coreduce-sub" x="435" y="250">① <tspan font-weight="600" fill="#c9554d">先通 CO，后点燃加热灯</tspan>：</text>
+  <text class="coreduce-sub" x="450" y="268">排尽玻璃管内空气，防止加热时发生爆炸</text>
+  <text class="coreduce-sub" x="435" y="290">② <tspan font-weight="600" fill="#c9554d">先熄加热灯，冷却后再停 CO</tspan>：</text>
+  <text class="coreduce-sub" x="450" y="308">防止生成的炽热铜再次被空气氧化，并防倒吸</text>
+
+  <!-- Toxic Prevention -->
+  <text class="coreduce-sub" x="435" y="336" fill="#bf8d08">★ CO 有剧毒，严禁直接排放，必须点燃或气囊收集！</text>
+</svg>

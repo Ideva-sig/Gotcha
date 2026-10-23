@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="fl-t fl-d">
+  <title id="fl-t">浮力与重力比较：上浮、悬浮、下沉、漂浮</title>
+  <desc id="fl-d">四个烧杯中物体受到竖直向上的浮力 F浮 和竖直向下的重力 G，线段长短表示力的大小。浸没的物体：F浮 大于 G 上浮，等于 G 悬浮，小于 G 下沉；漂浮在液面静止时 F浮 等于 G。静态图。</desc>
+  <style>.fl-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.fl-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="660" height="300" fill="#fff" stroke="none"/>
+  <path d="M28 40V230H148V40" stroke="#52626a" stroke-width="2" fill="none"/>
+  <rect x="29.2" y="80" width="117.6" height="148.8" rx="0" fill="#e3f1fa" stroke="none" stroke-width="0"/>
+  <path d="M28 80L148 80" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="71" y="143" width="34" height="34" rx="0" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <path d="M88 160L88 108.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M88 100L93 111L83 111Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M88 160L88 193.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M88 202L83 191L93 191Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="88" cy="160" r="3" fill="#20272b"/>
+  <text class="fl-sy" x="96" y="106" text-anchor="start" style="fill:#287fc4;font-size:16px">F<tspan font-size="11" dy="4" font-style="normal">浮</tspan></text>
+  <text class="fl-sy" x="96" y="202" text-anchor="start" style="fill:#c9554d;font-size:16px">G</text>
+  <text class="fl-lb" x="88" y="260" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">上浮</text>
+  <text class="fl-sy" x="88" y="284" text-anchor="middle" style="fill:#5d6970;font-size:16px">F<tspan font-size="11" dy="3" font-style="normal">浮</tspan><tspan dy="-3" font-style="normal"> > </tspan>G</text>
+  <path d="M190 40V230H310V40" stroke="#52626a" stroke-width="2" fill="none"/>
+  <rect x="191.2" y="80" width="117.6" height="148.8" rx="0" fill="#e3f1fa" stroke="none" stroke-width="0"/>
+  <path d="M190 80L310 80" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="233" y="143" width="34" height="34" rx="0" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <path d="M250 160L250 116.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M250 108L254.9 119L245.1 119Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M250 160L250 203.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M250 212L245.1 201L254.9 201Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="250" cy="160" r="3" fill="#20272b"/>
+  <text class="fl-sy" x="258" y="114" text-anchor="start" style="fill:#287fc4;font-size:16px">F<tspan font-size="11" dy="4" font-style="normal">浮</tspan></text>
+  <text class="fl-sy" x="258" y="212" text-anchor="start" style="fill:#c9554d;font-size:16px">G</text>
+  <text class="fl-lb" x="250" y="260" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">悬浮</text>
+  <text class="fl-sy" x="250" y="284" text-anchor="middle" style="fill:#5d6970;font-size:16px">F<tspan font-size="11" dy="3" font-style="normal">浮</tspan><tspan dy="-3" font-style="normal"> = </tspan>G</text>
+  <path d="M352 40V230H472V40" stroke="#52626a" stroke-width="2" fill="none"/>
+  <rect x="353.2" y="80" width="117.6" height="148.8" rx="0" fill="#e3f1fa" stroke="none" stroke-width="0"/>
+  <path d="M352 80L472 80" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="395" y="143" width="34" height="34" rx="0" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <path d="M412 160L412 126.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M412 118L416.9 129L407.1 129Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M412 160L412 211.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M412 220L407.1 209L416.9 209Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="412" cy="160" r="3" fill="#20272b"/>
+  <text class="fl-sy" x="420" y="124" text-anchor="start" style="fill:#287fc4;font-size:16px">F<tspan font-size="11" dy="4" font-style="normal">浮</tspan></text>
+  <text class="fl-sy" x="420" y="220" text-anchor="start" style="fill:#c9554d;font-size:16px">G</text>
+  <text class="fl-lb" x="412" y="260" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">下沉</text>
+  <text class="fl-sy" x="412" y="284" text-anchor="middle" style="fill:#5d6970;font-size:16px">F<tspan font-size="11" dy="3" font-style="normal">浮</tspan><tspan dy="-3" font-style="normal"> < </tspan>G</text>
+  <path d="M514 40V230H634V40" stroke="#52626a" stroke-width="2" fill="none"/>
+  <rect x="515.2" y="80" width="117.6" height="148.8" rx="0" fill="#e3f1fa" stroke="none" stroke-width="0"/>
+  <path d="M514 80L634 80" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="557" y="60" width="34" height="34" rx="0" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <path d="M574 77L574 37.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M574 29L579 40L569 40Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M574 77L574 116.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M574 125L569 114L579 114Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="574" cy="77" r="3" fill="#20272b"/>
+  <text class="fl-sy" x="582" y="35" text-anchor="start" style="fill:#287fc4;font-size:16px">F<tspan font-size="11" dy="4" font-style="normal">浮</tspan></text>
+  <text class="fl-sy" x="582" y="125" text-anchor="start" style="fill:#c9554d;font-size:16px">G</text>
+  <text class="fl-lb" x="574" y="260" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">漂浮</text>
+  <text class="fl-sy" x="574" y="284" text-anchor="middle" style="fill:#5d6970;font-size:16px">F<tspan font-size="11" dy="3" font-style="normal">浮</tspan><tspan dy="-3" font-style="normal"> = </tspan>G</text>
+</svg>

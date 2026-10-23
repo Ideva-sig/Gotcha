@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="cumass-t cumass-d">
+  <title id="cumass-t">铜与氧气反应前后质量测定装置</title>
+  <desc id="cumass-d">锥形瓶内平铺铜粉，配有橡胶塞和导管小气球构成密闭体系，放置在电子天平上测定反应前质量。</desc>
+  <style>
+    .cumass-bg { fill: #ffffff; }
+    .cumass-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .cumass-plug { fill: #8d6e63; stroke: #5d4037; stroke-width: 1.4; }
+    .cumass-tube { fill: #ffffff; stroke: #287fc4; stroke-width: 2.2; }
+    .cumass-balloon { fill: #ffcdd2; stroke: #c9554d; stroke-width: 1.8; }
+    .cumass-cu { fill: #b87333; stroke: #8d4f1c; stroke-width: 1.2; }
+    .cumass-scale { fill: #eceff1; stroke: #52626a; stroke-width: 2; rx: 6px; }
+    .cumass-pan { fill: #b0bec5; stroke: #52626a; stroke-width: 1.6; }
+    .cumass-screen { fill: #263238; rx: 3px; }
+    .cumass-digits { font: 700 20px "Courier New", monospace, sans-serif; fill: #4fc3f7; }
+    .cumass-lead { fill: none; stroke: #7d8990; stroke-width: 1.4; stroke-dasharray: 3 3; }
+    .cumass-dot { fill: #c9554d; }
+    .cumass-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .cumass-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .cumass-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .cumass-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .cumass-badge { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="cumass-bg" width="640" height="360"/>
+
+  <!-- Left: Balance + Sealed Flask Apparatus (cx=190) -->
+
+  <!-- Small Balloon tied to top of tube: cx=190, cy=65 -->
+  <path class="cumass-balloon" d="M 190 85 C 172 82 165 68 170 55 C 176 42 204 42 210 55 C 215 68 208 82 190 85 Z"/>
+  <rect x="186" y="85" width="8" height="5" fill="#c9554d" rx="1"/>
+
+  <!-- Glass Tube: cx=190, extending from y=88 down into flask neck to y=155 -->
+  <line class="cumass-tube" x1="190" y1="90" x2="190" y2="155"/>
+
+  <!-- Rubber Stopper in Flask Neck: x=174..206, y=120..140 -->
+  <polygon class="cumass-plug" points="172,120 208,120 204,142 176,142"/>
+
+  <!-- Conical Flask (锥形瓶): neck x=172..208, body spreading to bottom x=125..255, y=120..248 -->
+  <ellipse cx="190" cy="120" rx="19" ry="4" class="cumass-glass"/>
+  <path class="cumass-glass" d="M 172 120 L 176 142 L 125 240 Q 125 248 135 248 L 245 248 Q 255 248 255 240 L 204 142 L 208 120 Z"/>
+
+  <!-- Copper Powder at Bottom of Flask -->
+  <path class="cumass-cu" d="M 132 245 Q 190 240 248 245 L 248 247 L 132 247 Z"/>
+  <ellipse cx="190" cy="242" rx="48" ry="4" fill="#b87333"/>
+  <!-- Tiny copper granules -->
+  <circle cx="160" cy="242" r="1.5" fill="#ff8a65"/>
+  <circle cx="180" cy="241" r="1.5" fill="#ff8a65"/>
+  <circle cx="200" cy="242" r="1.5" fill="#ff8a65"/>
+  <circle cx="220" cy="243" r="1.5" fill="#ff8a65"/>
+
+  <!-- Balance Pan: y=250..256 -->
+  <rect class="cumass-pan" x="110" y="250" width="160" height="6" rx="2"/>
+  <rect x="185" y="256" width="10" height="8" fill="#78909c"/>
+
+  <!-- Electronic Balance Body: x=85, y=264, w=210, h=65 -->
+  <rect class="cumass-scale" x="85" y="264" width="210" height="65"/>
+  <!-- Feet -->
+  <rect x="100" y="329" width="25" height="5" fill="#52626a" rx="2"/>
+  <rect x="255" y="329" width="25" height="5" fill="#52626a" rx="2"/>
+
+  <!-- Digital Display Screen -->
+  <rect class="cumass-screen" x="130" y="280" width="120" height="34"/>
+  <text class="cumass-digits" x="190" y="304" text-anchor="middle">m</text>
+
+  <!-- Left Callouts -->
+  <!-- Small balloon callout -->
+  <path class="cumass-lead" d="M 170 62 L 120 62"/>
+  <circle class="cumass-dot" cx="170" cy="62" r="2.5"/>
+  <text class="cumass-label" x="15" y="58">小气球</text>
+  <text class="cumass-sub" x="15" y="74">缓冲瓶内气压</text>
+
+  <!-- Rubber stopper callout -->
+  <path class="cumass-lead" d="M 174 132 L 120 132"/>
+  <circle class="cumass-dot" cx="174" cy="132" r="2.5"/>
+  <text class="cumass-label" x="15" y="128">橡胶塞</text>
+  <text class="cumass-sub" x="15" y="144">密闭防气体逸散</text>
+
+  <!-- Copper powder callout -->
+  <path class="cumass-lead" d="M 132 244 L 95 190"/>
+  <circle class="cumass-dot" cx="132" cy="244" r="2.5"/>
+  <text class="cumass-label" x="15" y="185">铜粉（平铺）</text>
+  <text class="cumass-sub" x="15" y="206">2Cu ＋ O₂</text>
+  <text class="cumass-sub" x="25" y="226">→ 2CuO（△）</text>
+
+  <!-- Right Side Explanatory Card -->
+  <rect class="cumass-card" x="330" y="30" width="290" height="305"/>
+  <text class="cumass-title" x="475" y="56" text-anchor="middle">密闭测定与质量守恒</text>
+
+  <!-- Key Principle Banner -->
+  <rect class="cumass-badge" x="345" y="72" width="260" height="44"/>
+  <text class="cumass-label" x="475" y="90" text-anchor="middle" fill="#c9554d">有气体参加或生成的反应</text>
+  <text class="cumass-label" x="475" y="108" text-anchor="middle" fill="#c9554d">必须在密闭容器中进行！</text>
+
+  <!-- Balloon & Stopper Function -->
+  <text class="cumass-label" x="345" y="136">橡胶塞与小气球的核心作用：</text>
+  <text class="cumass-sub" x="345" y="156">① <tspan font-weight="600">密闭容器</tspan>：防止瓶内外物质交换与逸散</text>
+  <text class="cumass-sub" x="345" y="174">② <tspan font-weight="600">缓冲气压</tspan>：受热膨胀气球变大，冷却变瘪，</text>
+  <text class="cumass-sub" x="362" y="192">防止瓶内气压过大冲开橡胶塞</text>
+
+  <!-- Measurement Comparison -->
+  <text class="cumass-label" x="345" y="222">实验质量关系：</text>
+  <text class="cumass-sub" x="345" y="242">反应前总质量 m₁ = 反应后总质量 m₂</text>
+  <text class="cumass-sub" x="345" y="262" fill="#197a60" font-weight="600">结论：m₁ = m₂，反应前后总质量守恒</text>
+
+  <!-- Open system contrast -->
+  <text class="cumass-sub" x="345" y="292" fill="#bf8d08">注：若敞口加热，外界氧气进入参加反应，</text>
+  <text class="cumass-sub" x="368" y="310" fill="#bf8d08">生成物氧化铜的固体质量会增加</text>
+</svg>

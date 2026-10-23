@@ -1,0 +1,27 @@
+{
+  "name": "junior-high-study-site",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "author": "ideva.sig",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "node scripts/check-content-built.mjs && next dev",
+    "build:content": "node scripts/build-content.mjs && node src/lib/syncCourseAssets.mjs && node scripts/build-search-index.mjs",
+    "build:site": "node scripts/check-content-built.mjs && next build",
+    "build": "npm run build:content && npm run build:site",
+    "build:sample": "node scripts/build-sample.mjs",
+    "start": "next start",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "katex": "0.16.22",
+    "next": "16.2.10",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {}
+}

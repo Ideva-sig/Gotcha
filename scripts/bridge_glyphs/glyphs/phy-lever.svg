@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>杠杆平衡条件</title>
+  <desc>支点把水平杠杆分成一比二的两臂；左侧力箭头是右侧的两倍长。</desc>
+  <line x1="15" y1="35" x2="135" y2="35" stroke="#52626a" stroke-width="4"/>
+  <path d="M 55 39 L 45 57 L 65 57 Z" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+  <line x1="15" y1="35" x2="15" y2="71" stroke="currentColor" stroke-width="4"/>
+  <path d="M 15 71 L 9 63 L 21 63 Z" fill="currentColor"/>
+  <line x1="135" y1="35" x2="135" y2="53" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 135 53 L 129 45 L 141 45 Z" fill="#c9554d"/>
+  <path d="M 15 82 L 55 82 M 15 78 L 15 86 M 55 78 L 55 86 M 55 82 L 135 82 M 135 78 L 135 86" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <text x="25" y="59" fill="#2b3a3f" font-size="13" font-family="sans-serif">F1</text>
+  <text x="108" y="57" fill="#2b3a3f" font-size="13" font-family="sans-serif">F2</text>
+  <text x="68" y="60" fill="#2b3a3f" font-size="13" font-family="sans-serif">O</text>
+  <text x="35" y="76" fill="#2b3a3f" font-size="13" font-family="sans-serif" text-anchor="middle">l1</text>
+  <text x="95" y="76" fill="#2b3a3f" font-size="13" font-family="sans-serif" text-anchor="middle">l2</text>
+</svg>

@@ -1,0 +1,61 @@
+/* “破题钥匙”：三段（看到 / 想成 / 写成），颜色沿用示意图的三色：珊瑚红、蓝、绿。不加边框、不套小卡片 */
+.wrap { margin: 4px 0 0; container-type: inline-size; }
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1.25fr) 28px minmax(0, 1fr);
+  align-items: stretch;
+  gap: 4px;
+}
+.leg {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  color: #2b3a3f;
+}
+.see { --c: #b8453e; background: #fbeceb; }
+.model { --c: #1f6ea8; background: #e8f2fa; justify-items: center; }
+.relation { --c: #197a60; background: #e6f4ef; }
+.model .tag { justify-self: start; }
+.tag {
+  padding: 1px 12px;
+  border-radius: 999px;
+  background: var(--c);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+.glyph { width: min(100%, 190px); height: auto; color: var(--c); }
+.text { font-size: 16px; line-height: 1.55; }
+.model .text { text-align: center; }
+.text :global(p) { margin: 0; }
+.formula { align-self: center; font-size: 26px; font-weight: 700; line-height: 1.4; color: var(--c); }
+.formula > span { font-size: inherit; }
+.formula :global(.katex) { font-size: 1.1em; }
+.arrow { align-self: center; text-align: center; font-size: 26px; color: #52626a; }
+.takeaway { margin: 12px 4px 0; font-size: 17px; font-weight: 700; line-height: 1.5; text-align: center; color: #2b3a3f; }
+.move { display: inline-block; margin-left: 10px; padding: 0 10px; border-radius: 999px; background: #efebe9; color: #4e342e; font-size: 13px; font-weight: 700; }
+.relation { align-content: start; }
+@container (max-width: 640px) {
+  .row { grid-template-columns: 1fr; gap: 2px; }
+  .arrow { transform: rotate(90deg); line-height: 1; }
+  .leg { grid-template-columns: auto minmax(0, 1fr); align-items: center; justify-items: start; column-gap: 14px; }
+  .tag { grid-row: 1 / span 2; align-self: start; }
+  .model { grid-template-columns: auto minmax(0, 1fr); }
+  .model .glyph { grid-column: 2; width: min(100%, 220px); justify-self: center; }
+  .model .text { grid-column: 2; text-align: center; justify-self: center; }
+  .relation .formula { grid-column: 2; }
+}
+@media print { .leg { break-inside: avoid; } }
+/* 化学三重表征：符号一格常是整条方程式，宽屏时也单独占下面一整行（标签在左、方程式在右），方程式完整显示、不藏在滑动里 */
+@container (min-width: 641px) {
+  .triple .row { grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1.2fr); row-gap: 2px; }
+  .triple .row > .arrow:nth-of-type(2) { grid-column: 1 / -1; transform: rotate(90deg); line-height: 1; }
+  .triple .relation { grid-column: 1 / -1; grid-template-columns: auto minmax(0, 1fr); align-items: center; column-gap: 14px; }
+  .triple .relation .formula { text-align: center; }
+}
+.triple .formula { justify-self: stretch; font-size: 20px; font-weight: 600; }
+.triple .formula :global(.katex) { font-size: 1em; }

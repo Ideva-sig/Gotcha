@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-work-energy-destinations-t opt-a-work-energy-destinations-d">
+  <title id="opt-a-work-energy-destinations-t">有用功和额外功的去向</title>
+  <desc id="opt-a-work-energy-destinations-d">总功作为输入，分为达到工作目的的有用功和其他耗费的额外功。两支箭头只表示分类，不代表能量数值或比例；不列举练习题所问的额外功具体成因。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-work-energy-destinations-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-work-energy-destinations-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="310" fill="#fff" stroke="none"/>
+  <text class="opt-a-work-energy-destinations-lb" x="82" y="137" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">总功</text>
+  <text class="opt-a-work-energy-destinations-sy" x="82" y="172" text-anchor="middle" style="fill:#287fc4;font-size:18px">W<tspan font-size="13" dy="4" font-style="normal">总</tspan></text>
+  <path d="M139 153L257.2 153" stroke="#287fc4" stroke-width="2.2" stroke-linecap="butt"/>
+  <path d="M266 153L255 157.9L255 148.1Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M266 153L279 153" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M279 153L346 73L421 73" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M414.8 73L404.8 77.5L404.8 68.5Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M279 153L346 233L421 233" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M414.8 233L404.8 237.5L404.8 228.5Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="279" cy="153" r="3" fill="#52626a"/>
+  <text class="opt-a-work-energy-destinations-lb" x="486" y="55" text-anchor="middle" style="fill:#287fc4;font-size:14px;font-weight:600">有用功</text>
+  <text class="opt-a-work-energy-destinations-sy" x="486" y="86" text-anchor="middle" style="fill:#287fc4;font-size:18px">W<tspan font-size="13" dy="4" font-style="normal">有用</tspan></text>
+  <text class="opt-a-work-energy-destinations-lb" x="486" y="118" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">达到目的</text>
+  <text class="opt-a-work-energy-destinations-lb" x="486" y="216" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">额外功</text>
+  <text class="opt-a-work-energy-destinations-sy" x="486" y="247" text-anchor="middle" style="fill:#c9554d;font-size:18px">W<tspan font-size="13" dy="4" font-style="normal">额外</tspan></text>
+  <text class="opt-a-work-energy-destinations-lb" x="486" y="279" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">其他耗费</text>
+</svg>

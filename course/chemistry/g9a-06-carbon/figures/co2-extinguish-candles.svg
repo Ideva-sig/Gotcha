@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-labelledby="co2ext-t co2ext-d">
+  <title id="co2ext-t">倾倒二氧化碳熄灭高低蜡烛实验</title>
+  <desc id="co2ext-d">向放有高低两支燃着蜡烛的烧杯中缓慢倾倒二氧化碳，观察到下层蜡烛先灭，上层蜡烛后灭，证明二氧化碳密度比空气大且不燃烧不支持燃烧。</desc>
+  <style>
+    .co2ext-bg { fill: #ffffff; }
+    .co2ext-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .co2ext-wax { fill: #fffde7; stroke: #fbc02d; stroke-width: 1.4; }
+    .co2ext-wick { stroke: #37474f; stroke-width: 1.4; }
+    .co2ext-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .co2ext-flame-in { fill: #fff59d; }
+    .co2ext-flow { fill: none; stroke: #ffb74d; stroke-width: 2; stroke-dasharray: 4 3; }
+    .co2ext-co2-layer { fill: #fff8e1; fill-opacity: 0.6; }
+    .co2ext-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .co2ext-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .co2ext-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .co2ext-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .co2ext-badge { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .co2ext-callout { fill: #ffffff; stroke: #bec9ce; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="co2ext-bg" width="680" height="360"/>
+
+  <!-- Left: Beaker with High-Low Candles + Pouring Gas Jar -->
+
+  <!-- Tilted Gas Jar (倾倒二氧化碳的集气瓶) at x=50..120, y=70..160 -->
+  <g transform="translate(100, 100) rotate(48)">
+    <rect class="co2ext-glass" x="-25" y="-60" width="50" height="85" rx="3"/>
+    <ellipse cx="0" cy="25" rx="25" ry="5" class="co2ext-glass"/>
+    <text x="0" y="-15" text-anchor="middle" font-size="12" font-weight="700" fill="#f57c00">CO₂</text>
+  </g>
+  <text class="co2ext-sub" x="65" y="65" text-anchor="middle" font-weight="600">倾倒 CO₂</text>
+
+  <!-- Gas Flow Curve: flowing down along beaker left inner wall to bottom -->
+  <path class="co2ext-flow" d="M 125 155 Q 145 190 148 240 Q 150 270 175 275"/>
+  <polygon points="175,272 182,275 175,278" fill="#ffb74d"/>
+
+  <!-- Beaker (烧杯): x=140..260 (w=120), y=150..290 (h=140) -->
+  <!-- Beaker body -->
+  <path class="co2ext-glass" d="M 135 150 L 140 160 L 140 285 Q 140 290 145 290 L 255 290 Q 260 290 260 285 L 260 160 L 260 150 Z"/>
+
+  <!-- Bottom accumulating CO2 gas layer (higher density) -->
+  <rect class="co2ext-co2-layer" x="142" y="240" width="116" height="48" rx="2"/>
+  <line x1="142" y1="240" x2="258" y2="240" stroke="#ffb74d" stroke-width="1.2" stroke-dasharray="3 2"/>
+
+  <!-- Stepped Candle Stand (梯形支架) inside beaker -->
+  <path d="M 170 290 L 170 240 L 205 240 L 205 290 Z" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1.2"/>
+
+  <!-- Upper Candle (高蜡烛) on left shelf: stand top y=240, wax height 28px (y=212..240) -->
+  <rect class="co2ext-wax" x="178" y="214" width="14" height="26" rx="1"/>
+  <!-- Wick -->
+  <line class="co2ext-wick" x1="185" y1="214" x2="185" y2="206"/>
+  <!-- Burning Flame (Upper Candle) -->
+  <path class="co2ext-flame" d="M 185 208 C 180 196 182 184 185 176 C 188 184 190 196 185 208 Z"/>
+  <path class="co2ext-flame-in" d="M 185 206 C 182 196 183 188 185 182 C 187 188 188 196 185 206 Z"/>
+
+  <!-- Lower Candle (低蜡烛) on bottom: beaker bottom y=290, wax height 24px (y=266..290) -->
+  <rect class="co2ext-wax" x="225" y="266" width="14" height="24" rx="1"/>
+  <line class="co2ext-wick" x1="232" y1="266" x2="232" y2="258"/>
+  <!-- Burning Flame (Lower Candle, submerged in rising CO2!) -->
+  <path class="co2ext-flame" d="M 232 260 C 227 248 229 236 232 228 C 235 236 237 248 232 260 Z"/>
+  <path class="co2ext-flame-in" d="M 232 258 C 229 248 230 240 232 234 C 234 240 235 248 232 258 Z"/>
+
+  <!-- Ground surface -->
+  <line x1="110" y1="295" x2="280" y2="295" stroke="#78909c" stroke-width="2"/>
+
+  <!-- Callout: Upper Candle (label left) -->
+  <rect class="co2ext-callout" x="20" y="180" width="85" height="42"/>
+  <text class="co2ext-label" x="62" y="198" text-anchor="middle">上层高蜡烛</text>
+  <text class="co2ext-sub" x="62" y="213" text-anchor="middle" fill="#c9554d">后熄灭</text>
+  <line x1="105" y1="200" x2="175" y2="195" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Callout: Lower Candle (label bottom) -->
+  <rect class="co2ext-callout" x="180" y="305" width="95" height="42"/>
+  <text class="co2ext-label" x="227" y="323" text-anchor="middle">下层低蜡烛</text>
+  <text class="co2ext-sub" x="227" y="338" text-anchor="middle" fill="#c9554d">先熄灭</text>
+  <line x1="230" y1="305" x2="232" y2="285" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Right Side Explanatory Card -->
+  <rect class="co2ext-card" x="320" y="25" width="340" height="315"/>
+  <text class="co2ext-title" x="490" y="52" text-anchor="middle">倾倒二氧化碳灭火实验要点</text>
+
+  <!-- Phenomenon Banner -->
+  <rect class="co2ext-badge" x="335" y="70" width="310" height="38"/>
+  <text class="co2ext-label" x="490" y="94" text-anchor="middle" fill="#c9554d">实验现象：下层蜡烛先熄灭，上层蜡烛后熄灭</text>
+
+  <!-- Dual Conclusions -->
+  <text class="co2ext-label" x="335" y="132">由现象得出的双重性质结论：</text>
+  <text class="co2ext-sub" x="335" y="152">① <tspan font-weight="600" fill="#287fc4">下层先灭，上层后灭</tspan>：</text>
+  <text class="co2ext-sub" x="350" y="170">证明二氧化碳的<tspan font-weight="600">密度比空气大</tspan>，倾倒后先沉在烧杯底部，</text>
+  <text class="co2ext-sub" x="350" y="188">由下而上逐渐充满烧杯并排开空气。</text>
+
+  <text class="co2ext-sub" x="335" y="214">② <tspan font-weight="600" fill="#c9554d">两支蜡烛均熄灭</tspan>：</text>
+  <text class="co2ext-sub" x="350" y="232">证明二氧化碳<tspan font-weight="600">既不能燃烧，也不支持燃烧</tspan>（化学性质）。</text>
+
+  <!-- Crucial Operation Note -->
+  <text class="co2ext-label" x="335" y="264">操作避坑注意事项：</text>
+  <text class="co2ext-sub" x="335" y="284">倾倒时必须<tspan font-weight="600" fill="#c9554d">沿着烧杯内壁缓慢倾倒</tspan>！</text>
+  <text class="co2ext-sub" x="335" y="308" fill="#197a60">实际应用：二氧化碳可用于灭火（隔绝空气与降温）。</text>
+</svg>

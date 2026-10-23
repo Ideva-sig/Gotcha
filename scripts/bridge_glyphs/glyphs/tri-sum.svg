@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>三角形内角拼成平角</title>
+<desc>过顶点的水平虚线精确平行于底边；红、主色、灰三段弧在顶点拼成平角。</desc>
+<path d="M 70 26 L 28 76 L 122 76 Z" stroke="#52626a" stroke-width="2" fill="none"/><path d="M 12 26 L 138 26" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 52 26 A 18 18 0 0 0 58.422542 39.782688" fill="none" stroke="#c9554d" stroke-width="4"/><path d="M 58.422542 39.782688 A 18 18 0 0 0 82.974995 38.475957" fill="none" stroke="currentColor" stroke-width="4"/><path d="M 82.974995 38.475957 A 18 18 0 0 0 88 26" fill="none" stroke="#9aa5a8" stroke-width="2" stroke-dasharray="3 3"/><path d="M 40 76 A 12 12 0 0 0 35.718305 66.811542" fill="none" stroke="#c9554d" stroke-width="2"/><path d="M 113.350003 67.682695 A 12 12 0 0 0 110 76" fill="none" stroke="#9aa5a8" stroke-width="2" stroke-dasharray="3 3"/>
+</svg>

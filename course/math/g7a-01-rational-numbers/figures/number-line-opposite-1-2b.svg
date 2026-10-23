@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" role="img" aria-label="数轴上 2 和 −2 到原点距离相等，都是 2">
+  <rect width="600" height="150" fill="#fff"/>
+  <path d="M20 80H580" stroke="#52626a" stroke-width="2"/><path d="M580 80l-9-5v10z" fill="#52626a"/>
+  <path d="M40.0 74V86" stroke="#52626a" stroke-width="1.5"/><text x="40.0" y="108" text-anchor="middle" font-size="14" fill="#52626a">-6</text>
+  <path d="M83.3 74V86" stroke="#52626a" stroke-width="1.5"/><text x="83.3" y="108" text-anchor="middle" font-size="14" fill="#52626a">-5</text>
+  <path d="M126.7 74V86" stroke="#52626a" stroke-width="1.5"/><text x="126.7" y="108" text-anchor="middle" font-size="14" fill="#52626a">-4</text>
+  <path d="M170.0 74V86" stroke="#52626a" stroke-width="1.5"/><text x="170.0" y="108" text-anchor="middle" font-size="14" fill="#52626a">-3</text>
+  <path d="M213.3 74V86" stroke="#52626a" stroke-width="1.5"/><text x="213.3" y="108" text-anchor="middle" font-size="14" fill="#52626a">-2</text>
+  <path d="M256.7 74V86" stroke="#52626a" stroke-width="1.5"/><text x="256.7" y="108" text-anchor="middle" font-size="14" fill="#52626a">-1</text>
+  <path d="M300.0 74V86" stroke="#52626a" stroke-width="1.5"/><text x="300.0" y="108" text-anchor="middle" font-size="14" fill="#52626a">0</text>
+  <path d="M343.3 74V86" stroke="#52626a" stroke-width="1.5"/><text x="343.3" y="108" text-anchor="middle" font-size="14" fill="#52626a">1</text>
+  <path d="M386.7 74V86" stroke="#52626a" stroke-width="1.5"/><text x="386.7" y="108" text-anchor="middle" font-size="14" fill="#52626a">2</text>
+  <path d="M430.0 74V86" stroke="#52626a" stroke-width="1.5"/><text x="430.0" y="108" text-anchor="middle" font-size="14" fill="#52626a">3</text>
+  <path d="M473.3 74V86" stroke="#52626a" stroke-width="1.5"/><text x="473.3" y="108" text-anchor="middle" font-size="14" fill="#52626a">4</text>
+  <path d="M516.7 74V86" stroke="#52626a" stroke-width="1.5"/><text x="516.7" y="108" text-anchor="middle" font-size="14" fill="#52626a">5</text>
+  <path d="M560.0 74V86" stroke="#52626a" stroke-width="1.5"/><text x="560.0" y="108" text-anchor="middle" font-size="14" fill="#52626a">6</text>
+  <path d="M213.3 50H386.7" stroke="#197a60" stroke-width="3"/>
+  <circle cx="386.7" cy="80" r="7" fill="#287fc4" stroke="#fff" stroke-width="1.5"/><circle cx="213.3" cy="80" r="7" fill="#c9554d" stroke="#fff" stroke-width="1.5"/>
+  <text x="386.7" y="36" text-anchor="middle" font-size="16" fill="#287fc4">2</text><text x="213.3" y="36" text-anchor="middle" font-size="16" fill="#c9554d">−2</text>
+</svg>

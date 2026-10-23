@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>三角形外角</title>
+<desc>底边向右延长，主色标出外角，红色标出两个不相邻内角。</desc>
+<path d="M 20 70 L 59 17 L 98 70" stroke="#52626a" stroke-width="2" fill="none"/><path d="M 20 70 L 138 70" fill="none" stroke="#9aa5a8" stroke-width="2"/><path d="M 117 70 A 19 19 0 0 0 86.73907 54.696685" fill="none" stroke="currentColor" stroke-width="4"/><path d="M 51.887834 26.665252 A 12 12 0 0 0 66.112166 26.665252" fill="none" stroke="#c9554d" stroke-width="4"/><path d="M 33 70 A 13 13 0 0 0 27.704847 59.529311" fill="none" stroke="#c9554d" stroke-width="4"/>
+</svg>

@@ -1,0 +1,713 @@
+# 化学知识点地图（九上七单元复查稿，2026-10-14）
+# 只读正式文件后的修改稿；正式文件未改。格式见 course/FORMAT.md。
+# 统计 7 套卷：广州 2022–2024、广东 2022–2025；深圳卷不收。
+
+- section: CHEM-9A-01-1
+  title: 物质的变化和性质
+  page: 8
+  kps:
+  - id: CHEM-9A-01-1a
+    title: 物理变化与化学变化的判断
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-01, GD2023-17(2), GD2025-03, GZ2024-04]
+    prerequisites: []
+  - id: CHEM-9A-01-1b
+    title: 物理性质与化学性质的判断
+    weight: 了解
+    weight_note: 7 套卷没有直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-01-1a
+      strength: hard
+      reason: 区分物质在化学变化中表现出来的性质（化学性质）与不需要化学变化表现出的性质（物理性质）。
+
+- section: CHEM-9A-01-2
+  title: 化学实验与科学探究
+  page: 14
+  kps:
+  - id: CHEM-9A-01-2a
+    title: 常见化学仪器的识别与用途
+    weight: 重点
+    weight_note: 7 套卷直接考查 7 次
+    exam_hits: 7
+    exam_refs: [GD2022-18(1), GD2023-08, GD2023-18(1), GD2024-07, GZ2022-16(1), GZ2022-20(1), GZ2024-20(1)]
+    prerequisites: []
+  - id: CHEM-9A-01-2b
+    title: 化学实验基本操作与安全规范
+    weight: 重点
+    weight_note: 7 套卷直接考查 5 次
+    exam_hits: 5
+    exam_refs: [GD2022-02, GD2022-09, GD2023-07, GD2024-08, GD2025-10]
+    prerequisites:
+    - id: CHEM-9A-01-2a
+      strength: hard
+      reason: 认识各种实验仪器的性能与用途是掌握正确实验操作和安全规程的基础。
+  - id: CHEM-9A-01-2c
+    title: 科学探究的基本环节与方法
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GZ2022-20(2), GZ2024-20(3)]
+    prerequisites:
+    - id: CHEM-9A-01-2b
+      strength: soft
+      reason: 具备规范的实验操作技能有助于科学探究实验的顺利实施。
+
+- section: CHEM-9A-02-1
+  title: 我们周围的空气
+  page: 30
+  kps:
+  - id: CHEM-9A-02-1a
+    title: 空气的组成与测定空气中氧气含量
+    weight: 了解
+    weight_note: 7 套卷没有直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-01-1a
+      strength: hard
+      reason: 运用红磷燃烧消耗密闭集气瓶中氧气生成五氧化二磷的化学变化。
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 掌握红磷点燃、密闭集气瓶与打开止水夹等规范实验操作。
+  - id: CHEM-9A-02-1b
+    title: 纯净物与混合物的区分
+    weight: 一般
+    weight_note: 7 套卷直接考查 3 次
+    exam_hits: 3
+    exam_refs: [GD2022-03, GZ2023-01, GZ2024-03]
+    prerequisites:
+    - id: CHEM-9A-02-1a
+      strength: hard
+      reason: 从空气由氮气、氧气等多种物质组成的宏观事实引出纯净物与混合物的分类概念。
+  - id: CHEM-9A-02-1c
+    title: 空气成分的性质用途与保护
+    weight: 一般
+    weight_note: 7 套卷直接考查 3 次
+    exam_hits: 3
+    exam_refs: [GZ2022-03, GZ2023-03, GZ2024-05]
+    prerequisites:
+    - id: CHEM-9A-02-1a
+      strength: hard
+      reason: 认识空气中各组分气体的存在是理解其性质用途与防范大气污染的前提。
+
+- section: CHEM-9A-02-2
+  title: 氧气
+  page: 38
+  kps:
+  - id: CHEM-9A-02-2a
+    title: 氧气的化学性质与燃烧现象
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GD2023-18(1)]
+    prerequisites:
+    - id: CHEM-9A-01-1a
+      strength: hard
+      reason: 依据燃烧生成新物质判断木炭、硫、铁丝与氧气发生的化学变化。
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 严格遵循用坩埚钳夹持、铁丝底部系火柴引燃、瓶底留水或细沙等安全操作规范。
+  - id: CHEM-9A-02-2b
+    title: 化合反应与氧化反应
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-20(4), GD2024-20(2), GZ2023-09, GZ2024-11]
+    prerequisites:
+    - id: CHEM-9A-02-2a
+      strength: hard
+      reason: 从氧气与多种单质燃烧生成一种物质的反应特征中抽象归纳出“多变一”的化合反应。
+
+- section: CHEM-9A-02-3
+  title: 制取氧气
+  page: 43
+  kps:
+  - id: CHEM-9A-02-3a
+    title: 催化剂与分解反应
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2022-17(1), GD2024-15]
+    prerequisites:
+    - id: CHEM-9A-02-2b
+      strength: soft
+      reason: 结合化合反应“多变一”的特点反向对比分解反应“一变多”的基本特征。
+  - id: CHEM-9A-02-3b
+    title: 实验室制取氧气的反应原理与工业制法
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2022-18(2), GD2023-18(1)]
+    prerequisites:
+    - id: CHEM-9A-02-3a
+      strength: hard
+      reason: 理解过氧化氢在二氧化锰催化作用下加速分解制氧的化学原理。
+    - id: CHEM-9A-01-1a
+      strength: soft
+      reason: 工业利用液态空气各成分沸点不同分离得到氧气，属于物理变化。
+
+- section: CHEM-9A-02-4
+  title: 实验活动1 氧气的实验室制取与性质
+  page: 52
+  kps:
+  - id: CHEM-9A-02-4a
+    title: 氧气的实验室制取与性质实验
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2024-09, GD2025-11]
+    prerequisites:
+    - id: CHEM-9A-01-2a
+      strength: hard
+      reason: 正确选用试管、铁架台、酒精灯、集气瓶、水槽等制取气体仪器。
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 熟练掌握连接仪器、检查装置气密性、给固体加热等基本操作。
+    - id: CHEM-9A-02-3b
+      strength: hard
+      reason: 依据高锰酸钾受热分解制取氧气的反应原理选择发生装置与收集方法。
+
+- section: CHEM-9A-02-5
+  title: 跨学科实践活动1 微型空气质量“检测站”的组装与使用
+  page: 54
+  type: 跨学科实践
+  task: 组装并使用一套简易的空气质量检测装置，说出测得数据代表什么
+
+- section: CHEM-9A-03-1
+  title: 分子和原子
+  page: 56
+  kps:
+  - id: CHEM-9A-03-1a
+    title: 分子的基本性质及现象解释
+    weight: 重点
+    weight_note: 7 套卷直接考查 8 次
+    exam_hits: 8
+    exam_refs: [GD2022-17(4), GD2023-16(5), GD2023-17(3), GD2024-17(3), GD2025-16(2), GZ2022-11, GZ2023-06, GZ2024-08]
+    prerequisites:
+    - id: CHEM-9A-01-1a
+      strength: soft
+      reason: 结合物质蒸发、扩散等物理现象建立物质微观粒子在运动的观念。
+  - id: CHEM-9A-03-1b
+    title: 微观粒子观点解释物理变化与化学变化
+    weight: 了解
+    weight_note: 7 套卷没有直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-03-1a
+      strength: hard
+      reason: 运用分子间间隔变化解释物理变化，分子分解与原子重组解释化学变化。
+    - id: CHEM-9A-01-1a
+      strength: hard
+      reason: 宏观上有无新物质生成的本质对应微观上分子本身是否发生改变。
+
+- section: CHEM-9A-03-2
+  title: 原子结构
+  page: 65
+  kps:
+  - id: CHEM-9A-03-2a
+    title: 原子的构成与微粒间数量关系
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GZ2024-16(1)]
+    prerequisites:
+    - id: CHEM-9A-03-1b
+      strength: hard
+      reason: 先明确化学变化中分子可分而原子不可分，进而深入探究原子内部的结构。
+  - id: CHEM-9A-03-2b
+    title: 核外电子排布与原子结构示意图
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GZ2022-04]
+    prerequisites:
+    - id: CHEM-9A-03-2a
+      strength: hard
+      reason: 依据原子核内质子数与核外电子数相等的电中性关系进行电子层排布。
+  - id: CHEM-9A-03-2c
+    title: 离子的形成与离子符号
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2025-17(2), GZ2024-16(1)]
+    prerequisites:
+    - id: CHEM-9A-03-2b
+      strength: hard
+      reason: 根据原子最外层电子数得失电子达到稳定结构推导离子电荷与离子符号。
+
+- section: CHEM-9A-03-3
+  title: 元素
+  page: 72
+  kps:
+  - id: CHEM-9A-03-3a
+    title: 元素的概念与元素符号
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2022-16(3), GD2025-17(1)]
+    prerequisites:
+    - id: CHEM-9A-03-2a
+      strength: hard
+      reason: 根据核电荷数（即质子数）相同的一类原子归纳定义元素概念。
+  - id: CHEM-9A-03-3b
+    title: 元素周期表单元格信息
+    weight: 重点
+    weight_note: 7 套卷直接考查 6 次
+    exam_hits: 6
+    exam_refs: [GD2022-08, GD2023-10, GD2024-10, GD2025-06, GZ2022-15(1), GZ2023-07]
+    prerequisites:
+    - id: CHEM-9A-03-3a
+      strength: hard
+      reason: 掌握元素符号的书写与中文名称偏旁部首分类（金属、非金属）。
+    - id: CHEM-9A-03-2a
+      strength: hard
+      reason: 运用原子序数等于核内质子数的等量关系读取周期表单元格信息。
+
+- section: CHEM-9A-03-4
+  title: 跨学科实践活动2 制作模型并展示科学家探索物质组成与结构的历程
+  page: 80
+  type: 跨学科实践
+  task: 制作原子或分子结构模型，讲一讲科学家怎样一步步认识物质的组成与结构
+
+- section: CHEM-9A-04-1
+  title: 水资源及其利用
+  page: 82
+  kps:
+  - id: CHEM-9A-04-1a
+    title: 爱护水资源与节约用水
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GD2023-17(5)]
+    prerequisites:
+    - id: CHEM-9A-01-1a
+      strength: soft
+      reason: 认识工业废水排放与生活污水对水体环境造成的化学污染。
+  - id: CHEM-9A-04-1b
+    title: 水的净化方法与自来水生产流程
+    weight: 重点
+    weight_note: 7 套卷直接考查 9 次
+    exam_hits: 9
+    exam_refs: [GD2022-14, GD2023-17(3), GD2024-12, GD2025-12, GZ2022-05, GZ2023-08, GZ2024-07, GZ2024-20(4), GZ2024-20(6)]
+    prerequisites:
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 掌握沉降、吸附及消毒杀菌等基本净水原理与操作。
+    - id: CHEM-9A-02-1b
+      strength: soft
+      reason: 明确天然水是混合物，通过净化逐步除去不溶性杂质。
+  - id: CHEM-9A-04-1c
+    title: 过滤操作与硬水软化
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2023-16(4), GD2024-20(2), GD2025-16(5), GZ2024-20(7)]
+    prerequisites:
+    - id: CHEM-9A-04-1b
+      strength: hard
+      reason: 在掌握净水方法的基础上，规范掌握过滤基本操作“一贴二低三靠”。
+    - id: CHEM-9A-01-2a
+      strength: hard
+      reason: 熟练使用漏斗、烧杯、玻璃棒、铁架台等过滤实验仪器。
+
+- section: CHEM-9A-04-2
+  title: 水的组成
+  page: 91
+  kps:
+  - id: CHEM-9A-04-2a
+    title: 氢气的性质与验纯
+    weight: 了解
+    weight_note: 7 套卷没有直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-01-1b
+      strength: hard
+      reason: 掌握氢气的密度、难溶于水等物理性质与可燃性化学性质。
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 严格执行点燃可燃性气体之前必须验纯的安全操作规程。
+  - id: CHEM-9A-04-2b
+    title: 水的电解实验与水分子的构成
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-17(3), GD2023-20(2), GD2024-17(1), GZ2023-10]
+    prerequisites:
+    - id: CHEM-9A-04-2a
+      strength: hard
+      reason: 依据氢气的可燃性检验电解水负极产生的氢气。
+    - id: CHEM-9A-02-2a
+      strength: hard
+      reason: 依据氧气的助燃性检验电解水正极产生的氧气。
+    - id: CHEM-9A-03-1b
+      strength: hard
+      reason: 从水分子分解为氢原子、氧原子，重新组合成氢分子和氧分子解释电解本质。
+  - id: CHEM-9A-04-2c
+    title: 单质、化合物与氧化物的判断
+    weight: 重点
+    weight_note: 7 套卷直接考查 5 次
+    exam_hits: 5
+    exam_refs: [GD2022-17(1), GD2023-06, GD2024-01, GD2025-02, GZ2022-16(2)]
+    prerequisites:
+    - id: CHEM-9A-04-2b
+      strength: hard
+      reason: 从水是化合物、氢气氧气是单质的电解结论引申出纯净物的分类。
+    - id: CHEM-9A-03-3a
+      strength: hard
+      reason: 依据是否只含一种元素区分单质与化合物；氧化物是由两种元素组成且其中一种是氧元素的化合物。
+
+- section: CHEM-9A-04-3
+  title: 物质组成的表示
+  page: 96
+  kps:
+  - id: CHEM-9A-04-3a
+    title: 化学式的书写读法与符号数字含义
+    weight: 重点
+    weight_note: 7 套卷直接考查 9 次
+    exam_hits: 9
+    exam_refs: [GD2022-05, GD2022-11, GD2023-05, GD2024-04, GD2024-11, GD2024-13, GD2025-05, GZ2022-15(1), GZ2023-15(3)]
+    prerequisites:
+    - id: CHEM-9A-04-2c
+      strength: hard
+      reason: 明确单质与化合物的分类是掌握化学式书写规则的前提。
+    - id: CHEM-9A-03-3a
+      strength: hard
+      reason: 熟练运用元素符号正确拼写物质的化学式。
+  - id: CHEM-9A-04-3b
+    title: 化合价规则与根据化学式求化合价
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-20(2), GD2023-20(2), GD2024-21(1), GD2025-21(2)]
+    prerequisites:
+    - id: CHEM-9A-03-2c
+      strength: hard
+      reason: 依据原子得失电子形成的离子电荷数理解元素化合价的数值与正负。
+    - id: CHEM-9A-04-3a
+      strength: hard
+      reason: 正确辨识化学式中各元素的原子个数比以运用正负化合价代数和为零的原则。
+  - id: CHEM-9A-04-3c
+    title: 基于化学式的定量计算
+    weight: 重点
+    weight_note: 7 套卷直接考查 7 次
+    exam_hits: 7
+    exam_refs: [GD2022-16(2), GD2022-16(4), GD2023-21(1), GD2024-21(1), GD2025-07, GZ2022-08, GZ2024-06]
+    prerequisites:
+    - id: CHEM-9A-03-2a
+      strength: hard
+      reason: 准确查找各元素的相对原子质量作为计算基础。
+    - id: CHEM-9A-04-3a
+      strength: hard
+      reason: 根据化学式明确分子中各元素的原子个数比。
+
+- section: CHEM-9A-04-4
+  title: 实验活动2 水的组成及变化的探究
+  page: 107
+  kps:
+  - id: CHEM-9A-04-4a
+    title: 水的组成及变化探究实验
+    weight: 了解
+    weight_note: 7 套卷没有直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-04-2b
+      strength: hard
+      reason: 掌握水电解器的连接、通电分解现象与气体检验规范。
+    - id: CHEM-9A-01-2b
+      strength: hard
+      reason: 遵循点燃氢气验纯与安全操作规范。
+
+- section: CHEM-9A-04-5
+  title: 跨学科实践活动3 水质检测及自制净水器
+  page: 108
+  type: 跨学科实践
+  task: 检测水样的指标，自制一个简易净水器并评价效果
+
+- section: CHEM-9A-05-1
+  title: 质量守恒定律
+  page: 110
+  kps:
+  - id: CHEM-9A-05-1a
+    title: 质量守恒定律及其微观解释
+    weight: 重点
+    weight_note: 7 套卷直接考查 7 次
+    exam_hits: 7
+    exam_refs: [GD2023-18(2), GD2024-11, GD2025-20(1), GZ2022-07, GZ2023-11, GZ2023-20(3), GZ2024-14]
+    prerequisites:
+    - id: CHEM-9A-03-1a
+      strength: hard
+      reason: 用化学反应中原子的重新组合理解质量守恒的微观本质。
+    - id: CHEM-9A-03-2a
+      strength: hard
+      reason: 化学反应前后原子的种类、数目、质量不变是守恒的根本原因。
+  - id: CHEM-9A-05-1b
+    title: 质量守恒定律的实验探究
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GD2025-15]
+    prerequisites:
+    - id: CHEM-9A-05-1a
+      strength: hard
+      reason: 先理解质量守恒定律的宏观和微观内涵，才能设计密闭验证实验。
+    - id: CHEM-9A-01-2a
+      strength: soft
+      reason: 验证实验中需使用托盘天平或电子天平准确称量反应前后质量。
+
+- section: CHEM-9A-05-2
+  title: 化学方程式
+  page: 117
+  kps:
+  - id: CHEM-9A-05-2a
+    title: 化学方程式的书写与含义
+    weight: 重点
+    weight_note: 7 套卷直接考查 8 次
+    exam_hits: 8
+    exam_refs: [GD2022-17(2), GD2022-20(5), GD2023-11, GD2023-20(2), GD2024-16(2), GD2025-08, GZ2022-09, GZ2024-17(2)]
+    prerequisites:
+    - id: CHEM-9A-04-3b
+      strength: hard
+      reason: 正确书写反应物与生成物的化学式是书写方程式的前提。
+    - id: CHEM-9A-05-1a
+      strength: hard
+      reason: 依据质量守恒定律配平化学方程式，使反应前后原子种类和数目相等。
+  - id: CHEM-9A-05-2b
+    title: 根据化学方程式的简单计算
+    weight: 重点
+    weight_note: 7 套卷直接考查 5 次
+    exam_hits: 5
+    exam_refs: [GD2023-21(2), GD2024-21(2), GD2025-21(2), GZ2023-15(2), GZ2024-17(3)]
+    prerequisites:
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 计算必须严格以配平正确的化学方程式中的各物质化学计量数比为依据。
+    - id: CHEM-9A-04-3c
+      strength: hard
+      reason: 需要准确计算反应物与生成物的相对分子质量及相对质量比。
+
+- section: CHEM-9A-05-3
+  title: 跨学科实践活动4 基于特定需求设计和制作简易供氧器
+  page: 126
+  type: 跨学科实践
+  task: 按需求选反应物，设计并制作一个简易供氧器
+
+- section: CHEM-9A-06-1
+  title: 碳单质的多样性
+  page: 128
+  kps:
+  - id: CHEM-9A-06-1a
+    title: 碳单质的物理性质与微观结构
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2023-17(4), GD2025-16(3)]
+    prerequisites:
+    - id: CHEM-9A-03-2b
+      strength: hard
+      reason: 碳原子不同的排列方式决定了金刚石、石墨等物理性质的巨大差异。
+  - id: CHEM-9A-06-1b
+    title: 碳单质的化学性质
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-20(1), GZ2022-16(3), GZ2023-16(2), GZ2023-16(3)]
+    prerequisites:
+    - id: CHEM-9A-06-1a
+      strength: soft
+      reason: 认识常见碳单质的形态与组成。
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 用化学方程式表达木炭的可燃性及高温还原氧化铜、氧化锡反应。
+
+- section: CHEM-9A-06-2
+  title: 碳的氧化物
+  page: 136
+  kps:
+  - id: CHEM-9A-06-2a
+    title: 二氧化碳的性质与用途
+    weight: 重点
+    weight_note: 7 套卷直接考查 6 次
+    exam_hits: 6
+    exam_refs: [GD2022-20(4), GD2023-20(1), GD2024-18(1), GD2024-18(2), GZ2023-18(2), GZ2024-12]
+    prerequisites:
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 书写二氧化碳与澄清石灰水反应、与水反应生成碳酸的化学方程式。
+    - id: CHEM-9A-04-2a
+      strength: soft
+      reason: 结合水的性质理解二氧化碳能溶于水并与水发生化合反应。
+  - id: CHEM-9A-06-2b
+    title: 一氧化碳的性质与毒性
+    weight: 重点
+    weight_note: 7 套卷直接考查 6 次
+    exam_hits: 6
+    exam_refs: [GD2022-20(3), GD2023-21(4), GZ2022-14, GZ2022-16(3), GZ2022-16(4), GZ2023-20(2)]
+    prerequisites:
+    - id: CHEM-9A-06-1b
+      strength: soft
+      reason: 一氧化碳可由碳不充分燃烧或二氧化碳与碳高温还原得到。
+    - id: CHEM-9A-06-2a
+      strength: hard
+      reason: 对比一氧化碳与二氧化碳的分子构成与化学性质差异。
+
+- section: CHEM-9A-06-3
+  title: 二氧化碳的实验室制取
+  page: 145
+  kps:
+  - id: CHEM-9A-06-3a
+    title: 二氧化碳实验室制取的原理与操作
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GZ2022-19(1)]
+    prerequisites:
+    - id: CHEM-9A-06-2a
+      strength: hard
+      reason: 依据二氧化碳不燃不助燃及与石灰水反应的性质进行验满与检验。
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 正确书写碳酸钙与稀盐酸反应生成二氧化碳的化学方程式。
+  - id: CHEM-9A-06-3b
+    title: 二氧化碳实验室制取装置的设计与气体制备思路
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-18(2), GD2024-18(1), GZ2022-20(1), GZ2023-20(1)]
+    prerequisites:
+    - id: CHEM-9A-06-3a
+      strength: hard
+      reason: 根据反应物状态、反应条件及二氧化碳性质选择实验装置。
+    - id: CHEM-9A-02-3b
+      strength: hard
+      reason: 迁移实验室制取氧气的发生与收集装置选择思路。
+
+- section: CHEM-9A-06-4
+  title: 实验活动3 二氧化碳的实验室制取与性质
+  page: 154
+  kps:
+  - id: CHEM-9A-06-4a
+    title: 二氧化碳制取与性质实验探究
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GD2024-18(1)]
+    prerequisites:
+    - id: CHEM-9A-06-3a
+      strength: hard
+      reason: 依据制取原理进行实验操作和气体收集。
+    - id: CHEM-9A-06-2a
+      strength: hard
+      reason: 通过阶梯蜡烛熄灭和石蕊变色验证二氧化碳的密度与化学性质。
+
+- section: CHEM-9A-06-5
+  title: 跨学科实践活动5 基于碳中和理念设计低碳行动方案
+  page: 156
+  type: 跨学科实践
+  task: 依据碳中和理念，设计一份家庭或校园的低碳行动方案
+
+- section: CHEM-9A-07-1
+  title: 燃料的燃烧
+  page: 158
+  kps:
+  - id: CHEM-9A-07-1a
+    title: 燃烧条件与灭火原理
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-15, GD2023-16(2), GD2025-10, GZ2023-15(1)]
+    prerequisites:
+    - id: CHEM-9A-02-2a
+      strength: hard
+      reason: 燃烧需要可燃物与助燃物（氧气）接触。
+  - id: CHEM-9A-07-1b
+    title: 燃料充分燃烧与易燃易爆安全常识
+    weight: 一般
+    weight_note: 7 套卷直接考查 3 次
+    exam_hits: 3
+    exam_refs: [GD2022-02, GD2024-16(4), GZ2024-19(4)]
+    prerequisites:
+    - id: CHEM-9A-07-1a
+      strength: hard
+      reason: 在燃烧三条件的基础上理解完全燃烧调控与爆炸极限。
+  - id: CHEM-9A-07-1c
+    title: 化学反应中的能量变化
+    weight: 一般
+    weight_note: 7 套卷直接考查 2 次
+    exam_hits: 2
+    exam_refs: [GD2022-20(4), GD2023-16(3)]
+    prerequisites:
+    - id: CHEM-9A-05-1a
+      strength: soft
+      reason: 化学反应在发生物质变化的同时伴随着能量变化。
+    - id: CHEM-9A-07-1a
+      strength: soft
+      reason: 燃烧是最常见的放热化学反应。
+
+- section: CHEM-9A-07-2
+  title: 化石能源的合理利用
+  page: 169
+  kps:
+  - id: CHEM-9A-07-2a
+    title: 化石能源的综合利用与甲烷
+    weight: 重点
+    weight_note: 7 套卷直接考查 5 次
+    exam_hits: 5
+    exam_refs: [GD2022-12, GD2022-17(5), GD2023-11, GD2023-13, GD2025-21(1)]
+    prerequisites:
+    - id: CHEM-9A-07-1a
+      strength: hard
+      reason: 依据燃烧条件理解甲烷及化石燃料的燃烧。
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 正确书写甲烷完全燃烧生成二氧化碳和水的化学方程式。
+  - id: CHEM-9A-07-2b
+    title: 化石燃料利用对环境的影响与防治
+    weight: 一般
+    weight_note: 7 套卷直接考查 3 次
+    exam_hits: 3
+    exam_refs: [GD2023-20(3), GD2025-21(1), GZ2024-09]
+    prerequisites:
+    - id: CHEM-9A-07-2a
+      strength: hard
+      reason: 了解化石燃料中含硫、氮杂质及其燃烧产物对大气的污染。
+  - id: CHEM-9A-07-2c
+    title: 氢能及新能源的开发利用
+    weight: 重点
+    weight_note: 7 套卷直接考查 5 次
+    exam_hits: 5
+    exam_refs: [GD2024-17(2), GD2024-17(4), GZ2022-06, GZ2023-09, GZ2024-19(2)]
+    prerequisites:
+    - id: CHEM-9A-05-2a
+      strength: hard
+      reason: 书写水通电分解制氢、氢气燃烧等相关化学方程式。
+    - id: CHEM-9A-07-1b
+      strength: hard
+      reason: 氢气是可燃性气体，点燃前必须验纯以防爆炸。
+
+- section: CHEM-9A-07-3
+  title: 实验活动4 燃烧条件的探究
+  page: 181
+  kps:
+  - id: CHEM-9A-07-3a
+    title: 燃烧条件的探究实验与改进
+    weight: 一般
+    weight_note: 7 套卷直接考查 1 次
+    exam_hits: 1
+    exam_refs: [GD2022-15]
+    prerequisites:
+    - id: CHEM-9A-07-1a
+      strength: hard
+      reason: 运用控制变量法实验验证燃烧必须同时满足的三个条件。
+
+- section: CHEM-9A-07-4
+  title: 跨学科实践活动6 调查家用燃料的变迁与合理使用
+  page: 182
+  type: 跨学科实践
+  task: 调查家用燃料的变迁，讨论如何合理、安全地使用燃料

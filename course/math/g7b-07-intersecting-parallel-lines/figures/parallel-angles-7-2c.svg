@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="pa-t pa-d">
+<title id="pa-t">两条平行线被第三条直线所截的三类角</title>
+<desc id="pa-d">三幅小图：平行线a、b被一条斜线所截。左图标出同位角∠1与∠2，相等；中图标出内错角∠3与∠4，相等；右图标出同旁内角∠5与∠6，和为180度。</desc>
+<rect width="720" height="310" fill="#fff" stroke="none"/>
+<g transform="translate(0 0)">
+<path d="M10 70L220 70" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 65L42 70L36 75" stroke="#52626a" stroke-width="1.4"/>
+<path d="M10 170L220 170" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 165L42 170L36 175" stroke="#52626a" stroke-width="1.4"/>
+<path d="M95 20L145 220" stroke="#52626a" stroke-width="1.8"/>
+<text x="226" y="75" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">a</text>
+<text x="226" y="175" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">b</text>
+<path d="M129.5 70.0A22 22 0 0 0 102.2 48.7" stroke="#287fc4" stroke-width="2.4"/>
+<text x="130.9" y="46.0" text-anchor="middle" fill="#287fc4" style="font:17px Times New Roman,serif;stroke:none">1</text>
+<path d="M154.5 170.0A22 22 0 0 0 127.2 148.7" stroke="#287fc4" stroke-width="2.4"/>
+<text x="155.9" y="146.0" text-anchor="middle" fill="#287fc4" style="font:17px Times New Roman,serif;stroke:none">2</text>
+<text x="115" y="262" text-anchor="middle" fill="#20272b" style="font:600 15px -apple-system,PingFang SC,sans-serif;stroke:none">同位角相等</text>
+<text x="115" y="286" text-anchor="middle" fill="#20272b" style="font:16px Times New Roman,serif;stroke:none">∠1 = ∠2</text>
+</g>
+<g transform="translate(240 0)">
+<path d="M10 70L220 70" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 65L42 70L36 75" stroke="#52626a" stroke-width="1.4"/>
+<path d="M10 170L220 170" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 165L42 170L36 175" stroke="#52626a" stroke-width="1.4"/>
+<path d="M95 20L145 220" stroke="#52626a" stroke-width="1.8"/>
+<text x="226" y="75" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">a</text>
+<text x="226" y="175" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">b</text>
+<path d="M129.5 70.0A22 22 0 0 1 112.8 91.3" stroke="#c9554d" stroke-width="2.4"/>
+<text x="137.5" y="99.4" text-anchor="middle" fill="#c9554d" style="font:17px Times New Roman,serif;stroke:none">3</text>
+<path d="M110.5 170.0A22 22 0 0 1 127.2 148.7" stroke="#c9554d" stroke-width="2.4"/>
+<text x="102.5" y="152.6" text-anchor="middle" fill="#c9554d" style="font:17px Times New Roman,serif;stroke:none">4</text>
+<text x="115" y="262" text-anchor="middle" fill="#20272b" style="font:600 15px -apple-system,PingFang SC,sans-serif;stroke:none">内错角相等</text>
+<text x="115" y="286" text-anchor="middle" fill="#20272b" style="font:16px Times New Roman,serif;stroke:none">∠3 = ∠4</text>
+</g>
+<g transform="translate(480 0)">
+<path d="M10 70L220 70" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 65L42 70L36 75" stroke="#52626a" stroke-width="1.4"/>
+<path d="M10 170L220 170" stroke="#52626a" stroke-width="1.8"/>
+<path d="M36 165L42 170L36 175" stroke="#52626a" stroke-width="1.4"/>
+<path d="M95 20L145 220" stroke="#52626a" stroke-width="1.8"/>
+<text x="226" y="75" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">a</text>
+<text x="226" y="175" fill="#20272b" style="font:italic 17px Times New Roman,serif;stroke:none">b</text>
+<path d="M129.5 70.0A22 22 0 0 1 112.8 91.3" stroke="#197a60" stroke-width="2.4"/>
+<text x="137.5" y="99.4" text-anchor="middle" fill="#197a60" style="font:17px Times New Roman,serif;stroke:none">5</text>
+<path d="M154.5 170.0A22 22 0 0 0 127.2 148.7" stroke="#197a60" stroke-width="2.4"/>
+<text x="155.9" y="146.0" text-anchor="middle" fill="#197a60" style="font:17px Times New Roman,serif;stroke:none">6</text>
+<text x="115" y="262" text-anchor="middle" fill="#20272b" style="font:600 15px -apple-system,PingFang SC,sans-serif;stroke:none">同旁内角互补</text>
+<text x="115" y="286" text-anchor="middle" fill="#20272b" style="font:16px Times New Roman,serif;stroke:none">∠5 + ∠6 = 180°</text>
+</g>
+</svg>

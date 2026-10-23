@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="pul-t pul-d">
+  <title id="pul-t">滑轮组中承担物重的绳段</title>
+  <desc id="pul-d">一个定滑轮和一个动滑轮组成的两种滑轮组。甲：绳子一端系在动滑轮上，动滑轮由 3 段绳子（红色）吊着，n=3，拉力 F 向上。乙：绳子一端系在定滑轮上，动滑轮由 2 段绳子（红色）吊着，n=2，拉力 F 向下。在两个滑轮之间画一条横线，数穿过横线、连着动滑轮的绳段。静态图。</desc>
+  <style>.pul-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.pul-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="560" height="380" fill="#fff" stroke="none"/>
+  <path d="M90 30L210 30" stroke="#52626a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M96 30L88 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M108 30L100 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M120 30L112 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M132 30L124 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M144 30L136 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M156 30L148 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M168 30L160 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M180 30L172 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M192 30L184 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M204 30L196 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M150 30L150 70" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150 216L172 70" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M128 70L128 250" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M172 250L172 190" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M172 190L172 160.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M172 152L176.9 163L167.1 163Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="pul-sy" x="180" y="170" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
+  <circle cx="150" cy="70" r="22" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="150" cy="70" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <circle cx="150" cy="250" r="22" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="150" cy="250" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M128 70A22 22 0 0 1 172 70" stroke="#20272b" stroke-width="2" fill="none"/>
+  <path d="M128 250A22 22 0 0 0 172 250" stroke="#20272b" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="216" r="3.2" fill="#20272b"/>
+  <path d="M150 272L150 286" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <rect x="128" y="286" width="44" height="36" rx="0" fill="#e9e3d4" stroke="#52626a" stroke-width="2"/>
+  <path d="M92 200L208 200" stroke="#5d6970" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text class="pul-lb" x="124" y="358" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">甲</text>
+  <text class="pul-sy" x="164" y="358" text-anchor="middle" style="fill:#20272b;font-size:18px">n</text>
+  <text class="pul-lb" x="188" y="358" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:500">= 3</text>
+  <path d="M350 30L470 30" stroke="#52626a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M356 30L348 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M368 30L360 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M380 30L372 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M392 30L384 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M404 30L396 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M416 30L408 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M428 30L420 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M440 30L432 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M452 30L444 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M464 30L456 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M410 30L410 70" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M388 70L388 250" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M432 250L410 104" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M432 70L432 130" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M432 130L432 157.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M432 166L427.1 155L436.9 155Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="pul-sy" x="440" y="162" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
+  <circle cx="410" cy="70" r="22" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="410" cy="70" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <circle cx="410" cy="250" r="22" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="410" cy="250" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M388 70A22 22 0 0 1 432 70" stroke="#20272b" stroke-width="2" fill="none"/>
+  <path d="M388 250A22 22 0 0 0 432 250" stroke="#20272b" stroke-width="2" fill="none"/>
+  <circle cx="410" cy="104" r="3.2" fill="#20272b"/>
+  <path d="M410 272L410 286" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <rect x="388" y="286" width="44" height="36" rx="0" fill="#e9e3d4" stroke="#52626a" stroke-width="2"/>
+  <path d="M352 200L468 200" stroke="#5d6970" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text class="pul-lb" x="384" y="358" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">乙</text>
+  <text class="pul-sy" x="424" y="358" text-anchor="middle" style="fill:#20272b;font-size:18px">n</text>
+  <text class="pul-lb" x="448" y="358" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:500">= 2</text>
+</svg>

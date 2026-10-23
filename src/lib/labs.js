@@ -1,0 +1,66 @@
+// 物理实验室清单：实验室列表页、章节页的入口都从这里读
+export const PHYSICS_LABS = [
+  {
+    chapter: "PHY-8A-03",
+    chapterTitle: "第三章 物态变化",
+    title: "物态变化实验室",
+    href: "/physics/lab/states-of-matter/",
+    text: "给一烧杯冰加热、停火、放进冰柜，亲手画出熔化和沸腾的温度—时间图像。",
+  },
+  {
+    chapter: "PHY-8A-04",
+    chapterTitle: "第四章 光现象",
+    title: "平面镜成像与光的反射实验室",
+    href: "/physics/lab/mirror/",
+    text: "转动入射光、折一折纸板，找出光的反射定律；再移动玻璃板后的蜡烛，找到平面镜所成的像。",
+  },
+  {
+    chapter: "PHY-8A-05",
+    chapterTitle: "第五章 透镜及其应用",
+    title: "凸透镜成像实验室",
+    href: "/physics/lab/lens/",
+    text: "在光具座上移动发光物体和光屏，找到清晰的像，自己填出凸透镜成像的规律。",
+  },
+  {
+    chapter: "PHY-8A-06",
+    chapterTitle: "第六章 质量与密度",
+    title: "测量物质的密度实验室",
+    href: "/physics/lab/density/",
+    text: "调平托盘天平，加砝码、拨游码称质量，用量筒测体积，算出小石块和盐水的密度。",
+  },
+  {
+    chapter: "PHY-8B-09",
+    chapterTitle: "第九章 压强",
+    title: "液体压强实验室",
+    href: "/physics/lab/liquid-pressure/",
+    text: "把压强计的探头放进液体，改变深度、朝向和液体，看 U 形管两边的高度差怎么变。",
+  },
+  {
+    chapter: "PHY-8B-10",
+    chapterTitle: "第十章 浮力",
+    title: "浮力实验室",
+    href: "/physics/lab/buoyancy/",
+    text: "用弹簧测力计把物体一点点浸入液体，看浮力跟什么有关、跟什么无关，再用溢水杯比一比浮力和排开液体的重。",
+  },
+  {
+    chapter: "PHY-8B-12",
+    chapterTitle: "第十二章 简单机械",
+    title: "杠杆实验室",
+    href: "/physics/lab/lever/",
+    text: "调平杠杆，挂钩码、用测力计拉，找出杠杆平衡时动力、动力臂、阻力、阻力臂的关系。",
+  },
+  {
+    chapter: "PHY-9-17",
+    chapterTitle: "第十七章 欧姆定律",
+    title: "欧姆定律实验室",
+    href: "/physics/lab/ohm/",
+    text: "接好电路，探究电流与电压、电阻的关系，用伏安法测电阻，再看两表示数找出电路故障。",
+  },
+  {
+    chapter: "PHY-9-18",
+    chapterTitle: "第十八章 电功率",
+    title: "测量小灯泡的电功率实验室",
+    href: "/physics/lab/lamp-power/",
+    text: "用滑动变阻器让小灯泡两端电压低于、等于、略高于额定电压，测出电功率，比一比灯的亮度。",
+  },
+];

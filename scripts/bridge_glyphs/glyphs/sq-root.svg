@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>面积与边长</title>
+<desc>正方形内标面积S，右侧标边长√S。</desc>
+<path d="M 28 17 L 89 17 L 89 78 L 28 78 Z" stroke="currentColor" stroke-width="4" fill="none"/><text x="58.5" y="52" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">S</text><text x="115" y="52" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">√S</text>
+</svg>

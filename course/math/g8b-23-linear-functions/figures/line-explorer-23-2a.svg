@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="line-explorer-23-2a-t line-explorer-23-2a-d">
+  <title id="line-explorer-23-2a-t">一次函数探索器的初始状态</title>
+  <desc id="line-explorer-23-2a-d">等比例坐标系，横纵坐标都从−6到6。蓝色直线y=2x−1，k=2大于0，从左向右上升，经过(0,−1)和(1,1)。右侧为读数：k=2，b=−1。</desc>
+  <style>.line-explorer-23-2a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.line-explorer-23-2a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="440" fill="#fff" stroke="none"/>
+  <path d="M30 220L385.2 220" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M390 220L384 222.7L384 217.3Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="line-explorer-23-2a-math" x="402" y="225" text-anchor="start" style="font-size:17px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <path d="M60 217L60 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M90 217L90 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M120 217L120 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M150 217L150 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M180 217L180 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M210 217L210 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M240 217L240 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M270 217L270 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M300 217L300 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M330 217L330 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M360 217L360 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M210 400L210 44.8" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M210 40L212.7 46L207.3 46Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="line-explorer-23-2a-math" x="200" y="29" text-anchor="start" style="font-size:17px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan></text>
+  <path d="M207 370L213 370" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 340L213 340" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 310L213 310" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 280L213 280" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 250L213 250" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 220L213 220" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 190L213 190" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 160L213 160" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 130L213 130" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 100L213 100" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M207 70L213 70" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M135 400L135.8 398.5L136.5 397L137.2 395.5L138 394L138.8 392.5L139.5 391L140.2 389.5L141 388L141.8 386.5L142.5 385L143.2 383.5L144 382L144.8 380.5L145.5 379L146.2 377.5L147 376L147.8 374.5L148.5 373L149.2 371.5L150 370L150.8 368.5L151.5 367L152.2 365.5L153 364L153.8 362.5L154.5 361L155.2 359.5L156 358L156.8 356.5L157.5 355L158.2 353.5L159 352L159.8 350.5L160.5 349L161.2 347.5L162 346L162.8 344.5L163.5 343L164.2 341.5L165 340L165.8 338.5L166.5 337L167.2 335.5L168 334L168.8 332.5L169.5 331L170.2 329.5L171 328L171.8 326.5L172.5 325L173.2 323.5L174 322L174.8 320.5L175.5 319L176.2 317.5L177 316L177.8 314.5L178.5 313L179.2 311.5L180 310L180.8 308.5L181.5 307L182.2 305.5L183 304L183.8 302.5L184.5 301L185.2 299.5L186 298L186.8 296.5L187.5 295L188.2 293.5L189 292L189.8 290.5L190.5 289L191.2 287.5L192 286L192.8 284.5L193.5 283L194.2 281.5L195 280L195.8 278.5L196.5 277L197.2 275.5L198 274L198.8 272.5L199.5 271L200.2 269.5L201 268L201.8 266.5L202.5 265L203.2 263.5L204 262L204.8 260.5L205.5 259L206.2 257.5L207 256L207.8 254.5L208.5 253L209.2 251.5L210 250L210.8 248.5L211.5 247L212.2 245.5L213 244L213.8 242.5L214.5 241L215.2 239.5L216 238L216.8 236.5L217.5 235L218.2 233.5L219 232L219.8 230.5L220.5 229L221.2 227.5L222 226L222.8 224.5L223.5 223L224.2 221.5L225 220L225.8 218.5L226.5 217L227.2 215.5L228 214L228.8 212.5L229.5 211L230.2 209.5L231 208L231.8 206.5L232.5 205L233.2 203.5L234 202L234.8 200.5L235.5 199L236.2 197.5L237 196L237.8 194.5L238.5 193L239.2 191.5L240 190L240.8 188.5L241.5 187L242.2 185.5L243 184L243.8 182.5L244.5 181L245.2 179.5L246 178L246.8 176.5L247.5 175L248.2 173.5L249 172L249.8 170.5L250.5 169L251.2 167.5L252 166L252.8 164.5L253.5 163L254.2 161.5L255 160L255.8 158.5L256.5 157L257.2 155.5L258 154L258.8 152.5L259.5 151L260.2 149.5L261 148L261.8 146.5L262.5 145L263.2 143.5L264 142L264.8 140.5L265.5 139L266.2 137.5L267 136L267.8 134.5L268.5 133L269.2 131.5L270 130L270.8 128.5L271.5 127L272.2 125.5L273 124L273.8 122.5L274.5 121L275.2 119.5L276 118L276.8 116.5L277.5 115L278.2 113.5L279 112L279.8 110.5L280.5 109L281.2 107.5L282 106L282.8 104.5L283.5 103L284.2 101.5L285 100L285.8 98.5L286.5 97L287.2 95.5L288 94L288.8 92.5L289.5 91L290.2 89.5L291 88L291.8 86.5L292.5 85L293.2 83.5L294 82L294.8 80.5L295.5 79L296.2 77.5L297 76L297.8 74.5L298.5 73L299.2 71.5L300 70L300.8 68.5L301.5 67L302.2 65.5L303 64L303.8 62.5L304.5 61L305.2 59.5L306 58L306.8 56.5L307.5 55L308.2 53.5L309 52L309.8 50.5L310.5 49L311.2 47.5L312 46L312.8 44.5L313.5 43L314.2 41.5L315 40" stroke="#287fc4" stroke-width="2.3" fill="none" stroke-linejoin="round"/>
+  <circle cx="210" cy="250" r="3.4" fill="#287fc4"/>
+  <circle cx="240" cy="190" r="3.4" fill="#287fc4"/>
+  <text class="line-explorer-23-2a-math" x="220" y="268" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(0, −1)</tspan></text>
+  <text class="line-explorer-23-2a-math" x="250" y="208" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(1, 1)</tspan></text>
+  <text class="line-explorer-23-2a-lb" x="450" y="60" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">初始读数</text>
+  <text class="line-explorer-23-2a-math" x="450" y="110" text-anchor="start" style="font-size:21px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">=2</tspan></text>
+  <text class="line-explorer-23-2a-math" x="450" y="146" text-anchor="start" style="font-size:21px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">b</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">=−1</tspan></text>
+  <text class="line-explorer-23-2a-math" x="450" y="196" text-anchor="start" style="font-size:23px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">=2</tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−1</tspan></text>
+  <text class="line-explorer-23-2a-math" x="450" y="236" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">&gt;0：从左向右上升</tspan></text>
+  <text class="line-explorer-23-2a-math" x="450" y="270" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">与 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 轴交于 (0, </tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−1</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+</svg>

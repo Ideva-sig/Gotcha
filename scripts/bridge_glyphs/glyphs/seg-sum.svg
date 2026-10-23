@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>线段的和</title>
+<desc>AB 长 38，BC 长 70，下方括号覆盖整条 AC。</desc>
+<line x1="21" y1="30" x2="59" y2="30" stroke="currentColor" stroke-width="4"/><line x1="59" y1="30" x2="129" y2="30" stroke="#c9554d" stroke-width="4"/><circle cx="21" cy="30" r="3" fill="currentColor"/><circle cx="59" cy="30" r="3" fill="currentColor"/><circle cx="129" cy="30" r="3" fill="#c9554d"/><text x="21" y="16" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">A</text><text x="59" y="16" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">B</text><text x="129" y="16" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">C</text><path d="M 21 53 L 21 61 L 129 61 L 129 53" stroke="#9aa5a8" stroke-width="2" fill="none"/>
+</svg>

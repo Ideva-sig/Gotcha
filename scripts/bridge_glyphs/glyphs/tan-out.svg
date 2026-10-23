@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>直线与圆相离</title>
+  <desc>圆半径为 27，圆心到直线距离为 42，分别比较 d 与 r；静态图。</desc>
+  <circle cx="57" cy="39" r="27" fill="none" stroke="#52626a" stroke-width="2"/>
+  <path d="M 15 81 L 137 81" fill="none" stroke="#52626a" stroke-width="2"/>
+  <path d="M 57 39 L 57 81" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 57 76 L 62 76 L 62 81" fill="none" stroke="#9aa5a8" stroke-width="1.5"/>
+  <circle cx="57" cy="39" r="2" fill="#52626a"/>
+  <text x="39" y="37" fill="#2b3a3f" font-size="13" font-family="sans-serif">O</text><path d="M 57 39 L 84 39" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <text x="67" y="31" fill="#2b3a3f" font-size="13" font-family="sans-serif">r</text><text x="64" y="57" fill="#2b3a3f" font-size="13" font-family="sans-serif">d</text>
+</svg>

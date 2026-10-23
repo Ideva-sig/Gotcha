@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 520" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-lever-type-comparisons-t opt-a-lever-type-comparisons-d">
+  <title id="opt-a-lever-type-comparisons-t">动力臂和阻力臂的三种关系</title>
+  <desc id="opt-a-lever-type-comparisons-d">三排水平杠杆分别表示动力臂大于、短于、等于阻力臂，依次为省力、费力、等臂杠杆；支点与两条竖直力的作用线确定水平力臂，箭长按平衡条件计算。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-lever-type-comparisons-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-lever-type-comparisons-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="660" height="520" fill="#fff" stroke="none"/>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="81" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">省力杠杆</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="61" y="113" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="113" text-anchor="middle" style="fill:#20272b;font-size:17px;font-weight:500">&gt;</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="112" y="113" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">2</tspan></text>
+  <path d="M230 77L570 77" stroke="#52626a" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M230 77L441 77" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M441 77L570 77" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M441 81L427 107L455 107Z" stroke="#52626a" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/>
+  <circle cx="441" cy="77" r="3" fill="#52626a"/>
+  <path d="M441 69L441 32" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 26L230 71" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 32L441 32" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M230 27L230 37" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M441 27L441 37" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M238 32L238 40L230 40" stroke="#287fc4" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M230 77L230 113.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M230 122L225.1 111L234.9 111Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="335.5" y="19" text-anchor="middle" style="fill:#287fc4;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <path d="M570 26L570 71" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M570 32L441 32" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M570 37L570 27" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M441 37L441 27" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M562 32L562 40L570 40" stroke="#c9554d" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M570 77L570 141.8" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M570 150.6L565 139.6L575 139.6Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="505.5" y="19" text-anchor="middle" style="fill:#c9554d;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="214" y="116" text-anchor="end" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="586" y="144.6" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="464" y="103" text-anchor="start" style="fill:#20272b;font-size:16px">O</text>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="249" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">费力杠杆</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="61" y="281" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="281" text-anchor="middle" style="fill:#20272b;font-size:17px;font-weight:500">&lt;</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="112" y="281" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">2</tspan></text>
+  <path d="M230 245L570 245" stroke="#52626a" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M230 245L359 245" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M359 245L570 245" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M359 249L345 275L373 275Z" stroke="#52626a" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/>
+  <circle cx="359" cy="245" r="3" fill="#52626a"/>
+  <path d="M359 237L359 200" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 194L230 239" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 200L359 200" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M230 195L230 205" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M359 195L359 205" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M238 200L238 208L230 208" stroke="#287fc4" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M230 245L230 301.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M230 310L225.1 299L234.9 299Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="294.5" y="187" text-anchor="middle" style="fill:#287fc4;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <path d="M570 194L570 239" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M570 200L359 200" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M570 205L570 195" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M359 205L359 195" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M562 200L562 208L570 208" stroke="#c9554d" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M570 245L570 275.9" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M570 284.7L565 273.7L575 273.7Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="464.5" y="187" text-anchor="middle" style="fill:#c9554d;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="214" y="304" text-anchor="end" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="586" y="278.7" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="382" y="271" text-anchor="start" style="fill:#20272b;font-size:16px">O</text>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="417" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">等臂杠杆</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="61" y="449" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-lb" x="95" y="449" text-anchor="middle" style="fill:#20272b;font-size:17px;font-weight:500">=</text>
+  <text class="opt-a-lever-type-comparisons-sy" x="112" y="449" text-anchor="start" style="fill:#20272b;font-size:17px">l<tspan font-size="12" dy="4" font-style="normal">2</tspan></text>
+  <path d="M230 413L570 413" stroke="#52626a" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M230 413L400 413" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M400 413L570 413" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M400 417L386 443L414 443Z" stroke="#52626a" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/>
+  <circle cx="400" cy="413" r="3" fill="#52626a"/>
+  <path d="M400 405L400 368" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 362L230 407" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M230 368L400 368" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M230 363L230 373" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M400 363L400 373" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M238 368L238 376L230 376" stroke="#287fc4" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M230 413L230 456.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M230 465L225.1 454L234.9 454Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="315" y="355" text-anchor="middle" style="fill:#287fc4;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <path d="M570 362L570 407" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M570 368L400 368" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M570 373L570 363" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M400 373L400 363" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M562 368L562 376L570 376" stroke="#c9554d" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M570 413L570 456.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M570 465L565 454L575 454Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-a-lever-type-comparisons-sy" x="485" y="355" text-anchor="middle" style="fill:#c9554d;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="214" y="459" text-anchor="end" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="586" y="459" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-type-comparisons-sy" x="423" y="439" text-anchor="start" style="fill:#20272b;font-size:16px">O</text>
+</svg>

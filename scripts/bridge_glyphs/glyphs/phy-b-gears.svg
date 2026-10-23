@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>电热水壶两挡电路</title>
+  <desc>照课本图18-3：电源、总开关S1、单刀双掷开关S2、R1、R2。S2接1时导线绕过R2，只有R1接入；S2接2时R1、R2串联。图中S2接在2。</desc>
+  <g fill="none">
+    <path d="M16 80 V63 M16 55 V38 H36" stroke="#9aa5a8" stroke-width="2.5"/>
+    <path d="M16 80 H58 M88 80 H120 V68" stroke="#9aa5a8" stroke-width="2.5"/>
+    <path d="M66 20 H120 V44 M66 44 H78 M102 44 H120 V50" stroke="#9aa5a8" stroke-width="2.5"/>
+    <path d="M9 55 H23 M12 63 H20" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M36 38 L66 44" stroke="#52626a" stroke-width="2.5"/>
+    <circle cx="36" cy="38" r="2.5" fill="#52626a" stroke="none"/>
+    <circle cx="66" cy="20" r="2.5" fill="#fff" stroke="#52626a" stroke-width="1.5"/>
+    <circle cx="66" cy="44" r="2.5" fill="#52626a" stroke="none"/>
+    <circle cx="120" cy="44" r="2.5" fill="#52626a" stroke="none"/>
+    <circle cx="58" cy="80" r="2.5" fill="#52626a" stroke="none"/>
+    <circle cx="88" cy="80" r="2.5" fill="#52626a" stroke="none"/>
+    <path d="M58 80 H88" stroke="#52626a" stroke-width="2.5"/>
+    <rect x="78" y="36" width="24" height="16" rx="2" fill="#fff" stroke="#c9554d" stroke-width="4"/>
+    <rect x="112" y="50" width="16" height="18" rx="2" fill="#fff" stroke="currentColor" stroke-width="4"/>
+  </g>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">
+    <text x="26" y="30">S2</text>
+    <text x="78" y="17">1</text>
+    <text x="66" y="63">2</text>
+  </g>
+</svg>

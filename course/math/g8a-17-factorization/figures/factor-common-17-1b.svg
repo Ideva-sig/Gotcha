@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 405" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="factor-common-17-1b-t factor-common-17-1b-d">
+  <title id="factor-common-17-1b-t">提公因式：末项的商是1</title>
+  <desc id="factor-common-17-1b-d">第一步标出3x²、−4xy²、x共有的因式x，黄色只标各项中的x。第二步逐项除以x，细箭头对应绿色的商3x、−4y²、1；圈出末项的商1。第三步将三个商按原顺序放进括号，得到x(3x−4y²+1)。没有使用练习数据。</desc>
+  <style>.factor-common-17-1b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.factor-common-17-1b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="405" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="factor-common-17-1b-lb" x="26" y="30" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">找共同因式</text>
+  <text class="factor-common-17-1b-math" x="525" y="30" text-anchor="start" style="font-size:19px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">公因式 </tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="factor-common-17-1b-math" x="175" y="89" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">²</tspan></text>
+  <text class="factor-common-17-1b-math" x="350" y="89" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−4</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">²</tspan></text>
+  <text class="factor-common-17-1b-math" x="525" y="89" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">+</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  </g>
+  <g data-step="2">
+  <text class="factor-common-17-1b-lb" x="26" y="149" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">逐项除</text>
+  <path d="M175 115L175 183.6" stroke="#197a60" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M175 190L171.4 182L178.6 182Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <text class="factor-common-17-1b-math" x="194" y="158" text-anchor="start" style="font-size:19px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">÷ </tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <path d="M350 115L350 183.6" stroke="#197a60" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M350 190L346.4 182L353.6 182Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <text class="factor-common-17-1b-math" x="369" y="158" text-anchor="start" style="font-size:19px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">÷ </tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <path d="M525 115L525 183.6" stroke="#197a60" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M525 190L521.4 182L528.6 182Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <text class="factor-common-17-1b-math" x="544" y="158" text-anchor="start" style="font-size:19px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">÷ </tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="factor-common-17-1b-math" x="175" y="227" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="factor-common-17-1b-math" x="350" y="227" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−4</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">²</tspan></text>
+  <circle cx="525" cy="218" r="25" fill="#fff" stroke="#197a60" stroke-width="1.6"/>
+  <text class="factor-common-17-1b-math" x="525" y="227" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1</tspan></text>
+  <text class="factor-common-17-1b-lb" x="570" y="216" text-anchor="start" style="fill:#197a60;font-size:17px;font-weight:600">剩下 1</text>
+  <text class="factor-common-17-1b-lb" x="570" y="243" text-anchor="start" style="fill:#5d6970;font-size:16px;font-weight:600">不是 0</text>
+  </g>
+  <g data-step="3">
+  <text class="factor-common-17-1b-lb" x="26" y="298" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">写成乘积</text>
+  <path d="M175 260L175 310.4" stroke="#197a60" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M175 316L171.8 309L178.2 309Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <path d="M350 260L350 310.4" stroke="#197a60" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M350 316L346.9 309L353.1 309Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <path d="M525 260L525 310.4" stroke="#197a60" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M525 316L521.9 309L528.1 309Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <text class="factor-common-17-1b-math" x="103" y="357" text-anchor="start" style="font-size:29px;font-weight:500;stroke:none"><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="factor-common-17-1b-math" x="134" y="357" text-anchor="middle" style="font-size:31px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan></text>
+  <text class="factor-common-17-1b-math" x="175" y="357" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="factor-common-17-1b-math" x="350" y="357" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−4</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">²</tspan></text>
+  <text class="factor-common-17-1b-math" x="525" y="357" text-anchor="middle" style="font-size:27px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">+1</tspan></text>
+  <text class="factor-common-17-1b-math" x="560" y="357" text-anchor="middle" style="font-size:31px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+  </g>
+</svg>

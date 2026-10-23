@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="litf-t litf-d">
+  <title id="litf-t">二氧化碳与水反应的石蕊纸花对照实验</title>
+  <desc id="litf-d">三朵紫色石蕊纸花对照实验：喷水不变色，放入干燥二氧化碳不变色，喷水后再放入二氧化碳迅速由紫变红，证明二氧化碳与水反应生成酸。</desc>
+  <style>
+    .litf-bg { fill: #ffffff; }
+    .litf-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .litf-badge-p { fill: #ede7f6; stroke: #7e57c2; stroke-width: 1.2; rx: 4px; }
+    .litf-badge-r { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .litf-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .litf-purple { fill: #7e57c2; stroke: #5e35b1; stroke-width: 1.2; }
+    .litf-red { fill: #ef5350; stroke: #c62828; stroke-width: 1.2; }
+    .litf-stem { fill: none; stroke: #197a60; stroke-width: 2.2; stroke-linecap: round; }
+    .litf-spray { fill: #e1f5fe; stroke: #287fc4; stroke-width: 1.4; }
+    .litf-drop { fill: #287fc4; }
+    .litf-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .litf-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .litf-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .litf-key { font: 600 13px -apple-system, "PingFang SC", sans-serif; }
+  </style>
+  <rect class="litf-bg" width="720" height="360"/>
+
+  <!-- Top Banner -->
+  <rect x="25" y="15" width="670" height="36" class="litf-card"/>
+  <text class="litf-title" x="360" y="38" text-anchor="middle">二氧化碳与水反应探究：三朵紫色石蕊纸花对照实验</text>
+
+  <!-- Column 1: Flower I 喷水 (x=25, w=210, y=65..285) -->
+  <rect class="litf-card" x="25" y="65" width="210" height="220"/>
+  <rect x="35" y="75" width="40" height="22" rx="3" fill="#7e57c2"/>
+  <text x="55" y="91" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">Ⅰ</text>
+  <text class="litf-label" x="85" y="91">向干燥纸花喷水</text>
+
+  <!-- Spray bottle (left) spraying water on purple flower (right) -->
+  <!-- Spray bottle body: cx=75, cy=150 -->
+  <rect class="litf-spray" x="65" y="145" width="22" height="35" rx="3"/>
+  <path d="M 76 145 L 76 135 L 85 132 L 85 128 L 72 128 L 72 135 Z" fill="#287fc4"/>
+  <!-- Spray nozzle spray dots -->
+  <circle class="litf-drop" cx="95" cy="128" r="1.5"/>
+  <circle class="litf-drop" cx="105" cy="125" r="1.5"/>
+  <circle class="litf-drop" cx="108" cy="132" r="1.5"/>
+  <circle class="litf-drop" cx="118" cy="122" r="1.8"/>
+  <circle class="litf-drop" cx="120" cy="130" r="1.8"/>
+
+  <!-- Purple Flower 1: stem cx=155 -->
+  <path class="litf-stem" d="M 155 175 L 155 125"/>
+  <!-- 5 Petals (Purple) -->
+  <circle class="litf-purple" cx="155" cy="115" r="7"/>
+  <circle class="litf-purple" cx="146" cy="122" r="7"/>
+  <circle class="litf-purple" cx="164" cy="122" r="7"/>
+  <circle class="litf-purple" cx="150" cy="133" r="7"/>
+  <circle class="litf-purple" cx="160" cy="133" r="7"/>
+  <circle cx="155" cy="125" r="4" fill="#ffeb3b"/>
+
+  <!-- Result Banner 1 -->
+  <rect x="35" y="195" width="190" height="75" class="litf-badge-p"/>
+  <text class="litf-key" x="130" y="215" text-anchor="middle" fill="#7e57c2">现象：纸花不变色（仍为紫色）</text>
+  <text class="litf-sub" x="130" y="235" text-anchor="middle">说明：<tspan font-weight="600">水不能使紫色石蕊变红</tspan></text>
+  <text class="litf-sub" x="130" y="255" text-anchor="middle">（排除水使石蕊变红的可能）</text>
+
+  <!-- Column 2: Flower II 直接放入 CO2 (x=255, w=210, y=65..285) -->
+  <rect class="litf-card" x="255" y="65" width="210" height="220"/>
+  <rect x="265" y="75" width="40" height="22" rx="3" fill="#7e57c2"/>
+  <text x="285" y="91" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">Ⅱ</text>
+  <text class="litf-label" x="315" y="91">放入干燥 CO₂ 中</text>
+
+  <!-- Gas jar with dry purple flower inside -->
+  <text class="litf-sub" x="360" y="110" text-anchor="middle" font-weight="600">盛满干燥 CO₂</text>
+  <!-- Glass jar: x=330..390, y=118..188 -->
+  <rect class="litf-glass" x="330" y="118" width="60" height="70" rx="3"/>
+  <!-- Glass cover lid -->
+  <line x1="324" y1="118" x2="396" y2="118" stroke="#52626a" stroke-width="2.5"/>
+
+  <!-- Flower 2 inside jar (Purple) -->
+  <path class="litf-stem" d="M 360 182 L 360 146"/>
+  <circle class="litf-purple" cx="360" cy="140" r="6"/>
+  <circle class="litf-purple" cx="352" cy="146" r="6"/>
+  <circle class="litf-purple" cx="368" cy="146" r="6"/>
+  <circle class="litf-purple" cx="356" cy="155" r="6"/>
+  <circle class="litf-purple" cx="364" cy="155" r="6"/>
+  <circle cx="360" cy="148" r="3.5" fill="#ffeb3b"/>
+
+  <!-- Result Banner 2 -->
+  <rect x="265" y="195" width="190" height="75" class="litf-badge-p"/>
+  <text class="litf-key" x="360" y="215" text-anchor="middle" fill="#7e57c2">现象：纸花不变色（仍为紫色）</text>
+  <text class="litf-sub" x="360" y="235" text-anchor="middle">说明：<tspan font-weight="600">干燥 CO₂ 不能使石蕊变红</tspan></text>
+  <text class="litf-sub" x="360" y="255" text-anchor="middle">（排除二氧化碳直接使石蕊变红）</text>
+
+  <!-- Column 3: Flower III 喷水后放入 CO2 (x=485, w=210, y=65..285) -->
+  <rect class="litf-card" x="485" y="65" width="210" height="220"/>
+  <rect x="495" y="75" width="40" height="22" rx="3" fill="#c9554d"/>
+  <text x="515" y="91" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">Ⅲ</text>
+  <text class="litf-label" x="545" y="91">喷水后放入 CO₂ 中</text>
+
+  <!-- Gas jar with wet turning red flower inside -->
+  <text class="litf-sub" x="590" y="110" text-anchor="middle" font-weight="600">盛满 CO₂</text>
+  <!-- Glass jar: x=560..620, y=118..188 -->
+  <rect class="litf-glass" x="560" y="118" width="60" height="70" rx="3"/>
+  <line x1="554" y1="118" x2="626" y2="118" stroke="#52626a" stroke-width="2.5"/>
+
+  <!-- Flower 3 inside jar (Red!) -->
+  <path class="litf-stem" d="M 590 182 L 590 146"/>
+  <circle class="litf-red" cx="590" cy="140" r="6"/>
+  <circle class="litf-red" cx="582" cy="146" r="6"/>
+  <circle class="litf-red" cx="598" cy="146" r="6"/>
+  <circle class="litf-red" cx="586" cy="155" r="6"/>
+  <circle class="litf-red" cx="594" cy="155" r="6"/>
+  <circle cx="590" cy="148" r="3.5" fill="#ffeb3b"/>
+
+  <!-- Result Banner 3 -->
+  <rect x="495" y="195" width="190" height="75" class="litf-badge-r"/>
+  <text class="litf-key" x="590" y="215" text-anchor="middle" fill="#c9554d">现象：纸花迅速变为红色！</text>
+  <text class="litf-sub" x="590" y="235" text-anchor="middle">说明：<tspan font-weight="600" fill="#c9554d">CO₂ 与水反应生成了酸</tspan></text>
+  <text class="litf-sub" x="590" y="255" text-anchor="middle">酸性物质使紫色石蕊变红</text>
+
+  <!-- Bottom Synthesis Banner -->
+  <rect x="25" y="300" width="670" height="45" rx="4" fill="#fdf5f4" stroke="#c9554d" stroke-width="1.4"/>
+  <text class="litf-label" x="360" y="320" text-anchor="middle" fill="#c9554d">化合反应化学方程式：CO₂ ＋ H₂O → H₂CO₃（生成的碳酸使紫色石蕊变红）</text>
+  <text class="litf-sub" x="360" y="337" text-anchor="middle">注：若将变红的小花取出用吹风机烘干，碳酸受热分解（H₂CO₃ → H₂O ＋ CO₂↑），小花又变回紫色</text>
+</svg>

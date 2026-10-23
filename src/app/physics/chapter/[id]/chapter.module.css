@@ -1,0 +1,372 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  margin-bottom: 0.75rem;
+}
+
+.breadcrumb a {
+  color: var(--accent);
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.titleRow h1 {
+  margin: 0;
+}
+
+.cardSection {
+  background: var(--surface);
+  border: 0;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-panel);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--island-brown);
+}
+
+.prereqBox {
+  background: var(--tint-yellow);
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+  margin-top: 1rem;
+}
+
+.kpList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+/* 列表行用细分隔线，不再在卡片里套带框的小卡片 */
+.kpCard {
+  margin: 0 -0.75rem;
+  border-radius: 14px;
+  padding: 0.85rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: background-color 0.15s ease;
+  min-height: 44px;
+}
+
+.kpCard + .kpCard {
+  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+.kpCard:hover {
+  background: var(--tint-neutral);
+}
+
+.kpLeft {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.kpCode {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-soft);
+  min-width: 4rem;
+}
+
+.kpTitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.kpTextbook {
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
+.kpRight {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+/* ---------- 本章知识关系图 ---------- */
+
+.map {
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.mapScroll {
+  overflow-x: auto;
+  margin: 0 -4px;
+  padding: 0 4px 4px;
+}
+
+.mapGrid {
+  position: relative;
+  display: grid;
+  min-width: calc(var(--cols) * 108px + (var(--cols) - 1) * 22px);
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  gap: 40px;
+  padding: 4px 0;
+}
+
+/* 层数多（比如第十五章）时收紧间距，节点不至于被挤得太窄 */
+.mapDeep {
+  gap: 22px;
+}
+
+.mapCol {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.mapLines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.edge,
+.edgeSoft {
+  fill: none;
+  stroke: var(--border-strong);
+  stroke-width: 1.5;
+  transition:
+    stroke 200ms ease,
+    opacity 200ms ease,
+    stroke-width 200ms ease;
+}
+
+.edgeSoft {
+  stroke-dasharray: 4 4;
+}
+
+/* 连线依次“画”出来（虚线不做，避免和虚线样式冲突） */
+.map[data-drawn="true"] .edge {
+  stroke-dasharray: 1;
+  animation: drawEdge 700ms var(--ease-out) both;
+  animation-delay: calc(200ms + var(--e, 0) * 60ms);
+}
+
+@keyframes drawEdge {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.edgeOn {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.edgeDim {
+  opacity: 0.25;
+}
+
+.node {
+  position: relative;
+  display: flex;
+  min-height: 72px;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+  padding: 10px 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  transition:
+    border-color 180ms ease,
+    opacity 200ms ease,
+    transform 160ms ease;
+}
+
+.map[data-drawn="true"] .node {
+  animation: nodeIn 420ms var(--ease-out) both;
+  animation-delay: calc(var(--n, 0) * 40ms);
+}
+
+@keyframes nodeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+.node:hover,
+.nodeFocus {
+  border-color: var(--accent);
+}
+
+.node:active {
+  transform: scale(0.98);
+}
+
+.nodeDim {
+  opacity: 0.45;
+}
+
+.nodeTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.nodeCode {
+  color: var(--text-faint);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+.nodeTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+/* 底边细条表示学习状态 */
+.nodeBar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: var(--surface-strong);
+}
+
+.done .nodeBar {
+  background: color-mix(in srgb, var(--green) 55%, var(--surface));
+}
+
+.mastered .nodeBar {
+  background: var(--green);
+}
+
+.mapLegend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  margin-top: 16px;
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+.mapLegend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legendHard,
+.legendSoft {
+  display: inline-block;
+  width: 22px;
+  height: 0;
+  border-top: 1.5px solid var(--border-strong);
+}
+
+.legendSoft {
+  border-top-style: dashed;
+}
+
+.mapExternal {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--tint-yellow);
+  font-size: 13px;
+}
+
+.mapExternalTitle {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mapExternal ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mapExternal a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* 竖屏窄屏：改成从上往下，每层一行 */
+@media (max-width: 760px) {
+  .mapGrid {
+    min-width: 0;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .mapCol {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .node {
+    width: min(220px, 46%);
+  }
+}
+
+.labRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
+}
+
+.labRow p {
+  flex: 1 1 22em;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.7;
+}

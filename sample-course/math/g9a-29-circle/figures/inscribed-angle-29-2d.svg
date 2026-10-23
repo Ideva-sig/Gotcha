@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="inscribed-angle-29-2d-t inscribed-angle-29-2d-d">
+  <title id="inscribed-angle-29-2d-t">圆周角组件的初始状态</title>
+  <desc id="inscribed-angle-29-2d-d">圆心O为原点，半径1。A极角0度，B极角100度，C极角230度。蓝色圆心角AOB为100度，绿色圆周角ACB为50度，两角对着同一条小弧AB。这是可拖动circle-angle组件的静态初始图，本SVG没有拖动或动画。</desc>
+  <style>.inscribed-angle-29-2d-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.inscribed-angle-29-2d-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="350" fill="#fff" stroke="none"/>
+  <circle cx="205" cy="172" r="121" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M326 172A121 121 0 0 0 184 52.8" fill="none" stroke="#287fc4" stroke-width="3"/>
+  <path d="M205 172L326 172" stroke="#287fc4" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M205 172L184 52.8" stroke="#287fc4" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M127.2 264.7L326 172" stroke="#197a60" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M127.2 264.7L184 52.8" stroke="#197a60" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M231 172A26 26 0 0 0 200.5 146.4" fill="none" stroke="#287fc4" stroke-width="2"/>
+  <path d="M154.4 252A30 30 0 0 0 135 235.7" fill="none" stroke="#197a60" stroke-width="1.8"/>
+  <text class="inscribed-angle-29-2d-lb" x="245.5" y="128.7" text-anchor="middle" style="fill:#287fc4;font-size:16px;font-weight:500">100°</text>
+  <text class="inscribed-angle-29-2d-lb" x="161.9" y="228.3" text-anchor="middle" style="fill:#197a60;font-size:16px;font-weight:500">50°</text>
+  <circle cx="326" cy="172" r="2.5" fill="#20272b"/>
+  <text class="inscribed-angle-29-2d-sy" x="344" y="178" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="184" cy="52.8" r="2.5" fill="#20272b"/>
+  <text class="inscribed-angle-29-2d-sy" x="180.9" y="41.1" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="127.2" cy="264.7" r="2.5" fill="#20272b"/>
+  <text class="inscribed-angle-29-2d-sy" x="115.7" y="284.5" text-anchor="middle" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="205" cy="172" r="2.5" fill="#20272b"/>
+  <text class="inscribed-angle-29-2d-sy" x="187" y="194" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="inscribed-angle-29-2d-formula" x="486" y="130" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:23px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4">∠<tspan font-style="italic">A</tspan><tspan font-style="italic">O</tspan><tspan font-style="italic">B</tspan> = 100°</tspan></text>
+  <text class="inscribed-angle-29-2d-formula" x="486" y="189" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:23px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#197a60">∠<tspan font-style="italic">A</tspan><tspan font-style="italic">C</tspan><tspan font-style="italic">B</tspan> = 50°</tspan></text>
+</svg>

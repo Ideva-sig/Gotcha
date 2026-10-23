@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>小车所受的水平平衡力</title>
+  <desc>静止小车中心受到方向相反、长度相等的两个水平力。</desc>
+  <line x1="8" y1="68" x2="142" y2="68" stroke="#9aa5a8" stroke-width="2"/>
+  <rect x="53" y="31" width="44" height="24" rx="2" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="63" cy="61" r="6" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="87" cy="61" r="6" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <line x1="75" y1="43" x2="20" y2="43" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 20 43 L 28 37 L 28 49 Z" fill="#c9554d"/>
+  <line x1="75" y1="43" x2="130" y2="43" stroke="currentColor" stroke-width="4"/>
+  <path d="M 130 43 L 122 37 L 122 49 Z" fill="currentColor"/>
+  <circle cx="75" cy="43" r="3.5" fill="#52626a"/>
+  <text x="14" y="31" fill="#2b3a3f" font-size="13" font-family="sans-serif">F2</text>
+  <text x="136" y="31" fill="#2b3a3f" font-size="13" font-family="sans-serif" text-anchor="middle">F1</text>
+</svg>

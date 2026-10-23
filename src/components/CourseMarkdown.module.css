@@ -1,0 +1,94 @@
+.markdown {
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 1rem;
+  word-break: break-word;
+}
+
+.markdown p {
+  margin: 0.5rem 0;
+}
+
+.markdown p:first-child {
+  margin-top: 0;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.markdown code {
+  background: var(--surface-strong);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.markdown blockquote {
+  margin: 0.75rem 0;
+  padding: 0.5rem 0.85rem;
+  background: var(--tint-accent);
+  border-radius: 6px;
+  color: var(--text-soft);
+}
+
+.markdown ul,
+.markdown ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.markdown li {
+  margin: 0.25rem 0;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  margin: 0.75rem 0;
+}
+
+.tableWrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.tableWrap th,
+.tableWrap td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.tableWrap th {
+  background: var(--surface-strong);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.displayMath {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.inlineImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: var(--figure-paper);
+}

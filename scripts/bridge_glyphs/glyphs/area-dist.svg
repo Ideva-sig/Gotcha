@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>分配律面积模型</title>
+<desc>宽p、长依次分为a、b、c，三块使用主色淡填充。具体清单要求四处标注。</desc>
+<rect x="30" y="26" width="30" height="45" fill="currentColor" fill-opacity="0.15"/><rect x="60" y="26" width="35" height="45" fill="currentColor" fill-opacity="0.2"/><rect x="95" y="26" width="35" height="45" fill="currentColor" fill-opacity="0.25"/><path d="M 30 26 L 130 26 L 130 71 L 30 71 Z" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 60 26 L 60 71" fill="none" stroke="#52626a" stroke-width="1.5"/><path d="M 95 26 L 95 71" fill="none" stroke="#52626a" stroke-width="1.5"/><text x="45" y="17" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">a</text><text x="77.5" y="17" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">b</text><text x="112.5" y="17" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">c</text><text x="17" y="53" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">p</text>
+</svg>

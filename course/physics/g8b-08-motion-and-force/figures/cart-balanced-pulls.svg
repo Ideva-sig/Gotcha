@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-cart-balanced-pulls-t opt-a-cart-balanced-pulls-d">
+  <title id="opt-a-cart-balanced-pulls-t">小车两端的平衡拉力</title>
+  <desc id="opt-a-cart-balanced-pulls-d">同一辆小车的两端受到大小相等、方向相反、在同一直线上的两个水平拉力。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-cart-balanced-pulls-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-cart-balanced-pulls-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="600" height="240" fill="#fff" stroke="none"/>
+  <rect x="245" y="92" width="110" height="58" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="268" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="332" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M95 120L505 120" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <path d="M245 120L164.6 120" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M155 120L167 114.6L167 125.4Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M355 120L435.4 120" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M445 120L433 125.4L433 114.6Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="245" cy="120" r="3" fill="#287fc4"/>
+  <circle cx="355" cy="120" r="3" fill="#c9554d"/>
+  <text class="opt-a-cart-balanced-pulls-sy" x="177" y="99" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-cart-balanced-pulls-sy" x="420" y="99" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-cart-balanced-pulls-lb" x="300" y="65" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">同一小车</text>
+  <text class="opt-a-cart-balanced-pulls-lb" x="140" y="211" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">大小相等</text>
+  <text class="opt-a-cart-balanced-pulls-lb" x="300" y="211" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">方向相反</text>
+  <text class="opt-a-cart-balanced-pulls-lb" x="460" y="211" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">同一直线</text>
+</svg>

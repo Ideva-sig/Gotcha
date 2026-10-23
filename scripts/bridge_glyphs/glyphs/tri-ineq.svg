@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>三角形两边之和</title>
+<desc>右上两段依次为三角形两边的精确长度，右下为第三边，起点对齐。</desc>
+<path d="M 12 65 L 48 65" fill="none" stroke="#9aa5a8" stroke-width="2"/><path d="M 12 65 L 28 30 L 48 65" stroke="currentColor" stroke-width="4" fill="none"/><text x="11" y="43" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">a</text><text x="48" y="43" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">b</text><path d="M 60 33 L 98.483763 33 L 138.795052 33" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 98.483763 29 L 98.483763 37" fill="none" stroke="currentColor" stroke-width="2"/><path d="M 60 60 L 96 60" fill="none" stroke="#9aa5a8" stroke-width="2"/><path d="M 60 27 L 60 66" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/><path d="M 96 40 L 96 66" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90">
+  <title>欧姆定律电路</title>
+  <desc>电池、电阻串联成闭合回路，电流从电池正极流经电阻回到负极。</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 37 V18 H55 M95 18 H113 V44 M113 51 V72 H25 V52" stroke="#9aa5a8" stroke-width="2.5"/>
+    <rect x="55" y="11" width="40" height="14" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M16 37 H34 M20 52 H30" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M113 31 V51" stroke="currentColor" stroke-width="4"/>
+  </g>
+  <path d="M113 51 L108.5 43.5 H117.5 Z" fill="currentColor"/>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13">
+    <text x="4" y="49">U</text>
+    <text x="69" y="43">R</text>
+    <text x="121" y="46">I</text>
+  </g>
+</svg>

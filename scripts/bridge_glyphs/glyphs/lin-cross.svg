@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>直线交点与坐标</title>
+  <desc>上升直线 y=75−x/2 与下降直线 y=x/2−7 交于 (82,34)，垂线投影到两轴；上升直线与横轴交于 (34,58)。静态图。</desc>
+  <path d="M 10 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 34 L 82 34" fill="none" stroke="#9aa5a8" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <path d="M 82 34 L 82 58" fill="none" stroke="#9aa5a8" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <path d="M 12 69 L 136 7" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 34 10 L 136 61" fill="none" stroke="#52626a" stroke-width="2"/>
+  <circle cx="82" cy="34" r="3.5" fill="#c9554d"/>
+  <circle cx="34" cy="58" r="3" fill="currentColor"/>
+</svg>

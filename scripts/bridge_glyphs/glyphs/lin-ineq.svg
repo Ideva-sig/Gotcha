@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>图像在横轴上方的区间</title>
+  <desc>直线 y=92−x/2 与横轴 y=58 交于 x=68；图像上方部分和 x&gt;68 的区间同色，端点空心表示不包含。静态图。</desc>
+  <path d="M 10 58 L 62 58 M 74 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 14 85 L 62.63344 60.68328" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <path d="M 86 49 L 86 58" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <path d="M 106 39 L 106 58" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <path d="M 126 29 L 126 58" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <path d="M 73.36656 55.31672 L 138 23" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 74 58 L 139 58" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 134 61 L 139 58 L 134 55" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="68" cy="58" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>

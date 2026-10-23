@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>三角形内切圆</title>
+  <desc>内心由三边长度加权求得，圆的半径等于内心到三边的垂直距离；三处直角记号标出垂足。静态图。</desc>
+  <polygon points="70,10 25,77 131,77" stroke="#52626a" stroke-width="2" fill="none"/>
+  <circle cx="73.05015" cy="51.39045" r="25.60955" fill="none" stroke="#52626a" stroke-width="2"/>
+  <path d="M 73.05015 51.39045 L 51.79066 37.11168" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="51.79066" cy="37.11168" r="2" fill="currentColor"/>
+  <path d="M 55.11122 39.34191 L 52.88099 42.66247 L 49.56043 40.43224" fill="none" stroke="#9aa5a8" stroke-width="1.5"/>
+  <path d="M 73.05015 51.39045 L 73.05015 77" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="73.05015" cy="77" r="2" fill="currentColor"/>
+  <path d="M 73.05015 73 L 77.05015 73 L 77.05015 77" fill="none" stroke="#9aa5a8" stroke-width="1.5"/>
+  <path d="M 73.05015 51.39045 L 91.98689 34.14954" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="91.98689" cy="34.14954" r="2" fill="currentColor"/>
+  <path d="M 89.02913 36.84242 L 86.33624 33.88466 L 89.294 31.19177" fill="none" stroke="#9aa5a8" stroke-width="1.5"/>
+  <circle cx="73.05015" cy="51.39045" r="2" fill="#52626a"/>
+  <text x="80" y="65" fill="#2b3a3f" font-size="13" font-family="sans-serif">I</text>
+</svg>

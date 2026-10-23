@@ -1,0 +1,42 @@
+.chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 4px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 28px;
+  background: var(--btn-face);
+  box-shadow: 0 3px 0 var(--btn-shadow);
+  gap: 2px;
+}
+
+.chips button {
+  min-width: 60px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--island-brown);
+  font-size: 15px;
+  font-weight: 800;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    transform 120ms ease;
+}
+
+.chips button:active {
+  transform: scale(0.95);
+}
+
+.chips button[aria-pressed="true"] {
+  background: var(--isl-primary-deep);
+  color: #fff;
+}
+
+@media (hover: hover) {
+  .chips button[aria-pressed="false"]:hover {
+    background: rgba(25, 200, 185, 0.14);
+  }
+}

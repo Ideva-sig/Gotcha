@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>光的反射</title>
+  <desc>入射光线与反射光线分居法线两侧，入射角和反射角都为四十度。</desc>
+  <line x1="10" y1="60" x2="140" y2="60" stroke="#52626a" stroke-width="4"/>
+  <path d="M 18 64 L 12 72 M 34 64 L 28 72 M 50 64 L 44 72 M 100 64 L 94 72 M 116 64 L 110 72 M 132 64 L 126 72" fill="none" stroke="#52626a" stroke-width="2"/>
+  <line x1="75" y1="8" x2="75" y2="56" stroke="#9aa5a8" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="40.289" y1="18.634" x2="75" y2="60" stroke="currentColor" stroke-width="4"/>
+  <path d="M 75 60 L 66.794 56.443 L 72.922 51.300 Z" fill="currentColor"/>
+  <line x1="75" y1="60" x2="109.711" y2="18.634" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 109.711 18.634 L 107.632 27.333 L 101.504 22.191 Z" fill="#c9554d"/>
+  <path d="M 65.358 48.509 A 15 15 0 0 1 75 45" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <path d="M 75 45 A 15 15 0 0 1 84.642 48.509" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <circle cx="75" cy="60" r="2.5" fill="#52626a"/>
+  <text x="59" y="38" fill="#2b3a3f" font-size="13" font-family="sans-serif">i</text>
+  <text x="86" y="38" fill="#2b3a3f" font-size="13" font-family="sans-serif">r</text>
+  <text x="70" y="84" fill="#2b3a3f" font-size="13" font-family="sans-serif">O</text>
+</svg>

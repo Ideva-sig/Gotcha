@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>正六边形中的直角三角形</title>
+  <desc>正六边形半径 R=36，边心距 r=18√3，半边长 a/2=18；中心、边中点和顶点组成精确的直角三角形。静态图。</desc>
+  <polygon points="111,45 93,76.17691 57,76.17691 39,45 57,13.82309 93,13.82309" stroke="#52626a" stroke-width="2" fill="none"/>
+  <polygon points="75,45 102,60.58846 111,45" stroke="currentColor" stroke-width="0" fill="currentColor" fill-opacity="0.18"/>
+  <path d="M 75 45 L 111 45" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 75 45 L 102 60.58846" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 102 60.58846 L 111 45" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 97.66987 58.08846 L 100.16987 53.75833 L 104.5 56.25833" fill="none" stroke="#9aa5a8" stroke-width="1.5"/>
+  <circle cx="75" cy="45" r="2" fill="#52626a"/>
+  <text x="60" y="39" fill="#2b3a3f" font-size="13" font-family="sans-serif">O</text><text x="90" y="39" fill="#2b3a3f" font-size="13" font-family="sans-serif">R</text><text x="77" y="65" fill="#2b3a3f" font-size="13" font-family="sans-serif">r</text>
+</svg>

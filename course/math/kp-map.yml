@@ -1,0 +1,3042 @@
+# 数学知识点地图（九上六章初稿，2026-10-10修订）
+# 编号、轻重与前置以本文件为准；格式见course/FORMAT.md。
+# 检查：/usr/bin/python3 scripts/check-kp-map.py --subject math
+# 当前18节64点，并非七至九年级全科地图。七八年级等前置暂用课本节编号占位；
+# 全科检查仍报节数及前置不存在，不能据此声称地图通过。详见本轮交接报告。
+# 原26/29中指向25章节编号的占位引用仍保留；本轮不修改已上线两章。
+# 新25/27/28/30仅统计9套有效卷：广州2023–2025、广东2022–2024、深圳2022–2024。
+# 原26/29统计不重算，旧GD2025平台卷记录保留：1xx为平台文件01第xx题，2xx为文件02第xx题。
+# 本轮不新增GD2025平台题。exam-hits.tsv保留旧55行并追加新四章记录。
+# exam-stats.md仍是旧两章统计快照，暂不调用会覆盖它的--write-stats。
+
+- section: MATH-7A-01-1
+  title: 正数和负数
+  page: 2
+  # 选学：阅读与思考“用正负数表示允许偏差”（印刷第 6 页）。
+  kps:
+  - id: MATH-7A-01-1a
+    title: 正负数与相反意义
+    weight: 一般
+    weight_note: 九套卷直接考查 2 次，均为 3 分选择题，属于容易得分的识别题。
+    exam_hits: 2
+    exam_refs: [GD2023-01, SZ2023-01]
+    prerequisites: []
+
+- section: MATH-7A-01-2
+  title: 有理数及其大小比较
+  page: 7
+  # 选学：图说数学史“漫漫长路识负数”（印刷第 18 页）。
+  kps:
+  - id: MATH-7A-01-2a
+    title: 有理数分类与数轴
+    weight: 一般
+    weight_note: 未单独计次；数轴还用于七下实数、不等式解集，本点只讲分类和数的表示，不按综合题背景抬级。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-01-1a
+      strength: hard
+      reason: 先区分正数、负数和零，才能分类并在数轴上表示。
+  - id: MATH-7A-01-2b
+    title: 相反数与绝对值
+    weight: 一般
+    weight_note: 直接考查 2 次，均为 3 分选择题；合并两种容易混淆的概念，不计实数混合运算中的背景使用。
+    exam_hits: 2
+    exam_refs: [GD2022-01, GZ2023-01]
+    prerequisites:
+    - id: MATH-7A-01-2a
+      strength: hard
+      reason: 用数轴上的对称位置和到原点的距离理解两个概念。
+  - id: MATH-7A-01-2c
+    title: 有理数的大小比较
+    weight: 一般
+    weight_note: 直接考查 2 次，均为 3 分选择题；深圳 2024 只读数轴位置，不涉及根式估算。
+    exam_hits: 1
+    exam_refs: [GZ2024-01]
+    prerequisites:
+    - id: MATH-7A-01-2a
+      strength: hard
+      reason: 数轴上右边的数比左边的数大。
+    - id: MATH-7A-01-2b
+      strength: hard
+      reason: 两个负数比较大小时需要比较绝对值。
+
+- section: MATH-7A-02-1
+  title: 有理数的加法与减法
+  page: 25
+  # 选学：阅读与思考“我国古代的正负数加减运算法则——正负术”（印刷第 37 页）。
+  kps:
+  - id: MATH-7A-02-1a
+    title: 有理数的加减法则
+    weight: 一般
+    weight_note: 单独考查 1 次，为广东 2024 的 3 分选择题；不把后续实数计算全部计入。
+    exam_hits: 1
+    exam_refs: [GD2024-01]
+    prerequisites:
+    - id: MATH-7A-01-2b
+      strength: hard
+      reason: 加法定符号、减法转化都要用相反数和绝对值。
+  - id: MATH-7A-02-1b
+    title: 加减混合与运算律
+    weight: 一般
+    weight_note: 未单独计次；在整式系数计算和移项后合并中反复使用，保留一般级，不升为重点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-02-1a
+      strength: hard
+      reason: 先把减法转为加法，再按法则和运算律计算。
+
+- section: MATH-7A-02-2
+  title: 有理数的乘法与除法
+  page: 38
+  # 选学：探究与发现“从数系扩充看有理数乘法法则”（印刷第 50 页）。
+  kps:
+  - id: MATH-7A-02-2a
+    title: 有理数乘除与运算律
+    weight: 一般
+    weight_note: 未单独计次；用于整式去括号、方程系数化为一及公式求值，不能据此增加真题次数或升为重点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-01-2b
+      strength: hard
+      reason: 乘除法需要先判断符号，再计算绝对值。
+    - id: MATH-7A-02-1a
+      strength: soft
+      reason: 分配律中的加减运算需要加减法则。
+  - id: MATH-7A-02-2b
+    title: 倒数的概念与识别
+    weight: 一般
+    weight_note: 单独考查 1 次，为深圳 2022 的 3 分选择题，重点区分倒数与相反数。
+    exam_hits: 1
+    exam_refs: [SZ2022-01]
+    prerequisites:
+    - id: MATH-7A-02-2a
+      strength: hard
+      reason: 用两个数的乘积是否为一判断是否互为倒数。
+
+- section: MATH-7A-02-3
+  title: 有理数的乘方
+  page: 51
+  # 综合与实践“进位制的认识与探究”（印刷第 63 页）保留为活动，不另拆知识点。
+  kps:
+  - id: MATH-7A-02-3a
+    title: 乘方与有理数混合运算
+    weight: 一般
+    weight_note: 单独考查 1 次，为广东 2022 的 3 分选择题；幂的运算法则、零指数幂和负整数指数幂不属本点。
+    exam_hits: 1
+    exam_refs: [GD2022-02]
+    prerequisites:
+    - id: MATH-7A-02-2a
+      strength: hard
+      reason: 乘方是相同因数相乘，混合运算也要用乘除法则。
+    - id: MATH-7A-02-1b
+      strength: hard
+      reason: 乘方、乘除之后还要完成加减运算。
+  - id: MATH-7A-02-3b
+    title: 用科学记数法表示数
+    weight: 一般
+    weight_note: 九套卷直接考查 5 次，均为 3 分选择或填空题；常考但容易得分，按 FORMAT 定为一般。
+    exam_hits: 5
+    exam_refs: [GD2023-03, GD2024-03, GZ2023-11, SZ2022-04, SZ2023-03]
+    prerequisites:
+    - id: MATH-7A-02-3a
+      strength: hard
+      reason: 用十的正整数次幂表达大数。
+  - id: MATH-7A-02-3c
+    title: 近似数与精确度
+    weight: 了解
+    weight_note: 未发现以近似数或精确度为主要考点的独立设问；三角函数应用题的结果取舍不另计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-02-3b
+      strength: soft
+      reason: 科学记数法便于读出大数取近似后的实际位数。
+
+- section: MATH-7A-03-1
+  title: 列代数式表示数量关系
+  page: 69
+  # 选学：阅读与思考“数字 1 与字母 X 的对话”（印刷第 78 页）。
+  kps:
+  - id: MATH-7A-03-1a
+    title: 代数式的含义与书写
+    weight: 了解
+    weight_note: 未单独考查代数式的识别或书写规范；不把列式题重复计入概念点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-02-3a
+      strength: soft
+      reason: 字母代替数后仍使用加减乘除和乘方的运算顺序。
+  - id: MATH-7A-03-1b
+    title: 列式表达数量关系
+    weight: 一般
+    weight_note: 直接考查 2 个小问：广州 2025 的成本列式、深圳 2024 的购物车长度列式；小问分值未独立标明。
+    exam_hits: 2
+    exam_refs: [GZ2025-22(1), SZ2024-17(任务1)]
+    prerequisites:
+    - id: MATH-7A-03-1a
+      strength: hard
+      reason: 先明确字母代表什么量，再按运算关系写式子。
+  - id: MATH-7A-03-1c
+    title: 正反比例关系辨认
+    weight: 一般
+    weight_note: 修订版本节含正反比例关系，未计图象或函数性质题；用于后续函数建模，保留一般级。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 先写数量关系，再判断比值或乘积是否保持不变。
+
+- section: MATH-7A-03-2
+  title: 代数式的值
+  page: 79
+  kps:
+  - id: MATH-7A-03-2a
+    title: 代数式与公式求值
+    weight: 一般
+    weight_note: 直接考查 1 次，为广州 2024 的 3 分填空题；函数求值和因式分解后的求值暂不重复计入。
+    exam_hits: 1
+    exam_refs: [GZ2024-12]
+    prerequisites:
+    - id: MATH-7A-03-1a
+      strength: hard
+      reason: 要识别代数式中的字母和运算关系。
+    - id: MATH-7A-02-3a
+      strength: hard
+      reason: 把数值代入后需要按顺序完成混合运算。
+
+- section: MATH-7A-04-1
+  title: 整式
+  page: 89
+  kps:
+  - id: MATH-7A-04-1a
+    title: 单项式的系数与次数
+    weight: 一般
+    weight_note: 单独考查 1 次，为广东 2022 的 3 分填空题；系数和次数合并讲，不重复计次。
+    exam_hits: 1
+    exam_refs: [GD2022-12]
+    prerequisites:
+    - id: MATH-7A-03-1a
+      strength: hard
+      reason: 单项式是代数式的一类，要先会读字母与数的乘积。
+    - id: MATH-7A-02-3a
+      strength: soft
+      reason: 单项式的次数要读出各字母的指数。
+  - id: MATH-7A-04-1b
+    title: 多项式的项与次数
+    weight: 了解
+    weight_note: 未单独考查多项式的项、常数项或次数；只保留整式运算所需概念。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-04-1a
+      strength: hard
+      reason: 多项式由单项式相加组成，其次数由各项确定。
+
+- section: MATH-7A-04-2
+  title: 整式的加法与减法
+  page: 95
+  # 选学：信息技术应用“用电子表格进行数据计算”（印刷第 104 页）。
+  kps:
+  - id: MATH-7A-04-2a
+    title: 同类项与合并法则
+    weight: 一般
+    weight_note: 未单独计次；九套运算辨析题中的同类项多为干扰选项，不计命中，不因后续使用升为重点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-04-1a
+      strength: hard
+      reason: 比较字母和指数是否相同，再把系数相加减。
+    - id: MATH-7A-02-1b
+      strength: hard
+      reason: 合并后的系数来自有理数加减。
+  - id: MATH-7A-04-2b
+    title: 去括号与整式加减
+    weight: 一般
+    weight_note: 未单独计次；用于解方程和后续分式化简，但这些题的主要考点不在本节。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-04-2a
+      strength: hard
+      reason: 去括号后要合并同类项。
+    - id: MATH-7A-02-2a
+      strength: hard
+      reason: 去括号使用分配律及有理数乘法的符号规则。
+  - id: MATH-7A-04-2c
+    title: 整式化简后求值
+    weight: 一般
+    weight_note: 未发现只靠整式加减化简求值的独立设问；保留课本第 101 页的化简求值任务，不收因式分解题。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-04-2b
+      strength: hard
+      reason: 先去括号和合并同类项，得到较简单的式子。
+    - id: MATH-7A-03-2a
+      strength: hard
+      reason: 化简后把字母的数值代入求值。
+
+- section: MATH-7A-05-1
+  title: 方程
+  page: 111
+  kps:
+  - id: MATH-7A-05-1a
+    title: 一元一次方程与解
+    weight: 了解
+    weight_note: 未单独考查一元一次方程识别或解的定义；一元二次方程已知根求参数不重复归入。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 方程用代数式表达相等的数量关系。
+    - id: MATH-7A-03-2a
+      strength: hard
+      reason: 把数代入方程，判断两边是否相等。
+  - id: MATH-7A-05-1b
+    title: 等式的性质与变形
+    weight: 一般
+    weight_note: 未单独计次；是移项、去分母及其他方程变形的依据，保留一般级而非重点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-05-1a
+      strength: hard
+      reason: 先明确方程两边相等及方程解的含义。
+    - id: MATH-7A-02-2a
+      strength: hard
+      reason: 等式两边同乘或同除时需要有理数运算。
+
+- section: MATH-7A-05-2
+  title: 解一元一次方程
+  page: 120
+  # 选学：探究与发现“无限循环小数化分数”（印刷第 132 页）。
+  kps:
+  - id: MATH-7A-05-2a
+    title: 合并移项解方程
+    weight: 一般
+    weight_note: 未出现以此为唯一任务的独立解方程题；实际问题的解题步骤不再拆成额外命中。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-05-1b
+      strength: hard
+      reason: 用等式性质移项及把未知数的系数化为一。
+    - id: MATH-7A-04-2a
+      strength: hard
+      reason: 移项后需要合并含未知数的同类项。
+  - id: MATH-7A-05-2b
+    title: 去括号去分母解方程
+    weight: 一般
+    weight_note: 未单独计次；分式方程和不等式组不能因中间步骤相似而归入本点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-05-2a
+      strength: hard
+      reason: 去括号、去分母后仍要移项、合并和系数化为一。
+    - id: MATH-7A-04-2b
+      strength: hard
+      reason: 去括号时须把括号外的数乘到每一项。
+
+- section: MATH-7A-05-3
+  title: 实际问题与一元一次方程
+  page: 133
+  # 选学：阅读与思考“初步认识数学模型”（印刷第 142 页）。
+  kps:
+  - id: MATH-7A-05-3a
+    title: 总量差额问题列方程
+    weight: 重点
+    weight_note: 主要考查 3 次；广东 2022 第 19 题整题 9 分，另有广州 2024 的 3 分列方程题及深圳 2023 的单价小问，依据分值和建模任务定级。
+    exam_hits: 3
+    exam_refs: [GD2022-19, GZ2024-06, SZ2023-19(1)]
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 用一个未知数表达总量、倍数和差额。
+    - id: MATH-7A-05-1a
+      strength: hard
+      reason: 把相等关系写成一元一次方程。
+    - id: MATH-7A-05-2b
+      strength: hard
+      reason: 列式后需要解方程并检验实际意义。
+  - id: MATH-7A-05-3b
+    title: 配套工程与方案问题
+    weight: 一般
+    weight_note: 未单独计次；课本含配套、工程和费用比较，真题中相似情境主要考分式方程、函数或不等式，不移入本点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 表示工作量、效率、人数和综合费用等数量。
+    - id: MATH-7A-05-2b
+      strength: hard
+      reason: 把配套或总量关系列成方程并求解。
+
+- section: MATH-7A-06-1
+  title: 几何图形
+  page: 150
+  # 选学：图说数学史“几何的起源”（印刷第 160 页）。
+  kps:
+  - id: MATH-7A-06-1a
+    title: 平面图形与立体图形
+    weight: 了解
+    weight_note: 未发现只辨认两类图形的独立设问；圆锥体积、对称图形和四边形性质不属本点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites: []
+  - id: MATH-7A-06-1b
+    title: 三向观察与展开图
+    weight: 一般
+    weight_note: 三向观察直接考查 2 次，均为 3 分选择题；课本本节已含从前面、左面、上面看图，展开图计算题不重复计入。
+    exam_hits: 2
+    exam_refs: [GZ2023-02, SZ2022-02]
+    prerequisites:
+    - id: MATH-7A-06-1a
+      strength: hard
+      reason: 要识别立体图形及其对应的平面轮廓。
+  - id: MATH-7A-06-1c
+    title: 点线面体与面动成体
+    weight: 一般
+    weight_note: 直接考查 1 次，为广州 2025 的 3 分选择题；只要求识别旋转形成的圆锥，不涉及体积。
+    exam_hits: 1
+    exam_refs: [GZ2025-02]
+    prerequisites:
+    - id: MATH-7A-06-1a
+      strength: hard
+      reason: 先认出平面图形和运动后形成的立体图形。
+
+- section: MATH-7A-06-2
+  title: 直线、射线、线段
+  page: 162
+  # 选学：阅读与思考“长度的测量”（印刷第 168 页）。
+  kps:
+  - id: MATH-7A-06-2a
+    title: 直线射线线段与表示
+    weight: 了解
+    weight_note: 未单独考查三种线的表示或两点确定直线；保留作图和几何阅读所需概念。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-1a
+      strength: soft
+      reason: 直线、射线和线段都是基本的平面图形。
+  - id: MATH-7A-06-2b
+    title: 线段比较与最短距离
+    weight: 一般
+    weight_note: 未单独计次；最短路径题还主要依赖轴对称、勾股定理或圆，不把这些综合题整题归入。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-2a
+      strength: hard
+      reason: 先区分有长度的线段与直线、射线。
+  - id: MATH-7A-06-2c
+    title: 线段和差与中点
+    weight: 一般
+    weight_note: 未单独计次；三角形中位线和四边形对角线题主要考后续性质，不仅因出现中点就计入。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-2b
+      strength: hard
+      reason: 要会比较线段并理解两点间距离。
+    - id: MATH-7A-02-1a
+      strength: soft
+      reason: 线段长度的和差需要数的加减运算。
+
+- section: MATH-7A-06-3
+  title: 角
+  page: 170
+  # 选学：阅读与思考“角的度量”（印刷第 180 页）。
+  # 综合与实践“设计学校田径运动会比赛场地”（印刷第 189 页）保留为活动，不另拆知识点。
+  kps:
+  - id: MATH-7A-06-3a
+    title: 角的表示与度分秒
+    weight: 了解
+    weight_note: 未发现主要考角的表示或度分秒换算的独立题；扇形、圆周角和三角函数题不计入。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-2a
+      strength: hard
+      reason: 角由有公共端点的两条射线组成。
+  - id: MATH-7A-06-3b
+    title: 角的和差与平分
+    weight: 一般
+    weight_note: 未单独计次；尺规作角平分线及其距离性质属于后续章节，不能与本节定义合并统计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-3a
+      strength: hard
+      reason: 要识别角的顶点、边和度数，才能写和差关系。
+    - id: MATH-7A-02-1a
+      strength: soft
+      reason: 求角的度数需要数的加减。
+  - id: MATH-7A-06-3c
+    title: 余角补角及其关系
+    weight: 一般
+    weight_note: 直接求补角计 1 次，为广州 2025 的 3 分填空题；七下邻补角与本点有重叠，保留归类说明，不再计角的和差点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-3b
+      strength: hard
+      reason: 用两个角的和为直角或平角判断余角、补角。
+
+- section: MATH-7B-07-1
+  title: 相交线
+  page: 2
+  kps:
+  - id: MATH-7B-07-1a
+    title: 邻补角与对顶角
+    weight: 一般
+    weight_note: 九套卷直接命中1次，为邻补角求角度填空；难度低，保留基础辨认和求角度，不因几何综合题出现对顶角而加计。
+    exam_hits: 1
+    exam_refs: [GZ2025-11]
+    prerequisites:
+    - id: MATH-7A-06-3c
+      strength: hard
+      reason: 邻补角首先是互补的两个角，需要已知补角关系。
+  - id: MATH-7B-07-1b
+    title: 垂线与点到直线的距离
+    weight: 了解
+    weight_note: 九套卷无本节范围内的独立主要考点；垂线、垂线段最短和点到直线距离合讲，后续全等、圆和三角函数题不反向累计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-2a
+      strength: hard
+      reason: 必须能区分直线、射线和线段，才能理解垂线与垂线段。
+    - id: MATH-7A-06-3a
+      strength: hard
+      reason: 用相交形成直角判断两条直线是否垂直。
+    - id: MATH-7B-07-1a
+      strength: soft
+      reason: 垂直时四个角都是直角，可用相交线的角关系检查。
+  - id: MATH-7B-07-1c
+    title: 同位角、内错角、同旁内角
+    weight: 了解
+    weight_note: 九套卷无单独辨认三类角的位置的题；位置辨认是平行线判定和性质的前置，短讲清楚，不与平行线求角度重复计次。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-3a
+      strength: hard
+      reason: 必须识别角的顶点和边，才能比较截线形成的角的位置。
+    - id: MATH-7B-07-1a
+      strength: soft
+      reason: 比较不同角的位置时，可借对顶角和邻补角定位。
+
+- section: MATH-7B-07-2
+  title: 平行线
+  page: 11
+  kps:
+  - id: MATH-7B-07-2a
+    title: 平行线概念与基本事实
+    weight: 了解
+    weight_note: 九套卷无独立主要考点；讲清同一平面、过直线外一点的平行线唯一，以及平行关系的传递，不按所有平行图形加计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-06-2a
+      strength: hard
+      reason: 平行研究的是同一平面内两条直线的位置关系。
+  - id: MATH-7B-07-2b
+    title: 用角的关系判定平行
+    weight: 了解
+    weight_note: 九套卷未找到以判定平行为主要目标的独立小问；与由平行求角的性质区分，证明综合题中间步骤不计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-07-1c
+      strength: hard
+      reason: 使用判定前必须认对同位角、内错角或同旁内角。
+    - id: MATH-7B-07-2a
+      strength: hard
+      reason: 判定的结论是两条直线平行。
+  - id: MATH-7B-07-2c
+    title: 用平行线性质求角度
+    weight: 一般
+    weight_note: 九套卷直接命中7次，覆盖2022—2024三年；均为常规选择或填空，虽常见但步骤短，不升为重点，避免把性质误当判定。
+    exam_hits: 7
+    exam_refs: [GD2022-04, GD2023-04, GD2024-04, GZ2024-11, SZ2022-07, SZ2023-07, SZ2024-05]
+    prerequisites:
+    - id: MATH-7B-07-1c
+      strength: hard
+      reason: 必须识别被平行线和截线形成的三类角。
+    - id: MATH-7B-07-2a
+      strength: hard
+      reason: 必须先确认题目给出的平行条件才能使用性质。
+    - id: MATH-7B-07-1a
+      strength: soft
+      reason: 有的求角题需要再借邻补角或对顶角换角。
+
+- section: MATH-7B-07-3
+  title: 定义、命题、定理
+  page: 22
+  kps:
+  - id: MATH-7B-07-3a
+    title: 命题的题设、结论与真假
+    weight: 了解
+    weight_note: 九套卷无以命题结构或反例辨认为主要考点的题；合讲定义、命题、真假、反例、定理与证明，不把后续图形性质判断题全算进来。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-07-2b
+      strength: soft
+      reason: 可用平行线判定说明题设与结论的分工。
+    - id: MATH-7B-07-2c
+      strength: soft
+      reason: 可用平行线性质说明真命题及推理过程。
+
+- section: MATH-7B-07-4
+  title: 平移
+  page: 26
+  kps:
+  - id: MATH-7B-07-4a
+    title: 平移性质与补画图形
+    weight: 一般
+    weight_note: 九套卷直接命中2次，分别求平移距离和补画平移后的圆弧；性质和作图合讲，菱形或圆的额外知识不能由本点替代。
+    exam_hits: 2
+    exam_refs: [GZ2023-19(2), SZ2023-05]
+    prerequisites:
+    - id: MATH-7B-07-2a
+      strength: hard
+      reason: 描述对应点连线及对应边平行时需要平行线概念。
+
+- section: MATH-7B-08-1
+  title: 平方根
+  page: 40
+  kps:
+  - id: MATH-7B-08-1a
+    title: 平方根与开平方
+    weight: 了解
+    weight_note: 九套卷无以求一个数的全部平方根为主要目标的题；讲清正数有两个平方根、零有一个、负数没有，不与算术平方根混记。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-02-3a
+      strength: hard
+      reason: 求平方根是求平方的逆运算，需要先理解乘方及负数的平方。
+  - id: MATH-7B-08-1b
+    title: 算术平方根及其估算
+    weight: 一般
+    weight_note: 九套卷直接命中1次，由正方形面积求边长；区别平方根与算术平方根，附相邻平方数夹逼估算，二次根式运算法则另属后续章节。
+    exam_hits: 1
+    exam_refs: [GD2024-07]
+    prerequisites:
+    - id: MATH-7B-08-1a
+      strength: hard
+      reason: 算术平方根是平方根中非负的那个。
+
+- section: MATH-7B-08-2
+  title: 立方根
+  page: 48
+  kps:
+  - id: MATH-7B-08-2a
+    title: 立方根与开立方
+    weight: 了解
+    weight_note: 九套卷无单独求立方根的主要小问；GD2023-16(1)整体记实数简单运算，不把其中的开立方再计一次；正负号和唯一性短讲清楚。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-02-3a
+      strength: hard
+      reason: 需要知道立方及正负数乘方的符号，才能求立方根。
+    - id: MATH-7B-08-1a
+      strength: soft
+      reason: 对照平方与开平方，理解立方与开立方也是互逆运算。
+
+- section: MATH-7B-08-3
+  title: 实数及其简单运算
+  page: 52
+  kps:
+  - id: MATH-7B-08-3a
+    title: 无理数与实数的分类
+    weight: 一般
+    weight_note: 九套卷直接命中1次，辨认负无理数；重点辨别无限不循环小数与开方后仍为有理数的数，属于简单概念选择题。
+    exam_hits: 1
+    exam_refs: [GZ2025-01]
+    prerequisites:
+    - id: MATH-7A-01-2a
+      strength: hard
+      reason: 必须先知道有理数的范围，才能认识有理数以外的无理数。
+    - id: MATH-7B-08-1b
+      strength: soft
+      reason: 用不能开尽的算术平方根认识无理数。
+    - id: MATH-7B-08-2a
+      strength: soft
+      reason: 不能开尽的立方根也是无理数的例子。
+  - id: MATH-7B-08-3b
+    title: 实数与数轴、大小比较
+    weight: 一般
+    weight_note: 九套卷直接命中1次，比较数轴上的实数；题目明确以实数为对象，按本节记录，难度低，不把函数值比较转记本点。
+    exam_hits: 1
+    exam_refs: [SZ2024-02]
+    prerequisites:
+    - id: MATH-7A-01-2c
+      strength: hard
+      reason: 实数大小比较继续使用数轴上右大左小及负数比较的方法。
+    - id: MATH-7B-08-3a
+      strength: hard
+      reason: 先认识实数范围，才能把数轴上的点推广到实数。
+  - id: MATH-7B-08-3c
+    title: 实数相反数、绝对值与运算
+    weight: 一般
+    weight_note: 九套卷直接命中1次，开立方、绝对值与整数乘方的简单混合运算；含零指数、负整数指数、三角函数或根式法则的后续计算不反向累计。
+    exam_hits: 1
+    exam_refs: [GD2023-16(1)]
+    prerequisites:
+    - id: MATH-7A-01-2b
+      strength: hard
+      reason: 实数的相反数与绝对值沿用有理数中的定义和符号规则。
+    - id: MATH-7A-02-3a
+      strength: hard
+      reason: 开方求值后，仍须按乘方、乘除、加减的顺序计算。
+    - id: MATH-7B-08-1b
+      strength: soft
+      reason: 简单实数计算可能先求算术平方根。
+    - id: MATH-7B-08-2a
+      strength: soft
+      reason: 简单实数计算可能先求立方根。
+
+- section: MATH-7B-09-1
+  title: 用坐标描述平面内点的位置
+  page: 64
+  kps:
+  - id: MATH-7B-09-1a
+    title: 读写坐标、象限与描点
+    weight: 一般
+    weight_note: 九套卷直接命中1次，为按表中坐标描点的独立小问；坐标轴上的点与横纵顺序易混，函数求式和绘制完整函数图象不加计。
+    exam_hits: 1
+    exam_refs: [GZ2024-23(1)]
+    prerequisites:
+    - id: MATH-7A-01-2a
+      strength: hard
+      reason: 必须认识数轴的原点、方向和单位长度，才能建立两条坐标轴。
+    - id: MATH-7B-08-3b
+      strength: soft
+      reason: 可借实数与数轴的一一对应理解坐标；描整数坐标不必先学实数的扩展。
+  - id: MATH-7B-09-1b
+    title: 建系描述简单几何图形
+    weight: 了解
+    weight_note: 九套卷无以建系描述简单几何图形为独立主要目标的题；保留选原点、坐标轴和单位长度，隧道抛物线建模等综合题不加计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 建系后必须能读写顶点坐标并描点连线。
+
+- section: MATH-7B-09-2
+  title: 坐标方法的简单应用
+  page: 72
+  kps:
+  - id: MATH-7B-09-2a
+    title: 用坐标表示地理位置
+    weight: 了解
+    weight_note: 九套卷无以坐标定位为主要目标的独立题；地理方位情境中的三角函数测距不计，简讲比例尺、原点和方位统一。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 必须能按坐标确定地点并从图上读回坐标。
+    - id: MATH-7B-09-1b
+      strength: soft
+      reason: 可借建系经验选择原点、方向与单位长度。
+  - id: MATH-7B-09-2b
+    title: 用坐标表示平移
+    weight: 一般
+    weight_note: 九套卷直接命中2次，为点及圆心平移后的坐标；横纵坐标变化与方向容易混，抛物线解析式的平移不反向累计。
+    exam_hits: 2
+    exam_refs: [GD2022-06, GZ2023-19(1)]
+    prerequisites:
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 必须分清横坐标和纵坐标，才能写出变化后的坐标。
+    - id: MATH-7B-07-4a
+      strength: hard
+      reason: 对应点必须沿相同方向移动相同距离。
+
+- section: MATH-7B-10-1
+  title: 二元一次方程组的概念
+  page: 88
+  kps:
+  - id: MATH-7B-10-1a
+    title: 二元一次方程组与公共解
+    weight: 了解
+    weight_note: 九套卷无单独辨认方程组或检验公共解的主要题；短讲未知数个数、次数与同时满足两个方程，不与列方程组重复计次。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-05-1a
+      strength: hard
+      reason: 二元方程组把一个方程的解推广为同时满足两个方程的数值对。
+
+- section: MATH-7B-10-2
+  title: 消元——解二元一次方程组
+  page: 91
+  kps:
+  - id: MATH-7B-10-2a
+    title: 用代入消元法解方程组
+    weight: 一般
+    weight_note: 九套卷无单独指定代入消元的主要题；次数为0仍保留一般，因消元是方程组应用必需技能，讲清代入、括号与回代，不以函数待定系数题虚增频次。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-10-1a
+      strength: hard
+      reason: 必须知道一组数要同时满足两个方程。
+    - id: MATH-7A-05-2b
+      strength: hard
+      reason: 代入消去一个未知数后，必须会解所得一元一次方程。
+  - id: MATH-7B-10-2b
+    title: 用加减消元法解方程组
+    weight: 一般
+    weight_note: 九套卷无单独指定加减消元的主要题；次数为0仍保留一般，因消元是本章核心技能，讲清整式两边同乘、相加或相减与回代，不升为重点。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-10-1a
+      strength: hard
+      reason: 消去一个未知数后，仍须求出满足原方程组的公共解。
+    - id: MATH-7A-05-2b
+      strength: hard
+      reason: 加减消元得到一元一次方程后，必须能继续求出未知数。
+    - id: MATH-7B-10-2a
+      strength: soft
+      reason: 借已学的消元思想理解换用加减也可消去未知数。
+
+- section: MATH-7B-10-3
+  title: 实际问题与二元一次方程组
+  page: 101
+  kps:
+  - id: MATH-7B-10-3a
+    title: 找两个等量关系列方程组
+    weight: 一般
+    weight_note: 九套卷直接命中2次，均明确设两个未知数并选择方程组；侧重两个等量关系、单位和公共解检验，能直接用一元一次方程的玩具题不加计。
+    exam_hits: 2
+    exam_refs: [SZ2022-09, SZ2024-07]
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 必须先把题中的数量和两个等量关系写成代数式。
+    - id: MATH-7B-10-1a
+      strength: hard
+      reason: 两个等量关系必须写成含同一对未知数的方程组。
+    - id: MATH-7B-10-2a
+      strength: soft
+      reason: 求两个量时可选代入消元；不要求两种解法同时掌握才能建模。
+    - id: MATH-7B-10-2b
+      strength: soft
+      reason: 也可按系数特点选加减消元，与代入法是替代关系。
+
+- section: MATH-7B-10-4
+  title: 三元一次方程组的解法 # 选学；PDF印刷页107有星号及选学脚注。
+  page: 107
+  kps:
+  - id: MATH-7B-10-4a
+    title: 三元一次方程组消元（选学）
+    weight: 了解
+    weight_note: 课本明确标选学，九套卷无独立主要题；简讲逐次消元成二元再成一元，二次函数三个系数的求式题不反向累计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-10-2a
+      strength: soft
+      reason: 可把代入消元逐次用到三个未知数。
+    - id: MATH-7B-10-2b
+      strength: soft
+      reason: 也可选加减消元；两种方法不同时设为硬前置。
+
+- section: MATH-7B-11-1
+  title: 不等式
+  page: 121
+  kps:
+  - id: MATH-7B-11-1a
+    title: 不等式、解与解集
+    weight: 了解
+    weight_note: 九套卷无独立概念辨认题；认识不等号、解与解集，区分一个满足条件的数和全部解，数轴表达随解法练，不重复计次。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 用含未知数的式子表示数量后，才能把不等关系写成不等式。
+    - id: MATH-7A-05-1a
+      strength: soft
+      reason: 对照方程的解，理解不等式的一个解与全部解的区别。
+  - id: MATH-7B-11-1b
+    title: 不等式性质与变号
+    weight: 一般
+    weight_note: 九套卷直接命中1次，为不等式性质选择；负数乘除需要变号是典型易错点，保留明确示例，解不等式组时不另累计一次。
+    exam_hits: 1
+    exam_refs: [GZ2024-04]
+    prerequisites:
+    - id: MATH-7B-11-1a
+      strength: hard
+      reason: 必须认识不等号及其方向，才能判断变形是否保持解集。
+    - id: MATH-7A-02-2a
+      strength: hard
+      reason: 乘除负数需要先掌握有理数乘除的符号规则。
+    - id: MATH-7A-05-1b
+      strength: soft
+      reason: 对照等式性质，理解不等式在乘除负数时必须额外变号。
+
+- section: MATH-7B-11-2
+  title: 一元一次不等式
+  page: 131
+  kps:
+  - id: MATH-7B-11-2a
+    title: 解一元一次不等式
+    weight: 一般
+    weight_note: 九套卷无单独以解一个不等式为全部目标的题；次数为0仍保留一般，因其直接支撑6次不等式组题及4次应用小问，去分母、负数变号和端点需讲清。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-11-1b
+      strength: hard
+      reason: 每一步等价变形必须依据不等式性质，尤其负数乘除变号。
+    - id: MATH-7A-04-2b
+      strength: hard
+      reason: 求解中需要正确去括号和合并同类项。
+    - id: MATH-7A-05-2b
+      strength: soft
+      reason: 可借解方程的步骤组织去分母、移项和系数化为一。
+  - id: MATH-7B-11-2b
+    title: 列不等式解决实际问题
+    weight: 一般
+    weight_note: 九套卷直接命中4次，来自3套卷，涉及利润下限、预算、容量与整数方案；属于常规模型，强调至少、至多及整数取值，不因同一运输题有两问而夸大覆盖面。
+    exam_hits: 4
+    exam_refs: [GD2023-14, SZ2023-19(2), SZ2024-17(任务2), SZ2024-17(任务3)]
+    prerequisites:
+    - id: MATH-7A-03-1b
+      strength: hard
+      reason: 必须把题目的数量关系写成含未知数的式子。
+    - id: MATH-7B-11-2a
+      strength: hard
+      reason: 列出数量约束后，必须能求不等式的解集并筛选实际取值。
+
+- section: MATH-7B-11-3
+  title: 一元一次不等式组
+  page: 138
+  kps:
+  - id: MATH-7B-11-3a
+    title: 解不等式组并表示解集
+    weight: 重点
+    weight_note: 九套卷直接命中6次，覆盖2022、2023、2024、2025四年，其中GD2022-16和GZ2025-17为解答题；去分母、交集、空实心端点易错，需完整讲解并兼顾整数解。
+    exam_hits: 6
+    exam_refs: [GD2022-16, GD2023-08, GD2024-12, GZ2023-05, GZ2025-17, SZ2022-06]
+    prerequisites:
+    - id: MATH-7B-11-2a
+      strength: hard
+      reason: 必须先分别解出组内每个一元一次不等式。
+    - id: MATH-7B-11-1a
+      strength: hard
+      reason: 组的解必须同时满足各条件，需要理解解集的含义。
+    - id: MATH-7A-01-2a
+      strength: hard
+      reason: 需要用数轴表示各解集并检查它们的公共部分。
+
+- section: MATH-7B-12-1
+  title: 统计调查
+  page: 151
+  kps:
+  - id: MATH-7B-12-1a
+    title: 全面调查、抽样与样本
+    weight: 了解
+    weight_note: 九套卷无直接判断调查方式或样本代表性的主要题；合讲总体、个体、样本、样本容量与合理问卷，不能只因题干写抽样就计一次。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites: []
+  - id: MATH-7B-12-1b
+    title: 用样本比例估计总体
+    weight: 一般
+    weight_note: 九套卷直接命中2次，为人数填空和人数估计小问；方法是样本比例乘总体数，解释估计不等于确数，不把平均数或方差分析转记本点。
+    exam_hits: 2
+    exam_refs: [SZ2022-12, SZ2023-18(3)]
+    prerequisites:
+    - id: MATH-7B-12-1a
+      strength: hard
+      reason: 必须区分样本人数与总体人数，才不会使用错误的比例基数。
+
+- section: MATH-7B-12-2
+  title: 用统计图描述数据
+  page: 160
+  kps:
+  - id: MATH-7B-12-2a
+    title: 扇形、条形与折线统计图
+    weight: 一般
+    weight_note: 九套卷直接命中8次，但只来自5套卷，包含同一统计题的多问；均是常规读图、补图、比例与圆心角或图型选择，次数高但难度低，维持一般。
+    exam_hits: 8
+    exam_refs: [GD2022-21(1), GZ2023-13, GZ2025-05, SZ2022-18(1), SZ2022-18(2), SZ2022-18(3), SZ2023-18(1), SZ2023-18(2)]
+    prerequisites:
+    - id: MATH-7B-12-1a
+      strength: soft
+      reason: 统计图中的人数和百分比应对应同一批被调查对象。
+  - id: MATH-7B-12-2b
+    title: 分组、频数与直方图
+    weight: 一般
+    weight_note: 九套卷直接命中1次，为频数分布直方图选择题；合讲组距、组数、频数、读图与补图，区间端点和纵轴频数含义容易误读。
+    exam_hits: 1
+    exam_refs: [GZ2024-05]
+    prerequisites:
+    - id: MATH-7B-12-2a
+      strength: soft
+      reason: 比较直方图与条形图，辨别连续分组与分类数据。
+    - id: MATH-7B-11-1a
+      strength: soft
+      reason: 用不等号读清各组区间端点是否包含在内。
+  - id: MATH-7B-12-2c
+    title: 描趋势图并观察数量关系
+    weight: 了解
+    weight_note: 九套卷未找到以趋势图为独立主要目标的明确题；保留散点表示两个量关系和观察总体趋势，气温按日期变化的折线图记12-2a，函数拟合不反向累计。
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 必须能把两列数据配成坐标并描点。
+    - id: MATH-7B-12-2a
+      strength: soft
+      reason: 比较趋势图与折线图，避免把按时间连线和两个量的散点关系混为一谈。
+
+- section: MATH-8A-13-1
+  title: 三角形的概念
+  page: 2
+  kps:
+  - id: MATH-8A-13-1a
+    title: 三角形的概念与分类
+    weight: 了解
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites: []
+    exam_hits: 0
+
+- section: MATH-8A-13-2
+  title: 与三角形有关的线段
+  page: 5
+  kps:
+  - id: MATH-8A-13-2a
+    title: 三角形的三边关系
+    weight: 重点
+    weight_note: 已确认SZ2024-10涉及边长可行范围；也是等腰分类及后续几何的基础，按易错风险列重点。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 先认识三角形的边与等腰分类。
+    exam_hits: 1
+    exam_refs:
+    - SZ2024-10
+  - id: MATH-8A-13-2b
+    title: 中线、角平分线和高
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 先认清顶点与对边。
+    exam_hits: 0
+  - id: MATH-8A-13-2c
+    title: 三角形的稳定性
+    weight: 了解
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 先认清三条边。
+    exam_hits: 0
+
+- section: MATH-8A-13-3
+  title: 三角形的内角与外角
+  page: 11
+  kps:
+  - id: MATH-8A-13-3a
+    title: 三角形内角和
+    weight: 重点
+    weight_note: 内角和是全等、等腰、圆中求角的基础；综合题常隐含使用，不夸大独立考频。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 先认清三个内角。
+    exam_hits: 0
+  - id: MATH-8A-13-3b
+    title: 三角形外角
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-13-3a
+      strength: hard
+      reason: 外角性质由内角和推出。
+    exam_hits: 0
+
+- section: MATH-8A-14-1
+  title: 全等三角形及其性质
+  page: 29
+  kps:
+  - id: MATH-8A-14-1a
+    title: 全等三角形与对应关系
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 先认识三角形的顶点、边和角。
+    exam_hits: 0
+
+- section: MATH-8A-14-2
+  title: 三角形全等的判定
+  page: 32
+  kps:
+  - id: MATH-8A-14-2a
+    title: 边边边：SSS
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 全等判定必须保持同一对应顺序。
+    exam_hits: 0
+  - id: MATH-8A-14-2b
+    title: 边角边：SAS
+    weight: 重点
+    weight_note: GZ2023-18、GZ2025-18及综合证明中的常用路径；夹角容易漏查，列重点。
+    prerequisites:
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 先建立顶点对应。
+    - id: MATH-8A-13-2b
+      strength: hard
+      reason: 中点和角平分线能提供条件。
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-18
+    - GZ2025-18
+  - id: MATH-8A-14-2c
+    title: 角边角：ASA
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 先认对应关系。
+    - id: MATH-8A-13-3b
+      strength: hard
+      reason: 内外角之间可用补角转换。
+    exam_hits: 0
+  - id: MATH-8A-14-2d
+    title: 角角边：AAS
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-14-2c
+      strength: hard
+      reason: AAS可由内角和与ASA得到。
+    exam_hits: 0
+  - id: MATH-8A-14-2e
+    title: 直角三角形的HL判定
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 全等需先确定顶点对应。
+    - id: MATH-8A-13-2b
+      strength: hard
+      reason: 高提供直角条件。
+    exam_hits: 0
+
+- section: MATH-8A-14-3
+  title: 角的平分线
+  page: 48
+  kps:
+  - id: MATH-8A-14-3a
+    title: 角平分线的性质与判定
+    weight: 重点
+    weight_note: GD2022-18、GZ2023-15、GZ2025-14和SZ2024-06有直接或主要应用；是圆中切线证明的前置。
+    prerequisites:
+    - id: MATH-8A-14-2e
+      strength: hard
+      reason: 等距性质可由直角三角形全等证明。
+    exam_hits: 3
+    exam_refs:
+    - GD2022-18
+    - GD2024-17(1)
+    - SZ2024-06
+
+- section: MATH-8A-15-1
+  title: 图形的轴对称
+  page: 62
+  kps:
+  - id: MATH-8A-15-1a
+    title: 轴对称图形与成轴对称
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 对称后重合，继而使用全等性质。
+    exam_hits: 0
+  - id: MATH-8A-15-1b
+    title: 线段垂直平分线的性质与判定
+    weight: 重点
+    weight_note: GZ2023-14等最短路径题主要利用轴对称；垂直平分线也是圆心定位的前置。
+    prerequisites:
+    - id: MATH-8A-15-1a
+      strength: hard
+      reason: 对称轴与连接对称点的线段有垂直平分关系。
+    exam_hits: 0
+  - id: MATH-8A-15-1c
+    title: 命题与逆命题
+    weight: 了解
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites: []
+    exam_hits: 0
+
+- section: MATH-8A-15-2
+  title: 画轴对称的图形
+  page: 72
+  kps:
+  - id: MATH-8A-15-2a
+    title: 画轴对称图形与坐标轴对称
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-15-1a
+      strength: hard
+      reason: 先理解对称点等距及对称轴垂直平分连线。
+    exam_hits: 0
+
+- section: MATH-8A-15-3
+  title: 等腰三角形
+  page: 78
+  kps:
+  - id: MATH-8A-15-3a
+    title: 等腰三角形的性质
+    weight: 重点
+    weight_note: 等腰性质在旋转、轴对称、圆中反复使用；分类与三线合一容易误用，列重点。
+    prerequisites:
+    - id: MATH-8A-13-3a
+      strength: hard
+      reason: 求角要使用内角和。
+    - id: MATH-8A-13-2a
+      strength: hard
+      reason: 分类求边要检查三边关系。
+    - id: MATH-8A-14-2e
+      strength: hard
+      reason: 等腰性质可用直角三角形全等证明。
+    exam_hits: 0
+  - id: MATH-8A-15-3b
+    title: 等腰三角形的判定
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-13-1a
+      strength: hard
+      reason: 要知道每个角的对边。
+    - id: MATH-8A-15-3a
+      strength: hard
+      reason: 先区分性质与判定方向。
+    exam_hits: 0
+  - id: MATH-8A-15-3c
+    title: 等边三角形
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-15-3b
+      strength: hard
+      reason: 三个等角可以推出三边相等。
+    exam_hits: 0
+  - id: MATH-8A-15-3d
+    title: 含30度角的直角三角形
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-15-3c
+      strength: hard
+      reason: 可用等边三角形沿高分成两半理解。
+    exam_hits: 0
+
+- section: MATH-8A-16-1
+  title: 幂的运算
+  page: 98
+  kps:
+  - id: MATH-8A-16-1a
+    title: 同底数幂的乘法
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites: []
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-04
+    - GZ2024-03
+  - id: MATH-8A-16-1b
+    title: 幂的乘方与积的乘方
+    weight: 重点
+    weight_note: GD2024-05、SZ2023-06、SZ2024-03等直接考查；是整式、分式运算的常见失分点。
+    prerequisites:
+    - id: MATH-8A-16-1a
+      strength: hard
+      reason: 先理解底数与指数。
+    exam_hits: 2
+    exam_refs:
+    - GD2024-05
+    - SZ2023-06
+
+- section: MATH-8A-16-2
+  title: 整式的乘法
+  page: 103
+  kps:
+  - id: MATH-8A-16-2a
+    title: 单项式乘法与单项式乘多项式
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-1a
+      strength: hard
+      reason: 相同字母相乘要使用同底数幂规则。
+    exam_hits: 1
+    exam_refs:
+    - SZ2024-03
+  - id: MATH-8A-16-2b
+    title: 多项式乘多项式
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-2a
+      strength: hard
+      reason: 先掌握单项式逐项相乘。
+    exam_hits: 0
+  - id: MATH-8A-16-2c
+    title: 同底数幂的除法与整式除以单项式
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-1b
+      strength: hard
+      reason: 先算乘方，再算除法。
+    - id: MATH-8A-16-2a
+      strength: hard
+      reason: 用分配律理解逐项除法。
+    exam_hits: 0
+
+- section: MATH-8A-16-3
+  title: 乘法公式
+  page: 112
+  kps:
+  - id: MATH-8A-16-3a
+    title: 平方差公式
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-2b
+      strength: hard
+      reason: 平方差由多项式乘法展开并抵消交叉项得到。
+    exam_hits: 0
+  - id: MATH-8A-16-3b
+    title: 完全平方公式
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-2b
+      strength: hard
+      reason: 平方就是相同的两个多项式相乘。
+    exam_hits: 0
+
+- section: MATH-8A-17-1
+  title: 用提公因式法分解因式
+  page: 124
+  kps:
+  - id: MATH-8A-17-1a
+    title: 因式分解的含义
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-2b
+      strength: hard
+      reason: 理解展开与因式分解的相反方向。
+    exam_hits: 0
+  - id: MATH-8A-17-1b
+    title: 提公因式法
+    weight: 重点
+    weight_note: GZ2023-20(1)、SZ2023-12等直接或整体提取；后续分式约分及方程求解都需使用。
+    prerequisites:
+    - id: MATH-8A-17-1a
+      strength: hard
+      reason: 先知道因式分解的目标形式。
+    - id: MATH-8A-16-2c
+      strength: hard
+      reason: 提取后的每一项是原项除以公因式。
+    exam_hits: 1
+    exam_refs:
+    - SZ2023-12
+
+- section: MATH-8A-17-2
+  title: 用公式法分解因式
+  page: 128
+  kps:
+  - id: MATH-8A-17-2a
+    title: 平方差公式分解因式
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-3a
+      strength: hard
+      reason: 把平方差公式反向使用。
+    - id: MATH-8A-17-1b
+      strength: hard
+      reason: 有公因式时先提取。
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-20(1)
+    - GD2023-11
+  - id: MATH-8A-17-2b
+    title: 完全平方公式分解因式
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-16-3b
+      strength: hard
+      reason: 把完全平方公式反向使用。
+    - id: MATH-8A-17-1b
+      strength: hard
+      reason: 提取负号也是提公因式。
+    exam_hits: 0
+  - id: MATH-8A-17-2c
+    title: 综合分解：检查是否分到最后
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-17-2a
+      strength: hard
+      reason: 先会平方差。
+    - id: MATH-8A-17-2b
+      strength: hard
+      reason: 先会完全平方。
+    exam_hits: 0
+
+- section: MATH-8A-18-1
+  title: 分式及其基本性质
+  page: 138
+  kps:
+  - id: MATH-8A-18-1a
+    title: 分式的意义与取值条件
+    weight: 重点
+    weight_note: 九卷中的零值与定义域考频不夸大；分母非零是约分和验根的基础，按易错风险列重点。
+    prerequisites:
+    - id: MATH-8A-17-2a
+      strength: hard
+      reason: 含平方差的分母先分解。
+    exam_hits: 0
+  - id: MATH-8A-18-1b
+    title: 分式的基本性质与约分
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-1a
+      strength: hard
+      reason: 约分前先确认原式有意义。
+    - id: MATH-8A-17-1b
+      strength: hard
+      reason: 公因式必须属于整体。
+    - id: MATH-8A-17-2b
+      strength: hard
+      reason: 完全平方式需要先分解。
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-20(2)
+  - id: MATH-8A-18-1c
+    title: 通分与最简公分母
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-1b
+      strength: hard
+      reason: 通分使用分式基本性质。
+    exam_hits: 0
+
+- section: MATH-8A-18-2
+  title: 分式的乘法与除法
+  page: 146
+  kps:
+  - id: MATH-8A-18-2a
+    title: 分式的乘除与乘方
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-1b
+      strength: hard
+      reason: 乘除以后只约公因式。
+    - id: MATH-8A-16-1b
+      strength: hard
+      reason: 分子分母乘方使用幂的规则。
+    exam_hits: 0
+
+- section: MATH-8A-18-3
+  title: 分式的加法与减法
+  page: 152
+  kps:
+  - id: MATH-8A-18-3a
+    title: 分式的加减与混合运算
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-1c
+      strength: hard
+      reason: 异分母加减先通分。
+    - id: MATH-8A-18-2a
+      strength: hard
+      reason: 混合运算先处理乘除。
+    exam_hits: 3
+    exam_refs:
+    - GD2022-17
+    - GD2023-05
+    - GD2024-14
+
+- section: MATH-8A-18-4
+  title: 整数指数幂
+  page: 158
+  kps:
+  - id: MATH-8A-18-4a
+    title: 零指数幂与负整数指数幂
+    weight: 重点
+    weight_note: 多套卷首道计算题直接考查；GD2024-16用于本章练习，答案与原解析一致。
+    prerequisites:
+    - id: MATH-8A-16-1b
+      strength: hard
+      reason: 先认清底数、指数与括号。
+    exam_hits: 4
+    exam_refs:
+    - GD2024-16
+    - SZ2022-16
+    - SZ2023-16
+    - SZ2024-14
+  - id: MATH-8A-18-4b
+    title: 小于1的数的科学记数法
+    weight: 一般
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-4a
+      strength: hard
+      reason: 负指数表示较小的十进制量。
+    exam_hits: 0
+
+- section: MATH-8A-18-5
+  title: 分式方程
+  page: 164
+  kps:
+  - id: MATH-8A-18-5a
+    title: 分式方程与验根
+    weight: 重点
+    weight_note: GD2024-09、GZ2024-17直接考查；漏乘与验根是本章高风险。
+    prerequisites:
+    - id: MATH-8A-18-1c
+      strength: hard
+      reason: 去分母要先找最简公分母。
+    - id: MATH-8A-18-1a
+      strength: hard
+      reason: 候选值不能使原分母为零。
+    exam_hits: 2
+    exam_refs:
+    - GZ2024-17
+    - GD2024-09
+  - id: MATH-8A-18-5b
+    title: 分式方程的实际应用
+    weight: 重点
+    weight_note: 本章基础链条所必需；考频采用保守归类，不把综合题全部归到本章。
+    prerequisites:
+    - id: MATH-8A-18-5a
+      strength: hard
+      reason: 列出分式方程以后要解方程并检验。
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-08
+    - GD2023-17
+
+- section: MATH-8B-19-1
+  title: 二次根式及其性质
+  page: 2
+  chapter_id: MATH-8B-19
+  kps:
+  - id: MATH-8B-19-1a
+    title: 先检查根式有意义的条件
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites: []
+    exam_hits: 1
+    exam_refs:
+    - GZ2025-13
+  - id: MATH-8B-19-1b
+    title: 区分开方与平方的顺序
+    weight: 重点
+    weight_note: 1条主考记录；9套卷有条件化简；开方顺序和根号外负号是常见陷阱
+    prerequisites:
+    - id: MATH-8B-19-1a
+      strength: hard
+      reason: 先检查根式是否有意义
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-10
+
+- section: MATH-8B-19-2
+  title: 二次根式的乘法与除法
+  page: 6
+  chapter_id: MATH-8B-19
+  kps:
+  - id: MATH-8B-19-2a
+    title: 二次根式的乘除
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-19-1a
+      strength: hard
+      reason: 确认参与运算的根式都有意义
+    exam_hits: 1
+    exam_refs:
+    - GD2023-12
+  - id: MATH-8B-19-2b
+    title: 化成最简二次根式
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-19-1b
+      strength: hard
+      reason: 提取平方因子时确定符号
+    - id: MATH-8B-19-2a
+      strength: hard
+      reason: 使用根式乘除公式
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-19-3
+  title: 二次根式的加法与减法
+  page: 13
+  chapter_id: MATH-8B-19
+  kps:
+  - id: MATH-8B-19-3a
+    title: 先化简，再合并同类根式
+    weight: 重点
+    weight_note: 1条主考记录；GZ2025-03直接检查同类根式加法；后续代数计算反复使用
+    prerequisites:
+    - id: MATH-8B-19-2b
+      strength: hard
+      reason: 先完成各项的最简化
+    exam_hits: 1
+    exam_refs:
+    - GZ2025-03
+  - id: MATH-8B-19-3b
+    title: 根式混合运算与乘法公式
+    weight: 重点
+    weight_note: 2条主考记录；GZ2025-23（1）使用共轭根式乘法；公式误用是常见陷阱
+    prerequisites:
+    - id: MATH-8B-19-2a
+      strength: hard
+      reason: 处理相乘的根式
+    - id: MATH-8B-19-3a
+      strength: hard
+      reason: 合并展开后的同类项
+    exam_hits: 2
+    exam_refs:
+    - GZ2025-19
+    - GZ2025-23(1)
+
+- section: MATH-8B-20-1
+  title: 勾股定理及其应用
+  page: 23
+  chapter_id: MATH-8B-20
+  kps:
+  - id: MATH-8B-20-1a
+    title: 勾股定理与边长计算
+    weight: 重点
+    weight_note: 1条主考记录；常见易错点或后续综合题的关键步骤
+    prerequisites: []
+    exam_hits: 1
+    exam_refs:
+    - SZ2023-10
+  - id: MATH-8B-20-1b
+    title: 勾股定理的实际应用与距离问题
+    weight: 重点
+    weight_note: 1条主考记录；常见易错点或后续综合题的关键步骤
+    prerequisites:
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 先辨认斜边并会用勾股定理求边长
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-14
+
+- section: MATH-8B-20-2
+  title: 勾股定理的逆定理及其应用
+  page: 34
+  chapter_id: MATH-8B-20
+  kps:
+  - id: MATH-8B-20-2a
+    title: 勾股定理的逆定理与直角判定
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 掌握两边平方和与斜边平方的数量关系
+    exam_hits: 1
+    exam_refs:
+    - GD2023-20(2)
+  - id: MATH-8B-20-2b
+    title: 原命题与逆命题
+    weight: 了解
+    weight_note: 0条主考记录；直接考频有限，保留教材核心概念
+    prerequisites: []
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-21-1
+  title: 四边形及多边形
+  page: 46
+  chapter_id: MATH-8B-21
+  kps:
+  - id: MATH-8B-21-1a
+    title: 四边形的角与多边形内角和
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites: []
+    exam_hits: 0
+    exam_refs: []
+  - id: MATH-8B-21-1b
+    title: 正多边形的每个角
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-21-1a
+      strength: hard
+      reason: 先求角的总量
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-21-2
+  title: 平行四边形
+  page: 55
+  chapter_id: MATH-8B-21
+  kps:
+  - id: MATH-8B-21-2a
+    title: 平行四边形的性质
+    weight: 一般
+    weight_note: 3条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-21-1a
+      strength: hard
+      reason: 理解相邻内角与内角和
+    exam_hits: 3
+    exam_refs:
+    - GZ2024-13
+    - GD2022-08
+    - SZ2024-20(2)
+  - id: MATH-8B-21-2b
+    title: 平行四边形的判定
+    weight: 重点
+    weight_note: 0条主考记录；判定链是后续特殊四边形证明的起点；几何综合题中经常使用
+    prerequisites:
+    - id: MATH-8B-21-2a
+      strength: hard
+      reason: 知道平行四边形的边与对角线关系
+    exam_hits: 0
+    exam_refs: []
+  - id: MATH-8B-21-2c
+    title: 三角形中位线
+    weight: 一般
+    weight_note: 5条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-21-2b
+      strength: hard
+      reason: 中位线证明会构造平行四边形
+    exam_hits: 5
+    exam_refs:
+    - GZ2023-16
+    - GZ2025-08
+    - GD2022-05
+    - GD2023-22(1)
+    - GD2024-22(1)
+
+- section: MATH-8B-21-3
+  title: 特殊的平行四边形
+  page: 68
+  chapter_id: MATH-8B-21
+  kps:
+  - id: MATH-8B-21-3a
+    title: 矩形：直角与相等的对角线
+    weight: 重点
+    weight_note: 4条主考记录；多卷把矩形判定或性质放在综合几何中；缺失平行四边形前提是常见陷阱
+    prerequisites:
+    - id: MATH-8B-21-2a
+      strength: hard
+      reason: 使用对边与邻角性质
+    - id: MATH-8B-21-2b
+      strength: hard
+      reason: 先建立平行四边形
+    exam_hits: 4
+    exam_refs:
+    - GZ2024-19(2)
+    - SZ2022-08
+    - SZ2022-22(2)
+    - SZ2023-22(1)
+  - id: MATH-8B-21-3b
+    title: 菱形：等边与垂直的对角线
+    weight: 重点
+    weight_note: 4条主考记录；SZ2023-05直接使用菱形等边条件；判定与性质不能混用
+    prerequisites:
+    - id: MATH-8B-21-2b
+      strength: hard
+      reason: 先确认平行四边形
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 求直角三角形的边
+    exam_hits: 4
+    exam_refs:
+    - GZ2024-24(1)
+    - GD2022-13
+    - GD2024-15
+    - SZ2023-05
+  - id: MATH-8B-21-3c
+    title: 正方形：矩形与菱形条件合并
+    weight: 重点
+    weight_note: 2条主考记录；复合判定条件容易漏；正方形是多卷几何综合题的背景
+    prerequisites:
+    - id: MATH-8B-21-3a
+      strength: hard
+      reason: 使用矩形判定
+    - id: MATH-8B-21-3b
+      strength: hard
+      reason: 使用菱形判定
+    exam_hits: 2
+    exam_refs:
+    - SZ2022-22(1)
+    - SZ2024-10
+
+- section: MATH-8B-22-1
+  title: 函数的概念
+  page: 90
+  chapter_id: MATH-8B-22
+  kps:
+  - id: MATH-8B-22-1a
+    title: 常量与变量
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites: []
+    exam_hits: 1
+    exam_refs:
+    - GD2022-10
+  - id: MATH-8B-22-1b
+    title: 函数的概念与对应关系
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-22-1a
+      strength: hard
+      reason: 先分清变化过程中的两个变量
+    exam_hits: 0
+    exam_refs: []
+  - id: MATH-8B-22-1c
+    title: 自变量的取值范围
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-22-1b
+      strength: hard
+      reason: 先明确谁是自变量
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-22-2
+  title: 函数的表示
+  page: 100
+  chapter_id: MATH-8B-22
+  kps:
+  - id: MATH-8B-22-2a
+    title: 函数图象的画法（列表、描点、连线）
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-22-1b
+      strength: hard
+      reason: 理解对应值作为坐标点
+    exam_hits: 1
+    exam_refs:
+    - GZ2024-23(1)
+  - id: MATH-8B-22-2b
+    title: 函数图象的实际信息读取与应用
+    weight: 重点
+    weight_note: 1条主考记录；常见易错点或后续综合题的关键步骤
+    prerequisites:
+    - id: MATH-8B-22-2a
+      strength: hard
+      reason: 理解图象上点的横纵坐标意义
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 综合题中运用勾股定理求直角三角形边长
+    exam_hits: 1
+    exam_refs:
+    - SZ2023-10
+
+- section: MATH-8B-23-1
+  title: 一次函数的概念
+  page: 114
+  chapter_id: MATH-8B-23
+  kps:
+  - id: MATH-8B-23-1a
+    title: 一次函数与正比例函数
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-22-1b
+      strength: hard
+      reason: 理解变量间的对应关系
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-23-2
+  title: 一次函数的图象和性质
+  page: 117
+  chapter_id: MATH-8B-23
+  kps:
+  - id: MATH-8B-23-2a
+    title: 直线图象与参数的含义
+    weight: 重点
+    weight_note: 1条主考记录；9卷多次在图象、参数或不等式中使用；象限与实际范围易混
+    prerequisites:
+    - id: MATH-8B-23-1a
+      strength: hard
+      reason: 认识系数与常数项
+    - id: MATH-8B-22-2a
+      strength: hard
+      reason: 完成列表、描点
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-06
+  - id: MATH-8B-23-2b
+    title: 用已知点确定解析式
+    weight: 一般
+    weight_note: 3条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-23-1a
+      strength: hard
+      reason: 知道待确定的两个参数
+    - id: MATH-8B-22-1b
+      strength: hard
+      reason: 图象上的点满足对应关系
+    exam_hits: 3
+    exam_refs:
+    - GZ2024-23(2)
+    - GD2022-20(1)
+    - GD2023-16(2)
+  - id: MATH-8B-23-2c
+    title: 直线的上下平移
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-23-2a
+      strength: hard
+      reason: 理解斜率和纵截距
+    exam_hits: 1
+    exam_refs:
+    - GZ2025-06
+
+- section: MATH-8B-23-3
+  title: 一次函数与方程 （组）、不等式
+  page: 127
+  chapter_id: MATH-8B-23
+  kps:
+  - id: MATH-8B-23-3a
+    title: 直线交点与方程、方程组
+    weight: 一般
+    weight_note: 0条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-23-2a
+      strength: hard
+      reason: 知道直线上的点满足解析式
+    exam_hits: 0
+    exam_refs: []
+  - id: MATH-8B-23-3b
+    title: 图象与一次不等式
+    weight: 一般
+    weight_note: 1条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites:
+    - id: MATH-8B-23-2a
+      strength: hard
+      reason: 理解直线的增减与交点
+    exam_hits: 1
+    exam_refs:
+    - GD2024-10
+
+- section: MATH-8B-23-4
+  title: 实际问题与一次函数
+  page: 131
+  chapter_id: MATH-8B-23
+  kps:
+  - id: MATH-8B-23-4a
+    title: 用一次函数表达实际关系
+    weight: 重点
+    weight_note: 3条主考记录；多卷独立考实际模型；原点、单位和实际范围易漏
+    prerequisites:
+    - id: MATH-8B-23-2b
+      strength: hard
+      reason: 用数据确定参数
+    - id: MATH-8B-22-1c
+      strength: hard
+      reason: 检查自变量的实际限制
+    exam_hits: 3
+    exam_refs:
+    - GZ2024-23(3)
+    - GD2022-20(2)
+    - SZ2024-17
+  - id: MATH-8B-23-4b
+    title: 分段关系与方案比较
+    weight: 重点
+    weight_note: 2条主考记录；GZ2023-22与SZ2024-17体现分段或方案选择；计价对象易弄错
+    prerequisites:
+    - id: MATH-8B-23-4a
+      strength: hard
+      reason: 建立实际关系并写范围
+    - id: MATH-8B-23-2b
+      strength: hard
+      reason: 从图象上的点求直线参数
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-22(1)
+    - GZ2023-22(2)
+
+- section: MATH-8B-24-1
+  title: 数据的集中趋势
+  page: 149
+  chapter_id: MATH-8B-24
+  kps:
+  - id: MATH-8B-24-1a
+    title: 算术平均数
+    weight: 一般
+    weight_note: 5条主考记录；基础步骤容易得分，保留一题核验
+    prerequisites: []
+    exam_hits: 5
+    exam_refs:
+    - GZ2025-20(1)
+    - GD2022-21(2)
+    - GD2023-21(1)
+    - GD2024-19(2)
+    - SZ2024-16(1)
+  - id: MATH-8B-24-1b
+    title: 加权平均数
+    weight: 重点
+    weight_note: 4条主考记录；GD2024-19、GZ2025-20直接考权重；等权与不等权容易混
+    prerequisites:
+    - id: MATH-8B-24-1a
+      strength: hard
+      reason: 知道等权时的平均数
+    exam_hits: 4
+    exam_refs:
+    - GZ2025-20(2)
+    - GZ2025-20(3)
+    - GD2024-19(1)
+    - GD2024-19(3)
+  - id: MATH-8B-24-1c
+    title: 中位数与众数
+    weight: 重点
+    weight_note: 7条主考记录；多卷直接考中位数或众数；极端值、位置与频数容易混
+    prerequisites:
+    - id: MATH-8B-24-1a
+      strength: hard
+      reason: 偶数个数据需要算两数平均
+    exam_hits: 7
+    exam_refs:
+    - GZ2023-03
+    - GZ2024-21(1)
+    - GD2022-21(1)
+    - GD2024-11
+    - SZ2022-03
+    - SZ2023-04
+    - SZ2024-16(1)
+
+- section: MATH-8B-24-2
+  title: 数据的离散程度
+  page: 168
+  chapter_id: MATH-8B-24
+  kps:
+  - id: MATH-8B-24-2a
+    title: 离差与离差平方和
+    weight: 了解
+    weight_note: 0条主考记录；直接考频有限，保留教材核心概念
+    prerequisites:
+    - id: MATH-8B-24-1a
+      strength: hard
+      reason: 先求平均数
+    exam_hits: 0
+    exam_refs: []
+  - id: MATH-8B-24-2b
+    title: 方差与稳定性
+    weight: 重点
+    weight_note: 4条主考记录；GD2023-21、SZ2024-16直接使用方差与稳定性
+    prerequisites:
+    - id: MATH-8B-24-2a
+      strength: hard
+      reason: 理解离差平方和
+    exam_hits: 4
+    exam_refs:
+    - GD2023-21(1)
+    - GD2023-21(2)
+    - SZ2024-16(1)
+    - SZ2024-16(2)
+
+- section: MATH-8B-24-3
+  title: 数据的四分位数
+  page: 176
+  chapter_id: MATH-8B-24
+  kps:
+  - id: MATH-8B-24-3a
+    title: 四分位数与箱线图
+    weight: 一般
+    weight_note: 0条主考记录；新版新增；本批9卷无直接命中，但课本要求基本计算与读图
+    prerequisites:
+    - id: MATH-8B-24-1c
+      strength: hard
+      reason: 掌握中位数的求法
+    exam_hits: 0
+    exam_refs: []
+
+- section: MATH-8B-24-4
+  title: 数据的分组
+  page: 182
+  chapter_id: MATH-8B-24
+  kps:
+  - id: MATH-8B-24-4a
+    title: 按组内离差平方和最小分组
+    weight: 一般
+    weight_note: 0条主考记录；新版新增；本批9卷无直接命中，保留一次完整枚举，不扩成复杂聚类
+    prerequisites:
+    - id: MATH-8B-24-2a
+      strength: hard
+      reason: 会计算离差平方和
+    exam_hits: 0
+    exam_refs: []
+
+# 八上六章初稿（2026-10-10）；仅追加本批知识点。
+
+- section: MATH-9A-25-1
+  title: 一元二次方程的概念
+  page: 2
+  kps:
+  - id: MATH-9A-25-1a
+    title: 认识一般形式与各项系数
+    weight: 了解
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 9套卷未单独要求辨认一般形式或写系数；作为本章起点简述，系数识别在后续公式计算中使用
+    prerequisites:
+    - id: MATH-8A-16-2b
+      strength: hard
+      reason: 先展开整式并合并同类项
+  - id: MATH-9A-25-1b
+    title: 用根的意义代入求值
+    weight: 一般
+    exam_hits: 3
+    exam_refs:
+    - GD2022-14
+    - SZ2024-09
+    - GZ2024-14
+    weight_note: 3次，代入求参数或整体求值；步骤短，重点检查代入位置
+    prerequisites:
+    - id: MATH-9A-25-1a
+      strength: hard
+      reason: 认清方程及其中的未知数
+    - id: MATH-7A-05-2a
+      strength: soft
+      reason: 代入后解一元一次方程
+
+- section: MATH-9A-25-2
+  title: 降次——解一元二次方程
+  page: 5
+  kps:
+  - id: MATH-9A-25-2a
+    title: 用平方根的意义解方程
+    weight: 一般
+    exam_hits: 3
+    exam_refs:
+    - GD2024-07
+    - GZ2024-15
+    - SZ2022-20(2)
+    weight_note: 3次，包括面积求边长、新定义运算和交点计算；必须会，但方法短
+    prerequisites:
+    - id: MATH-9A-25-1a
+      strength: hard
+      reason: 把方程整理成平方等于常数的形式
+    - id: MATH-7B-08-1a
+      strength: hard
+      reason: 正数有正负两个平方根
+  - id: MATH-9A-25-2b
+    title: 配成完全平方解方程
+    weight: 重点
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 9套卷未指定配方法解方程；它是求根公式的基础，二次项系数化1和两边同加易错，保留重点示范
+    prerequisites:
+    - id: MATH-9A-25-2a
+      strength: hard
+      reason: 配方后要通过开平方降次
+    - id: MATH-8A-16-3b
+      strength: hard
+      reason: 用完全平方公式配方
+  - id: MATH-9A-25-2c
+    title: 用判别式判断实数根
+    weight: 重点
+    exam_hits: 5
+    exam_refs:
+    - SZ2022-13
+    - GZ2023-10
+    - GD2024-13
+    - GZ2024-20(1)
+    - GZ2025-04
+    weight_note: 5次，连续出现在选择填空和解答题中；不等实根与相等实根的条件容易混淆
+    prerequisites:
+    - id: MATH-9A-25-2b
+      strength: hard
+      reason: 理解配方后等号右边的正零负决定根的情况
+  - id: MATH-9A-25-2d
+    title: 用求根公式解方程
+    weight: 一般
+    exam_hits: 1
+    exam_refs:
+    - GZ2025-15
+    weight_note: 1次在综合题解析中明确使用公式法；步骤固定，保留一组覆盖有根与无根的课本练习
+    prerequisites:
+    - id: MATH-9A-25-2c
+      strength: hard
+      reason: 先判断判别式是否非负
+    - id: MATH-7B-08-1a
+      strength: hard
+      reason: 化简求根公式中的平方根
+  - id: MATH-9A-25-2e
+    title: 分解因式降次求根
+    weight: 重点
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-17
+    weight_note: 1次广州整道解方程题；除去含未知数因式会丢根，是高风险错误，配完整示范
+    prerequisites:
+    - id: MATH-9A-25-1a
+      strength: hard
+      reason: 先把一边化为0
+    - id: MATH-8A-17-1b
+      strength: hard
+      reason: 用提公因式法分解多项式
+    - id: MATH-8A-17-2a
+      strength: hard
+      reason: 用公式法分解多项式
+  - id: MATH-9A-25-2f
+    title: 用根与系数关系求值
+    weight: 一般
+    exam_hits: 1
+    exam_refs:
+    - GZ2024-25(3)②
+    weight_note: 1次广州压轴解析用根的和与积求差；本章只练和积及对称式，不提前使用函数
+    prerequisites:
+    - id: MATH-9A-25-2c
+      strength: hard
+      reason: 使用两个实数根前先确认其存在
+    - id: MATH-8A-16-3b
+      strength: hard
+      reason: 把平方和等式变成根的和与积
+  - id: MATH-9A-25-2g
+    title: 认识黄金分割数
+    weight: 了解
+    exam_hits: 1
+    exam_refs:
+    - GD2023-06
+    weight_note: 1次直接辨认黄金分割数；广州2025第23题已给比值且考矩形折叠，不重复计入本点
+    prerequisites:
+    - id: MATH-9A-25-2d
+      strength: soft
+      reason: 黄金分割数可由一元二次方程求出
+
+- section: MATH-9A-25-3
+  title: 实际问题与一元二次方程
+  page: 20
+  kps:
+  - id: MATH-9A-25-3a
+    title: 列面积方程并筛选根
+    weight: 重点
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 9套卷无直接命中本章面积建模任务；内外边长及两个根的实际意义易错，是课本应用主线，配完整示范
+    prerequisites:
+    - id: MATH-9A-25-2e
+      strength: hard
+      reason: 解面积关系得到的方程
+    - id: MATH-8B-20-1a
+      strength: soft
+      reason: 直角三角形题可借勾股定理列式
+  - id: MATH-9A-25-3b
+    title: 列连续变化的方程
+    weight: 重点
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 9套卷无直接命中本章连续变化建模任务；把两次变化当一次和混淆增长额增长率易错，保留课本核心任务
+    prerequisites:
+    - id: MATH-9A-25-2a
+      strength: hard
+      reason: 连续变化方程常可直接开平方
+    - id: MATH-9A-25-3a
+      strength: soft
+      reason: 沿用列式后检验实际意义的步骤
+  - id: MATH-9A-25-3c
+    title: 列两两配对的方程
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 9套卷无直接命中两两配对建模；单循环除2与人数取正整数是固定判断，短讲配一题
+    prerequisites:
+    - id: MATH-9A-25-2e
+      strength: hard
+      reason: 解连续整数相乘的方程
+    - id: MATH-9A-25-3a
+      strength: soft
+      reason: 检验根是否符合实际约束
+
+- section: MATH-9A-26-1
+  title: 二次函数的概念
+  page: 30
+  kps:
+    - id: MATH-9A-26-1a
+      title: 认识二次函数：定义和各项系数
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 0 次直接考；但 $a\neq0$、二次项系数、一次项系数、常数项是后面所有二次函数题的起点
+      prerequisites:
+        - {id: MATH-8B-22-1b, strength: hard, reason: 要先懂“函数”“自变量”}
+        - {id: MATH-8A-16-2a, strength: soft, reason: 展开 $x(20-x)$ 要会整式乘法}
+    - id: MATH-9A-26-1b
+      title: 列二次函数解析式（面积、增长率）
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 0 次单独考，但实际应用和压轴题的第一步都是列式
+      prerequisites:
+        - {id: MATH-9A-26-1a, strength: hard, reason: 要认得二次函数的形式}
+        - {id: MATH-9A-25-3b, strength: soft, reason: 增长率的列式方法相同}
+
+- section: MATH-9A-26-2
+  title: 二次函数的图象和性质
+  page: 33
+  kps:
+    - id: MATH-9A-26-2a
+      title: 二次函数 $y=ax^2$ 的图象和性质
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 0 次直接考；开口方向、开口大小和对称轴是后面各点的底子
+      prerequisites:
+        - {id: MATH-9A-26-1a, strength: hard, reason: 要认得二次函数}
+        - {id: MATH-7B-09-1a, strength: hard, reason: 描点画图要会用坐标}
+        - {id: MATH-8B-22-2a, strength: soft, reason: 描点法画函数图象}
+    - id: MATH-9A-26-2b
+      title: $y=a(x-h)^2+k$ 的图象、性质与平移
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [SZ2022-20(1), SZ2024-19(2), SZ2024-19(3)]
+      weight_note: 3 次，深圳卷连续考平移、顶点式；中考里是读图、写解析式的基本工具
+      prerequisites:
+        - {id: MATH-9A-26-2a, strength: hard, reason: 平移的是 $y=ax^2$ 的图象}
+        - {id: MATH-7B-09-2b, strength: soft, reason: 用坐标表示平移}
+    - id: MATH-9A-26-2c
+      title: 一般式配方：顶点、对称轴、最值
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GZ2023-24(2)①, GZ2024-25(1), GZ2025-15]
+      weight_note: 3 次，广州卷 2023、2024、2025 连续出现（求对称轴、顶点、最高点）
+      prerequisites:
+        - {id: MATH-9A-26-2b, strength: hard, reason: 配方后就是顶点式}
+        - {id: MATH-9A-25-2b, strength: hard, reason: 配方法}
+    - id: MATH-9A-26-2d
+      title: 比较函数值大小：对称轴与增减性
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2024-08, GZ2023-12, GZ2024-08, GZ2025-10, SZ2022-20(3)]
+      weight_note: 5 次，选择、填空题里的送分题，但要画图分清点在对称轴哪一侧，易错
+      prerequisites:
+        - {id: MATH-9A-26-2a, strength: hard, reason: 增减性随开口方向变}
+        - {id: MATH-9A-26-2c, strength: hard, reason: 先求对称轴}
+    - id: MATH-9A-26-2e
+      title: 待定系数法求二次函数解析式
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-23(1), GD2023-10, GD2025-108, SZ2024-19(1)]
+      weight_note: 4 次，深圳、广东卷的第一问；课本正文没有专讲（方法在八下一次函数学过），习题 26.2 第 5、8 题用到。两根式作“补充”（2026-10-07 用户同意）
+      prerequisites:
+        - {id: MATH-9A-26-2b, strength: hard, reason: 已知顶点时用顶点式}
+        - {id: MATH-9A-26-2c, strength: hard, reason: 已知三点时用一般式}
+        - {id: MATH-7B-10-2a, strength: hard, reason: 三点代入后解方程组}
+        - {id: MATH-8B-23-2b, strength: soft, reason: 一次函数已学过待定系数法}
+
+- section: MATH-9A-26-3
+  title: 二次函数与一元二次方程
+  page: 46
+  kps:
+    - id: MATH-9A-26-3a
+      title: 抛物线与 $x$ 轴的交点和一元二次方程的根
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2025-10, SZ2023-21(3)]
+      weight_note: 2 次，一次考“相切、只有一个公共点”，一次考图象在 $x$ 轴上下；根的判别式是关键
+      prerequisites:
+        - {id: MATH-9A-26-2c, strength: hard, reason: 要会画或想象抛物线}
+        - {id: MATH-9A-25-2c, strength: hard, reason: 解方程、判别式}
+    - id: MATH-9A-26-3b
+      title: 用图象解方程、不等式和求交点
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2022-20(2)]
+      weight_note: 1 次（求两条抛物线的交点坐标）；课本习题 26.3 第 5 题考“函数值大于 0 时 $x$ 的范围”
+      prerequisites:
+        - {id: MATH-9A-26-3a, strength: hard, reason: 交点横坐标就是方程的根}
+        - {id: MATH-8B-23-3b, strength: soft, reason: 一次函数与方程、不等式同理}
+    - id: MATH-9A-26-3c
+      title: 由抛物线判断 $a,b,c$ 及相关式子的符号
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 11 套卷未直接考；但属中考常见题型（状元笔记“图象与各项系数关系”专节），与 26.2、26.3 联系最紧
+      prerequisites:
+        - {id: MATH-9A-26-2c, strength: hard, reason: '对称轴 $-\frac{b}{2a}$ 决定 $b$ 的符号'}
+        - {id: MATH-9A-26-3a, strength: hard, reason: 交点个数决定 $b^2-4ac$ 的符号}
+
+- section: MATH-9A-26-4
+  title: 实际问题与二次函数
+  page: 51
+  kps:
+    - id: MATH-9A-26-4a
+      title: 求面积、高度等最大（小）值
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2023-16]
+      weight_note: 1 次（广州 2023，面积范围）；课本例 1、例 2，习题 26.4 多为此类
+      prerequisites:
+        - {id: MATH-9A-26-1b, strength: hard, reason: 先列出函数式}
+        - {id: MATH-9A-26-2c, strength: hard, reason: 用配方或公式求最值}
+    - id: MATH-9A-26-4b
+      title: 最大利润问题
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-20]
+      weight_note: 1 次（广东 2024 解答题 9 分）；是 26.4 的典型应用，要会涨价、降价两种设法
+      prerequisites:
+        - {id: MATH-9A-26-4a, strength: hard, reason: 求最值方法相同}
+        - {id: MATH-9A-25-3b, strength: soft, reason: 销量与价格的列式}
+    - id: MATH-9A-26-4c
+      title: 建立坐标系解抛物线形实际问题
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2025-109, GZ2025-24(2), GZ2025-24(3), SZ2023-21(1), SZ2023-21(2)]
+      weight_note: 5 次，深圳 2023、广州 2025 都是 8–9 分的解答题；要自己建系、求解析式再代入
+      prerequisites:
+        - {id: MATH-9A-26-2e, strength: hard, reason: 建系后求解析式}
+        - {id: MATH-9A-26-2a, strength: soft, reason: 顶点放在原点时设 $y=ax^2$}
+        - {id: MATH-7B-09-1b, strength: hard, reason: 点的坐标和线段长互相换算}
+    - id: MATH-9A-26-4d
+      title: 二次函数与几何综合（动点、面积、存在性）
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-23(2), GZ2023-24(2)②, GZ2024-25(2), GZ2024-25(3)②]
+      weight_note: 4 次，广州卷 2023–2024 压轴题，广东 2022 压轴；难度大，先学会 a–c 再看
+      prerequisites:
+        - {id: MATH-9A-26-2e, strength: hard, reason: 先求解析式}
+        - {id: MATH-9A-26-4a, strength: hard, reason: 面积用二次函数求最值}
+        - {id: MATH-9A-26-3a, strength: soft, reason: 交点、判别式}
+        - {id: MATH-8B-23-2b, strength: hard, reason: 直线方程和交点}
+
+- section: MATH-9A-27-1
+  title: 反比例函数的概念
+  page: 64
+  kps:
+  - id: MATH-9A-27-1a
+    title: 认识反比例函数
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 实查9套有效卷，无直接概念辨识题；积为非零常数是全章基础。
+    prerequisites:
+    - id: MATH-8B-22-1b
+      strength: hard
+      reason: 先理解自变量与函数值
+    - id: MATH-8A-18-1a
+      strength: hard
+      reason: 分式的分母不能为零
+  - id: MATH-9A-27-1b
+    title: 求解析式与检验点
+    weight: 重点
+    exam_hits: 4
+    exam_refs:
+    - GZ2023-24(1)
+    - GZ2024-16①
+    - GZ2025-21(1)
+    - GZ2025-21(3)
+    weight_note: 4次；广州卷直接考代入、求系数和检验点，必须把坐标与式子对应。
+    prerequisites:
+    - id: MATH-9A-27-1a
+      strength: hard
+      reason: 利用xy=k求非零系数
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 读出点的横纵坐标
+
+- section: MATH-9A-27-2
+  title: 反比例函数的图象和性质
+  page: 67
+  kps:
+  - id: MATH-9A-27-2a
+    title: 由系数判断图象象限
+    weight: 重点
+    exam_hits: 2
+    exam_refs:
+    - GZ2023-06
+    - GZ2025-07
+    weight_note: 2次广州选择题；须结合绝对值、一次函数判断符号，零值是易错点。
+    prerequisites:
+    - id: MATH-9A-27-1b
+      strength: hard
+      reason: 先识别解析式中的系数
+    - id: MATH-8B-22-2a
+      strength: soft
+      reason: 会用列表描点表示函数
+  - id: MATH-9A-27-2b
+    title: 比较函数值与读范围
+    weight: 重点
+    exam_hits: 2
+    exam_refs:
+    - GD2022-09
+    - GZ2024-08
+    weight_note: 2次直接选择题；跨过零点误用增减性是全章核心陷阱。
+    prerequisites:
+    - id: MATH-9A-27-2a
+      strength: hard
+      reason: 先确定所在象限
+    - id: MATH-7B-11-1a
+      strength: hard
+      reason: 分清严格与非严格不等式
+    - id: MATH-9A-26-2d
+      strength: soft
+      reason: 综合图中还要读抛物线的增减性
+  - id: MATH-9A-27-2c
+    title: 联系直线与双曲线交点
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 实查9套卷未直接要求求直线与双曲线全部交点；是课本习题27.2第5题及已学方程的联系。
+    prerequisites:
+    - id: MATH-9A-27-1b
+      strength: hard
+      reason: 交点满足反比例解析式
+    - id: MATH-8B-23-3a
+      strength: hard
+      reason: 交点同时满足两个函数式
+  - id: MATH-9A-27-2d
+    title: 用坐标联系几何与面积
+    weight: 一般
+    exam_hits: 9
+    exam_refs:
+    - SZ2022-14
+    - SZ2023-14
+    - SZ2024-12
+    - GD2024-23(1)
+    - GD2024-23(2)
+    - GD2024-23(3)
+    - GZ2024-16②
+    - GZ2024-16③
+    - GZ2024-16④
+    weight_note: 9次综合子任务；大多叠加后续旋转、相似、三角函数或圆。本章只学坐标转换及积对应面积，不提前训练整道压轴题。
+    prerequisites:
+    - id: MATH-9A-27-1b
+      strength: hard
+      reason: 点坐标乘积等于系数
+    - id: MATH-7B-09-1b
+      strength: hard
+      reason: 用坐标表示水平、竖直线段
+    - id: MATH-8B-21-3a
+      strength: soft
+      reason: 用矩形性质对应横纵坐标
+
+- section: MATH-9A-27-3
+  title: 实际问题与反比例函数
+  page: 74
+  kps:
+  - id: MATH-9A-27-3a
+    title: 用不变量解决实际问题
+    weight: 一般
+    exam_hits: 1
+    exam_refs:
+    - GD2023-13
+    weight_note: 1次电流代入填空；课本含总量、杠杆、功等应用，统一抓住不变量，不因例题多而一律定重点。
+    prerequisites:
+    - id: MATH-9A-27-2b
+      strength: hard
+      reason: 用正数分支判断条件边界
+    - id: MATH-7A-03-1b
+      strength: soft
+      reason: 先列数量关系再化为函数式
+  - id: MATH-9A-27-3b
+    title: 从数据选择函数模型
+    weight: 一般
+    exam_hits: 1
+    exam_refs:
+    - GZ2024-23(2)
+    weight_note: 1次模型辨识：需排除反比例模型，选一次函数；修订版新增近似建模，重点是数据与模型是否吻合。
+    prerequisites:
+    - id: MATH-9A-27-1a
+      strength: hard
+      reason: 用乘积是否近似不变判断模型
+    - id: MATH-8B-22-2b
+      strength: hard
+      reason: 读表并对应到散点图
+
+- section: MATH-9A-28-1
+  title: 图形的旋转
+  page: 92
+  kps:
+  - id: MATH-9A-28-1a
+    title: 认清旋转中心、方向和角
+    weight: 一般
+    exam_refs: []
+    weight_note: 9套有效解析卷无单独命中；是读懂旋转条件的基础，不按压轴题难度加重
+    prerequisites:
+    - id: MATH-7A-06-3a
+      strength: hard
+      reason: 要会认角、比较角度
+    - id: MATH-7B-07-4a
+      strength: soft
+      reason: 对比平移与绕点转动
+    exam_hits: 0
+  - id: MATH-9A-28-1b
+    title: 用旋转性质找等边等角
+    weight: 重点
+    exam_refs:
+    - SZ2022-14
+    - GZ2023-23(2)①
+    - GZ2023-23(2)②
+    - GZ2024-25(3)①
+    weight_note: 4次；对应点与非对应点易混，广州综合题用它把旋转条件转为角和长度
+    prerequisites:
+    - id: MATH-9A-28-1a
+      strength: hard
+      reason: 先认清旋转中心及对应点
+    - id: MATH-8A-14-1a
+      strength: hard
+      reason: 旋转前后的图形全等
+    - id: MATH-8A-15-3c
+      strength: soft
+      reason: 练习用到等边三角形的角与中线
+    exam_hits: 4
+  - id: MATH-9A-28-1c
+    title: 确定关键点的旋转位置
+    weight: 一般
+    exam_refs:
+    - GZ2023-23(1)
+    weight_note: 1次广州尺规作图；先找关键点，再连线，不另加复杂作图题
+    prerequisites:
+    - id: MATH-9A-28-1b
+      strength: hard
+      reason: 用等距离和旋转角定位
+    - id: MATH-8A-14-2a
+      strength: soft
+      reason: 尺规作图用已有三角形边长
+    exam_hits: 1
+  - id: MATH-9A-28-1d
+    title: 旋转后集中几何条件
+    weight: 重点
+    exam_refs:
+    - SZ2022-15
+    - GD2023-23(1)
+    - GD2023-23(2)
+    - GD2024-22(1)
+    - GD2024-22(2)
+    weight_note: 5次综合小问；分值较高，但部分含后续相似；本章只练全等、勾股可解决的题
+    prerequisites:
+    - id: MATH-9A-28-1b
+      strength: hard
+      reason: 移动图形但保留长度与角
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 将集中后的边长放入直角三角形
+    - id: MATH-8B-21-3c
+      strength: soft
+      reason: 正方形提供等边和直角
+    - id: MATH-8B-20-2a
+      strength: hard
+      reason: 示范用边长关系判定直角
+    exam_hits: 5
+  - id: MATH-9A-28-1e
+    title: 用旋转重复基本图案
+    weight: 了解
+    exam_refs: []
+    weight_note: 9套有效解析卷无独立命中；对应课本图案设计与阅读，不设作答题
+    prerequisites:
+    - id: MATH-9A-28-1a
+      strength: soft
+      reason: 区分旋转中心与转角
+    exam_hits: 0
+
+- section: MATH-9A-28-2
+  title: 中心对称
+  page: 99
+  kps:
+  - id: MATH-9A-28-2a
+    title: 用中心对称确定中点
+    weight: 重点
+    exam_refs:
+    - GZ2024-02
+    - GZ2024-19(2)
+    - GZ2025-25(1)
+    weight_note: 3次且全在广州；连接对称点并找中点是作图、四边形证明的关键
+    prerequisites:
+    - id: MATH-9A-28-1b
+      strength: hard
+      reason: 中心对称是旋转180度
+    - id: MATH-8B-21-2b
+      strength: hard
+      reason: 对角线互相平分判定平行四边形
+    - id: MATH-8B-21-3a
+      strength: soft
+      reason: 练习还要用直角判定矩形
+    exam_hits: 3
+  - id: MATH-9A-28-2b
+    title: 识别中心对称图形
+    weight: 一般
+    exam_refs:
+    - GD2024-02
+    - SZ2024-01
+    weight_note: 2次低分选择题；重在半周重合，不能用轴对称代替判断
+    prerequisites:
+    - id: MATH-9A-28-2a
+      strength: hard
+      reason: 明确绕点旋转180度
+    - id: MATH-8A-15-1a
+      strength: soft
+      reason: 与轴对称图形作区别
+    exam_hits: 2
+  - id: MATH-9A-28-2c
+    title: 求关于原点对称的坐标
+    weight: 一般
+    exam_refs: []
+    weight_note: 9套有效解析卷无单独命中；是中心对称与坐标的直接联系，保留基础练习
+    prerequisites:
+    - id: MATH-9A-28-2a
+      strength: hard
+      reason: 原点是对应点连线的中点
+    - id: MATH-7B-09-1a
+      strength: hard
+      reason: 要会读写点的坐标
+    exam_hits: 0
+
+- section: MATH-9A-29-1
+  title: 圆的有关概念
+  page: 114
+  kps:
+    - id: MATH-9A-29-1a
+      title: 圆的概念、弦与弧、点与圆的位置
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2024-09]
+      weight_note: 1 次（广州 2024，比较 $d$ 与 $r$）；是一步判断的题，但后面都要用到半径、弦、弧这些词
+      prerequisites:
+        - {id: MATH-8B-20-1a, strength: soft, reason: 比较 $d$ 与 $r$ 前常要用勾股求距离}
+    - id: MATH-9A-29-1b
+      title: 过三点的圆：三角形的外接圆与外心
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2023-24(2)②]
+      weight_note: 1 次（广州 2023 压轴题的一问）；外心是三边垂直平分线的交点
+      prerequisites:
+        - {id: MATH-9A-29-1a, strength: hard, reason: 要认得圆心、半径}
+        - {id: MATH-8A-15-1b, strength: hard, reason: 垂直平分线上的点到两端距离相等}
+    - id: MATH-9A-29-1c
+      title: 反证法
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 11 套卷未直接考；只在课本 29.1 作为证明方法出现
+      prerequisites:
+        - {id: MATH-7B-07-3a, strength: soft, reason: 要分清命题的条件和结论}
+
+- section: MATH-9A-29-2
+  title: 圆的有关性质
+  page: 123
+  kps:
+    - id: MATH-9A-29-2a
+      title: 垂径定理及推论
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 0 次单独考，但每次用到都是借它算半径、弦长（见 b）
+      prerequisites:
+        - {id: MATH-9A-29-1a, strength: hard, reason: 要认得弦、弧}
+        - {id: MATH-8A-15-1a, strength: hard, reason: 圆是轴对称图形，依据是轴对称}
+    - id: MATH-9A-29-2b
+      title: 用垂径定理求半径、弦长、弦心距
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GZ2024-09, SZ2024-18(2)]
+      weight_note: 2 次（广州 2024 选择、深圳 2024 解答题），都靠“半径、半弦、弦心距”构成直角三角形列勾股方程
+      prerequisites:
+        - {id: MATH-9A-29-2a, strength: hard, reason: 先得到平分弦的结论}
+        - {id: MATH-8B-20-1a, strength: hard, reason: 勾股定理}
+        - {id: MATH-9A-25-2d, strength: soft, reason: 半径未知时要列方程}
+    - id: MATH-9A-29-2c
+      title: 圆心角、弧、弦的关系
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2025-09]
+      weight_note: 1 次（广州 2025，由弧的比求圆心角）；是圆周角的基础
+      prerequisites:
+        - {id: MATH-9A-29-1a, strength: hard, reason: 要认得弧、弦}
+        - {id: MATH-8A-14-2a, strength: soft, reason: 证明依据是三角形全等}
+    - id: MATH-9A-29-2d
+      title: 圆周角定理及推论
+      weight: 重点
+      exam_hits: 10
+      exam_refs: [GD2022-22(1), GD2023-09, GD2025-207, GZ2024-09, GZ2024-24(2)①, GZ2025-09, GZ2025-25(2)②, SZ2022-10, SZ2023-13, SZ2024-18(1)]
+      weight_note: 10 次，几乎每套卷都有（直径所对的圆周角是直角、同弧所对圆周角相等、圆周角等于圆心角的一半）
+      prerequisites:
+        - {id: MATH-9A-29-2c, strength: hard, reason: 圆周角和圆心角对着同一条弧}
+        - {id: MATH-8A-13-3a, strength: hard, reason: 三角形的内角和、外角}
+        - {id: MATH-8A-15-3a, strength: soft, reason: $OA=OB$ 得等腰三角形}
+    - id: MATH-9A-29-2e
+      title: 圆内接四边形的性质
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-22(3)]
+      weight_note: 1 次（广东 2024 压轴题的一问，“对角互补”）
+      prerequisites:
+        - {id: MATH-9A-29-2d, strength: hard, reason: 证明用圆周角定理}
+        - {id: MATH-8B-21-1a, strength: soft, reason: 四边形内角和是 $360^\circ$}
+
+- section: MATH-9A-29-3
+  title: 弧长和扇形面积
+  page: 134
+  kps:
+    - id: MATH-9A-29-3a
+      title: 弧长公式 $l=\frac{n\pi R}{180}$
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GZ2023-19(3), SZ2022-21(3)]
+      weight_note: 2 次（广州 2023、深圳 2022），多是解答题的一步；扇形、圆锥都要用到
+      prerequisites:
+        - {id: MATH-9A-29-1a, strength: hard, reason: 要认得圆、半径}
+        - {id: MATH-9A-29-2c, strength: soft, reason: $n$ 是圆心角的度数}
+    - id: MATH-9A-29-3b
+      title: 扇形面积公式
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2022-15, GD2025-207, SZ2024-11]
+      weight_note: 3 次（广东 2022 填空、深圳 2024 填空、广东 2025），几乎每年一道送分题
+      prerequisites:
+        - {id: MATH-9A-29-3a, strength: hard, reason: 弧长和面积公式同源，常用 $S=\frac12 lR$ 互换}
+    - id: MATH-9A-29-3c
+      title: 圆锥的侧面展开图和侧面积
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2024-21(1), GD2024-21(2), GZ2024-10]
+      weight_note: 3 次（广东 2024 综合与实践 9 分、广州 2024 选择）；关键是“底面周长 = 展开扇形的弧长”。圆锥体积公式课本九上没有，题里要用
+      prerequisites:
+        - {id: MATH-9A-29-3a, strength: hard, reason: 展开扇形的弧长}
+        - {id: MATH-9A-29-3b, strength: hard, reason: 侧面积就是扇形面积}
+        - {id: MATH-8B-20-1a, strength: hard, reason: 母线、高、底面半径构成直角三角形}
+    - id: MATH-9A-29-3d
+      title: 圆中的综合：外接圆、动点与最值
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-24(2)①, GZ2025-25(2)②]
+      weight_note: 2 次（广州 2024、2025 压轴题的一问）；用圆周角定理把“动点”变成“在圆上”，难度大
+      prerequisites:
+        - {id: MATH-9A-29-2d, strength: hard, reason: 圆周角定理}
+        - {id: MATH-9A-29-1b, strength: hard, reason: 外接圆}
+        - {id: MATH-9A-29-2b, strength: soft, reason: 弦、半径的计算}
+
+- section: MATH-9A-30-1
+  title: 直线与圆
+  page: 148
+  kps:
+  - id: MATH-9A-30-1a
+    title: 用圆心到直线的距离判断位置关系
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 三种位置关系是切线判定的基础，合规真题暂无独立设问。
+    prerequisites:
+    - id: MATH-9A-29-1a
+      strength: hard
+      reason: 认清半径与圆心。
+    - id: MATH-7B-07-1b
+      strength: hard
+      reason: 圆心到直线的距离沿垂线量取。
+    - id: MATH-8B-20-1a
+      strength: soft
+      reason: 用勾股定理求距离。
+  - id: MATH-9A-30-1b
+    title: 切线的性质
+    weight: 重点
+    exam_hits: 9
+    exam_refs:
+    - SZ2022-10
+    - GZ2023-09
+    - GD2023-22(2)①
+    - GD2023-22(2)②
+    - SZ2023-20(1)
+    - GZ2024-24(2)②
+    - SZ2024-18(1)
+    - SZ2024-18(2)
+    - GZ2025-16②
+    weight_note: 合规真题9个设问需要把切线转化为垂直，常与直径、矩形、勾股定理结合。
+    prerequisites:
+    - id: MATH-9A-29-1a
+      strength: hard
+      reason: 连接圆心与切点得到半径。
+    - id: MATH-9A-29-2d
+      strength: hard
+      reason: 直径所对的圆周角是直角。
+    - id: MATH-8B-21-3a
+      strength: soft
+      reason: 用三个直角判定矩形。
+  - id: MATH-9A-30-1c
+    title: 切线的判定
+    weight: 重点
+    exam_hits: 3
+    exam_refs:
+    - SZ2023-20(1)
+    - GD2024-17(2)
+    - GZ2024-24(2)②
+    weight_note: 合规真题3个设问直接要求证明或判断相切，必须区分已知切点和未给切点。
+    prerequisites:
+    - id: MATH-9A-30-1a
+      strength: hard
+      reason: 圆心到直线的距离等于半径时相切。
+    - id: MATH-9A-30-1b
+      strength: hard
+      reason: 已知切线先转成垂直。
+    - id: MATH-8A-14-3a
+      strength: hard
+      reason: 角平分线上的点到两边距离相等。
+  - id: MATH-9A-30-1d
+    title: 圆外一点的切线与切线长定理
+    weight: 重点
+    exam_hits: 3
+    exam_refs:
+    - GZ2023-09
+    - GZ2025-16①
+    - GZ2025-16②
+    weight_note: 合规真题3个设问涉及圆外点或切线长，等长必须对应同一圆、同一圆外点。
+    prerequisites:
+    - id: MATH-9A-30-1b
+      strength: hard
+      reason: 切线与过切点的半径垂直。
+    - id: MATH-9A-29-2d
+      strength: soft
+      reason: 以圆心和圆外点连线为直径作圆。
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 在直角三角形中求切线段或半径。
+  - id: MATH-9A-30-1e
+    title: 圆与圆的位置关系
+    weight: 了解
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 课本阅读与思考内容，合规真题暂无直接设问，不展开综合计算。
+    prerequisites:
+    - id: MATH-9A-29-1a
+      strength: hard
+      reason: 认清两圆的圆心和半径。
+
+- section: MATH-9A-30-2
+  title: 三角形的内切圆
+  page: 158
+  kps:
+  - id: MATH-9A-30-2a
+    title: 内切圆、内心与作图
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 内心是三个内角平分线的交点，是内切圆计算与作图的基础，暂无独立设问。
+    prerequisites:
+    - id: MATH-9A-30-1c
+      strength: hard
+      reason: 圆心到三边距离等于半径时三边相切。
+    - id: MATH-8A-14-3a
+      strength: hard
+      reason: 会作角平分线并用其性质。
+  - id: MATH-9A-30-2b
+    title: 内切圆中的切线段与半径
+    weight: 一般
+    exam_hits: 1
+    exam_refs:
+    - GZ2023-09
+    weight_note: 合规真题1题把三组切线长、半径垂直与圆周角结合，保留准确基础练习，不堆综合题。
+    prerequisites:
+    - id: MATH-9A-30-2a
+      strength: hard
+      reason: 认清三角形的内切圆和内心。
+    - id: MATH-9A-30-1d
+      strength: hard
+      reason: 同一顶点引出的两段切线相等。
+    - id: MATH-9A-29-2d
+      strength: hard
+      reason: 用同弧圆周角与圆心角求角。
+
+- section: MATH-9A-30-3
+  title: 正多边形与圆
+  page: 161
+  kps:
+  - id: MATH-9A-30-3a
+    title: 正多边形的中心、中心角与对称性
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 基础概念决定中心角和边心距的辨认，合规真题暂无直接设问。
+    prerequisites:
+    - id: MATH-9A-29-1a
+      strength: hard
+      reason: 认清半径、弦与外接圆。
+    - id: MATH-8A-13-3a
+      strength: hard
+      reason: 会用三角形内角和推算多边形的角。
+    - id: MATH-8A-15-1a
+      strength: soft
+      reason: 会判断轴对称。
+  - id: MATH-9A-30-3b
+    title: 正多边形中的直角三角形计算
+    weight: 一般
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 圆的半径、边长、边心距可归入直角三角形，合规真题暂无独立设问，不写长篇示范。
+    prerequisites:
+    - id: MATH-9A-30-3a
+      strength: hard
+      reason: 认清中心角、半径和边心距。
+    - id: MATH-9A-29-2a
+      strength: hard
+      reason: 圆心向边作垂线后平分这条弦。
+    - id: MATH-8B-20-1a
+      strength: hard
+      reason: 用勾股定理求边心距。
+  - id: MATH-9A-30-3c
+    title: 圆内接正多边形的作图
+    weight: 了解
+    exam_hits: 0
+    exam_refs: []
+    weight_note: 能按等分圆周理解作图即可，合规真题暂无直接设问。
+    prerequisites:
+    - id: MATH-9A-30-3a
+      strength: hard
+      reason: 正多边形的顶点等分圆周。
+
+# 2026-10-10 八下六章：新增38个知识点，待Claude审核。

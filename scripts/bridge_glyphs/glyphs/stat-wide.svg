@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>数据远离平均线</title>
+  <desc>八点横坐标及坐标系与对比图相同，平均水平精确为 45。静态图。</desc>
+  <path d="M 10 75 L 139 75" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 72 L 139 75 L 135 78" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 19 80 L 19 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 16 14 L 19 10 L 22 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 25 45 L 137 45" fill="none" stroke="#9aa5a8" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <circle cx="29" cy="18" r="3.5" fill="currentColor"/>
+  <circle cx="43" cy="67" r="3.5" fill="currentColor"/>
+  <circle cx="57" cy="13" r="3.5" fill="currentColor"/>
+  <circle cx="71" cy="72" r="3.5" fill="currentColor"/>
+  <circle cx="85" cy="20" r="3.5" fill="currentColor"/>
+  <circle cx="99" cy="70" r="3.5" fill="currentColor"/>
+  <circle cx="113" cy="23" r="3.5" fill="currentColor"/>
+  <circle cx="127" cy="77" r="3.5" fill="currentColor"/>
+</svg>

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 415" role="img" aria-labelledby="dg-t dg-d">
+  <title id="dg-t">金刚石与石墨微观结构及性质对比示意图</title>
+  <desc id="dg-d">展示金刚石正四面体空间网状结构与石墨平面六边形层状结构的微观模型，阐明碳原子排列方式不同决定了物理性质的巨大差异。</desc>
+  <style>
+    .dg-bg { fill: #ffffff; }
+    .dg-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .dg-head { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .dg-panel { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .dg-atom { fill: #455a64; stroke: #263238; stroke-width: 1.2; }
+    .dg-atom-lit { fill: #78909c; stroke: #37474f; stroke-width: 1.2; }
+    .dg-bond-dia { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .dg-bond-gph { fill: none; stroke: #52626a; stroke-width: 2; stroke-linecap: round; }
+    .dg-bond-dash { fill: none; stroke: #b0bec5; stroke-width: 1.4; stroke-dasharray: 3 3; }
+    .dg-box-d { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .dg-box-g { fill: #f5f5f5; stroke: #616161; stroke-width: 1.2; rx: 4px; }
+    .dg-box-sum { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.4; rx: 5px; }
+    .dg-t-name { font: 600 14px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .dg-t-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .dg-t-bold { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .dg-t-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+  </style>
+  <rect class="dg-bg" width="800" height="415"/>
+
+  <!-- Top Banner -->
+  <rect x="20" y="12" width="760" height="34" class="dg-card"/>
+  <text class="dg-head" x="400" y="35" text-anchor="middle">碳单质的微观结构与性质对比（结构决定性质）</text>
+
+  <!-- Left: Diamond Panel (x: 20..390, y: 55..330) -->
+  <rect class="dg-panel" x="20" y="55" width="370" height="265"/>
+  <rect x="30" y="63" width="350" height="24" rx="3" fill="#e8f4fc"/>
+  <text class="dg-t-name" x="205" y="80" text-anchor="middle" fill="#287fc4">金刚石（Diamond）微观空间骨架</text>
+
+  <!-- Diamond Tetrahedral Lattice Model (cx=205, bounded in y: 95..215) -->
+  <!-- Bonds (behind atoms) -->
+  <line class="dg-bond-dia" x1="205" y1="96" x2="205" y2="120"/>
+  <line class="dg-bond-dia" x1="205" y1="120" x2="177" y2="133"/>
+  <line class="dg-bond-dia" x1="205" y1="120" x2="233" y2="133"/>
+  <line class="dg-bond-dia" x1="205" y1="120" x2="217" y2="111"/>
+  <line class="dg-bond-dia" x1="177" y1="133" x2="177" y2="157"/>
+  <line class="dg-bond-dia" x1="233" y1="133" x2="233" y2="157"/>
+  <line class="dg-bond-dia" x1="217" y1="111" x2="217" y2="135"/>
+  <line class="dg-bond-dia" x1="177" y1="157" x2="205" y2="170"/>
+  <line class="dg-bond-dia" x1="233" y1="157" x2="205" y2="170"/>
+  <line class="dg-bond-dia" x1="217" y1="135" x2="189" y2="148"/>
+  <line class="dg-bond-dia" x1="217" y1="135" x2="245" y2="148"/>
+  <line class="dg-bond-dia" x1="177" y1="133" x2="189" y2="148"/>
+  <line class="dg-bond-dia" x1="233" y1="133" x2="245" y2="148"/>
+  <line class="dg-bond-dia" x1="177" y1="157" x2="149" y2="170"/>
+  <line class="dg-bond-dia" x1="149" y1="170" x2="149" y2="194"/>
+  <line class="dg-bond-dia" x1="149" y1="194" x2="121" y2="207"/>
+  <line class="dg-bond-dia" x1="149" y1="194" x2="177" y2="207"/>
+  <line class="dg-bond-dia" x1="233" y1="157" x2="261" y2="170"/>
+  <line class="dg-bond-dia" x1="261" y1="170" x2="261" y2="194"/>
+  <line class="dg-bond-dia" x1="261" y1="194" x2="289" y2="207"/>
+  <line class="dg-bond-dia" x1="261" y1="194" x2="233" y2="207"/>
+  <line class="dg-bond-dia" x1="205" y1="170" x2="205" y2="194"/>
+  <line class="dg-bond-dia" x1="205" y1="194" x2="177" y2="207"/>
+  <line class="dg-bond-dia" x1="205" y1="194" x2="233" y2="207"/>
+  <line class="dg-bond-dia" x1="205" y1="194" x2="217" y2="185"/>
+  <line class="dg-bond-dia" x1="189" y1="148" x2="189" y2="172"/>
+  <line class="dg-bond-dia" x1="245" y1="148" x2="245" y2="172"/>
+  <line class="dg-bond-dia" x1="189" y1="172" x2="217" y2="185"/>
+  <line class="dg-bond-dia" x1="245" y1="172" x2="217" y2="185"/>
+
+  <!-- Atoms (Spheres) -->
+  <circle cx="205" cy="96" r="5.5" class="dg-atom"/>
+  <circle cx="217" cy="111" r="5" class="dg-atom"/>
+  <circle cx="205" cy="120" r="5.5" class="dg-atom-lit"/>
+  <circle cx="177" cy="133" r="5.5" class="dg-atom"/>
+  <circle cx="233" cy="133" r="5.5" class="dg-atom"/>
+  <circle cx="217" cy="135" r="5" class="dg-atom"/>
+  <circle cx="189" cy="148" r="5" class="dg-atom"/>
+  <circle cx="245" cy="148" r="5" class="dg-atom"/>
+  <circle cx="177" cy="157" r="5.5" class="dg-atom"/>
+  <circle cx="233" cy="157" r="5.5" class="dg-atom"/>
+  <circle cx="149" cy="170" r="5.5" class="dg-atom"/>
+  <circle cx="205" cy="170" r="5.5" class="dg-atom-lit"/>
+  <circle cx="261" cy="170" r="5.5" class="dg-atom"/>
+  <circle cx="189" cy="172" r="5" class="dg-atom"/>
+  <circle cx="245" cy="172" r="5" class="dg-atom"/>
+  <circle cx="217" cy="185" r="5" class="dg-atom"/>
+  <circle cx="149" cy="194" r="5.5" class="dg-atom"/>
+  <circle cx="205" cy="194" r="5.5" class="dg-atom"/>
+  <circle cx="261" cy="194" r="5.5" class="dg-atom"/>
+  <circle cx="121" cy="207" r="5.5" class="dg-atom"/>
+  <circle cx="177" cy="207" r="5.5" class="dg-atom"/>
+  <circle cx="233" cy="207" r="5.5" class="dg-atom"/>
+  <circle cx="289" cy="207" r="5.5" class="dg-atom"/>
+
+  <!-- Diamond Info Box (y: 226..310) -->
+  <rect class="dg-box-d" x="30" y="226" width="350" height="84"/>
+  <text class="dg-t-bold" x="38" y="244">【结构】空间三维正四面体网状结构（紧密牢固）</text>
+  <text class="dg-t-sub" x="38" y="264">【性质】天然存在的最硬物质，无色透明，不导电</text>
+  <text class="dg-t-sub" x="38" y="284">【用途】裁玻璃刀头、钻探钻头、装饰品钻石</text>
+  <text class="dg-t-emp" x="38" y="302">【考点】无自由移动电子，属于绝缘体</text>
+
+  <!-- Right: Graphite Panel (x: 410..780, y: 55..330) -->
+  <rect class="dg-panel" x="410" y="55" width="370" height="265"/>
+  <rect x="420" y="63" width="350" height="24" rx="3" fill="#f5f5f5"/>
+  <text class="dg-t-name" x="595" y="80" text-anchor="middle" fill="#455a64">石墨（Graphite）微观平面层状</text>
+
+  <!-- Graphite Layered Model (x: 440..730, y: 95..215) -->
+  <!-- Interlayer dashed lines -->
+  <line class="dg-bond-dash" x1="470" y1="108" x2="470" y2="168"/>
+  <line class="dg-bond-dash" x1="510" y1="98" x2="510" y2="158"/>
+  <line class="dg-bond-dash" x1="555" y1="98" x2="555" y2="158"/>
+  <line class="dg-bond-dash" x1="595" y1="108" x2="595" y2="168"/>
+  <line class="dg-bond-dash" x1="635" y1="98" x2="635" y2="158"/>
+  <line class="dg-bond-dash" x1="680" y1="98" x2="680" y2="158"/>
+  <line class="dg-bond-dash" x1="715" y1="108" x2="715" y2="168"/>
+
+  <line class="dg-bond-dash" x1="450" y1="126" x2="450" y2="186"/>
+  <line class="dg-bond-dash" x1="490" y1="136" x2="490" y2="196"/>
+  <line class="dg-bond-dash" x1="535" y1="136" x2="535" y2="196"/>
+  <line class="dg-bond-dash" x1="575" y1="126" x2="575" y2="186"/>
+  <line class="dg-bond-dash" x1="615" y1="136" x2="615" y2="196"/>
+  <line class="dg-bond-dash" x1="660" y1="136" x2="660" y2="196"/>
+  <line class="dg-bond-dash" x1="700" y1="126" x2="700" y2="186"/>
+
+  <!-- Layer 1 solid hexagonal bonds -->
+  <polygon points="470,108 510,98 555,98 575,126 535,136 490,136" fill="none" stroke="#52626a" stroke-width="2"/>
+  <line class="dg-bond-gph" x1="470" y1="108" x2="450" y2="126"/>
+  <line class="dg-bond-gph" x1="450" y1="126" x2="490" y2="136"/>
+  <polygon points="555,98 595,108 615,136 575,126" fill="none" stroke="#52626a" stroke-width="2"/>
+  <polygon points="595,108 635,98 680,98 700,126 660,136 615,136" fill="none" stroke="#52626a" stroke-width="2"/>
+  <line class="dg-bond-gph" x1="680" y1="98" x2="715" y2="108"/>
+  <line class="dg-bond-gph" x1="715" y1="108" x2="700" y2="126"/>
+
+  <!-- Layer 2 solid hexagonal bonds -->
+  <polygon points="470,168 510,158 555,158 575,186 535,196 490,196" fill="none" stroke="#52626a" stroke-width="2"/>
+  <line class="dg-bond-gph" x1="470" y1="168" x2="450" y2="186"/>
+  <line class="dg-bond-gph" x1="450" y1="186" x2="490" y2="196"/>
+  <polygon points="555,158 595,168 615,196 575,186" fill="none" stroke="#52626a" stroke-width="2"/>
+  <polygon points="595,168 635,158 680,158 700,186 660,196 615,196" fill="none" stroke="#52626a" stroke-width="2"/>
+  <line class="dg-bond-gph" x1="680" y1="158" x2="715" y2="168"/>
+  <line class="dg-bond-gph" x1="715" y1="168" x2="700" y2="186"/>
+
+  <!-- Atoms Layer 1 -->
+  <circle cx="470" cy="108" r="5" class="dg-atom"/>
+  <circle cx="510" cy="98" r="5" class="dg-atom"/>
+  <circle cx="555" cy="98" r="5" class="dg-atom"/>
+  <circle cx="595" cy="108" r="5" class="dg-atom"/>
+  <circle cx="635" cy="98" r="5" class="dg-atom"/>
+  <circle cx="680" cy="98" r="5" class="dg-atom"/>
+  <circle cx="715" cy="108" r="5" class="dg-atom"/>
+
+  <circle cx="450" cy="126" r="5" class="dg-atom"/>
+  <circle cx="490" cy="136" r="5" class="dg-atom"/>
+  <circle cx="535" cy="136" r="5" class="dg-atom"/>
+  <circle cx="575" cy="126" r="5" class="dg-atom"/>
+  <circle cx="615" cy="136" r="5" class="dg-atom"/>
+  <circle cx="660" cy="136" r="5" class="dg-atom"/>
+  <circle cx="700" cy="126" r="5" class="dg-atom"/>
+
+  <!-- Atoms Layer 2 -->
+  <circle cx="470" cy="168" r="5" class="dg-atom"/>
+  <circle cx="510" cy="158" r="5" class="dg-atom"/>
+  <circle cx="555" cy="158" r="5" class="dg-atom"/>
+  <circle cx="595" cy="168" r="5" class="dg-atom"/>
+  <circle cx="635" cy="158" r="5" class="dg-atom"/>
+  <circle cx="680" cy="158" r="5" class="dg-atom"/>
+  <circle cx="715" cy="168" r="5" class="dg-atom"/>
+
+  <circle cx="450" cy="186" r="5" class="dg-atom"/>
+  <circle cx="490" cy="196" r="5" class="dg-atom"/>
+  <circle cx="535" cy="196" r="5" class="dg-atom"/>
+  <circle cx="575" cy="186" r="5" class="dg-atom"/>
+  <circle cx="615" cy="196" r="5" class="dg-atom"/>
+  <circle cx="660" cy="196" r="5" class="dg-atom"/>
+  <circle cx="700" cy="186" r="5" class="dg-atom"/>
+
+  <!-- Layer annotations on right margin -->
+  <text class="dg-t-sub" x="726" y="112">第一层</text>
+  <text class="dg-t-emp" x="726" y="142">层间作用弱</text>
+  <text class="dg-t-sub" x="726" y="172">第二层</text>
+
+  <!-- Graphite Info Box (y: 226..310) -->
+  <rect class="dg-box-g" x="420" y="226" width="350" height="84"/>
+  <text class="dg-t-bold" x="428" y="244">【结构】平面正六边形层状结构，层间作用力弱</text>
+  <text class="dg-t-sub" x="428" y="264">【性质】质软、滑腻感、优良导电性、熔点高</text>
+  <text class="dg-t-sub" x="428" y="284">【用途】铅笔芯、高温润滑剂、电极（干电池/高铁）</text>
+  <text class="dg-t-emp" x="428" y="302">【考点】层间易滑移，能导电</text>
+
+  <!-- Bottom: Core Summary Banner (x: 20..780, y: 330..400) -->
+  <rect class="dg-box-sum" x="20" y="330" width="760" height="72"/>
+  <text class="dg-t-emp" x="400" y="352" text-anchor="middle" font-size="13">初中化学核心规律：碳原子的排列方式不同，决定了物理性质的巨大差异</text>
+  <text class="dg-t-sub" x="400" y="372" text-anchor="middle">① 物理性质差异巨大：金刚石最硬 vs 石墨质软导电；② 化学性质基本相同：常温稳定，点燃均生成 CO₂（同素异形体）</text>
+  <text class="dg-t-bold" x="400" y="390" text-anchor="middle" fill="#52626a">防错提醒：金刚石转化为石墨有新物质生成，属于化学变化；金刚石和石墨是两种不同的物质</text>
+</svg>

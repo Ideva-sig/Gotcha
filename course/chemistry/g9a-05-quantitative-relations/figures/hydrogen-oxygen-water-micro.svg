@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 405" role="img" aria-labelledby="h2o-t h2o-d">
+  <title id="h2o-t">氢气与氧气反应生成水的微观示意图</title>
+  <desc id="h2o-d">从微观粒子视角展示氢分子与氧分子破裂成氢原子和氧原子，再重新组合成水分子的全过程，阐释化学反应微观本质及质量守恒定律的原因。</desc>
+  <style>
+    .h2o-bg { fill: #ffffff; }
+    .h2o-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .h2o-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2o-sec-title { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2o-label { font: 600 12px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2o-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .h2o-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .h2o-atom-o { fill: #c9554d; stroke: #99332c; stroke-width: 1.5; }
+    .h2o-atom-h { fill: #eef2f5; stroke: #52626a; stroke-width: 1.4; }
+    .h2o-txt-o { font: 700 13px -apple-system, "PingFang SC", sans-serif; fill: #ffffff; }
+    .h2o-txt-h { font: 700 11px -apple-system, "PingFang SC", sans-serif; fill: #37474f; }
+    .h2o-arrow { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .h2o-step-card { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .h2o-subcard-g { fill: #f4faf6; stroke: #197a60; stroke-width: 1.2; rx: 4px; }
+    .h2o-subcard-y { fill: #fffdf5; stroke: #bf8d08; stroke-width: 1.2; rx: 4px; }
+    .h2o-subcard-r { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="h2o-bg" width="780" height="405"/>
+
+  <!-- Top Banner -->
+  <rect x="20" y="12" width="740" height="34" class="h2o-card"/>
+  <text class="h2o-title" x="390" y="35" text-anchor="middle">氢气与氧气反应生成水的微观过程与质量守恒本质</text>
+
+  <!-- Stage 1: 反应物分子 (x: 20..245, y: 55..235) -->
+  <rect class="h2o-step-card" x="20" y="55" width="225" height="180"/>
+  <rect x="30" y="63" width="205" height="22" rx="3" fill="#e8f4fc"/>
+  <text class="h2o-sec-title" x="132" y="79" text-anchor="middle" fill="#287fc4">1. 反应物分子（2H₂ ＋ O₂）</text>
+
+  <!-- H2 molecules (2 pairs) -->
+  <!-- H2 pair 1: cx=65 -->
+  <circle cx="65" cy="115" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="65" y="119" text-anchor="middle">H</text>
+  <circle cx="65" cy="137" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="65" y="141" text-anchor="middle">H</text>
+
+  <!-- H2 pair 2: cx=100 -->
+  <circle cx="100" cy="115" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="100" y="119" text-anchor="middle">H</text>
+  <circle cx="100" cy="137" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="100" y="141" text-anchor="middle">H</text>
+
+  <!-- Plus sign -->
+  <text class="h2o-title" x="132" y="132" text-anchor="middle" fill="#52626a">＋</text>
+
+  <!-- O2 molecule (1 pair): cx=175 -->
+  <circle cx="175" cy="112" r="17" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="175" y="117" text-anchor="middle">O</text>
+  <circle cx="175" cy="144" r="17" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="175" y="149" text-anchor="middle">O</text>
+
+  <!-- Stage 1 labels -->
+  <text class="h2o-sub" x="82" y="176" text-anchor="middle">2 个氢分子 (2H₂)</text>
+  <text class="h2o-sub" x="175" y="176" text-anchor="middle">1 个氧分子 (O₂)</text>
+  <text class="h2o-emp" x="132" y="204" text-anchor="middle">分子总数：3 个反应物分子</text>
+
+  <!-- Transition 1 (Arrow & Text) -->
+  <path class="h2o-arrow" d="M 252 145 L 275 145"/>
+  <polygon points="275,141 282,145 275,149" fill="#287fc4"/>
+  <text class="h2o-label" x="267" y="132" text-anchor="middle" fill="#287fc4">破裂</text>
+
+  <!-- Stage 2: 分子分裂为原子 (x: 290..485, y: 55..235) -->
+  <rect class="h2o-step-card" x="290" y="55" width="195" height="180"/>
+  <rect x="300" y="63" width="175" height="22" rx="3" fill="#fff8e6"/>
+  <text class="h2o-sec-title" x="387" y="79" text-anchor="middle" fill="#bf8d08">2. 分裂为原子（4H ＋ 2O）</text>
+
+  <!-- 4 H atoms separated -->
+  <circle cx="328" cy="112" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="328" y="116" text-anchor="middle">H</text>
+  <circle cx="360" cy="112" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="360" y="116" text-anchor="middle">H</text>
+  <circle cx="328" cy="142" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="328" y="146" text-anchor="middle">H</text>
+  <circle cx="360" cy="142" r="12" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="360" y="146" text-anchor="middle">H</text>
+
+  <!-- 2 O atoms separated -->
+  <circle cx="415" cy="127" r="16" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="415" y="132" text-anchor="middle">O</text>
+  <circle cx="455" cy="127" r="16" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="455" y="132" text-anchor="middle">O</text>
+
+  <!-- Stage 2 labels -->
+  <text class="h2o-sub" x="387" y="174" text-anchor="middle">共 4 个氢原子 ＋ 2 个氧原子</text>
+  <text class="h2o-emp" x="387" y="196" text-anchor="middle">原子是化学变化中的最小粒子</text>
+  <text class="h2o-sub" x="387" y="218" text-anchor="middle">化学变化中分子可分，原子不可分</text>
+
+  <!-- Transition 2 (Arrow & Text) -->
+  <path class="h2o-arrow" d="M 492 145 L 515 145"/>
+  <polygon points="515,141 522,145 515,149" fill="#287fc4"/>
+  <text class="h2o-label" x="507" y="132" text-anchor="middle" fill="#287fc4">重组</text>
+
+  <!-- Stage 3: 生成物分子 (x: 530..760, y: 55..235) -->
+  <rect class="h2o-step-card" x="530" y="55" width="230" height="180"/>
+  <rect x="540" y="63" width="210" height="22" rx="3" fill="#e8f5e9"/>
+  <text class="h2o-sec-title" x="645" y="79" text-anchor="middle" fill="#197a60">3. 重组成水分子（2H₂O）</text>
+
+  <!-- H2O molecule 1 (cx=585, cy=128) -->
+  <circle cx="585" cy="128" r="16" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="585" y="133" text-anchor="middle">O</text>
+  <!-- H attached top-right -->
+  <circle cx="600" cy="113" r="10" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="600" y="117" text-anchor="middle">H</text>
+  <!-- H attached bottom-right -->
+  <circle cx="600" cy="143" r="10" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="600" y="147" text-anchor="middle">H</text>
+
+  <!-- H2O molecule 2 (cx=685, cy=128) -->
+  <circle cx="685" cy="128" r="16" class="h2o-atom-o"/>
+  <text class="h2o-txt-o" x="685" y="133" text-anchor="middle">O</text>
+  <!-- H attached top-left -->
+  <circle cx="670" cy="113" r="10" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="670" y="117" text-anchor="middle">H</text>
+  <!-- H attached bottom-left -->
+  <circle cx="670" cy="143" r="10" class="h2o-atom-h"/>
+  <text class="h2o-txt-h" x="670" y="147" text-anchor="middle">H</text>
+
+  <!-- Stage 3 labels -->
+  <text class="h2o-sub" x="645" y="174" text-anchor="middle">生成 2 个水分子 (2H₂O)</text>
+  <text class="h2o-emp" x="645" y="196" text-anchor="middle">分子总数：由 3 变为 2（数目减少）</text>
+  <text class="h2o-sub" x="645" y="218" text-anchor="middle">每个水分子由 1个O原子与2个H原子构成</text>
+
+  <!-- Bottom: Summary Cards Container (x: 20..760, y: 248..395) -->
+  <rect class="h2o-card" x="20" y="248" width="740" height="146"/>
+
+  <!-- Col 1: 微观本质（三个不变） -->
+  <rect class="h2o-subcard-g" x="30" y="260" width="345" height="122"/>
+  <text class="h2o-sec-title" x="202" y="280" text-anchor="middle" fill="#197a60">微观本质：反应前后“三个不变”</text>
+  <text class="h2o-sub" x="42" y="304">① 原子的种类不变（反应前后仍为氢原子和氧原子）</text>
+  <text class="h2o-sub" x="42" y="326">② 原子的数目不变（4 个氢原子，2 个氧原子）</text>
+  <text class="h2o-sub" x="42" y="348">③ 原子的质量不变（各原子的真实质量均未改变）</text>
+  <text class="h2o-emp" x="42" y="370">核心结论：原子的种类、数目和质量不变是质量守恒的原因</text>
+
+  <!-- Col 2: 分子与物质（变与可能变） -->
+  <rect class="h2o-subcard-y" x="395" y="260" width="355" height="122"/>
+  <text class="h2o-sec-title" x="572" y="280" text-anchor="middle" fill="#bf8d08">分子与物质：变与可能变</text>
+  <text class="h2o-sub" x="408" y="304">① 分子种类一定变：氢分子、氧分子 → 水分子（新物质）</text>
+  <text class="h2o-sub" x="408" y="326">② 物质种类一定变：化学变化的本质特征是有新物质生成</text>
+  <text class="h2o-sub" x="408" y="348">③ 分子数目可能变：本反应由 3 个分子变为 2 个水分子</text>
+  <text class="h2o-emp" x="408" y="370">反应表达式：2H₂ ＋ O₂ → 2H₂O（点燃）</text>
+</svg>

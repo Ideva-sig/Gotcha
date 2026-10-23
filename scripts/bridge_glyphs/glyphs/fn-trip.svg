@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>离家距离随时间变化</title>
+  <desc>折线依次表示离家、停留、继续远离、返回家中；红色水平段表示停留。静态图。</desc>
+  <path d="M 10 74 L 139 74" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 71 L 139 74 L 135 77" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 20 80 L 20 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 17 14 L 20 10 L 23 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 20 74 L 47 43 L 74 43 L 101 18 L 130 74" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 47 43 L 74 43" fill="none" stroke="#c9554d" stroke-width="4"/>
+  <text x="132" y="66" fill="#2b3a3f" font-size="13" font-family="sans-serif">t</text><text x="8" y="23" fill="#2b3a3f" font-size="13" font-family="sans-serif">s</text>
+</svg>

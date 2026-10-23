@@ -1,0 +1,140 @@
+/* 回溯区：只用细分隔线和淡底色，不加彩色边条、不套卡片 */
+.trace {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border-strong);
+}
+
+.marks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.current {
+  border-radius: 999px;
+  box-shadow: 0 0 0 3px var(--tint-yellow);
+}
+
+.step {
+  display: grid;
+  gap: 12px;
+}
+
+.ask {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--tint-yellow);
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.ask a,
+.route a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.selfCheck {
+  display: grid;
+  gap: 10px;
+}
+
+.selfLead {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.selfCheck ul {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.selfCheck li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-strong);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+}
+
+.actions button {
+  min-height: 44px;
+}
+
+.after {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.result {
+  display: grid;
+  gap: 12px;
+}
+
+.verdict {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--tint-green);
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.route {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.route li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  padding: 4px 0 4px 18px;
+  border-left: 2px solid var(--border-strong);
+}
+
+.route li[data-last="true"] {
+  border-left-style: dashed;
+}
+
+.routeNote {
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.parent {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--tint-coral);
+  font-size: 14px;
+}

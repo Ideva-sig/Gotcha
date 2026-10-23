@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 400" role="img" aria-labelledby="char-t char-d">
+  <title id="char-t">木炭还原氧化铜实验装置</title>
+  <desc id="char-d">木炭与氧化铜粉末在试管中用酒精喷灯高温加热，管口略向下倾斜，生成气体通入澄清石灰水检验。</desc>
+  <style>
+    .char-bg { fill: #ffffff; }
+    .char-stand { fill: #52626a; stroke: #37474f; stroke-width: 2; }
+    .char-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .char-plug { fill: #8d6e63; stroke: #5d4037; stroke-width: 1.4; }
+    .char-tube { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .char-powder { fill: #263238; stroke: #000000; stroke-width: 1; }
+    .char-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .char-inner-flame { fill: #ffe082; }
+    .char-burner { fill: #eceff1; stroke: #52626a; stroke-width: 1.8; }
+    .char-limewater { fill: #e8f5e9; stroke: #197a60; stroke-width: 1.2; fill-opacity: 0.8; }
+    .char-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .char-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .char-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .char-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .char-badge { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .char-chem { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+  </style>
+  <rect class="char-bg" width="740" height="400"/>
+
+  <!-- Left: Main Apparatus -->
+  <!-- Iron stand 1 on left -->
+  <rect class="char-stand" x="15" y="360" width="100" height="14" rx="2"/>
+  <rect class="char-stand" x="35" y="60" width="8" height="300"/>
+  <!-- Clamp on rod 1 -->
+  <rect x="31" y="160" width="16" height="12" fill="#37474f"/>
+  <path d="M 47 166 L 95 166" stroke="#52626a" stroke-width="3"/>
+
+  <!-- Alcohol Blowtorch at x=185, y=250..350 -->
+  <path class="char-burner" d="M 170 350 L 170 305 L 180 295 L 180 275 L 190 275 L 190 295 L 200 305 L 200 350 Z"/>
+  <!-- Wire gauze around flame -->
+  <rect x="175" y="245" width="20" height="28" fill="none" stroke="#78909c" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <!-- Flame heating bottom of test tube -->
+  <path class="char-flame" d="M 185 275 C 175 255 178 230 185 210 C 192 230 195 255 185 275 Z"/>
+  <path class="char-inner-flame" d="M 185 272 C 180 255 182 240 185 225 C 188 240 190 255 185 272 Z"/>
+
+  <!-- Tilted Test Tube (Hard glass) -->
+  <!-- Mouth at x=80, y=190; Bottom at x=200, y=170 -->
+  <!-- Slight downward tilt (mouth lower than bottom: mouth y=190, bottom y=170) -->
+  <g transform="translate(140, 180) rotate(9)">
+    <!-- Tube body: width 24, length 120 -->
+    <path class="char-glass" d="M -60 -12 L 50 -12 Q 62 -12 62 0 Q 62 12 50 12 L -60 12 Z"/>
+    <ellipse cx="-60" cy="0" rx="4" ry="12" class="char-glass"/>
+    <!-- Black mixed powder C + CuO -->
+    <path class="char-powder" d="M 25 -10 L 50 -10 Q 60 -10 60 0 Q 60 10 50 10 L 25 10 Z"/>
+    <!-- Rubber stopper at mouth -->
+    <polygon class="char-plug" points="-62,-11 -46,-11 -46,11 -62,11"/>
+    <!-- Glass delivery tube through stopper -->
+    <path class="char-tube" d="M -42 0 L -72 0"/>
+  </g>
+
+  <!-- Delivery Tube to Limewater Tube -->
+  <!-- From stopper outlet at (68, 191) down slightly then up to top rail -->
+  <path class="char-tube" d="M 68 191 L 55 191 L 55 115 L 285 115 L 285 280"/>
+
+  <!-- Right: Test Tube with Clear Limewater (x=273..297, y=210..330) -->
+  <rect class="char-stand" x="310" y="360" width="70" height="14" rx="2"/>
+  <rect class="char-stand" x="330" y="210" width="6" height="150"/>
+  <rect x="326" y="250" width="14" height="10" fill="#37474f"/>
+  <path d="M 326 255 L 297 255" stroke="#52626a" stroke-width="3"/>
+
+  <!-- Test Tube -->
+  <rect class="char-glass" x="274" y="210" width="22" height="115" rx="10"/>
+  <!-- Clear Limewater -->
+  <rect class="char-limewater" x="275" y="255" width="20" height="68" rx="8"/>
+  <line x1="275" y1="255" x2="295" y2="255" stroke="#197a60" stroke-width="1.2"/>
+  <!-- Bubbles -->
+  <circle cx="285" cy="275" r="2" fill="#ffffff" stroke="#197a60" stroke-width="1"/>
+  <circle cx="287" cy="295" r="2.2" fill="#ffffff" stroke="#197a60" stroke-width="1"/>
+
+  <!-- Callout Box 1: Downward Mouth (bottom-left) -->
+  <rect x="25" y="235" width="135" height="52" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="char-label" x="92" y="254" text-anchor="middle">管口略向下倾斜</text>
+  <text class="char-sub" x="92" y="273" text-anchor="middle">防冷凝水倒流炸裂试管</text>
+  <line x1="92" y1="235" x2="80" y2="205" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Callout Box 2: Powder (top-center) -->
+  <rect x="135" y="55" width="130" height="48" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="char-label" x="200" y="74" text-anchor="middle">木炭粉 ＋ 氧化铜</text>
+  <text class="char-sub" x="200" y="91" text-anchor="middle">黑色固体混合均匀</text>
+  <line x1="200" y1="103" x2="200" y2="165" stroke="#7d8990" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Callout Box 3: Limewater (above right tube) -->
+  <rect x="235" y="145" width="105" height="48" rx="4" fill="#ffffff" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="char-label" x="287" y="164" text-anchor="middle">澄清石灰水</text>
+  <text class="char-sub" x="287" y="181" text-anchor="middle">检验 CO₂（变浑浊）</text>
+
+  <!-- Blowtorch label below burner -->
+  <text class="char-sub" x="185" y="380" text-anchor="middle">酒精喷灯（提供高温）</text>
+
+  <!-- Right Side Explanatory Card -->
+  <rect class="char-card" x="400" y="25" width="320" height="350"/>
+  <text class="char-title" x="560" y="52" text-anchor="middle">木炭还原氧化铜核心要点</text>
+
+  <!-- Reaction Formula Banner -->
+  <rect class="char-badge" x="415" y="70" width="290" height="42"/>
+  <text class="char-chem" x="560" y="96" text-anchor="middle">2CuO ＋ C → 2Cu ＋ CO₂↑（高温）</text>
+
+  <!-- Reaction Roles -->
+  <text class="char-label" x="415" y="136">氧化与还原分析：</text>
+  <text class="char-sub" x="415" y="156">• <tspan font-weight="600">C（还原剂）</tspan>：夺取氧，发生氧化反应</text>
+  <text class="char-sub" x="415" y="174">• <tspan font-weight="600">CuO（氧化剂）</tspan>：失去氧被还原，发生还原反应</text>
+
+  <!-- Experimental Phenomenon -->
+  <text class="char-label" x="415" y="206">实验现象：</text>
+  <text class="char-sub" x="415" y="226">① 试管内黑色粉末逐渐变为<tspan font-weight="600" fill="#c9554d">紫红色单质铜</tspan></text>
+  <text class="char-sub" x="415" y="244">② 澄清石灰水变浑浊（生成了 CO₂）</text>
+
+  <!-- Safe Operation Instructions -->
+  <text class="char-label" x="415" y="276">安全操作关键（防倒吸与防氧化）：</text>
+  <text class="char-sub" x="415" y="296">① 实验结束时，<tspan font-weight="600" fill="#c9554d">先撤出导管，再熄灭酒精喷灯</tspan></text>
+  <text class="char-sub" x="430" y="314">（防止试管内降温气压变小，石灰水倒吸炸裂试管）</text>
+  <text class="char-sub" x="415" y="336">② 待试管冷却后再倒出粉末（防热铜被空气氧化）</text>
+</svg>

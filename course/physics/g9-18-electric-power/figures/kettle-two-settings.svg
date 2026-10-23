@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="ket-t ket-d">
+  <title id="ket-t">电热水壶两种挡位时接入电路的电阻</title>
+  <desc id="ket-d">照课本图 18-3。左：S2 接 1，电流不经过 R2，只有 R1 接入电路，是加热状态。右：S2 接 2，R1 与 R2 串联，是保温状态。蓝色是有电流通过的路径，浅灰色部分没有电流。S1 是总开关，闭合。静态图。</desc>
+  <style>.ket-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.ket-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="660" height="300" fill="#fff" stroke="none"/>
+  <path d="M40 60L90 60L40 60L40 224" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M140 36L280 36L280 84" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M140 84L280 84" stroke="#bec9ce" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M280 84L280 224L120 224" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <rect x="190" y="78" width="40" height="12" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="274" y="130" width="12" height="40" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="183" y="220" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M183 224L221 219" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="183" cy="224" r="2.4" fill="#20272b"/>
+  <circle cx="217" cy="224" r="2.4" fill="#20272b"/>
+  <path d="M90 60L140 36" stroke="#20272b" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="90" cy="60" r="3" fill="#20272b"/>
+  <circle cx="140" cy="36" r="3" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="140" cy="84" r="3" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="40" cy="232" r="3.5" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="120" cy="232" r="3.5" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <path d="M40 224L40 228.5" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M120 224L120 228.5" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="280" cy="84" r="3.6" fill="#20272b"/>
+  <text class="ket-lb" x="80" y="252" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">220 V</text>
+  <text class="ket-lb" x="148" y="30" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">1</text>
+  <text class="ket-lb" x="148" y="104" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">2</text>
+  <text class="ket-sy" x="84" y="48" text-anchor="end" style="fill:#20272b;font-size:16px">S<tspan font-size="11" dy="4" font-style="normal">2</tspan></text>
+  <text class="ket-sy" x="210" y="112" text-anchor="middle" style="fill:#20272b;font-size:16px">R<tspan font-size="11" dy="4" font-style="normal">2</tspan></text>
+  <text class="ket-sy" x="298" y="156" text-anchor="start" style="fill:#20272b;font-size:16px">R<tspan font-size="11" dy="4" font-style="normal">1</tspan></text>
+  <text class="ket-sy" x="200" y="212" text-anchor="middle" style="fill:#20272b;font-size:16px">S<tspan font-size="11" dy="4" font-style="normal">1</tspan></text>
+  <text class="ket-lb" x="160" y="284" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">S₂ 接 1：只有 R₁（加热）</text>
+  <path d="M370 60L420 60L370 60L370 224" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M470 36L610 36L610 84" stroke="#bec9ce" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M470 84L610 84" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M610 84L610 224L450 224" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <rect x="520" y="78" width="40" height="12" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="604" y="130" width="12" height="40" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="513" y="220" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M513 224L551 219" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="513" cy="224" r="2.4" fill="#20272b"/>
+  <circle cx="547" cy="224" r="2.4" fill="#20272b"/>
+  <path d="M420 60L470 84" stroke="#20272b" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="420" cy="60" r="3" fill="#20272b"/>
+  <circle cx="470" cy="36" r="3" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="470" cy="84" r="3" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="370" cy="232" r="3.5" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <circle cx="450" cy="232" r="3.5" fill="#fff" stroke="#20272b" stroke-width="1.6"/>
+  <path d="M370 224L370 228.5" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M450 224L450 228.5" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="610" cy="84" r="3.6" fill="#20272b"/>
+  <text class="ket-lb" x="410" y="252" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">220 V</text>
+  <text class="ket-lb" x="478" y="30" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">1</text>
+  <text class="ket-lb" x="478" y="104" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">2</text>
+  <text class="ket-sy" x="414" y="48" text-anchor="end" style="fill:#20272b;font-size:16px">S<tspan font-size="11" dy="4" font-style="normal">2</tspan></text>
+  <text class="ket-sy" x="540" y="112" text-anchor="middle" style="fill:#20272b;font-size:16px">R<tspan font-size="11" dy="4" font-style="normal">2</tspan></text>
+  <text class="ket-sy" x="628" y="156" text-anchor="start" style="fill:#20272b;font-size:16px">R<tspan font-size="11" dy="4" font-style="normal">1</tspan></text>
+  <text class="ket-sy" x="530" y="212" text-anchor="middle" style="fill:#20272b;font-size:16px">S<tspan font-size="11" dy="4" font-style="normal">1</tspan></text>
+  <text class="ket-lb" x="490" y="284" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">S₂ 接 2：R₁、R₂ 串联（保温）</text>
+</svg>

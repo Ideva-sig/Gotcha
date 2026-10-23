@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="origin-symmetry-28-2c-t origin-symmetry-28-2c-d">
+  <title id="origin-symmetry-28-2c-t">关于原点对称的点的坐标规律</title>
+  <desc id="origin-symmetry-28-2c-d">第一步描出点A(3,1)及到两轴的投影；第二步连结AA'并反向等长延长到A'(-3,-1)，经过原点O且OA=OA'；第三步作A'到两轴投影，横坐标3到-3标蓝色短箭头，纵坐标1到-1标绿色短箭头，归纳出(x,y)到(-x,-y)的规律。数轴负号逐个核对，不用本图颜色表示正确或错误。</desc>
+  <style>.origin-symmetry-28-2c-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.origin-symmetry-28-2c-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="440" fill="#fff" stroke="none"/>
+  <path d="M45 220L439.4 220" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M445 220L438 223.2L438 216.8Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M245 395L245 50.6" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M245 45L248.2 52L241.8 52Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="origin-symmetry-28-2c-math" x="455" y="225" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="235" y="36" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="231" y="240" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <path d="M107 217L107 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="107" y="212" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−3</tspan></text>
+  <path d="M153 217L153 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="153" y="212" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan></text>
+  <path d="M199 217L199 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="199" y="212" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−1</tspan></text>
+  <path d="M291 217L291 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="291" y="238" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1</tspan></text>
+  <path d="M337 217L337 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="337" y="238" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M383 217L383 223" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="383" y="238" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3</tspan></text>
+  <path d="M242 312L248 312" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="237" y="317" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan></text>
+  <path d="M242 266L248 266" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="253" y="271" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−1</tspan></text>
+  <path d="M242 174L248 174" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="237" y="179" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1</tspan></text>
+  <path d="M242 128L248 128" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="origin-symmetry-28-2c-math" x="237" y="133" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <g data-step="1">
+  <path d="M383 174L383 220" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M383 213L376 213L376 220" stroke="#287fc4" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
+  <path d="M383 174L245 174" stroke="#197a60" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M252 174L252 181L245 181" stroke="#197a60" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
+  <circle cx="383" cy="174" r="3.8" fill="#20272b"/>
+  <text class="origin-symmetry-28-2c-math" x="391" y="168" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(3, 1)</tspan></text>
+  <text class="origin-symmetry-28-2c-lb" x="485" y="68" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">1. 描点与投影</text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="98" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 点 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(3, 1)</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="122" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 横向投影 </tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 3</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="146" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 纵向投影 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 1</tspan></text>
+  </g>
+  <g data-step="2">
+  <path d="M383 174L107 266" stroke="#20272b" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M311 194L317 200" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M173 240L179 246" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="107" cy="266" r="3.8" fill="#20272b"/>
+  <text class="origin-symmetry-28-2c-math" x="99" y="284" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′(−3, −1)</tspan></text>
+  <text class="origin-symmetry-28-2c-lb" x="485" y="186" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">2. 绕原点旋转 180°</text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="214" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 连结 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">AA</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 经过原点 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="238" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 原点是 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">AA</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 的中点（</tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">OA</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">OA</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">）</tspan></text>
+  </g>
+  <g data-step="3">
+  <path d="M107 266L107 220" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M107 227L114 227L114 220" stroke="#287fc4" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
+  <path d="M107 266L245 266" stroke="#197a60" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M238 266L238 259L245 259" stroke="#197a60" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
+  <path d="M180 80L115.6 80" stroke="#287fc4" stroke-width="1.6" stroke-linecap="butt"/>
+  <path d="M110 80L117 76.8L117 83.2Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="origin-symmetry-28-2c-math" x="145" y="68" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">横坐标：</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3 → −3</tspan></text>
+  <path d="M330 290L330 344.4" stroke="#197a60" stroke-width="1.6" stroke-linecap="butt"/>
+  <path d="M330 350L326.9 343L333.1 343Z" stroke="#197a60" stroke-width="0.01" fill="#197a60" stroke-linejoin="round"/>
+  <text class="origin-symmetry-28-2c-math" x="342" y="324" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">纵坐标：</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1 → −1</tspan></text>
+  <text class="origin-symmetry-28-2c-lb" x="485" y="278" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">3. 坐标规律</text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="306" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 横坐标：</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3 → −3</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">（互为相反数）</tspan></text>
+  <text class="origin-symmetry-28-2c-math" x="485" y="330" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 纵坐标：</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1 → −1</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">（互为相反数）</tspan></text>
+  <rect x="485" y="356" width="215" height="48" rx="6" fill="#e3f1fa" stroke="#287fc4" stroke-width="1.5"/>
+  <text class="origin-symmetry-28-2c-math" x="592" y="386" text-anchor="middle" style="font-size:17px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">, </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">) → (−</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">, −</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+  </g>
+</svg>

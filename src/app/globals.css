@@ -1,0 +1,444 @@
+:root {
+  color-scheme: light;
+  /* 岛屿风（参考 Animal Island UI，只学风格不装库）：拉丁字母和数字用 Nunito 圆体 */
+  font-family:
+    var(--font-nunito), ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --course-blue: #287fc4;
+  --course-coral: #c9554d;
+  --course-yellow: #bf8d08;
+  --course-green: #197a60;
+  --course-ink: #20272b;
+  --course-muted: #5d6970;
+  --course-line: #52626a;
+  --course-light-line: #bec9ce;
+  --page: #88c9a1;
+  --surface: #fffdf6;
+  --surface-raised: #faf6e9;
+  --surface-strong: #f1ead5;
+  --text: #4e3520;
+  --text-soft: #7a5f43;
+  --text-faint: #a08a6e;
+  --border: #ebe3cf;
+  --border-strong: #dccfb3;
+  --accent: #0e857a;
+  --accent-soft: #e0f2f1;
+  --yellow: #bf8d08;
+  --yellow-soft: #fff4c8;
+  --green: #197a60;
+  --green-soft: #e3f4ed;
+  --coral: #c9554d;
+  --coral-soft: #fbe9e7;
+  --pink: #a75079;
+  --pink-soft: #f7e9f0;
+  /* 区分内容性质用淡底色，不用彩色边条、标题图标 */
+  --tint-neutral: color-mix(in srgb, var(--text) 4%, var(--surface));
+  --tint-accent: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  --tint-yellow: color-mix(in srgb, var(--yellow) 9%, var(--surface));
+  --tint-green: color-mix(in srgb, var(--green) 8%, var(--surface));
+  --tint-coral: color-mix(in srgb, var(--coral) 7%, var(--surface));
+  /* 示意图按纸面颜色画（文字是深色），深色主题下也放在浅色纸面上 */
+  --figure-paper: #ffffff;
+  /* 岛屿风专用 */
+  --island-green: #88c9a1;
+  --island-dots: rgba(90, 160, 105, 0.4);
+  --island-dots-soft: rgba(110, 180, 125, 0.3);
+  --island-leaf: #3fae6a;
+  --island-cream: #f7f3df;
+  --island-panel: #faf8f3;
+  --island-stage: #f5f0dc;
+  --island-brown: #794f27;
+  --island-orange: #e09821;
+  --btn-face: #f8f8f0;
+  --btn-edge: #e2dccf;
+  --btn-shadow: #c9b8a3;
+  --btn-primary: #0e857a;
+  --btn-primary-shadow: #0a5f57;
+  --radius-card: 20px;
+  --radius-panel: 16px;
+  --shadow-panel: 0 4px 16px rgba(61, 52, 40, 0.1);
+  --header-height: 64px;
+  --content-width: 1200px;
+  letter-spacing: 0;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --course-blue: #86b9df;
+  --course-coral: #e9a09a;
+  --course-yellow: #d9be72;
+  --course-green: #85c6ad;
+  --course-ink: #f1f4f3;
+  --course-muted: #bdc5c2;
+  --course-line: #a7b3b5;
+  --course-light-line: #778885;
+  --page: #1d201f;
+  --surface: #242827;
+  --surface-raised: #292e2c;
+  --surface-strong: #313735;
+  --text: #f1f4f3;
+  --text-soft: #bdc5c2;
+  --text-faint: #8e9995;
+  --border: #3a423f;
+  --border-strong: #515c58;
+  --accent: #64ade5;
+  --accent-soft: #203b4f;
+  --yellow: #e4bd49;
+  --yellow-soft: #423a21;
+  --green: #5cc39f;
+  --green-soft: #203d34;
+  --coral: #ee8178;
+  --coral-soft: #472e2d;
+  --pink: #db8caf;
+  --pink-soft: #432d38;
+  --figure-paper: #e8ecee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 24px);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100dvh;
+  margin: 0;
+  background-color: var(--page);
+  /* 岛屿的点阵地面 */
+  background-image:
+    radial-gradient(circle, var(--island-dots) 1.5px, transparent 1.6px),
+    radial-gradient(circle, var(--island-dots-soft) 1px, transparent 1.1px);
+  background-position:
+    0 0,
+    14px 14px;
+  background-size: 28px 28px;
+  color: var(--text);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  letter-spacing: 0;
+}
+
+button,
+a,
+select,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+select,
+input {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 36%, transparent);
+  outline-offset: 2px;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.page-container {
+  width: min(var(--content-width), 100%);
+  margin: 0 auto;
+  padding-right: max(48px, env(safe-area-inset-right));
+  padding-left: max(48px, env(safe-area-inset-left));
+}
+
+.page-main {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.muted {
+  color: var(--text-soft);
+}
+
+.icon-art {
+  display: block;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.icon {
+  display: block;
+  flex: 0 0 auto;
+  background-color: currentColor;
+  -webkit-mask: center / contain no-repeat;
+  mask: center / contain no-repeat;
+}
+
+/* 立体按钮：底边厚阴影，按下去会沉下去 */
+.ui-command,
+.island-btn {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  padding: 0 20px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--btn-face);
+  box-shadow: 0 4px 0 var(--btn-shadow);
+  color: var(--island-brown);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    background-color 200ms ease,
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.ui-command:hover:not(:disabled),
+.island-btn:hover:not(:disabled) {
+  background: #fffef8;
+}
+
+.ui-command:active:not(:disabled),
+.island-btn:active:not(:disabled) {
+  box-shadow: 0 0 0 var(--btn-shadow);
+  transform: translateY(4px);
+}
+
+.island-btn--primary {
+  border-color: var(--btn-primary);
+  background: var(--btn-primary);
+  box-shadow: 0 4px 0 var(--btn-primary-shadow);
+  color: #fff;
+}
+
+.island-btn--primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--btn-primary) 90%, #fff);
+}
+
+.island-btn--primary:active:not(:disabled) {
+  box-shadow: 0 0 0 var(--btn-primary-shadow);
+}
+
+.island-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.island-stage {
+  width: min(1320px, calc(100% - 32px));
+  min-height: calc(100dvh - var(--header-height) - 56px);
+  margin: 20px auto 36px;
+  border-radius: 28px;
+  background: var(--island-stage);
+  box-shadow:
+    0 6px 0 rgba(90, 160, 105, 0.35),
+    var(--shadow-panel);
+}
+
+/* 页脚：舞台底部一行小字 */
+.site-footer {
+  padding: 16px 20px 20px;
+  color: var(--text-soft);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* 有底部浮动导航条的页面，舞台下方留出导航条的高度，免得最后一段被盖住 */
+body:has([data-dock]) .island-stage {
+  margin-bottom: calc(88px + env(safe-area-inset-bottom));
+}
+
+@media (max-width: 640px) {
+  .island-stage {
+    width: calc(100% - 16px);
+    margin: 8px auto 20px;
+    border-radius: 20px;
+  }
+}
+
+/* 奶油色面板：岛屿风的内容容器 */
+.island-panel {
+  border-radius: var(--radius-panel);
+  background: var(--island-panel);
+  box-shadow: var(--shadow-panel);
+}
+
+.ui-command:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.ui-command--compact {
+  min-height: 38px;
+  gap: 7px;
+  padding: 0 12px;
+  font-size: 12px;
+}
+
+.ui-command--selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.ui-command--danger {
+  border-color: #c4413b;
+  background: #c4413b;
+  box-shadow: 0 4px 0 #8f2a26;
+  color: #fff;
+}
+
+.ui-command--danger:active {
+  box-shadow: 0 0 0 #8f2a26;
+}
+
+
+/* 行内公式不从中间断开：整条当成一块，这一行放不下就整条移到下一行完整显示；
+   只有比一整行还长的公式，才在这一块里面于等号、加号处折行。 */
+.katex .katex-html {
+  display: inline-block;
+  text-indent: 0;
+}
+
+.katex-display .katex .katex-html {
+  display: inline;
+  max-width: none;
+}
+
+.katex-display {
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 6px 2px;
+}
+
+/* Scoped to math: existing physics colors and paper remain unchanged. */
+[data-course-subject="math"] { --figure-paper: var(--surface); }
+[data-course-subject="math"] .katex [style*="color:#287fc4"],
+[data-course-subject="math"] .katex [style*="color: #287fc4"] { color: var(--course-blue) !important; }
+[data-course-subject="math"] .katex [style*="color:#c9554d"],
+[data-course-subject="math"] .katex [style*="color: #c9554d"] { color: var(--course-coral) !important; }
+[data-course-subject="math"] .katex [style*="color:#bf8d08"],
+[data-course-subject="math"] .katex [style*="color: #bf8d08"] { color: var(--course-yellow) !important; }
+[data-course-subject="math"] .katex [style*="color:#197a60"],
+[data-course-subject="math"] .katex [style*="color: #197a60"] { color: var(--course-green) !important; }
+[data-course-subject="math"] svg [stroke="#287fc4"] { stroke: var(--course-blue) !important; }
+[data-course-subject="math"] svg [fill="#287fc4"] { fill: var(--course-blue) !important; }
+[data-course-subject="math"] svg [stroke="#c9554d"] { stroke: var(--course-coral) !important; }
+[data-course-subject="math"] svg [fill="#c9554d"] { fill: var(--course-coral) !important; }
+[data-course-subject="math"] svg [stroke="#bf8d08"] { stroke: var(--course-yellow) !important; }
+[data-course-subject="math"] svg [fill="#bf8d08"] { fill: var(--course-yellow) !important; }
+[data-course-subject="math"] svg [stroke="#197a60"] { stroke: var(--course-green) !important; }
+[data-course-subject="math"] svg [fill="#197a60"] { fill: var(--course-green) !important; }
+/* Neutral colors belong to inline course figures, not widget controls or images. */
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#ffffff"],
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="white"],
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#fff"] { fill: var(--surface) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg text:not([fill]):not([style*="fill"]) { fill: var(--course-ink); }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#20272b"],
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [style*="fill:#20272b"] { fill: var(--course-ink) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#5d6970"],
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [style*="fill:#5d6970"] { fill: var(--course-muted) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [stroke="#52626a"] { stroke: var(--course-line) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#52626a"] { fill: var(--course-line) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [stroke="#bec9ce"] { stroke: var(--course-light-line) !important; }
+:root[data-theme="dark"] [data-course-subject="math"] .course-figure-svg svg [fill="#bec9ce"] { fill: var(--course-light-line) !important; }
+[data-step-hidden="true"] { visibility: hidden; }
+.course-step-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.course-step-controls span { font-size: 13px; color: var(--text-soft); }
+.course-widget-print { display: none; }
+@media print {
+  [data-step-hidden="true"] { visibility: visible !important; }
+  .course-step-controls, .course-widget-screen { display: none !important; }
+  .course-widget-print { display: block; }
+}
+
+.formula-number {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .page-container {
+    padding-right: max(32px, env(safe-area-inset-right));
+    padding-left: max(32px, env(safe-area-inset-left));
+  }
+}
+
+@media (max-width: 640px) {
+  .page-container {
+    padding-right: max(16px, env(safe-area-inset-right));
+    padding-left: max(16px, env(safe-area-inset-left));
+  }
+
+  .page-main {
+    padding-top: 24px;
+    padding-bottom: 56px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff !important; }
+}

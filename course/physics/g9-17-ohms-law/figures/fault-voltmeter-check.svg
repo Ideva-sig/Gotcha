@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="flt-t flt-d">
+  <title id="flt-t">用电压表排查串联电路的断路点</title>
+  <desc id="flt-d">两盏灯 L1、L2 与开关 S、电流表 A、电源串联，电压表 V 并联在 L1 两端，用来判断断路发生在哪里。静态图。</desc>
+  <style>.flt-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.flt-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="560" height="280" fill="#fff" stroke="none"/>
+  <path d="M100 100L500 100L500 240L100 240L100 100" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M170 100L170 45L270 45L270 100" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <circle cx="220" cy="100" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M210.8 90.8L229.2 109.2" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M210.8 109.2L229.2 90.8" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="390" cy="100" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M380.8 90.8L399.2 109.2" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M380.8 109.2L399.2 90.8" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="220" cy="45" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="flt-sy" x="220" y="51" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">V</text>
+  <circle cx="100" cy="170" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="flt-sy" x="100" y="176" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">A</text>
+  <rect x="231" y="224" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M235 225L235 255" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M245 232L245 248" stroke="#20272b" stroke-width="5" stroke-linecap="butt"/>
+  <rect x="373" y="236" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M373 240L411 235" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="373" cy="240" r="2.4" fill="#20272b"/>
+  <circle cx="407" cy="240" r="2.4" fill="#20272b"/>
+  <circle cx="170" cy="100" r="3.6" fill="#20272b"/>
+  <circle cx="270" cy="100" r="3.6" fill="#20272b"/>
+  <text class="flt-sy" x="220" y="136" text-anchor="middle" style="fill:#20272b;font-size:18px">L<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="flt-sy" x="390" y="136" text-anchor="middle" style="fill:#20272b;font-size:18px">L<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="flt-sy" x="390" y="272" text-anchor="middle" style="fill:#20272b;font-size:18px">S</text>
+</svg>

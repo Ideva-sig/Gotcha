@@ -1,0 +1,94 @@
+.page {
+  max-width: 880px;
+}
+
+.searchRow {
+  margin-top: 24px;
+}
+
+.filters {
+  margin-top: 22px;
+}
+
+.state {
+  margin-top: 24px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.state p {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hit {
+  display: grid;
+  gap: 6px;
+  padding: 16px 20px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow-panel);
+  transition: transform 120ms ease;
+}
+
+.hit:active {
+  transform: scale(0.99);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.title {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.crumb {
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.snippet {
+  color: var(--text-soft);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.title mark,
+.snippet mark {
+  padding: 0 2px;
+  border-radius: 4px;
+  background: var(--yellow-soft);
+  color: inherit;
+}
+
+.more {
+  margin: 18px 0 0;
+  color: var(--text-soft);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .hit {
+    padding: 14px 16px;
+  }
+}
+
+@media (hover: hover) {
+  .hit:hover {
+    transform: translateY(-2px);
+  }
+}

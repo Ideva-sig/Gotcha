@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 285" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-liquid-depth-h-t opt-a-liquid-depth-h-d">
+  <title id="opt-a-liquid-depth-h-t">液面下的竖直深度 h</title>
+  <desc id="opt-a-liquid-depth-h-d">容器中标出液面与一个所求位置，h 仅表示从液面竖直向下到该位置的距离，不量到容器底。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-liquid-depth-h-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-liquid-depth-h-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="560" height="285" fill="#fff" stroke="none"/>
+  <rect x="120" y="76" width="250" height="162" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
+  <path d="M120 35L120 238L370 238L370 35" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M120 76L370 76" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="268" cy="181" r="4" fill="#c9554d"/>
+  <path d="M276 181L416 181" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M376 76L416 76" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M429 76L429 181" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M434 76L424 76" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M434 181L424 181" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="opt-a-liquid-depth-h-sy" x="444" y="137" text-anchor="start" style="fill:#287fc4;font-size:18px">h</text>
+  <text class="opt-a-liquid-depth-h-lb" x="100" y="81" text-anchor="end" style="fill:#287fc4;font-size:14px;font-weight:600">液面</text>
+  <text class="opt-a-liquid-depth-h-lb" x="268" y="214" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">所求位置</text>
+</svg>

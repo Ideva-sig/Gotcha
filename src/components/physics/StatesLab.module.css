@@ -1,0 +1,441 @@
+.lab {
+  display: grid;
+  gap: 20px;
+}
+
+/* 实验台：白纸面，不加点阵、飘带 */
+.bench {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  background: #fff;
+}
+
+.stage {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1fr);
+  align-items: end;
+  gap: 16px;
+}
+
+.beakerWrap,
+.graphWrap {
+  min-width: 0;
+}
+
+.beaker,
+.graph {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.svgTick {
+  fill: var(--course-muted);
+  font-size: 13px;
+}
+
+.svgNote {
+  fill: var(--course-ink);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flatLabel {
+  fill: #a8433c;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.flame {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: flicker 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes flicker {
+  from { transform: scale(1, 1); }
+  to { transform: scale(0.92, 1.12); }
+}
+
+.mist {
+  animation: drift 3s ease-in-out infinite alternate;
+}
+
+@keyframes drift {
+  from { transform: translateY(0); opacity: 0.85; }
+  to { transform: translateY(-6px); opacity: 1; }
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
+}
+
+.modeButtons,
+.sideControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.modeBtn {
+  min-width: 112px;
+  min-height: 52px;
+  font-size: 17px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 加热用珊瑚红，冰柜用课程蓝：颜色和“吸热 / 放热”一致 */
+.on_heat {
+  border-color: #b5463f;
+  background: #c9554d;
+  box-shadow: 0 4px 0 #8f362f;
+}
+
+.on_freezer {
+  border-color: #1f6aa6;
+  background: #1f6aa6;
+  box-shadow: 0 4px 0 #154b77;
+}
+
+.on_heat:hover:not(:disabled) { background: #c9554d; }
+.on_freezer:hover:not(:disabled) { background: #1f6aa6; }
+
+.resetBtn {
+  min-height: 48px;
+  touch-action: manipulation;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.status,
+.tasks {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+}
+
+.readRow {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.reading {
+  display: grid;
+  justify-items: start;
+  gap: 2px;
+  min-width: 120px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--tint-coral);
+}
+
+.readLabel,
+.readTime {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.readValue {
+  color: var(--course-ink);
+  font-size: 40px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.readValue small {
+  font-size: 20px;
+}
+
+.facts {
+  display: grid;
+  gap: 0;
+  margin: 0;
+}
+
+.facts > div {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.facts > div:last-child {
+  border-bottom: 0;
+}
+
+.facts dt {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.flow_in { color: #a8433c !important; }
+.flow_out { color: #1f6aa6 !important; }
+.flow_none { color: var(--text-soft) !important; }
+
+.explain {
+  min-height: 3.4em;
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.condition {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.taskList {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskList :global(.isl-check) {
+  pointer-events: none;
+}
+
+/* 六种物态变化 */
+.six {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+
+.sixSvg {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.sixArrow {
+  cursor: pointer;
+  outline: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.2s ease;
+}
+
+.sixArrow:focus-visible rect {
+  stroke-width: 3;
+}
+
+.sixLabel {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sixNode {
+  fill: var(--course-ink);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sixSide {
+  display: grid;
+  gap: 12px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.hot { color: #a8433c; }
+.cold { color: #1f6aa6; }
+
+.rule {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--tint-yellow);
+  color: var(--course-ink);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.detail h3 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 4px;
+  color: var(--course-ink);
+  font-size: 24px;
+}
+
+.detail h3 span {
+  color: var(--text-soft);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.detail > p {
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.detail ul {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.detail li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--course-ink);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.detail li:last-child {
+  border-bottom: 0;
+}
+
+.hint {
+  color: var(--text-soft);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 竖屏：烧杯在上、图像在下，刻度字才看得清；两者加按钮一屏放得下 */
+@media (max-width: 820px) {
+  .panels,
+  .six,
+  .stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .beakerWrap {
+    justify-self: center;
+    width: min(100%, 240px);
+  }
+
+  .graphWrap {
+    justify-self: center;
+    width: min(100%, 560px);
+  }
+}
+
+@media (max-width: 560px) {
+  .bench {
+    padding: 14px;
+  }
+
+  .readRow {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flame,
+  .mist {
+    animation: none;
+  }
+}
+
+/* 页面外壳 */
+.pageHeader {
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.breadcrumb a {
+  color: var(--accent);
+}
+
+.lead {
+  max-width: 46em;
+  margin: 0;
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.section {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.sixCard {
+  padding: 20px;
+  border-radius: var(--radius-card);
+  background: #fff;
+  box-shadow: var(--shadow-panel);
+}
+
+/* 实验室列表页 */
+.labList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 20px;
+}
+
+.labItem {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 12px;
+  padding: 20px;
+}
+
+.labItem p {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.labChapter {
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>两段绳子承担物重的滑轮组</title>
+  <desc>定滑轮在上，动滑轮在下，绳子绕过两个滑轮，动滑轮上有两段绳子承担重物，绳端向下拉。</desc>
+  <g fill="none">
+    <path d="M30 6 H94" stroke="#9aa5a8" stroke-width="3"/>
+    <path d="M44 6 V24" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M64 64 V68" stroke="#52626a" stroke-width="2.5"/>
+    <circle cx="44" cy="24" r="10" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <circle cx="64" cy="54" r="10" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M34 66 V24 A10 10 0 0 1 54 24 V54 A10 10 0 0 0 74 54 V6" stroke="currentColor" stroke-width="3"/>
+    <rect x="52" y="68" width="24" height="14" rx="2" fill="#fff" stroke="#c9554d" stroke-width="2.5"/>
+  </g>
+  <circle cx="44" cy="24" r="2.5" fill="#52626a"/>
+  <circle cx="64" cy="54" r="2.5" fill="#52626a"/>
+  <path d="M34 80 L28 68 H40 Z" fill="currentColor"/>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13">
+    <text x="14" y="80">F</text>
+    <text x="84" y="79">G</text>
+  </g>
+</svg>

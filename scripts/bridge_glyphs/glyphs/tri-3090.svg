@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>30度直角三角形</title>
+<desc>短直角边60、长直角边60√3、斜边120；主色短边与红色斜边，30度弧精确。</desc>
+<path d="M 23 72 L 126.923048 72" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 126.923048 72 L 126.923048 12" fill="none" stroke="currentColor" stroke-width="4"/><path d="M 23 72 L 126.923048 12" fill="none" stroke="#c9554d" stroke-width="4"/><path d="M 120.923048 72 L 120.923048 66 L 126.923048 66" stroke="#52626a" stroke-width="1.5" fill="none"/><path d="M 44 72 A 21 21 0 0 0 41.186533 61.5" fill="none" stroke="currentColor" stroke-width="4"/><text x="89" y="61" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">30°</text>
+</svg>

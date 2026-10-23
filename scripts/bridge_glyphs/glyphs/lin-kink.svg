@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>直线与分段折线</title>
+  <desc>折线在 (78,35) 改变斜率；参考直线也经过此拐点，交点用红点标出。静态图。</desc>
+  <path d="M 10 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 20 6 L 137 64.5" fill="none" stroke="#52626a" stroke-width="2"/>
+  <path d="M 14 67 L 78 35 L 135 21" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="78" cy="35" r="3.5" fill="#c9554d"/>
+</svg>

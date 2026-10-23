@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>速度与路程</title>
+  <desc>小车沿水平地面向右运动，车上箭头表示速度方向，地面下方的双向标线表示路程。</desc>
+  <line x1="12" y1="58" x2="138" y2="58" stroke="#9aa5a8" stroke-width="2.5"/>
+  <rect x="54" y="31" width="42" height="19" rx="2" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="63" cy="53" r="5" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <circle cx="87" cy="53" r="5" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <line x1="57" y1="21" x2="101" y2="21" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 101 21 L 93 17 L 93 25 Z" fill="#c9554d"/>
+  <text x="106" y="26" fill="#2b3a3f" font-size="13" font-family="sans-serif">v</text>
+  <line x1="20" y1="76" x2="130" y2="76" stroke="currentColor" stroke-width="4"/>
+  <path d="M 20 76 L 28 72 L 28 80 Z M 130 76 L 122 72 L 122 80 Z" fill="currentColor"/>
+  <line x1="20" y1="70" x2="20" y2="82" stroke="#52626a" stroke-width="2"/>
+  <line x1="130" y1="70" x2="130" y2="82" stroke="#52626a" stroke-width="2"/>
+  <text x="72" y="69" fill="#2b3a3f" font-size="13" font-family="sans-serif">s</text>
+</svg>

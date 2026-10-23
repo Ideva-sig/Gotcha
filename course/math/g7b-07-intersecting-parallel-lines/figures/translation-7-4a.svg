@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="tr-t tr-d">
+<title id="tr-t">图形平移</title>
+<desc id="tr-d">蓝色三角形ABC沿同一方向平移同一距离得到红色三角形A′B′C′，三条虚线箭头AA′、BB′、CC′互相平行且相等。</desc>
+<rect width="720" height="310" fill="#fff" stroke="none"/>
+<path d="M70 60L320 100" stroke="#52626a" stroke-width="1.6" stroke-dasharray="6 5"/>
+<path d="M30 140L280 180" stroke="#52626a" stroke-width="1.6" stroke-dasharray="6 5"/>
+<path d="M130 140L380 180" stroke="#52626a" stroke-width="1.6" stroke-dasharray="6 5"/>
+<polygon points="70 60 30 140 130 140" stroke="#287fc4" stroke-width="2.4" fill="#e6f0f9"/>
+<polygon points="320 100 280 180 380 180" stroke="#c9554d" stroke-width="2.4" fill="#f8e9e8"/>
+<circle cx="70" cy="60" r="3.2" fill="#52626a" stroke="none"/>
+<circle cx="30" cy="140" r="3.2" fill="#52626a" stroke="none"/>
+<circle cx="130" cy="140" r="3.2" fill="#52626a" stroke="none"/>
+<circle cx="320" cy="100" r="3.2" fill="#52626a" stroke="none"/>
+<circle cx="280" cy="180" r="3.2" fill="#52626a" stroke="none"/>
+<circle cx="380" cy="180" r="3.2" fill="#52626a" stroke="none"/>
+<text x="70" y="50" text-anchor="middle" fill="#287fc4" style="font:italic 18px Times New Roman,serif;stroke:none">A</text>
+<text x="18" y="158" text-anchor="middle" fill="#287fc4" style="font:italic 18px Times New Roman,serif;stroke:none">B</text>
+<text x="138" y="128" text-anchor="middle" fill="#287fc4" style="font:italic 18px Times New Roman,serif;stroke:none">C</text>
+<text x="320" y="90" text-anchor="middle" fill="#c9554d" style="font:italic 18px Times New Roman,serif;stroke:none">A′</text>
+<text x="266" y="198" text-anchor="middle" fill="#c9554d" style="font:italic 18px Times New Roman,serif;stroke:none">B′</text>
+<text x="396" y="198" text-anchor="middle" fill="#c9554d" style="font:italic 18px Times New Roman,serif;stroke:none">C′</text>
+<text x="360" y="262" text-anchor="middle" fill="#20272b" style="font:600 15px -apple-system,PingFang SC,sans-serif;stroke:none">对应点连线 AA′、BB′、CC′ 平行（或在同一条直线上）且相等</text>
+<text x="360" y="288" text-anchor="middle" fill="#20272b" style="font:600 15px -apple-system,PingFang SC,sans-serif;stroke:none">平移后形状、大小不变</text>
+</svg>

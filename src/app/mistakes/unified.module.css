@@ -1,0 +1,14 @@
+.banner {
+  margin-bottom: 16px;
+  aspect-ratio: 1916 / 600;
+  min-height: 150px;
+  overflow: hidden;
+  border-radius: 28px;
+  background: #8cc4f0 url("/brand/banner-island.webp") center 42% / cover no-repeat;
+  box-shadow: 0 6px 0 rgba(120, 90, 50, 0.14);
+}
+
+.tabs {
+  margin-bottom: 16px;
+}
+

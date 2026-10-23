@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="boxplot-structure-24-3a-t boxplot-structure-24-3a-d">
+  <title id="boxplot-structure-24-3a-t">五数与箱线图结构对应</title>
+  <desc id="boxplot-structure-24-3a-d">第一步用一条无数字刻度的水平数轴标出最小值、Q1、Q2中位数、Q3、最大值。第二步浅蓝箱体从Q1到Q3，箱内绿色竖线标出Q2。第三步灰色须线分别连接最小值与Q1、Q3与最大值。五个位置仅表示先后顺序，间距不等，不表示任何具体数据。</desc>
+  <style>.boxplot-structure-24-3a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.boxplot-structure-24-3a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="390" fill="#fff" stroke="none"/>
+  <path d="M66 268L657.4 268" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M663 268L656 271.1L656 264.9Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <g data-step="1">
+  <text class="boxplot-structure-24-3a-lb" x="26" y="30" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">五个位置</text>
+  <path d="M100 262L100 274" stroke="#52626a" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M100 218L100 249" stroke="#bec9ce" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M210 262L210 274" stroke="#287fc4" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M210 218L210 249" stroke="#bec9ce" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M390 262L390 274" stroke="#197a60" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M390 218L390 249" stroke="#bec9ce" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M510 262L510 274" stroke="#287fc4" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M510 218L510 249" stroke="#bec9ce" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M620 262L620 274" stroke="#52626a" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M620 218L620 249" stroke="#bec9ce" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text class="boxplot-structure-24-3a-lb" x="100" y="308" text-anchor="middle" style="fill:#20272b;font-size:17px;font-weight:600">最小值</text>
+  <text class="boxplot-structure-24-3a-math" x="210" y="306" text-anchor="middle" style="fill:#287fc4;font:italic 21px Times New Roman,serif;stroke:none">Q<tspan font-size="15.12" baseline-shift="sub" font-style="normal">1</tspan></text>
+  <text class="boxplot-structure-24-3a-math" x="390" y="306" text-anchor="middle" style="fill:#197a60;font:italic 21px Times New Roman,serif;stroke:none">Q<tspan font-size="15.12" baseline-shift="sub" font-style="normal">2</tspan></text>
+  <text class="boxplot-structure-24-3a-lb" x="390" y="338" text-anchor="middle" style="fill:#197a60;font-size:16px;font-weight:600">中位数</text>
+  <text class="boxplot-structure-24-3a-math" x="510" y="306" text-anchor="middle" style="fill:#287fc4;font:italic 21px Times New Roman,serif;stroke:none">Q<tspan font-size="15.12" baseline-shift="sub" font-style="normal">3</tspan></text>
+  <text class="boxplot-structure-24-3a-lb" x="620" y="308" text-anchor="middle" style="fill:#20272b;font-size:17px;font-weight:600">最大值</text>
+  </g>
+  <g data-step="2">
+  <text class="boxplot-structure-24-3a-lb" x="276" y="84" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">箱体与中位线</text>
+  <rect x="210" y="132" width="300" height="74" rx="0" fill="#e3f1fa" stroke="#287fc4" stroke-width="2"/>
+  <path d="M390 132L390 206" stroke="#197a60" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g data-step="3">
+  <text class="boxplot-structure-24-3a-lb" x="26" y="169" text-anchor="start" style="fill:#5d6970;font-size:16px;font-weight:600">须线</text>
+  <path d="M100 169L210 169" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M510 169L620 169" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 150L100 188" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M620 150L620 188" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <text class="boxplot-structure-24-3a-lb" x="26" y="375" text-anchor="start" style="fill:#5d6970;font-size:15px;font-weight:600">位置示意，不表示具体数据</text>
+  </g>
+</svg>

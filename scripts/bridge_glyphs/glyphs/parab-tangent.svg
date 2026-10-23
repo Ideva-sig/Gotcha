@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>抛物线与横轴相切</title>
+  <desc>精确二次曲线，顶点 (83,58)，横轴 y=58；静态图。</desc>
+  <path d="M 10 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 30.4643 12 Q 83 104 135.5357 12" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="83" cy="58" r="3.5" fill="#c9554d"/>
+</svg>

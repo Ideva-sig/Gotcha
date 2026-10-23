@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="filt-t filt-d">
+  <title id="filt-t">过滤操作示意图</title>
+  <desc id="filt-d">实验室规范过滤装置示意图，详细标注“一贴、二低、三靠”操作规范与仪器连接关系。</desc>
+  <style>
+    .filt-bg { fill: #ffffff; }
+    .filt-stand { fill: #52626a; stroke: #37474f; stroke-width: 2; }
+    .filt-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.6; }
+    .filt-paper { fill: #ffffff; stroke: #bf8d08; stroke-width: 1.8; stroke-dasharray: 4 2; }
+    .filt-rod { fill: #e1f5fe; stroke: #287fc4; stroke-width: 3.2; stroke-linecap: round; }
+    .filt-turbid { fill: #d7ccc8; fill-opacity: 0.7; }
+    .filt-clear { fill: #e3f2fd; fill-opacity: 0.8; }
+    .filt-stream { fill: none; stroke: #287fc4; stroke-width: 2; stroke-linecap: round; }
+    .filt-lead { fill: none; stroke: #7d8990; stroke-width: 1.4; stroke-dasharray: 3 3; }
+    .filt-dot { fill: #c9554d; }
+    .filt-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .filt-card-sec { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.4; rx: 4px; }
+    .filt-badge { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #ffffff; }
+    .filt-key { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .filt-title { font: 600 14px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .filt-desc { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+  </style>
+  <rect class="filt-bg" width="680" height="400"/>
+
+  <!-- Left: Filtration Apparatus Diagram -->
+  <!-- Iron stand base -->
+  <rect class="filt-stand" x="25" y="360" width="115" height="14" rx="2"/>
+  <!-- Iron stand vertical rod -->
+  <rect class="filt-stand" x="45" y="30" width="8" height="330"/>
+
+  <!-- Iron clamp and ring -->
+  <!-- Clamp on rod -->
+  <rect x="39" y="165" width="20" height="14" fill="#37474f"/>
+  <!-- Ring holding funnel -->
+  <path d="M 55 172 L 130 172" fill="none" stroke="#52626a" stroke-width="4"/>
+  <ellipse cx="170" cy="172" rx="42" ry="7" fill="none" stroke="#52626a" stroke-width="4"/>
+
+  <!-- Lower Beaker (Receiving filtrate) -->
+  <!-- Position: x=145, y=265, w=80, h=95 -->
+  <path class="filt-glass" d="M 145 265 L 145 355 Q 145 360 150 360 L 220 360 Q 225 360 225 355 L 225 265 Z"/>
+  <!-- Filtrate in lower beaker -->
+  <path class="filt-clear" d="M 147 315 L 223 315 L 223 358 L 147 358 Z"/>
+  <!-- Liquid surface line -->
+  <line x1="147" y1="315" x2="223" y2="315" stroke="#287fc4" stroke-width="1.2"/>
+
+  <!-- Funnel -->
+  <!-- Top cone rim: cx=170, cy=165, rx=38, ry=6 -->
+  <!-- Cone body: from (132, 165) and (208, 165) down to (166, 230) and (174, 230) -->
+  <!-- Long stem: from (166, 230) down to (166, 295), bevel to (174, 285), up to (174, 230) -->
+  <!-- Lower tip of funnel stem leans against lower beaker right wall: x=225 -->
+  <!-- Let's align funnel stem so it leans closely against right inner wall: stem at x=216..224 -->
+  <path class="filt-glass" d="M 132 165 L 175 225 L 217 225 L 217 305 L 223 295 L 223 225 L 225 225 L 208 165 Z"/>
+  <!-- Funnel cone rim -->
+  <ellipse cx="170" cy="165" rx="38" ry="6" class="filt-glass"/>
+
+  <!-- Filter paper inside funnel -->
+  <!-- Left single layer, right 3 layers -->
+  <path class="filt-paper" d="M 136 170 Q 170 178 204 170 L 195 220 L 150 220 Z"/>
+  <!-- Liquid in funnel (below paper rim) -->
+  <path class="filt-turbid" d="M 144 185 Q 170 191 196 185 L 195 218 L 152 218 Z"/>
+  <line x1="144" y1="185" x2="196" y2="185" stroke="#bf8d08" stroke-width="1.2"/>
+
+  <!-- Liquid flowing along beaker inner wall -->
+  <path class="filt-stream" d="M 223 295 L 223 315"/>
+
+  <!-- Glass rod (diagonal) -->
+  <!-- Upper end near top-left, resting on beaker beak, lower end leaning on 3-layer paper -->
+  <!-- From (100, 75) down-right to (190, 215) -->
+  <line class="filt-rod" x1="100" y1="75" x2="190" y2="215"/>
+
+  <!-- Upper Beaker (Pouring liquid) -->
+  <!-- Tilted beaker at upper left: beak touches glass rod at ~ (130, 122) -->
+  <!-- Draw tilted cup -->
+  <g transform="translate(132, 120) rotate(-35)">
+    <path class="filt-glass" d="M 0 0 L -60 -25 L -45 -65 L 15 -40 Z"/>
+    <!-- liquid inside -->
+    <path class="filt-turbid" d="M -5 -2 L -50 -21 L -45 -45 L 5 -25 Z"/>
+    <!-- beak pouring stream -->
+    <circle cx="0" cy="0" r="2.5" fill="#287fc4"/>
+  </g>
+
+  <!-- Labels on Left Apparatus (Short) -->
+  <text class="filt-desc" x="145" y="45" text-anchor="middle">玻璃棒（引流）</text>
+  <line x1="130" y1="50" x2="115" y2="70" stroke="#7d8990" stroke-width="1.2"/>
+
+  <text class="filt-desc" x="185" y="388" text-anchor="middle">承接滤液烧杯</text>
+
+  <!-- Right: Core Rules Cards "一贴、二低、三靠" -->
+  <!-- Big container card -->
+  <rect class="filt-card" x="320" y="25" width="340" height="355"/>
+  <text class="filt-title" x="490" y="52" text-anchor="middle" font-size="16">过滤核心规范：一贴 二低 三靠</text>
+
+  <!-- Card 1: 一贴 -->
+  <rect class="filt-card-sec" x="335" y="70" width="310" height="68"/>
+  <rect x="345" y="78" width="52" height="22" rx="3" fill="#197a60"/>
+  <text class="filt-badge" x="371" y="94" text-anchor="middle">一贴</text>
+  <text class="filt-key" x="408" y="94">滤纸紧贴漏斗内壁</text>
+  <text class="filt-desc" x="345" y="118">滤纸用少量水润湿，中间不留气泡（防减慢过滤）</text>
+
+  <!-- Card 2: 二低 -->
+  <rect class="filt-card-sec" x="335" y="148" width="310" height="92"/>
+  <rect x="345" y="156" width="52" height="22" rx="3" fill="#287fc4"/>
+  <text class="filt-badge" x="371" y="172" text-anchor="middle">二低</text>
+  <text class="filt-key" x="408" y="172">滤纸低于漏斗口，液面低于滤纸</text>
+  <text class="filt-desc" x="345" y="196">① 滤纸边缘略低于漏斗口（防止液体外溢）</text>
+  <text class="filt-desc" x="345" y="218">② 漏斗内液面始终低于滤纸边缘（防杂质直接流下）</text>
+
+  <!-- Card 3: 三靠 -->
+  <rect class="filt-card-sec" x="335" y="250" width="310" height="115"/>
+  <rect x="345" y="258" width="52" height="22" rx="3" fill="#c9554d"/>
+  <text class="filt-badge" x="371" y="274" text-anchor="middle">三靠</text>
+  <text class="filt-key" x="408" y="274">烧杯靠棒、棒靠滤纸、管靠杯壁</text>
+  <text class="filt-desc" x="345" y="298">① 倾倒烧杯尖嘴紧靠玻璃棒（防止液体溅出）</text>
+  <text class="filt-desc" x="345" y="320">② 玻璃棒末端轻靠三层滤纸一边（防戳破单层纸）</text>
+  <text class="filt-desc" x="345" y="342">③ 漏斗下端长管口紧靠烧杯内壁（防止滤液飞溅）</text>
+
+  <!-- Leader lines connecting key points from apparatus to cards -->
+  <path class="filt-lead" d="M 205 174 L 270 174 L 335 104"/>
+  <circle class="filt-dot" cx="205" cy="174" r="3"/>
+
+  <path class="filt-lead" d="M 196 185 L 270 185 L 335 194"/>
+  <circle class="filt-dot" cx="196" cy="185" r="3"/>
+
+  <path class="filt-lead" d="M 223 295 L 270 295 L 335 307"/>
+  <circle class="filt-dot" cx="223" cy="295" r="3"/>
+</svg>

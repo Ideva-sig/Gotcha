@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 395" role="img" aria-labelledby="co2tf-t co2tf-d">
+  <title id="co2tf-t">二氧化碳的检验与验满方法对比示意图</title>
+  <desc id="co2tf-d">展示检验二氧化碳（通入澄清石灰水变浑浊）与验满二氧化碳（燃着木条平放集气瓶口熄灭）的实验规范装置、操作要点与防错辨析。</desc>
+  <style>
+    .co2tf-bg { fill: #ffffff; }
+    .co2tf-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .co2tf-panel { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .co2tf-head { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .co2tf-name { font: 600 13.5px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .co2tf-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .co2tf-bold { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .co2tf-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .co2tf-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.6; }
+    .co2tf-tube { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .co2tf-turbid { fill: #eceff1; fill-opacity: 0.85; stroke: #b0bec5; stroke-width: 1.2; }
+    .co2tf-wood { fill: #d7ccc8; stroke: #8d6e63; stroke-width: 1.4; }
+    .co2tf-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .co2tf-smoke { fill: #cfd8dc; stroke: #90a4ae; stroke-width: 1; stroke-dasharray: 2 2; }
+    .co2tf-bubble { fill: #ffffff; stroke: #287fc4; stroke-width: 1; }
+    .co2tf-box-b { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .co2tf-box-r { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="co2tf-bg" width="780" height="395"/>
+
+  <!-- Top Banner -->
+  <rect x="20" y="12" width="740" height="34" class="co2tf-card"/>
+  <text class="co2tf-head" x="390" y="35" text-anchor="middle">二氧化碳的检验与验满实验规范对比</text>
+
+  <!-- Left: 检验二氧化碳 (x: 20..380, y: 55..265) -->
+  <rect class="co2tf-panel" x="20" y="55" width="360" height="210"/>
+  <rect x="30" y="63" width="340" height="24" rx="3" fill="#e8f4fc"/>
+  <text class="co2tf-name" x="200" y="80" text-anchor="middle" fill="#287fc4">一、检验二氧化碳（验证是 CO₂ 气体）</text>
+
+  <!-- Delivery tube: Gas enters from top left into test tube -->
+  <path class="co2tf-tube" d="M 115 102 L 180 102 L 180 186"/>
+  <polygon points="135,98 143,102 135,106" fill="#287fc4"/>
+  <text class="co2tf-bold" x="65" y="106" fill="#287fc4">待检气体</text>
+
+  <!-- Test tube: cx=180, cy=115..195, width=28, height=80 -->
+  <rect class="co2tf-glass" x="166" y="115" width="28" height="80" rx="12"/>
+  <!-- Liquid inside (limewater turning cloudy) -->
+  <path class="co2tf-turbid" d="M 168 152 L 192 152 L 192 183 Q 192 193 180 193 Q 168 193 168 183 Z"/>
+  <line x1="168" y1="152" x2="192" y2="152" stroke="#b0bec5" stroke-width="1.2"/>
+  <!-- Bubbles -->
+  <circle cx="176" cy="182" r="2" class="co2tf-bubble"/>
+  <circle cx="184" cy="172" r="2.5" class="co2tf-bubble"/>
+  <circle cx="175" cy="162" r="2.2" class="co2tf-bubble"/>
+
+  <!-- Labels on left -->
+  <text class="co2tf-sub" x="206" y="156">澄清石灰水</text>
+  <line x1="204" y1="152" x2="193" y2="156" stroke="#7d8990" stroke-width="1.2"/>
+  <text class="co2tf-emp" x="206" y="174">现象：变浑浊</text>
+
+  <!-- Left Bottom summary line -->
+  <rect class="co2tf-box-b" x="30" y="206" width="340" height="50"/>
+  <text class="co2tf-bold" x="40" y="225">【操作】将气体通入澄清石灰水</text>
+  <text class="co2tf-sub" x="40" y="244">【原理】CO₂ ＋ Ca(OH)₂ → CaCO₃↓ ＋ H₂O</text>
+
+  <!-- Right: 验满二氧化碳 (x: 400..760, y: 55..265) -->
+  <rect class="co2tf-panel" x="400" y="55" width="360" height="210"/>
+  <rect x="410" y="63" width="340" height="24" rx="3" fill="#fdf5f4"/>
+  <text class="co2tf-name" x="580" y="80" text-anchor="middle" fill="#c9554d">二、证明二氧化碳已集满（验满操作）</text>
+
+  <!-- Delivery tube from left entering bottle down near bottom -->
+  <path class="co2tf-tube" d="M 480 102 L 552 102 L 552 186"/>
+  <polygon points="500,98 508,102 500,106" fill="#287fc4"/>
+  <text class="co2tf-bold" x="430" y="106" fill="#287fc4">CO₂气体</text>
+
+  <!-- Apparatus: Gas collecting bottle -->
+  <path class="co2tf-glass" d="M 542 116 L 578 116 L 578 128 L 592 138 L 592 195 L 528 195 L 528 138 L 542 128 Z"/>
+  <rect x="540" y="113" width="40" height="4" rx="1" fill="#78909c" stroke="#52626a" stroke-width="1.2"/>
+
+  <!-- Splint with flame at the mouth of bottle -->
+  <line class="co2tf-wood" x1="605" y1="112" x2="560" y2="112"/>
+  <path class="co2tf-flame" d="M 560 112 C 554 107 556 101 560 96 C 564 101 566 107 560 112 Z"/>
+  <circle cx="560" cy="104" r="2.5" fill="#ffe082"/>
+
+  <!-- Annotation at mouth -->
+  <line x1="600" y1="106" x2="570" y2="106" stroke="#c9554d" stroke-width="1.2"/>
+  <circle cx="570" cy="106" r="2" fill="#c9554d"/>
+  <text class="co2tf-emp" x="605" y="110">放在集气瓶口</text>
+  <text class="co2tf-sub" x="605" y="128">若木条熄灭，证明已集满</text>
+  <text class="co2tf-sub" x="605" y="146">（严禁伸入集气瓶内部）</text>
+
+  <!-- Right Bottom summary line -->
+  <rect class="co2tf-box-r" x="410" y="206" width="340" height="50"/>
+  <text class="co2tf-bold" x="420" y="225">【操作】将燃着的木条放在集气瓶口</text>
+  <text class="co2tf-sub" x="420" y="244">【现象与结论】木条火焰熄灭，证明二氧化碳已集满</text>
+
+  <!-- Bottom Container: Comparison & Exam Traps (x: 20..760, y: 275..385) -->
+  <rect class="co2tf-card" x="20" y="275" width="740" height="108"/>
+  <text class="co2tf-head" x="390" y="296" text-anchor="middle" font-size="13">初中化学核心辨析与防错警示</text>
+
+  <!-- Point 1 -->
+  <rect x="32" y="306" width="60" height="18" rx="2" fill="#287fc4"/>
+  <text class="co2tf-bold" x="62" y="319" text-anchor="middle" fill="#ffffff" font-size="11">目的不同</text>
+  <text class="co2tf-sub" x="100" y="320">检验是确认未知气体是不是 CO₂；验满是确认收集装置中是否已经集满 CO₂。</text>
+
+  <!-- Point 2 -->
+  <rect x="32" y="331" width="60" height="18" rx="2" fill="#bf8d08"/>
+  <text class="co2tf-bold" x="62" y="344" text-anchor="middle" fill="#ffffff" font-size="11">试剂不同</text>
+  <text class="co2tf-sub" x="100" y="345">检验必须用澄清石灰水（具专属特征性）；不能用燃着木条检验（氮气等也能使木条熄灭）。</text>
+
+  <!-- Point 3 -->
+  <rect x="32" y="356" width="60" height="18" rx="2" fill="#c9554d"/>
+  <text class="co2tf-bold" x="62" y="369" text-anchor="middle" fill="#ffffff" font-size="11">严禁伸入</text>
+  <text class="co2tf-emp" x="100" y="370">验满时燃着木条必须放在集气瓶口，严禁伸入瓶内！木条伸入瓶内熄灭不能证明已集满。</text>
+</svg>

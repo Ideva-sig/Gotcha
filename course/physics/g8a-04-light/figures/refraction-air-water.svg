@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="rfr-t rfr-d">
+  <title id="rfr-t">光从空气斜射入水中的折射光路</title>
+  <desc id="rfr-d">水平界面上方是空气，下方是水。过入射点 O 作垂直于界面的法线（虚线）。入射光线从左上方射到 O，折射光线进入水中，向法线偏折，折射角 r 小于入射角 i。静态图。</desc>
+  <style>.rfr-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.rfr-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="520" height="320" fill="#fff" stroke="none"/>
+  <rect x="20" y="160" width="480" height="140" rx="0" fill="#e3f1fa" stroke="none" stroke-width="0"/>
+  <path d="M20 160L500 160" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M260 24L260 296" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <path d="M270 160L270 150L260 150" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M129.8 50.7L260 160" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M205.6 114.4L194 111.1L200.4 103.5Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M260 160L335 289.9" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M304 236.2L294.2 229.2L302.8 224.2Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M224.8 130.4A46 46 0 0 1 260 114" fill="none" stroke="#52626a" stroke-width="1.4"/>
+  <path d="M285 203.3A50 50 0 0 1 260 210" fill="none" stroke="#52626a" stroke-width="1.4"/>
+  <text class="rfr-sy" x="244" y="95" text-anchor="middle" style="fill:#20272b;font-size:18px">i</text>
+  <text class="rfr-sy" x="272" y="236" text-anchor="middle" style="fill:#20272b;font-size:18px">r</text>
+  <text class="rfr-sy" x="248" y="182" text-anchor="middle" style="fill:#20272b;font-size:16px">O</text>
+  <text class="rfr-lb" x="40" y="60" text-anchor="start" style="fill:#5d6970;font-size:14px;font-weight:600">空气</text>
+  <text class="rfr-lb" x="40" y="280" text-anchor="start" style="fill:#5d6970;font-size:14px;font-weight:600">水</text>
+</svg>

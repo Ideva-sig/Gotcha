@@ -1,0 +1,1680 @@
+# 物理知识点地图（人教版 2022 年版课标修订，三册 92 节）
+#
+# 全科主干：知识点编号、轻重、前置关系都以本文件为准，各章 lesson.md 的同名字段必须与这里一致。
+# 字段说明见 course/FORMAT.md“知识点地图”一节；真题统计方法和逐题记录见 exam-stats.md、exam-hits.tsv。
+# 校验：/usr/bin/python3 scripts/check-kp-map.py
+#
+# 状态：2026-10-05 用户确认。改动轻重或前置要重新确认，并同步已编写的章节。
+
+# ======== 八年级上册 ========
+
+- section: PHY-8A-01-1
+  title: 长度和时间的测量
+  page: 11
+  kps:
+    - id: PHY-8A-01-1a
+      title: 长度单位换算与刻度尺读数
+      weight: 重点
+      exam_hits: 9
+      exam_refs: [GD2022-01, GD2022-18, GD2023-01, GD2023-18, GD2024-18, GZ2024-12(1), GZ2024-18(2), SZ2022-13(1), SZ2024-17(1)]
+      weight_note: 几乎每套卷都有估测或刻度尺读数（要估读到分度值下一位），实验题读数也靠它
+      prerequisites:
+        - {id: MATH-科学记数法, strength: soft, reason: 单位换算常用 10 的幂表示}
+    - id: PHY-8A-01-1b
+      title: 用停表测量时间
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-13]
+      weight_note: 只在深圳 2023 读数题出现一次，是测速度的必要基础
+      prerequisites:
+        - {id: PHY-8A-01-1a, strength: soft, reason: 读数方法相同：先看分度值}
+    - id: PHY-8A-01-1c
+      title: 误差与错误
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未直接考
+      prerequisites:
+        - {id: PHY-8A-01-1a, strength: hard, reason: 误差产生在测量读数中}
+- section: PHY-8A-01-2
+  title: 运动的描述
+  page: 17
+  kps:
+    - id: PHY-8A-01-2a
+      title: 用参照物判断运动和静止
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2023-12, GD2024-01, GZ2025-12(2), SZ2023-20(1), SZ2024-01]
+      weight_note: 5 次，都是一步判断的送分题
+      prerequisites: []
+- section: PHY-8A-01-3
+  title: 运动的快慢
+  page: 20
+  kps:
+    - id: PHY-8A-01-3a
+      title: 速度的含义和单位换算
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考，但所有速度计算都要用 m/s 与 km/h 换算
+      prerequisites:
+        - {id: PHY-8A-01-1a, strength: hard, reason: 要会长度单位换算}
+        - {id: PHY-8A-01-1b, strength: soft, reason: 时间单位要换算成秒或小时}
+    - id: PHY-8A-01-3b
+      title: 用 v=s/t 计算速度
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2023-24(3), GD2024-24(1)①, GZ2022-01, GZ2023-13(1), GZ2025-12(2), SZ2022-17(2)]
+      weight_note: 6 次，多在计算题第一问，也和功率、浮力题组合
+      prerequisites:
+        - {id: PHY-8A-01-3a, strength: hard, reason: 代入前要统一单位}
+        - {id: MATH-方程变形, strength: soft, reason: 已知两个量求第三个，要会变形公式}
+    - id: PHY-8A-01-3c
+      title: 匀速直线运动与运动图像
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考；二力平衡、功率等重点都以“匀速直线运动”为条件
+      prerequisites:
+        - {id: PHY-8A-01-3b, strength: hard, reason: 平均速度也用 v=s/t 计算}
+        - {id: MATH-函数图像, strength: soft, reason: 要会读横纵坐标和图线}
+- section: PHY-8A-01-4
+  title: 速度的测量
+  page: 25
+  kps:
+    - id: PHY-8A-01-4a
+      title: 测量平均速度
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 课标学生必做实验，10 套卷未直接考
+      prerequisites:
+        - {id: PHY-8A-01-3b, strength: hard, reason: 实验原理就是 v=s/t}
+        - {id: PHY-8A-01-1a, strength: hard, reason: 要用刻度尺量路程}
+        - {id: PHY-8A-01-1b, strength: hard, reason: 要用停表测时间}
+- section: PHY-8A-02-1
+  title: 声音的产生与传播
+  page: 32
+  kps:
+    - id: PHY-8A-02-1a
+      title: 声音由振动产生
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-09, GD2024-11]
+      weight_note: 2 次，填空送分
+      prerequisites: []
+    - id: PHY-8A-02-1b
+      title: 声音的传播与声速
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-09, GD2024-11]
+      weight_note: 2 次，填空送分；“真空不能传声”常作干扰项
+      prerequisites:
+        - {id: PHY-8A-02-1a, strength: hard, reason: 先知道声音来自振动，才能理解靠介质传递振动}
+        - {id: PHY-8A-01-3b, strength: soft, reason: 回声测距要用 s=vt}
+- section: PHY-8A-02-2
+  title: 声音的特性
+  page: 37
+  kps:
+    - id: PHY-8A-02-2a
+      title: 音调与频率
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2023-05]
+      weight_note: 1 次；多数考法放在 2c 的辨析里
+      prerequisites:
+        - {id: PHY-8A-02-1a, strength: hard, reason: 频率是振动的快慢}
+    - id: PHY-8A-02-2b
+      title: 响度与振幅
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-09, GZ2025-01, SZ2024-02]
+      weight_note: 3 次，选择、填空送分
+      prerequisites:
+        - {id: PHY-8A-02-1a, strength: hard, reason: 振幅是振动的幅度}
+    - id: PHY-8A-02-2c
+      title: 音色，分清声音的三个特性
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GZ2022-07, GZ2024-02]
+      weight_note: 广州 2022–2025 每年一道声音特性题，音调、响度混淆是常见失分点
+      prerequisites:
+        - {id: PHY-8A-02-2a, strength: hard, reason: 要知道音调由频率决定}
+        - {id: PHY-8A-02-2b, strength: hard, reason: 要知道响度由振幅决定}
+- section: PHY-8A-02-3
+  title: 声的利用
+  page: 44
+  kps:
+    - id: PHY-8A-02-3a
+      title: 声传递信息和能量
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2022-04, SZ2023-02]
+      weight_note: 2 次；声呐、回声定位常作选项
+      prerequisites:
+        - {id: PHY-8A-02-1b, strength: hard, reason: 声要靠介质传播才能传信息、能量}
+- section: PHY-8A-02-4
+  title: 噪声的危害和控制
+  page: 49
+  kps:
+    - id: PHY-8A-02-4a
+      title: 噪声的来源和危害
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未直接考
+      prerequisites:
+        - {id: PHY-8A-02-2b, strength: soft, reason: 噪声强弱用分贝表示，与响度有关}
+    - id: PHY-8A-02-4b
+      title: 控制噪声的三条途径
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2022-01]
+      weight_note: 1 次，深圳选择送分
+      prerequisites:
+        - {id: PHY-8A-02-1b, strength: hard, reason: 三条途径对应声音产生、传播、接收三个环节}
+- section: PHY-8A-02-5
+  title: 制作隔音房间模型
+  page: 53
+  type: 跨学科实践
+  task: 用常见材料做隔音房间模型，比较不同材料、结构的隔音效果
+- section: PHY-8A-03-1
+  title: 温度
+  page: 58
+  kps:
+    - id: PHY-8A-03-1a
+      title: 温度计的原理和摄氏温度
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-20]
+      weight_note: 1 次（液体热胀冷缩）
+      prerequisites: []
+    - id: PHY-8A-03-1b
+      title: 温度计、体温计的使用和读数
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2022-20, SZ2022-13(2), SZ2023-17(1)]
+      weight_note: 3 次读数；实验操作考试要放对温度计液泡位置
+      lab_exam: 试题一：安装观察水沸腾装置，温度计液泡不能碰杯底、杯壁
+      prerequisites:
+        - {id: PHY-8A-03-1a, strength: hard, reason: 先知道温度计怎样显示温度}
+- section: PHY-8A-03-2
+  title: 熔化和凝固
+  page: 64
+  kps:
+    - id: PHY-8A-03-2a
+      title: 晶体、非晶体的熔化和凝固
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2022-02]
+      weight_note: 1 次直接考；晶体熔化温度不变是 13.3c 的关键反例
+      prerequisites:
+        - {id: PHY-8A-03-1b, strength: hard, reason: 实验要读温度、画温度—时间图像}
+        - {id: MATH-函数图像, strength: soft, reason: 要会读熔化图像的平台段}
+- section: PHY-8A-03-3
+  title: 汽化和液化
+  page: 70
+  kps:
+    - id: PHY-8A-03-3a
+      title: 沸腾及其特点
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [SZ2023-17(2), SZ2023-17(4)]
+      weight_note: 2 次实验题，且是 2026 广州实验操作考试题目
+      lab_exam: 试题一：安装“观察水沸腾实验”装置
+      prerequisites:
+        - {id: PHY-8A-03-1b, strength: hard, reason: 要正确安装、读温度计}
+        - {id: PHY-8A-03-2a, strength: soft, reason: “吸热、温度不变”的图像特征与熔化类似}
+    - id: PHY-8A-03-3b
+      title: 蒸发及其影响因素
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考；“蒸发吸热”出现在 4b 的辨析里
+      prerequisites:
+        - {id: PHY-8A-03-3a, strength: soft, reason: 和沸腾对比才能分清两种汽化方式}
+    - id: PHY-8A-03-3c
+      title: 液化及其现象
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-26(3)]
+      weight_note: 1 次；“白气”是液化，已计入 4b 的辨析
+      prerequisites:
+        - {id: PHY-8A-03-3a, strength: soft, reason: 液化是汽化的逆过程}
+- section: PHY-8A-03-4
+  title: 升华和凝华
+  page: 77
+  kps:
+    - id: PHY-8A-03-4a
+      title: 升华和凝华
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2023-21]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8A-03-2a, strength: soft, reason: 先分清固、液、气三态之间的变化}
+    - id: PHY-8A-03-4b
+      title: 判断物态变化及吸、放热
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-02, GD2024-05, GZ2022-16(2), GZ2024-05, GZ2025-16(1), SZ2022-02, SZ2024-11(3)]
+      weight_note: 7 次，几乎每套卷都有一道“白气、露、霜、冰”类判断
+      prerequisites:
+        - {id: PHY-8A-03-2a, strength: hard, reason: 熔化、凝固}
+        - {id: PHY-8A-03-3c, strength: hard, reason: 汽化、液化}
+        - {id: PHY-8A-03-4a, strength: hard, reason: 升华、凝华}
+- section: PHY-8A-03-5
+  title: 探索厨房中的物态变化问题
+  page: 81
+  type: 跨学科实践
+  task: 找出厨房里的物态变化，解释其中的吸热、放热
+- section: PHY-8A-04-1
+  title: 光的直线传播
+  page: 88
+  kps:
+    - id: PHY-8A-04-1a
+      title: 光的直线传播及其现象
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-04, SZ2024-10]
+      weight_note: 2 次；影子、小孔成像、光源判断
+      prerequisites: []
+    - id: PHY-8A-04-1b
+      title: 光速
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考；“各色光真空中速度相同”在电磁波题里出现
+      prerequisites:
+        - {id: PHY-8A-04-1a, strength: soft, reason: 先知道光怎样传播}
+- section: PHY-8A-04-2
+  title: 光的反射
+  page: 93
+  kps:
+    - id: PHY-8A-04-2a
+      title: 光的反射定律与反射作图
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-16, GD2023-16, GZ2022-12, GZ2023-10, GZ2024-11(1), GZ2024-11(3), SZ2024-10]
+      weight_note: 7 次，作图题常客
+      prerequisites:
+        - {id: PHY-8A-04-1a, strength: hard, reason: 光线用带箭头的直线表示}
+        - {id: MATH-角与垂线, strength: hard, reason: 要会作法线、量角}
+    - id: PHY-8A-04-2b
+      title: 镜面反射和漫反射
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-20(3)]
+      weight_note: 1 次；“看见不发光的物体”靠反射
+      prerequisites:
+        - {id: PHY-8A-04-2a, strength: hard, reason: 两种反射都遵守反射定律}
+- section: PHY-8A-04-3
+  title: 平面镜成像
+  page: 98
+  kps:
+    - id: PHY-8A-04-3a
+      title: 平面镜成像的特点（实验）
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-13, GD2024-21, GZ2025-13(2), SZ2022-14]
+      weight_note: 4 次，且是 2026 广州实验操作考试题目
+      lab_exam: 试题二：平面镜成像，描出像点并测距离
+      prerequisites:
+        - {id: PHY-8A-04-2a, strength: hard, reason: 平面镜成像的原理是光的反射}
+        - {id: PHY-8A-01-1a, strength: soft, reason: 要量像距、物距}
+    - id: PHY-8A-04-3b
+      title: 平面镜成像作图
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GZ2023-10, GZ2025-13(1), SZ2024-08]
+      weight_note: 3 次作图（广州 2023、2025，深圳 2024）
+      prerequisites:
+        - {id: PHY-8A-04-3a, strength: hard, reason: 依据像与物关于镜面对称}
+        - {id: PHY-8A-04-2a, strength: soft, reason: 也可以用反射光线反向延长找像}
+    - id: PHY-8A-04-3c
+      title: 凸面镜和凹面镜
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未考
+      prerequisites:
+        - {id: PHY-8A-04-2a, strength: hard, reason: 也遵守反射定律}
+- section: PHY-8A-04-4
+  title: 光的折射
+  page: 103
+  kps:
+    - id: PHY-8A-04-4a
+      title: 光的折射规律与折射作图
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2022-16, GD2024-16, GZ2022-12]
+      weight_note: 3 次，都是作图题（广东每年必有作图）
+      prerequisites:
+        - {id: PHY-8A-04-2a, strength: hard, reason: 画法线、标角度的方法和反射一样}
+    - id: PHY-8A-04-4b
+      title: 生活中的折射现象
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是 4c 辨析的基础
+      prerequisites:
+        - {id: PHY-8A-04-4a, strength: hard, reason: 要用折射规律解释}
+    - id: PHY-8A-04-4c
+      title: 分清直线传播、反射和折射现象
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GZ2024-01, SZ2022-03, SZ2023-08]
+      weight_note: 3 次，选择题送分但常设陷阱（倒影 vs 影子）
+      prerequisites:
+        - {id: PHY-8A-04-1a, strength: hard, reason: 直线传播的现象}
+        - {id: PHY-8A-04-2a, strength: hard, reason: 反射的现象}
+        - {id: PHY-8A-04-4b, strength: hard, reason: 折射的现象}
+- section: PHY-8A-04-5
+  title: 光的色散
+  page: 107
+  kps:
+    - id: PHY-8A-04-5a
+      title: 光的色散和色光的混合
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考
+      prerequisites:
+        - {id: PHY-8A-04-4a, strength: soft, reason: 色散本质是不同色光折射程度不同}
+    - id: PHY-8A-04-5b
+      title: 红外线和紫外线
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2022-26(2), GD2022-26(3), GZ2022-16(3)]
+      weight_note: 3 次，应用辨认
+      prerequisites:
+        - {id: PHY-8A-04-5a, strength: soft, reason: 它们在可见光谱两端之外}
+- section: PHY-8A-05-1
+  title: 透镜
+  page: 114
+  kps:
+    - id: PHY-8A-05-1a
+      title: 凸透镜、凹透镜对光的作用
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是透镜作图和成像的基础
+      prerequisites:
+        - {id: PHY-8A-04-4a, strength: hard, reason: 透镜靠折射改变光路}
+    - id: PHY-8A-05-1b
+      title: 透镜的三条特殊光线作图
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GZ2022-11, GZ2023-11, GZ2024-11(2), SZ2023-12]
+      weight_note: 4 次作图
+      prerequisites:
+        - {id: PHY-8A-05-1a, strength: hard, reason: 要知道焦点、焦距、光心}
+- section: PHY-8A-05-2
+  title: 生活中的透镜
+  page: 118
+  kps:
+    - id: PHY-8A-05-2a
+      title: 照相机、投影仪、放大镜与实像虚像
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-22(1), GD2024-09, SZ2023-08]
+      weight_note: 3 次，应用对应
+      prerequisites:
+        - {id: PHY-8A-05-1a, strength: hard, reason: 都用凸透镜}
+        - {id: PHY-8A-04-3a, strength: soft, reason: 和平面镜的虚像对比}
+- section: PHY-8A-05-3
+  title: 凸透镜成像的规律
+  page: 122
+  kps:
+    - id: PHY-8A-05-3a
+      title: 探究凸透镜成像的规律（实验操作）
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-22(2), GD2023-22(5)]
+      weight_note: 2 次（广东 2023 实验题的操作小问）
+      prerequisites:
+        - {id: PHY-8A-05-1a, strength: hard, reason: 要先测焦距}
+        - {id: PHY-8A-01-1a, strength: soft, reason: 要读光具座上的物距、像距}
+    - id: PHY-8A-05-3b
+      title: 用成像规律判断像的性质和变化
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-11, GD2023-22(3), GD2023-22(4), GD2024-09, GZ2023-11, GZ2025-05, SZ2024-17(4)]
+      weight_note: 7 次，选择、填空、实验都考，“物近像远像变大”易错
+      prerequisites:
+        - {id: PHY-8A-05-3a, strength: hard, reason: 规律来自实验}
+        - {id: PHY-8A-05-2a, strength: soft, reason: 三种应用对应三个物距范围}
+- section: PHY-8A-05-4
+  title: 眼睛和眼镜
+  page: 126
+  kps:
+    - id: PHY-8A-05-4a
+      title: 眼睛与近视、远视的矫正
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未考
+      prerequisites:
+        - {id: PHY-8A-05-3b, strength: hard, reason: 眼睛成像就是凸透镜成实像}
+        - {id: PHY-8A-05-1a, strength: hard, reason: 矫正要用凸透镜或凹透镜}
+- section: PHY-8A-05-5
+  title: 制作望远镜
+  page: 130
+  type: 跨学科实践
+  task: 用两块凸透镜组装简易望远镜，调出清晰的像
+- section: PHY-8A-06-1
+  title: 质量
+  page: 139
+  kps:
+    - id: PHY-8A-06-1a
+      title: 质量及其不变性
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2022-10, GD2023-11, GD2024-02, GZ2023-01, SZ2024-06]
+      weight_note: 5 次，都是“带到太空质量不变”类送分题
+      prerequisites: []
+    - id: PHY-8A-06-1b
+      title: 托盘天平的使用和读数
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2024-23(1), GD2024-23(2), SZ2022-15(1), SZ2022-15(3), SZ2023-13]
+      weight_note: 5 次读数、调平，且是 2026 广州实验操作考试题目
+      lab_exam: 试题四：用托盘天平测烧杯和水的总质量
+      prerequisites:
+        - {id: PHY-8A-06-1a, strength: hard, reason: 天平测的是质量}
+- section: PHY-8A-06-2
+  title: 密度
+  page: 144
+  kps:
+    - id: PHY-8A-06-2a
+      title: 密度的概念
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2024-28(1), SZ2024-03]
+      weight_note: 2 次（材料选择、轻质材料）
+      prerequisites:
+        - {id: PHY-8A-06-1a, strength: hard, reason: 密度由质量和体积定义}
+        - {id: MATH-比例, strength: soft, reason: 同种物质质量与体积成正比}
+- section: PHY-8A-06-3
+  title: 测量液体和固体的密度
+  page: 149
+  kps:
+    - id: PHY-8A-06-3a
+      title: 测量液体和固体的密度
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2024-23(2), GD2024-23(3), SZ2022-15(2), SZ2024-12(1), SZ2024-12(2), SZ2024-12(3)]
+      weight_note: 6 次，实验题常考，含误差分析
+      prerequisites:
+        - {id: PHY-8A-06-1b, strength: hard, reason: 要用天平测质量}
+        - {id: PHY-8A-06-2a, strength: hard, reason: 实验原理是 ρ=m/V}
+- section: PHY-8A-06-4
+  title: 密度的应用
+  page: 152
+  kps:
+    - id: PHY-8A-06-4a
+      title: 用密度求质量、体积，鉴别物质
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2022-10, GZ2024-14(3), SZ2023-18(1)]
+      weight_note: 3 次直接考；液体压强、浮力计算里常要先用 m=ρV
+      prerequisites:
+        - {id: PHY-8A-06-2a, strength: hard, reason: 要用 ρ=m/V 及其变形}
+        - {id: PHY-8A-01-1a, strength: soft, reason: 要用测出的长度算体积（如圆柱体积）}
+
+# ======== 八年级下册 ========
+
+- section: PHY-8B-07-1
+  title: 力
+  page: 2
+  kps:
+    - id: PHY-8B-07-1a
+      title: 力的概念和力的作用效果
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是本册所有力学的基础
+      prerequisites: []
+    - id: PHY-8B-07-1b
+      title: 力的三要素和力的示意图
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-11]
+      weight_note: 1 次；受力作图多数计入 8B-08-2b
+      prerequisites:
+        - {id: PHY-8B-07-1a, strength: hard, reason: 先知道力是什么}
+    - id: PHY-8B-07-1c
+      title: 力的作用是相互的
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-11, GD2024-08]
+      weight_note: 2 次填空送分（火箭、旋翼）
+      prerequisites:
+        - {id: PHY-8B-07-1a, strength: hard, reason: 先知道力是物体对物体的作用}
+- section: PHY-8B-07-2
+  title: 弹力
+  page: 7
+  kps:
+    - id: PHY-8B-07-2a
+      title: 弹力和弹簧测力计
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2023-23(1), GZ2023-18, GZ2024-18(1), GZ2024-18(2), SZ2023-13]
+      weight_note: 5 次，广州 2023、2024 都有弹簧伸长量探究题
+      prerequisites:
+        - {id: PHY-8B-07-1a, strength: hard, reason: 弹力是一种力}
+        - {id: MATH-比例, strength: soft, reason: 伸长量与拉力成正比}
+- section: PHY-8B-07-3
+  title: 重力
+  page: 11
+  kps:
+    - id: PHY-8B-07-3a
+      title: 重力的大小 G=mg
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-24(1), GZ2024-12(1), SZ2023-18(1)]
+      weight_note: 3 次直接考；几乎所有力学计算第一步都要算重力
+      prerequisites:
+        - {id: PHY-8A-06-1a, strength: hard, reason: 要用质量求重力}
+        - {id: PHY-8B-07-2a, strength: soft, reason: 用弹簧测力计测重力}
+    - id: PHY-8B-07-3b
+      title: 重力的方向和重心
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-12(2), SZ2024-17(2)]
+      weight_note: 2 次作图（只受重力）
+      prerequisites:
+        - {id: PHY-8B-07-1b, strength: hard, reason: 要画力的示意图}
+- section: PHY-8B-08-1
+  title: 牛顿第一定律
+  page: 19
+  kps:
+    - id: PHY-8B-08-1a
+      title: 牛顿第一定律
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；“力不是维持运动的原因”是惯性和二力平衡的基础
+      prerequisites:
+        - {id: PHY-8B-07-1a, strength: hard, reason: 力能改变运动状态}
+        - {id: PHY-8A-01-3c, strength: soft, reason: 要知道匀速直线运动}
+    - id: PHY-8B-08-1b
+      title: 惯性
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2023-07, GZ2022-05, GZ2025-09, SZ2022-08, SZ2024-05]
+      weight_note: 5 次，广州 2022、2025 都考；“受到惯性”是常见错误说法
+      prerequisites:
+        - {id: PHY-8B-08-1a, strength: hard, reason: 惯性就是保持原来运动状态的性质}
+        - {id: PHY-8A-01-2a, strength: soft, reason: 判断“向哪边倾”要选好参照物}
+- section: PHY-8B-08-2
+  title: 二力平衡
+  page: 23
+  kps:
+    - id: PHY-8B-08-2a
+      title: 二力平衡的条件
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是 2b 的基础
+      prerequisites:
+        - {id: PHY-8B-07-1b, strength: hard, reason: 要用三要素描述两个力}
+        - {id: PHY-8B-08-1a, strength: hard, reason: 平衡状态是静止或匀速直线运动}
+    - id: PHY-8B-08-2b
+      title: 用二力平衡分析受力（含受力示意图）
+      weight: 重点
+      exam_hits: 11
+      exam_refs: [GD2022-15, GD2022-23(2), GD2023-15, GZ2022-18(2)①, GZ2023-17(1), GZ2024-04, GZ2025-12(1), SZ2022-04, SZ2022-11, SZ2022-17(3), SZ2023-01]
+      weight_note: 11 次，全科最常考的力学技能：由运动状态求摩擦力、牵引力、浮力
+      prerequisites:
+        - {id: PHY-8B-08-2a, strength: hard, reason: 要会判断两个力是否平衡}
+        - {id: PHY-8B-07-3a, strength: hard, reason: 几乎总要先算重力}
+        - {id: PHY-8B-07-1c, strength: soft, reason: 要分清平衡力和相互作用力}
+- section: PHY-8B-08-3
+  title: 摩擦力
+  page: 27
+  kps:
+    - id: PHY-8B-08-3a
+      title: 滑动摩擦力及其影响因素（实验）
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2024-19, GZ2022-18(2)②, GZ2023-13(1), GZ2025-07, SZ2023-11]
+      weight_note: 5 次，且是 2026 广州实验操作考试题目（测木块所受摩擦力）
+      lab_exam: 试题三：用弹簧测力计测量木块所受摩擦力
+      prerequisites:
+        - {id: PHY-8B-08-2b, strength: hard, reason: 匀速拉动时拉力等于摩擦力}
+        - {id: PHY-8B-07-2a, strength: hard, reason: 要读弹簧测力计}
+    - id: PHY-8B-08-3b
+      title: 增大和减小摩擦的方法
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2023-03]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8B-08-3a, strength: hard, reason: 方法来自影响因素}
+- section: PHY-8B-08-4
+  title: 同一直线上二力的合成
+  page: 33
+  kps:
+    - id: PHY-8B-08-4a
+      title: 同一直线上二力的合成
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未考
+      prerequisites:
+        - {id: PHY-8B-07-1b, strength: hard, reason: 要用力的三要素}
+- section: PHY-8B-09-1
+  title: 压强
+  page: 40
+  kps:
+    - id: PHY-8B-09-1a
+      title: 压力和压强的概念（探究）
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GZ2022-15, SZ2023-16(1), SZ2023-16(2), SZ2023-16(3)]
+      weight_note: 4 次（深圳 2023 探究题占 3 小问）
+      prerequisites:
+        - {id: PHY-8B-07-1b, strength: hard, reason: 压力是一种力}
+        - {id: PHY-8B-08-2b, strength: soft, reason: 水平面上压力大小等于重力}
+    - id: PHY-8B-09-1b
+      title: 用 p=F/S 计算压强
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-23(1), GD2023-24(2), GD2024-24(2), GZ2023-14(1), GZ2025-10, SZ2022-17(1), SZ2024-15(3)]
+      weight_note: 7 次，计算题常见第一问
+      prerequisites:
+        - {id: PHY-8B-09-1a, strength: hard, reason: 要知道压强的定义}
+        - {id: PHY-8B-07-3a, strength: hard, reason: 压力常要先由 G=mg 求出}
+        - {id: PHY-8A-01-1a, strength: soft, reason: 面积单位 cm² 与 m² 换算}
+    - id: PHY-8B-09-1c
+      title: 增大和减小压强
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-16(1), SZ2024-07]
+      weight_note: 2 次
+      prerequisites:
+        - {id: PHY-8B-09-1a, strength: hard, reason: 方法来自 p=F/S}
+- section: PHY-8B-09-2
+  title: 液体的压强
+  page: 45
+  kps:
+    - id: PHY-8B-09-2a
+      title: 液体压强的特点
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GD2024-27(1), GZ2025-15(1), SZ2024-14(1), SZ2024-14(4)]
+      weight_note: 4 次
+      prerequisites:
+        - {id: PHY-8B-09-1a, strength: hard, reason: 先知道压强是什么}
+        - {id: PHY-8A-06-2a, strength: soft, reason: 液体压强与液体密度有关}
+    - id: PHY-8B-09-2b
+      title: 用 p=ρgh 计算液体压强
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-25(2), GZ2023-14(2), GZ2024-10, GZ2025-15(2)①]
+      weight_note: 4 次计算（广州 2024、2025 都考）
+      prerequisites:
+        - {id: PHY-8B-09-2a, strength: hard, reason: 要知道深度从液面往下量}
+        - {id: PHY-8A-06-4a, strength: soft, reason: 常要和密度计算配合}
+    - id: PHY-8B-09-2c
+      title: 连通器
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-20(1)]
+      weight_note: 1 次（船闸）
+      prerequisites:
+        - {id: PHY-8B-09-2a, strength: hard, reason: 连通器原理来自液体压强}
+- section: PHY-8B-09-3
+  title: 大气压强
+  page: 52
+  kps:
+    - id: PHY-8B-09-3a
+      title: 大气压的存在和测量
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2023-10]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8B-09-2b, strength: hard, reason: 托里拆利实验用液柱压强表示大气压}
+    - id: PHY-8B-09-3b
+      title: 大气压与高度、沸点
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-10, SZ2023-17(3)]
+      weight_note: 2 次
+      prerequisites:
+        - {id: PHY-8B-09-3a, strength: hard, reason: 先知道大气压存在}
+        - {id: PHY-8A-03-3a, strength: soft, reason: 知道水沸腾时温度不变}
+- section: PHY-8B-09-4
+  title: 制作简易活塞式抽水机
+  page: 56
+  type: 跨学科实践
+  task: 用注射器、单向阀等做活塞式抽水机，说明大气压怎样把水压上来
+- section: PHY-8B-09-5
+  title: 流体压强与流速的关系
+  page: 59
+  kps:
+    - id: PHY-8B-09-5a
+      title: 流体压强与流速的关系
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2023-28(2), GD2024-11, GZ2022-06, GZ2023-14(2), GZ2024-14(2), SZ2024-04]
+      weight_note: 6 次，广州 2022–2024 每年都考，要写清“流速大→压强小→压力差”
+      prerequisites:
+        - {id: PHY-8B-09-3a, strength: hard, reason: 比较的是两侧气压}
+        - {id: PHY-8B-09-1a, strength: soft, reason: 压强差产生压力差}
+- section: PHY-8B-10-1
+  title: 浮力
+  page: 64
+  kps:
+    - id: PHY-8B-10-1a
+      title: 浮力与称重法测浮力
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-23(2), GZ2025-18(1)]
+      weight_note: 2 次
+      prerequisites:
+        - {id: PHY-8B-08-2b, strength: hard, reason: 称重法 F浮=G−F拉 来自受力平衡}
+        - {id: PHY-8B-07-2a, strength: hard, reason: 要读弹簧测力计}
+    - id: PHY-8B-10-1b
+      title: 探究浮力大小的影响因素
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-23(3), GD2023-23(4), GD2023-23(5)]
+      weight_note: 3 次，集中在广东 2023 一道实验题
+      prerequisites:
+        - {id: PHY-8B-10-1a, strength: hard, reason: 实验用称重法测浮力}
+    - id: PHY-8B-10-1c
+      title: 浮力产生的原因
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未考
+      prerequisites:
+        - {id: PHY-8B-09-2a, strength: hard, reason: 上下表面液体压强不同}
+- section: PHY-8B-10-2
+  title: 阿基米德原理
+  page: 68
+  kps:
+    - id: PHY-8B-10-2a
+      title: 阿基米德原理
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-06, GZ2025-15(1)]
+      weight_note: 2 次（排开液体的重力、浮力随液体密度变化）
+      prerequisites:
+        - {id: PHY-8B-10-1b, strength: hard, reason: 原理是影响因素的定量结论}
+    - id: PHY-8B-10-2b
+      title: 用阿基米德原理计算浮力
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-25(3), GD2024-28(3), GZ2022-10, GZ2023-17(1), GZ2025-15(2)②, SZ2022-15(4), SZ2023-10]
+      weight_note: 7 次，压轴计算常客
+      prerequisites:
+        - {id: PHY-8B-10-2a, strength: hard, reason: F浮=ρ液gV排}
+        - {id: PHY-8A-06-4a, strength: hard, reason: 常要换算体积、求质量}
+        - {id: PHY-8B-07-3a, strength: hard, reason: 要用 G=mg}
+- section: PHY-8B-10-3
+  title: 物体的浮沉条件及应用
+  page: 73
+  kps:
+    - id: PHY-8B-10-3a
+      title: 物体的浮沉条件
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-25(3), GD2024-15, GZ2023-17(1), GZ2023-17(2), GZ2023-17(3), GZ2023-17(4), SZ2024-15(1)]
+      weight_note: 7 次（广州 2023 第 17 题占 4 小问）
+      prerequisites:
+        - {id: PHY-8B-08-2b, strength: hard, reason: 漂浮、悬浮时浮力等于重力}
+        - {id: PHY-8B-10-2a, strength: hard, reason: 比较浮力和重力要用阿基米德原理}
+    - id: PHY-8B-10-3b
+      title: 浮沉条件的应用（轮船、潜水艇、密度计）
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GD2022-25(1), GD2024-28(3), SZ2023-20(3), SZ2024-15(2)]
+      weight_note: 4 次
+      prerequisites:
+        - {id: PHY-8B-10-3a, strength: hard, reason: 应用都靠浮沉条件}
+- section: PHY-8B-10-4
+  title: 制作微型密度计
+  page: 77
+  type: 跨学科实践
+  task: 用吸管和配重做微型密度计，标出刻度并测液体密度
+- section: PHY-8B-11-1
+  title: 功
+  page: 84
+  kps:
+    - id: PHY-8B-11-1a
+      title: 做功的两个必要因素
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2023-13(2), GZ2025-07]
+      weight_note: 2 次（重力不做功、松手后不做功）
+      prerequisites:
+        - {id: PHY-8B-07-1a, strength: hard, reason: 做功要有力}
+    - id: PHY-8B-11-1b
+      title: 功的计算 W=Fs
+      weight: 重点
+      exam_hits: 8
+      exam_refs: [GD2022-23(3), GD2023-26(2), GD2024-24(1)②, GD2024-28(4), GZ2023-13(2), GZ2025-12(3), SZ2022-17(3), SZ2024-17(3)]
+      weight_note: 8 次计算
+      prerequisites:
+        - {id: PHY-8B-11-1a, strength: hard, reason: 先判断力有没有做功}
+        - {id: PHY-8B-08-2b, strength: hard, reason: 匀速运动时由平衡求力}
+        - {id: PHY-8B-07-3a, strength: soft, reason: 重力做功 W=Gh}
+- section: PHY-8B-11-2
+  title: 功率
+  page: 88
+  kps:
+    - id: PHY-8B-11-2a
+      title: 功率及计算
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GZ2022-18(1)①, GZ2023-13(2), GZ2024-16(3), SZ2023-18(3), SZ2023-20(4)]
+      weight_note: 5 次，含 P=Fv
+      prerequisites:
+        - {id: PHY-8B-11-1b, strength: hard, reason: 先求功}
+        - {id: PHY-8A-01-3b, strength: soft, reason: P=Fv 用到速度}
+- section: PHY-8B-11-3
+  title: 动能和势能
+  page: 91
+  kps:
+    - id: PHY-8B-11-3a
+      title: 动能及其影响因素
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是机械能转化的基础
+      prerequisites:
+        - {id: PHY-8A-01-3a, strength: hard, reason: 动能与速度有关}
+        - {id: PHY-8A-06-1a, strength: hard, reason: 动能与质量有关}
+    - id: PHY-8B-11-3b
+      title: 重力势能和弹性势能
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-08]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8B-11-3a, strength: soft, reason: 和动能对比学}
+- section: PHY-8B-11-4
+  title: 机械能及其转化
+  page: 96
+  kps:
+    - id: PHY-8B-11-4a
+      title: 机械能及其转化
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-14, GZ2022-14, GZ2023-07(1), GZ2024-12(3), SZ2022-07, SZ2022-08, SZ2024-18(1)]
+      weight_note: 7 次，选择、填空常考，注意“有摩擦时机械能减小”
+      prerequisites:
+        - {id: PHY-8B-11-3a, strength: hard, reason: 要判断动能变化}
+        - {id: PHY-8B-11-3b, strength: hard, reason: 要判断势能变化}
+- section: PHY-8B-12-1
+  title: 杠杆
+  page: 104
+  kps:
+    - id: PHY-8B-12-1a
+      title: 杠杆五要素与力臂作图
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2023-26(1), GZ2022-18(3)①, GZ2023-12(1), GZ2024-13(2), GZ2025-14(1), SZ2024-08]
+      weight_note: 6 次，作图题常客
+      prerequisites:
+        - {id: PHY-8B-07-1b, strength: hard, reason: 要画力的作用线}
+        - {id: MATH-角与垂线, strength: hard, reason: 力臂是支点到力的作用线的垂线段}
+    - id: PHY-8B-12-1b
+      title: 杠杆平衡条件（实验与计算）
+      weight: 重点
+      exam_hits: 13
+      exam_refs: [GD2022-21(1), GD2022-21(2), GD2022-21(3), GD2023-20, GD2023-26(2), GZ2022-18(3)②, GZ2023-12(1), GZ2023-12(2), GZ2024-13(1), GZ2025-14(2), GZ2025-18(1), GZ2025-18(2), SZ2023-18(2)]
+      weight_note: 13 次，全科次数最多
+      prerequisites:
+        - {id: PHY-8B-12-1a, strength: hard, reason: 要找准力臂}
+        - {id: MATH-比例, strength: soft, reason: F₁l₁=F₂l₂ 是比例关系}
+    - id: PHY-8B-12-1c
+      title: 杠杆的分类
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GD2023-26(1), GD2023-26(3), GD2024-03, SZ2023-05]
+      weight_note: 4 次，判断省力或费力
+      prerequisites:
+        - {id: PHY-8B-12-1b, strength: hard, reason: 比较动力臂和阻力臂}
+- section: PHY-8B-12-2
+  title: 制作简易杆秤
+  page: 111
+  type: 跨学科实践
+  task: 按杠杆平衡条件做简易杆秤，标定刻度
+- section: PHY-8B-12-3
+  title: 滑轮
+  page: 113
+  kps:
+    - id: PHY-8B-12-3a
+      title: 定滑轮和动滑轮
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-20(2)]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8B-12-1c, strength: soft, reason: 定滑轮是等臂杠杆，动滑轮是省力杠杆}
+    - id: PHY-8B-12-3b
+      title: 滑轮组
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2022-06, GZ2024-16(2)]
+      weight_note: 2 次；数承重绳段数是机械效率计算的前一步
+      prerequisites:
+        - {id: PHY-8B-12-3a, strength: hard, reason: 滑轮组由定、动滑轮组成}
+- section: PHY-8B-12-4
+  title: 机械效率
+  page: 117
+  kps:
+    - id: PHY-8B-12-4a
+      title: 有用功、额外功和总功
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-14]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-8B-11-1b, strength: hard, reason: 三种功都用 W=Fs 计算}
+    - id: PHY-8B-12-4b
+      title: 机械效率的计算
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GZ2022-18(1)②, GZ2023-06, GZ2024-16(3)]
+      weight_note: 3 次计算（滑轮组、斜面）
+      prerequisites:
+        - {id: PHY-8B-12-4a, strength: hard, reason: η=W有/W总}
+        - {id: PHY-8B-12-3b, strength: hard, reason: 要算绳端移动距离 s=nh}
+
+# ======== 九年级全一册 ========
+
+- section: PHY-9-13-1
+  title: 热量比热容
+  page: 2
+  kps:
+    - id: PHY-9-13-1a
+      title: 热量和比热容
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未直接考，作为计算、解释题的基础
+      prerequisites:
+        - {id: PHY-8A-03-1b, strength: hard, reason: 实验靠读温度计、比较升高的温度来判断吸热多少}
+        - {id: PHY-8A-06-1a, strength: hard, reason: 实验必须控制质量相等}
+    - id: PHY-9-13-1b
+      title: 用比热容解释现象
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2023-09]
+      weight_note: 1 次（第十三章原统计含 2025 广东为 2 次）
+      prerequisites:
+        - {id: PHY-9-13-1a, strength: hard, reason: 解释现象要用到比热容的含义}
+    - id: PHY-9-13-1c
+      title: 计算吸收或放出的热量
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-12, GD2023-27(1), GZ2022-19(2), GZ2024-14(3), GZ2025-16(3)①, SZ2022-19(5), SZ2023-17(5)]
+      weight_note: 7 次，多在计算题，分值高
+      prerequisites:
+        - {id: PHY-9-13-1a, strength: hard, reason: 要知道公式里的 c 是什么意思}
+        - {id: PHY-8A-06-1a, strength: hard, reason: 质量必须换算成千克再代入}
+        - {id: PHY-8A-03-1b, strength: hard, reason: 要分清初温、末温和温度变化量}
+        - {id: PHY-8A-06-4a, strength: soft, reason: 题目常给水的体积，要先用 m=ρV 求质量}
+- section: PHY-9-13-2
+  title: 分子动理论的初步知识
+  page: 8
+  kps:
+    - id: PHY-9-13-2a
+      title: 分子热运动与扩散
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2022-08, GD2023-02, GZ2024-14(1), SZ2023-04, SZ2024-11(2)]
+      weight_note: 5 次，但都是填空、选择里的送分题
+      prerequisites:
+        - {id: CHEM-9A-U3, strength: soft, reason: 化学课里已经学过物质由分子、原子构成}
+    - id: PHY-9-13-2b
+      title: 分子间的作用力
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷中没有直接考查，只在选择题干扰项里出现
+      prerequisites:
+        - {id: PHY-9-13-2a, strength: hard, reason: 先知道分子在运动、分子间有间隙}
+- section: PHY-9-13-3
+  title: 内能
+  page: 13
+  kps:
+    - id: PHY-9-13-3a
+      title: 内能
+      weight: 了解
+      exam_hits: 1
+      exam_refs: [SZ2022-07]
+      weight_note: 只作为选择题选项出现，如“火箭发射前内能为零”
+      prerequisites:
+        - {id: PHY-8B-11-3a, strength: hard, reason: 内能由分子动能和分子势能组成}
+        - {id: PHY-9-13-2a, strength: hard, reason: 分子在运动，才有分子动能}
+    - id: PHY-9-13-3b
+      title: 改变内能的两种方式
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2022-08, GD2024-06, GD2024-10, GZ2022-16(1), GZ2025-04, SZ2023-04]
+      weight_note: 6 次
+      prerequisites:
+        - {id: PHY-9-13-3a, strength: hard, reason: 先知道内能是什么}
+        - {id: PHY-9-13-1a, strength: hard, reason: 热传递里传递的就是热量}
+        - {id: PHY-8B-11-1a, strength: hard, reason: 要判断过程中有没有做功}
+        - {id: PHY-8A-03-3c, strength: soft, reason: 瓶塞跳起时的“白雾”是水蒸气液化成的小水滴}
+    - id: PHY-9-13-3c
+      title: 分清温度、热量和内能
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GD2024-06, GZ2023-08]
+      weight_note: 2 次，但是选择题的常见陷阱，失分率高
+      prerequisites:
+        - {id: PHY-9-13-1a, strength: hard, reason: 要知道热量的准确含义}
+        - {id: PHY-9-13-3b, strength: hard, reason: 内能变化要考虑做功和热传递两种方式}
+        - {id: PHY-8A-03-2a, strength: hard, reason: 晶体熔化、凝固时温度不变，是这里最关键的反例}
+- section: PHY-9-14-1
+  title: 能量的转化与守恒
+  page: 20
+  kps:
+    - id: PHY-9-14-1a
+      title: 能量的转化和守恒
+      weight: 一般
+      exam_hits: 6
+      exam_refs: [GD2022-09, GD2023-28(1), GD2024-27(2), GZ2023-03, GZ2025-11(1), SZ2024-09]
+      weight_note: 6 次，但都是“什么能转化为什么能”的一步判断
+      prerequisites:
+        - {id: PHY-9-13-3b, strength: soft, reason: 做功改变内能就是能量转化}
+        - {id: PHY-8B-11-4a, strength: soft, reason: 机械能转化是最早学的例子}
+- section: PHY-9-14-2
+  title: 热机
+  page: 25
+  kps:
+    - id: PHY-9-14-2a
+      title: 汽油机的四个冲程
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2022-09, GD2023-05, SZ2024-18(4)]
+      weight_note: 3 次，判断冲程及其能量转化
+      prerequisites:
+        - {id: PHY-9-13-3b, strength: hard, reason: 压缩、做功冲程靠做功改变内能}
+        - {id: PHY-9-14-1a, strength: hard, reason: 要说出能量怎样转化}
+- section: PHY-9-14-3
+  title: 热机的效率
+  page: 30
+  kps:
+    - id: PHY-9-14-3a
+      title: 燃料的热值与 Q=mq
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-08, GD2023-28(3), GZ2024-14(3), SZ2022-07]
+      weight_note: 4 次，常与比热容计算组合
+      prerequisites:
+        - {id: PHY-9-13-1c, strength: soft, reason: 常与 Q吸=cmΔt 连用}
+    - id: PHY-9-14-3b
+      title: 热机效率与能量利用效率
+      weight: 重点
+      exam_hits: 6
+      exam_refs: [GD2022-12, GD2024-28(5), GZ2022-03, GZ2025-16(3)②, SZ2022-19(5), SZ2024-16(3)]
+      weight_note: 6 次，含电热器、燃气灶的加热效率
+      prerequisites:
+        - {id: PHY-9-14-3a, strength: hard, reason: 燃料放热 Q放=mq}
+        - {id: PHY-9-13-1c, strength: hard, reason: 有用的热量 Q吸=cmΔt}
+        - {id: PHY-9-14-1a, strength: soft, reason: 效率反映能量有多少被利用}
+- section: PHY-9-14-4
+  title: 制作简易热机模型
+  page: 35
+  type: 跨学科实践
+  task: 做简易热机模型，观察内能转化为机械能
+- section: PHY-9-15-1
+  title: 两种电荷
+  page: 40
+  kps:
+    - id: PHY-9-15-1a
+      title: 两种电荷及其相互作用（验电器）
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GD2022-19, GD2024-10, GZ2022-08, GZ2023-02]
+      weight_note: 4 次
+      prerequisites: []
+    - id: PHY-9-15-1b
+      title: 原子结构和摩擦起电的实质
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-03, GD2022-19, GD2023-08, GD2024-04, GZ2023-02, GZ2024-07, GZ2025-02]
+      weight_note: 7 次，广州 2023–2025 每年都考；“创造电荷”“正电荷转移”是常见错误
+      prerequisites:
+        - {id: PHY-9-15-1a, strength: hard, reason: 带电后才谈得上相互作用}
+        - {id: CHEM-9A-U3, strength: soft, reason: 化学课里学过原子由原子核和电子构成}
+- section: PHY-9-15-2
+  title: 电流和电路
+  page: 44
+  kps:
+    - id: PHY-9-15-2a
+      title: 电流的形成和方向
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-07, SZ2024-09]
+      weight_note: 2 次（负电荷移动方向与电流方向相反）
+      prerequisites:
+        - {id: PHY-9-15-1b, strength: hard, reason: 电流是电荷的定向移动}
+    - id: PHY-9-15-2b
+      title: 导体和绝缘体
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-13]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-9-15-1b, strength: soft, reason: 导体内有能自由移动的电荷}
+    - id: PHY-9-15-2c
+      title: 电路的组成和电路图
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [SZ2022-12, SZ2024-18(2)]
+      weight_note: 2 次（实物图与电路图互画、蓄电池充电时是用电器）
+      prerequisites:
+        - {id: PHY-9-15-2a, strength: hard, reason: 电路是电流的路径}
+    - id: PHY-9-15-2d
+      title: 通路、断路和短路
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是电路设计、故障判断的基础
+      prerequisites:
+        - {id: PHY-9-15-2c, strength: hard, reason: 要会看电路图}
+- section: PHY-9-15-3
+  title: 串联电路和并联电路
+  page: 50
+  kps:
+    - id: PHY-9-15-3a
+      title: 识别串联和并联
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；所有电路题第一步都要判断连接方式
+      prerequisites:
+        - {id: PHY-9-15-2c, strength: hard, reason: 要会看电路图}
+        - {id: PHY-9-15-2d, strength: hard, reason: 并联支路互不影响要靠通、断判断}
+    - id: PHY-9-15-3b
+      title: 按要求设计电路
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GZ2022-09, GZ2025-06]
+      weight_note: 2 次（广州 2022、2025），开关位置、短路是常见陷阱
+      prerequisites:
+        - {id: PHY-9-15-3a, strength: hard, reason: 先能识别串、并联}
+        - {id: PHY-9-15-2d, strength: hard, reason: 不能设计出短路}
+- section: PHY-9-15-4
+  title: 电流的测量
+  page: 55
+  kps:
+    - id: PHY-9-15-4a
+      title: 电流表的使用和读数
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2022-22(2), GZ2024-17(2), SZ2022-16(3)]
+      weight_note: 3 次读数，且是 2026 广州实验操作考试内容
+      lab_exam: 试题一至四都要连接电流表或电压表，先试触
+      prerequisites:
+        - {id: PHY-9-15-3a, strength: hard, reason: 电流表要串联在被测电路中}
+- section: PHY-9-15-5
+  title: 串、并联电路中电流的规律
+  page: 60
+  kps:
+    - id: PHY-9-15-5a
+      title: 串、并联电路的电流规律
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2023-14, GZ2025-17(6)]
+      weight_note: 2 次实验题；2026 广州实验操作考试要测并联干路和支路电流，操作要点已在 15.4a
+      lab_exam: 试题三：测量并联电路干路与支路的电流
+      prerequisites:
+        - {id: PHY-9-15-4a, strength: hard, reason: 要会测电流}
+        - {id: PHY-9-15-3a, strength: hard, reason: 先判断串、并联}
+- section: PHY-9-16-1
+  title: 电压
+  page: 67
+  kps:
+    - id: PHY-9-16-1a
+      title: 电压与电压表的使用
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2023-19, GD2024-22(3), GZ2025-17(3)]
+      weight_note: 3 次读数，且是 2026 广州实验操作考试内容
+      lab_exam: 试题一、二、四：读取电压表示数
+      prerequisites:
+        - {id: PHY-9-15-4a, strength: soft, reason: 使用规则和电流表对照学}
+        - {id: PHY-9-15-3a, strength: hard, reason: 电压表要并联在被测电路两端}
+- section: PHY-9-16-2
+  title: 串、并联电路中电压的规律
+  page: 72
+  kps:
+    - id: PHY-9-16-2a
+      title: 串、并联电路的电压规律
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-22(3)]
+      weight_note: 1 次直接考；欧姆定律计算都要用
+      prerequisites:
+        - {id: PHY-9-16-1a, strength: hard, reason: 要会测电压}
+        - {id: PHY-9-15-3a, strength: hard, reason: 先判断串、并联}
+- section: PHY-9-16-3
+  title: 电阻
+  page: 77
+  kps:
+    - id: PHY-9-16-3a
+      title: 电阻及其影响因素
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GD2024-14, SZ2022-19(2)]
+      weight_note: 2 次
+      prerequisites:
+        - {id: PHY-9-15-2b, strength: hard, reason: 电阻表示导体对电流的阻碍作用}
+- section: PHY-9-16-4
+  title: 变阻器
+  page: 82
+  kps:
+    - id: PHY-9-16-4a
+      title: 滑动变阻器的使用
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2023-19, GD2024-07, GZ2025-17(1), SZ2023-15(1), SZ2023-15(2)]
+      weight_note: 5 次，2026 广州实验操作考试 4 套题都要用滑动变阻器
+      lab_exam: 试题一至四：连接滑动变阻器，闭合开关前调到最大阻值
+      prerequisites:
+        - {id: PHY-9-16-3a, strength: hard, reason: 靠改变接入电阻丝的长度改变电阻}
+        - {id: PHY-9-15-3a, strength: hard, reason: 变阻器要和被控制的用电器串联}
+- section: PHY-9-16-5
+  title: 制作简易调光台灯
+  page: 87
+  type: 跨学科实践
+  task: 用滑动变阻器或铅笔芯做能调亮度的台灯
+- section: PHY-9-17-1
+  title: 电流与电压、电阻的关系
+  page: 93
+  kps:
+    - id: PHY-9-17-1a
+      title: 探究电流与电压、电阻的关系
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [SZ2024-13(1), SZ2024-13(2), SZ2024-13(3)]
+      weight_note: 3 次（深圳 2024 实验题），控制变量和数据分析常考
+      prerequisites:
+        - {id: PHY-9-16-4a, strength: hard, reason: 靠变阻器控制定值电阻两端电压}
+        - {id: PHY-9-15-4a, strength: hard, reason: 要读电流表}
+        - {id: PHY-9-16-1a, strength: hard, reason: 要读电压表}
+        - {id: MATH-比例, strength: soft, reason: 结论是正比、反比关系}
+- section: PHY-9-17-2
+  title: 欧姆定律
+  page: 98
+  kps:
+    - id: PHY-9-17-2a
+      title: 欧姆定律及简单计算
+      weight: 重点
+      exam_hits: 7
+      exam_refs: [GD2022-24(1), GD2023-25(1), GD2024-25(1), GD2024-27(4), GZ2022-17(2)①, GZ2023-16(2), SZ2022-16(4)]
+      weight_note: 7 次计算
+      prerequisites:
+        - {id: PHY-9-17-1a, strength: hard, reason: 欧姆定律是实验结论}
+        - {id: MATH-方程变形, strength: soft, reason: I=U/R 要会变形}
+- section: PHY-9-17-3
+  title: 电阻的测量
+  page: 101
+  kps:
+    - id: PHY-9-17-3a
+      title: 伏安法测电阻
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2022-22(1), GD2022-22(2), GD2024-14, SZ2023-15(4), SZ2023-15(5)]
+      weight_note: 5 次实验题，含“小灯泡电阻随温度变化”
+      prerequisites:
+        - {id: PHY-9-17-2a, strength: hard, reason: 原理是 R=U/I}
+        - {id: PHY-9-16-4a, strength: hard, reason: 要用变阻器改变电压、多次测量}
+- section: PHY-9-17-4
+  title: 欧姆定律在串、并联电路中的应用
+  page: 105
+  kps:
+    - id: PHY-9-17-4a
+      title: 串、并联电路中的欧姆定律计算
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [SZ2022-18(1), SZ2022-18(2), SZ2023-09, SZ2023-19(2), SZ2023-19(3)]
+      weight_note: 5 次计算
+      prerequisites:
+        - {id: PHY-9-17-2a, strength: hard, reason: 对每个电阻用 I=U/R}
+        - {id: PHY-9-15-5a, strength: hard, reason: 串联电流相等、并联电流相加}
+        - {id: PHY-9-16-2a, strength: hard, reason: 串联电压相加、并联电压相等}
+    - id: PHY-9-17-4b
+      title: 动态电路分析
+      weight: 重点
+      exam_hits: 2
+      exam_refs: [GZ2024-09, SZ2022-05]
+      weight_note: 2 次（GZ2024-09 地磅、SZ2022-05 油量表），均为选择题；判断各电表怎样变化要一步步推，容易出错
+      prerequisites:
+        - {id: PHY-9-17-4a, strength: hard, reason: 要列出电阻变化后电流、电压怎么变}
+        - {id: PHY-9-16-4a, strength: hard, reason: 要判断滑片移动后接入电阻怎么变}
+    - id: PHY-9-17-4c
+      title: 判断电路故障
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2024-22(2), GZ2023-15, GZ2025-17(4), SZ2022-16(1), SZ2023-15(6)]
+      weight_note: 5 次，实验题常见（广州 2023、2025 都考）
+      prerequisites:
+        - {id: PHY-9-15-2d, strength: hard, reason: 故障就是某处断路或短路}
+        - {id: PHY-9-16-1a, strength: hard, reason: 用电压表有无示数判断}
+        - {id: PHY-9-15-4a, strength: hard, reason: 用电流表有无示数判断}
+- section: PHY-9-18-1
+  title: 电能电功
+  page: 111
+  kps:
+    - id: PHY-9-18-1a
+      title: 电能和电能表
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2022-27(3), GD2023-28(3), GD2023-28(5), SZ2022-13(3), SZ2024-18(5)]
+      weight_note: 5 次，读数和 kW·h 计算都较简单
+      prerequisites:
+        - {id: PHY-9-14-1a, strength: soft, reason: 用电器把电能转化为其他形式的能}
+    - id: PHY-9-18-1b
+      title: 电功的计算 W=UIt
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2024-25(3), GZ2024-15(2), SZ2024-13(4), SZ2024-16(3)]
+      weight_note: 4 次计算
+      prerequisites:
+        - {id: PHY-9-18-1a, strength: hard, reason: 电功就是消耗的电能}
+        - {id: PHY-9-17-2a, strength: hard, reason: 常要先用欧姆定律求电流}
+- section: PHY-9-18-2
+  title: 电功率
+  page: 114
+  kps:
+    - id: PHY-9-18-2a
+      title: 电功率及计算
+      weight: 重点
+      exam_hits: 16
+      exam_refs: [GD2022-27(1), GD2022-27(2), GD2022-27(4), GD2023-25(2), GD2024-25(2), GZ2022-17(1), GZ2023-16(2), GZ2024-15(3), GZ2024-15(4), GZ2025-11(2), GZ2025-16(2), SZ2022-18(3), SZ2023-09, SZ2023-19(2), SZ2024-16(1), SZ2024-18(6)]
+      weight_note: 16 次，全科第二多，计算题几乎每卷都有
+      prerequisites:
+        - {id: PHY-9-18-1b, strength: hard, reason: P=W/t}
+        - {id: PHY-9-17-2a, strength: hard, reason: P=UI 常要和欧姆定律联用}
+        - {id: PHY-9-17-4a, strength: soft, reason: 串、并联电路中求总功率}
+    - id: PHY-9-18-2b
+      title: 额定功率和实际功率
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-14, SZ2022-16(5), SZ2023-15(3)]
+      weight_note: 3 次；“灯泡亮度由实际功率决定”
+      prerequisites:
+        - {id: PHY-9-18-2a, strength: hard, reason: 先会算电功率}
+    - id: PHY-9-18-2c
+      title: 测量小灯泡的电功率
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2022-16(2)]
+      weight_note: 1 次（深圳 2022 实验题）
+      prerequisites:
+        - {id: PHY-9-18-2b, strength: hard, reason: 要测的是额定功率和实际功率}
+        - {id: PHY-9-17-3a, strength: hard, reason: 电路和伏安法测电阻相同}
+- section: PHY-9-18-3
+  title: 为家庭节约用电提建议
+  page: 118
+  type: 跨学科实践
+  task: 调查家用电器功率和使用时间，提出节约用电的建议
+- section: PHY-9-18-4
+  title: 焦耳定律
+  page: 120
+  kps:
+    - id: PHY-9-18-4a
+      title: 电流的热效应（探究电热与哪些因素有关）
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GD2024-14]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-9-16-3a, strength: soft, reason: 电热与电阻有关}
+        - {id: PHY-9-15-5a, strength: soft, reason: 串联保证电流相同}
+    - id: PHY-9-18-4b
+      title: 焦耳定律及计算
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-24(2), GZ2022-17(2)②, GZ2023-16(3), SZ2022-19(2)]
+      weight_note: 4 次计算
+      prerequisites:
+        - {id: PHY-9-18-4a, strength: hard, reason: Q=I²Rt 是实验结论}
+        - {id: PHY-9-17-2a, strength: hard, reason: 常要先求电流}
+    - id: PHY-9-18-4c
+      title: 多挡位用电器的分析与计算
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2022-24(3), GD2023-25(3), GZ2024-15(1), SZ2022-10, SZ2024-16(2)]
+      weight_note: 5 次，广东、深圳计算题常考，广州 2024 第 15 题
+      prerequisites:
+        - {id: PHY-9-18-2a, strength: hard, reason: 由 P=U²/R 判断电阻小时功率大}
+        - {id: PHY-9-17-4a, strength: hard, reason: 开关切换后电阻串联或并联}
+        - {id: PHY-9-15-3a, strength: hard, reason: 要识别每个挡位的连接方式}
+- section: PHY-9-19-1
+  title: 安全用电
+  page: 128
+  kps:
+    - id: PHY-9-19-1a
+      title: 家庭电路中电流过大的原因
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [SZ2022-19(1), SZ2022-19(3)]
+      weight_note: 2 次
+      prerequisites:
+        - {id: PHY-9-18-2a, strength: hard, reason: 总功率过大导致电流过大}
+        - {id: PHY-9-15-2d, strength: hard, reason: 短路导致电流过大}
+    - id: PHY-9-19-1b
+      title: 触电与安全用电
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [SZ2023-03]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-9-15-2b, strength: hard, reason: 人体是导体，接触火线就会有电流通过}
+        - {id: PHY-9-15-2d, strength: soft, reason: 触电就是人体成了电流的通路}
+- section: PHY-9-19-2
+  title: 家庭电路的基本组成
+  page: 134
+  kps:
+    - id: PHY-9-19-2a
+      title: 家庭电路的组成与连接（作图）
+      weight: 重点
+      exam_hits: 3
+      exam_refs: [GD2022-12, GD2023-17, GD2024-17]
+      weight_note: 3 次，广东每年作图题都可能考（开关接火线、三孔插座）
+      prerequisites:
+        - {id: PHY-9-15-3a, strength: hard, reason: 家用电器是并联的}
+        - {id: PHY-9-15-2c, strength: hard, reason: 要会画电路}
+    - id: PHY-9-19-2b
+      title: 试电笔、保护装置和三孔插座
+      weight: 一般
+      exam_hits: 2
+      exam_refs: [GZ2024-08, SZ2024-11(1)]
+      weight_note: 2 次（广州 2024 用试电笔判断故障偏难）
+      prerequisites:
+        - {id: PHY-9-19-2a, strength: hard, reason: 先知道火线、零线、地线}
+- section: PHY-9-19-3
+  title: 为家庭电路做设计
+  page: 141
+  type: 跨学科实践
+  task: 按安全用电要求设计一个房间的家庭电路图
+- section: PHY-9-20-1
+  title: 磁现象磁场
+  page: 147
+  kps:
+    - id: PHY-9-20-1a
+      title: 磁体和磁极间的相互作用
+      weight: 一般
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；是电磁铁、电动机题的基础
+      prerequisites: []
+    - id: PHY-9-20-1b
+      title: 磁场和磁感线
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2022-04]
+      weight_note: 1 次
+      prerequisites:
+        - {id: PHY-9-20-1a, strength: hard, reason: 磁场方向用小磁针 N 极指向规定}
+    - id: PHY-9-20-1c
+      title: 地磁场
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2023-13, GZ2024-17(1), SZ2023-07]
+      weight_note: 3 次
+      prerequisites:
+        - {id: PHY-9-20-1b, strength: hard, reason: 地球周围有磁场}
+- section: PHY-9-20-2
+  title: 电生磁
+  page: 152
+  kps:
+    - id: PHY-9-20-2a
+      title: 电流的磁效应与安培定则
+      weight: 重点
+      exam_hits: 4
+      exam_refs: [GD2022-17, GD2023-13, GZ2024-17(2), GZ2025-08]
+      weight_note: 4 次，作图题和电磁铁题都要用安培定则
+      prerequisites:
+        - {id: PHY-9-20-1b, strength: hard, reason: 要画磁感线方向}
+        - {id: PHY-9-15-2a, strength: hard, reason: 要判断电流方向}
+- section: PHY-9-20-3
+  title: 电磁铁电磁继电器
+  page: 157
+  kps:
+    - id: PHY-9-20-3a
+      title: 电磁铁及其磁性强弱
+      weight: 一般
+      exam_hits: 1
+      exam_refs: [GZ2024-17(2)]
+      weight_note: 1 次（广州 2024 实验题）
+      prerequisites:
+        - {id: PHY-9-20-2a, strength: hard, reason: 电磁铁是带铁芯的通电螺线管}
+    - id: PHY-9-20-3b
+      title: 电磁继电器
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2024-27(3), GD2024-27(5), GZ2022-17(3)]
+      weight_note: 3 次，但只来自 2 道题（广州 2022、广东 2024 连线题）
+      prerequisites:
+        - {id: PHY-9-20-3a, strength: hard, reason: 靠电磁铁吸引衔铁}
+        - {id: PHY-9-17-2a, strength: soft, reason: 控制电路电流变化要用欧姆定律}
+- section: PHY-9-20-4
+  title: 电动机
+  page: 161
+  kps:
+    - id: PHY-9-20-4a
+      title: 磁场对通电导线的作用与电动机
+      weight: 一般
+      exam_hits: 4
+      exam_refs: [GD2024-13, GZ2023-07(2), SZ2022-09, SZ2024-18(2)]
+      weight_note: 4 次，多为“哪个是电动机原理”的辨认，和 20.6a 对比学即可
+      prerequisites:
+        - {id: PHY-9-20-1b, strength: hard, reason: 导线放在磁场中}
+        - {id: PHY-9-15-2a, strength: hard, reason: 受力方向与电流方向有关}
+- section: PHY-9-20-5
+  title: 制作简易直流电动机
+  page: 165
+  type: 跨学科实践
+  task: 用漆包线和磁体做一个能转动的简易直流电动机
+- section: PHY-9-20-6
+  title: 磁生电
+  page: 167
+  kps:
+    - id: PHY-9-20-6a
+      title: 电磁感应与发电机
+      weight: 重点
+      exam_hits: 5
+      exam_refs: [GD2022-07, GD2023-06, GD2024-28(2), GZ2022-13(1), GZ2022-13(2)]
+      weight_note: 5 次，判断能否产生感应电流、与电动机区分
+      prerequisites:
+        - {id: PHY-9-20-1b, strength: hard, reason: 要判断是否切割磁感线}
+        - {id: PHY-9-20-4a, strength: soft, reason: 和电动机对比：一个有电源，一个没有}
+- section: PHY-9-21-1
+  title: 电磁波的海洋
+  page: 175
+  kps:
+    - id: PHY-9-21-1a
+      title: 电磁波的产生、传播和电磁波谱
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2022-26(1), GZ2023-04, GZ2025-03]
+      weight_note: 3 次
+      prerequisites:
+        - {id: PHY-8A-04-1b, strength: soft, reason: 电磁波在真空中的速度等于光速}
+        - {id: PHY-8A-04-5b, strength: soft, reason: 红外线、紫外线也是电磁波}
+- section: PHY-9-21-2
+  title: 广播、电视和移动通信
+  page: 179
+  kps:
+    - id: PHY-9-21-2a
+      title: 用电磁波传递信息
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2023-12, GD2024-08, SZ2022-06, SZ2023-06, SZ2024-17(5)]
+      weight_note: 5 次，“通过电磁波联系”类一步填空
+      prerequisites:
+        - {id: PHY-9-21-1a, strength: hard, reason: 先知道电磁波能在真空中传播}
+- section: PHY-9-21-3
+  title: 卫星通信和光纤通信
+  page: 183
+  kps:
+    - id: PHY-9-21-3a
+      title: 卫星通信和光纤通信
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未直接考（光纤原理计入光的反射）
+      prerequisites:
+        - {id: PHY-9-21-2a, strength: hard, reason: 都是电磁波通信}
+        - {id: PHY-8A-04-2a, strength: soft, reason: 光纤靠光的反射传光}
+- section: PHY-9-22-1
+  title: 能源利用的现状和面临的挑战
+  page: 189
+  kps:
+    - id: PHY-9-22-1a
+      title: 能源的分类
+      weight: 一般
+      exam_hits: 5
+      exam_refs: [GD2022-05, GD2024-12, GZ2024-03, GZ2025-11(1), SZ2022-06]
+      weight_note: 5 次，一次 / 二次、可再生 / 不可再生判断
+      prerequisites:
+        - {id: PHY-9-14-1a, strength: soft, reason: 二次能源是由一次能源转化来的}
+    - id: PHY-9-22-1b
+      title: 能源利用面临的挑战
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 10 套卷未直接考
+      prerequisites:
+        - {id: PHY-9-22-1a, strength: soft, reason: 先知道能源的种类}
+- section: PHY-9-22-2
+  title: 新能源的发展
+  page: 194
+  kps:
+    - id: PHY-9-22-2a
+      title: 核能（裂变和聚变）
+      weight: 一般
+      exam_hits: 3
+      exam_refs: [GD2022-05, GD2023-12, GD2024-12]
+      weight_note: 3 次（太阳内部是聚变）
+      prerequisites:
+        - {id: PHY-9-15-1b, strength: soft, reason: 核能来自原子核}
+    - id: PHY-9-22-2b
+      title: 太阳能的利用
+      weight: 了解
+      exam_hits: 0
+      exam_refs: []
+      weight_note: 未单独考；太阳能来源计入 2a
+      prerequisites:
+        - {id: PHY-9-22-2a, strength: hard, reason: 太阳能来自核聚变}
+        - {id: PHY-9-14-1a, strength: soft, reason: 太阳能电池把光能转化为电能}
+- section: PHY-9-22-3
+  title: 为节约能源设计方案
+  page: 200
+  type: 跨学科实践
+  task: 调查家庭或学校的能源使用，设计节约能源的方案

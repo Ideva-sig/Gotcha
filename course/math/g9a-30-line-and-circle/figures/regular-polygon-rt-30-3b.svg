@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="regular-polygon-rt-30-3b-t regular-polygon-rt-30-3b-d">
+  <title id="regular-polygon-rt-30-3b-t">正六边形中的直角三角形计算：半径、边心距与半边</title>
+  <desc id="regular-polygon-rt-30-3b-d">左侧正六边形边长a=12，中心O，作边心距r垂直平分一边，连结半径R=12形成Rt△；右侧提取直角三角形，展示R²=r²+(a/2)²，代入R=12、半边6，求得边心距r=6√3，并标明两条平行对边的间距为2r。已知边实线，辅助半径和垂线虚线；R蓝#287fc4、r绿#197a60，式图同色。</desc>
+  <style>.regular-polygon-rt-30-3b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.regular-polygon-rt-30-3b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="420" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <path d="M268 100.9L142 100.9L79 210L142 319.1L268 319.1L331 210Z" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="205" cy="210" r="3.8" fill="#20272b"/>
+  <text class="regular-polygon-rt-30-3b-math" x="193" y="228" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="130" y="92.9" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="280" y="92.9" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="205" y="78.9" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">边长 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">a</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 12</tspan></text>
+  </g>
+  <g data-step="2">
+  <path d="M205 210L268 100.9" stroke="#287fc4" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M205 210L142 100.9" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <text class="regular-polygon-rt-30-3b-math" x="252.5" y="167.4" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">R</tspan></text>
+  <path d="M205 210L205 100.9" stroke="#197a60" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M213 100.9L213 108.9L205 108.9" stroke="#197a60" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <circle cx="205" cy="100.9" r="3.5" fill="#197a60"/>
+  <text class="regular-polygon-rt-30-3b-math" x="213" y="155.4" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="205" y="94.9" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">M</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="173.5" y="116.9" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="236.5" y="116.9" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6</tspan></text>
+  <path d="M205 210L205 319.1" stroke="#197a60" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M213 319.1L213 311.1L205 311.1" stroke="#197a60" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <circle cx="205" cy="319.1" r="3.5" fill="#197a60"/>
+  <text class="regular-polygon-rt-30-3b-math" x="213" y="264.6" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="205" y="337.1" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#52626a" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">对边间距 = 2</tspan><tspan fill="#52626a" font-family="Times New Roman,serif" font-style="italic">r</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="regular-polygon-rt-30-3b-lb" x="420" y="32" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">直角三角形关系</text>
+  <path d="M465 180L537.5 180" stroke="#20272b" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M465 180L465 54.5" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M465 54.5L537.5 180" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M473 180L473 172L465 172" stroke="#52626a" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <circle cx="465" cy="180" r="3.5" fill="#20272b"/>
+  <circle cx="537.5" cy="180" r="3.5" fill="#20272b"/>
+  <circle cx="465" cy="54.5" r="3.5" fill="#20272b"/>
+  <text class="regular-polygon-rt-30-3b-math" x="453" y="196" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">M</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="547.5" y="196" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="453" y="50.5" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="501.2" y="200" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">a</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">/2 = 6</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="451" y="117.3" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="515.2" y="111.3" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">R</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 12</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="420" y="230" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">核心关系（勾股定理）：</tspan></text>
+  <rect x="420" y="244" width="280" height="44" rx="6" fill="#e3f1fa" stroke="#bec9ce" stroke-width="1.2"/>
+  <text class="regular-polygon-rt-30-3b-math" x="560" y="272" text-anchor="middle" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">R</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">² = </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">² + (</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">a</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">/2)²</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="420" y="316" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 代入半径与半边长：</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="436" y="342" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">² = </tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">12</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">² − 6² = 144 − 36 = 108</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="436" y="370" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = √108 = </tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6√3</tspan></text>
+  <text class="regular-polygon-rt-30-3b-math" x="420" y="404" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 两条平行对边的间距为 </tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">r</tspan></text>
+  </g>
+</svg>

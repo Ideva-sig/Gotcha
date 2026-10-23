@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="lns-t lns-d">
+  <title id="lns-t">凸透镜使光会聚，凹透镜使光发散</title>
+  <desc id="lns-d">左：平行于主光轴的三束光射向凸透镜，穿过后会聚于焦点 F。右：同样的三束光射向凹透镜，穿过后向外散开。静态图。</desc>
+  <style>.lns-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.lns-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="240" fill="#fff" stroke="none"/>
+  <path d="M20 110L300 110" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="10 4 2 4"/>
+  <path d="M150 40Q174 110 150 180Q126 110 150 40Z" fill="#dceff9" stroke="#287fc4" stroke-width="1.8"/>
+  <path d="M30 66L150 66" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M101.5 66L90.5 71L90.5 61Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M150 66L284.8 131.9" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M198.1 89.5L186 89.1L190.4 80.2Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M30 110L150 110" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M101.5 110L90.5 115L90.5 105Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M150 110L300 110" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M203.5 110L192.5 115L192.5 105Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M30 154L150 154" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M101.5 154L90.5 158.9L90.5 149.1Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M150 154L284.8 88.1" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M198.1 130.5L190.4 139.8L186 130.9Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="240" cy="110" r="3.2" fill="#20272b"/>
+  <text class="lns-sy" x="244" y="134" text-anchor="middle" style="fill:#20272b;font-size:16px">F</text>
+  <text class="lns-lb" x="150" y="222" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">凸透镜：会聚</text>
+  <path d="M340 110L620 110" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="10 4 2 4"/>
+  <path d="M458 40L482 40Q473 110 482 180L458 180Q467 110 458 40Z" fill="#dceff9" stroke="#287fc4" stroke-width="1.8"/>
+  <path d="M350 66L470 66" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M421.5 66L410.5 71L410.5 61Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M470 66L582.3 11.1" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M542.3 30.6L534.6 39.9L530.3 31Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M350 110L470 110" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M421.5 110L410.5 115L410.5 105Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M470 110L610 110" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M559.5 110L548.5 115L548.5 105Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M350 154L470 154" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M421.5 154L410.5 158.9L410.5 149.1Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M470 154L582.3 208.9" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M542.3 189.4L530.3 189L534.6 180.1Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="lns-lb" x="470" y="222" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">凹透镜：发散</text>
+</svg>

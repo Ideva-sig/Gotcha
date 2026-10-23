@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-b-voltmeter-t opt-b-voltmeter-d">
+  <title id="opt-b-voltmeter-t">电压表两排刻度与量程</title>
+  <desc id="opt-b-voltmeter-d">参考课本图16.1-4及已有电流表画法：上排对应0至15V，下排对应0至3V。按讲义的小量程分度值等分刻度，两排刻度位置一一对应。仅标讲义已有的量程端点，不增加中间刻度数字。下方接线柱为负、3、15。不画指针，不给任何测量读数。完整静态图，无动画。</desc>
+  <style>.opt-b-voltmeter-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-b-voltmeter-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="330" fill="#fff" stroke="none"/>
+  <text class="opt-b-voltmeter-lb" x="35" y="30" text-anchor="start" style="fill:#287fc4;font-size:14px;font-weight:600">接“15”读上排</text>
+  <text class="opt-b-voltmeter-lb" x="605" y="30" text-anchor="end" style="fill:#c9554d;font-size:14px;font-weight:600">接“3”读下排</text>
+  <path d="M180.7 155.5A170 170 0 0 1 459.3 155.5" fill="none" stroke="#20272b" stroke-width="1.6"/>
+  <path d="M180.7 155.5L167.6 146.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M187.3 146.8L181.8 142.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194.3 138.5L189.2 133.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M201.9 130.7L197 125.7" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M210 123.4L205.4 118.1" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M218.5 116.6L211.9 107.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M227.4 110.4L223.6 104.6" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M236.7 104.8L233.3 98.7" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M246.4 99.8L243.3 93.5" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M256.3 95.4L253.7 88.9" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M266.5 91.6L261.5 76.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M277 88.5L275.2 81.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M287.6 86.1L286.2 79.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M298.3 84.4L297.4 77.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M309.1 83.3L308.7 76.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M320 83L320 72" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M330.9 83.3L331.3 76.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M341.7 84.4L342.6 77.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M352.4 86.1L353.8 79.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M363 88.5L364.8 81.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M373.5 91.6L378.5 76.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M383.7 95.4L386.3 88.9" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M393.6 99.8L396.7 93.5" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M403.3 104.8L406.7 98.7" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M412.6 110.4L416.4 104.6" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M421.5 116.6L428.1 107.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M430 123.4L434.6 118.1" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M438.1 130.7L443 125.7" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M445.7 138.5L450.8 133.8" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M452.7 146.8L458.2 142.4" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M459.3 155.5L472.4 146.3" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="opt-b-voltmeter-lb" x="154.5" y="142.1" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">0</text>
+  <text class="opt-b-voltmeter-lb" x="198.8" y="173.1" text-anchor="middle" style="fill:#c9554d;font-size:15px;font-weight:600">0</text>
+  <text class="opt-b-voltmeter-lb" x="485.5" y="142.1" text-anchor="middle" style="fill:#287fc4;font-size:15px;font-weight:600">15</text>
+  <text class="opt-b-voltmeter-lb" x="441.2" y="173.1" text-anchor="middle" style="fill:#c9554d;font-size:15px;font-weight:600">3</text>
+  <text class="opt-b-voltmeter-lb" x="320" y="240" text-anchor="middle" style="fill:#20272b;font-size:22px;font-weight:600">V</text>
+  <circle cx="250" cy="285" r="6" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <text class="opt-b-voltmeter-lb" x="250" y="313" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">－</text>
+  <circle cx="320" cy="285" r="6" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <text class="opt-b-voltmeter-lb" x="320" y="313" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">3</text>
+  <circle cx="390" cy="285" r="6" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <text class="opt-b-voltmeter-lb" x="390" y="313" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">15</text>
+</svg>

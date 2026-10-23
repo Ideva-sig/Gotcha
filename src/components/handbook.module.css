@@ -1,0 +1,96 @@
+.handbook {
+  max-width: 1080px;
+  min-width: 0;
+}
+
+.header h1 {
+  margin-bottom: 16px;
+}
+
+.header p {
+  color: var(--text-soft);
+}
+
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 32px;
+  padding: 16px 0;
+  border-top: 2px dashed var(--border-strong);
+  border-bottom: 2px dashed var(--border-strong);
+}
+
+.section {
+  min-width: 0;
+  padding-bottom: 32px;
+}
+
+.section + .section {
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.section h2 {
+  margin-bottom: 18px;
+}
+
+.entry {
+  min-width: 0;
+  margin-top: 28px;
+}
+
+.entry + .entry {
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.entry h3 {
+  margin-bottom: 16px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+/* 仅约束手册的宽表和长公式，不改变其他讲义页。 */
+.handbook :global(table) {
+  min-width: 720px;
+}
+
+.handbook :global(th),
+.handbook :global(td) {
+  vertical-align: top;
+}
+
+.handbook :global(.katex) {
+  /* 隐藏的 MathML 以公式为定位参照，避免撑宽窄屏页面。 */
+  position: relative;
+  white-space: nowrap;
+}
+
+.handbook :global(li) {
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .toc {
+    margin: 20px 0 24px;
+  }
+
+}
+
+.printBar { margin-top: 14px; }
+
+@media print {
+  .printBar,
+  .toc { display: none; }
+
+  .handbook { max-width: none; }
+
+  /* 条目不要被页边切成两半 */
+  .entry { break-inside: avoid; page-break-inside: avoid; margin-top: 14px; }
+  .entry + .entry { padding-top: 14px; }
+  .section { padding-bottom: 14px; }
+  .section + .section { padding-top: 14px; }
+  .section h2, .entry h3 { break-after: avoid; page-break-after: avoid; }
+  .handbook :global(table) { min-width: 0; font-size: 12px; }
+}

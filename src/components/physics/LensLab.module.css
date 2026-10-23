@@ -1,0 +1,312 @@
+.lab {
+  display: grid;
+  gap: 20px;
+}
+
+/* 实验台：白纸面，不加点阵、飘带 */
+.benchCard {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  background: #fff;
+}
+
+.stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 220px);
+  align-items: center;
+  gap: 16px;
+}
+
+.benchWrap {
+  min-width: 0;
+}
+
+.bench,
+.screen {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.bench {
+  touch-action: pan-y;
+}
+
+.handle {
+  cursor: ew-resize;
+  outline: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.handle:focus-visible {
+  fill: rgba(25, 200, 185, 0.12);
+}
+
+.tick {
+  fill: var(--course-muted);
+  font-size: 13px;
+}
+
+.focusLabel {
+  fill: var(--course-ink);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+.partLabel {
+  fill: var(--course-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.screenWrap {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+.screenWrap figcaption {
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+}
+
+.moveGroup,
+.sideControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.sideControls {
+  margin-left: auto;
+}
+
+.groupLabel {
+  color: var(--course-ink);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.stepBtn,
+.lookBtn,
+.resetBtn {
+  min-height: 48px;
+  font-size: 16px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.switchRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dragHint {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.status,
+.tasks,
+.records,
+.rules {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+}
+
+.readRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.reading {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 2px;
+  min-width: 132px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--tint-green);
+}
+
+.readingV {
+  background: var(--tint-yellow);
+}
+
+.readLabel {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.readValue {
+  color: var(--course-ink);
+  font-size: 40px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.readValue small {
+  font-size: 20px;
+}
+
+.readWord {
+  padding: 8px 0;
+  font-size: 22px;
+}
+
+.region {
+  color: var(--course-ink);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.facts {
+  display: grid;
+  margin: 0;
+}
+
+.facts > div {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.facts > div:last-child {
+  border-bottom: 0;
+}
+
+.facts dt {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.explain {
+  min-height: 3.4em;
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.taskList {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskList :global(.isl-check) {
+  pointer-events: none;
+}
+
+.note {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.table th {
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.currentRow td {
+  background: var(--tint-yellow);
+}
+
+.range {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.empty {
+  color: var(--text-soft);
+  font-size: 15px;
+}
+
+/* 竖屏：光具座占满一行，光屏画面放在下面 */
+@media (max-width: 820px) {
+  .panels,
+  .stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .screenWrap {
+    width: min(100%, 220px);
+    justify-self: center;
+  }
+
+  .sideControls {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .benchCard {
+    padding: 14px;
+  }
+}

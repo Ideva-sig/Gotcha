@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-b-relay-structure-t opt-b-relay-structure-d">
+  <title id="opt-b-relay-structure-t">电磁继电器：控制电路通电</title>
+  <desc id="opt-b-relay-structure-d">参照课本图20.3-6的电磁铁、转动衔铁、弹簧与触点结构。蓝色低压控制电路的开关闭合，线圈通电，电磁铁向下吸引衔铁；衔铁绕左侧支点转动，使右端动触点与下方静触点接通，珊瑚红工作电路的另一电源向灯供电。弹簧上端固定、下端连衔铁，断电时向上拉回衔铁；灰色向上箭头表示弹簧回拉方向，蓝色向下箭头表示吸引方向。两电路没有导线连接，仅由衔铁机械控制触点。不标题目中的灯名、气敏电阻、浓度或答案。完整静态图，无动画。</desc>
+  <style>.opt-b-relay-structure-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-b-relay-structure-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="660" height="430" fill="#fff" stroke="none"/>
+  <text class="opt-b-relay-structure-lb" x="330" y="30" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">控制电路通电</text>
+  <path d="M155 153L143 171L167 171Z" stroke="#52626a" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/>
+  <path d="M155 171L155 295" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M133 295L301 295" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M155 150L415 183" stroke="#52626a" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="155" cy="150" r="3" fill="#52626a"/>
+  <text class="opt-b-relay-structure-lb" x="106" y="148" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">支点</text>
+  <text class="opt-b-relay-structure-lb" x="321" y="112" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">衔铁</text>
+  <path d="M321 122L321 164.1" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M181 70L209 70" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M195 70L195 79L190 86L200 92L190 98L200 104L190 110L200 116L190 122L200 128.1L190 134.1L200 140.1L190 146.1L195 152.1L195 155.1" stroke="#52626a" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <text class="opt-b-relay-structure-lb" x="151" y="98" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">弹簧</text>
+  <path d="M214 131L214 96.2" stroke="#52626a" stroke-width="1.8" stroke-linecap="butt"/>
+  <path d="M214 89L218.1 98L209.9 98Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <rect x="243" y="201" width="27" height="80" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M234 281L281 281" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M226 218L236 218L280 222L236 224L236 224L280 228L236 230L236 230L280 234L236 236L236 236L280 240L236 242L236 242L280 246L236 248L236 248L280 252L236 254L236 254L280 258L236 260L236 260L280 264L236 266L287 266" stroke="#287fc4" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M226 218L45 218L45 354L320 354L320 266L287 266" stroke="#287fc4" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <rect x="111" y="338" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M115 339L115 369" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M125 346L125 362" stroke="#287fc4" stroke-width="5" stroke-linecap="butt"/>
+  <rect x="213" y="350" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M213 354L247 354" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="213" cy="354" r="2.4" fill="#287fc4"/>
+  <circle cx="247" cy="354" r="2.4" fill="#287fc4"/>
+  <text class="opt-b-relay-structure-lb" x="120" y="392" text-anchor="middle" style="fill:#287fc4;font-size:13px;font-weight:600">低压电源</text>
+  <text class="opt-b-relay-structure-lb" x="257" y="320" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">电磁铁</text>
+  <path d="M257 302L257 287" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M257 171.9L257 187.8" stroke="#287fc4" stroke-width="2.2" stroke-linecap="butt"/>
+  <path d="M257 195L252.9 186L261.1 186Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M399 181L399 187" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M399 187L372 181L345 181L345 354L610 354L610 195L399 195" stroke="#c9554d" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <circle cx="399" cy="187" r="4" fill="#c9554d"/>
+  <circle cx="399" cy="195" r="4" fill="#c9554d"/>
+  <rect x="466" y="338" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M470 339L470 369" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M480 346L480 362" stroke="#c9554d" stroke-width="5" stroke-linecap="butt"/>
+  <circle cx="610" cy="273" r="16" fill="#fff" stroke="#c9554d" stroke-width="2"/>
+  <path d="M598.7 261.7L621.3 284.3" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M598.7 284.3L621.3 261.7" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <text class="opt-b-relay-structure-lb" x="475" y="392" text-anchor="middle" style="fill:#c9554d;font-size:13px;font-weight:600">另一电源</text>
+  <text class="opt-b-relay-structure-lb" x="577" y="278" text-anchor="end" style="fill:#c9554d;font-size:13px;font-weight:600">灯</text>
+  <text class="opt-b-relay-structure-lb" x="475" y="139" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">触点</text>
+  <path d="M475 150L433 162L408 183" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <text class="opt-b-relay-structure-lb" x="478" y="237" text-anchor="middle" style="fill:#c9554d;font-size:13px;font-weight:600">动、静触点接通</text>
+  <text class="opt-b-relay-structure-lb" x="175" y="419" text-anchor="middle" style="fill:#287fc4;font-size:14px;font-weight:600">控制电路</text>
+  <text class="opt-b-relay-structure-lb" x="477" y="419" text-anchor="middle" style="fill:#c9554d;font-size:14px;font-weight:600">工作电路</text>
+</svg>

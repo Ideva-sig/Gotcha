@@ -1,0 +1,10 @@
+.page { display: grid; gap: 28px; padding-bottom: 48px; }
+.header { display: grid; gap: 12px; }
+.lead { margin: 0; font-size: 18px; line-height: 1.7; }
+.steps { display: grid; gap: 8px; margin: 0; padding-left: 1.4em; font-size: 17px; line-height: 1.6; }
+.group { display: grid; gap: 18px; padding: 20px; border-radius: 20px; background: #fff; }
+.item { display: grid; gap: 8px; }
+.kpTitle { margin: 0; font-size: 18px; }
+.kpTitle a { color: var(--accent); }
+.note { margin: 0; font-size: 16px; line-height: 1.7; }
+.source { margin: 0; font-size: 13px; line-height: 1.5; color: var(--text-soft); }

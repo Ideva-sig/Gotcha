@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 275" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-lever-equilibrium-t opt-a-lever-equilibrium-d">
+  <title id="opt-a-lever-equilibrium-t">杠杆平衡的力与力臂</title>
+  <desc id="opt-a-lever-equilibrium-d">水平静止的杠杆，支点 O 两侧的竖直向下力 F1、F2 和对应的水平力臂 l1、l2。每条力臂从 O 到该力的作用线并与作用线垂直；较长力臂对应较小的力，两侧力与力臂乘积相等。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-lever-equilibrium-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-lever-equilibrium-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="620" height="275" fill="#fff" stroke="none"/>
+  <path d="M105 128L485 128" stroke="#52626a" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M105 128L325 128" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M325 128L485 128" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M325 132L311 158L339 158Z" stroke="#52626a" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/>
+  <circle cx="325" cy="128" r="3" fill="#52626a"/>
+  <path d="M325 120L325 65" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M105 59L105 122" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M105 65L325 65" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M105 60L105 70" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M325 60L325 70" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M113 65L113 73L105 73" stroke="#287fc4" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M105 128L105 167.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M105 176L100 165L110 165Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-lever-equilibrium-sy" x="215" y="52" text-anchor="middle" style="fill:#287fc4;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <path d="M485 59L485 122" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M485 65L325 65" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M485 70L485 60" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M325 70L325 60" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M477 65L477 73L485 73" stroke="#c9554d" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M485 128L485 185.2" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M485 194L480.1 183L489.9 183Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-a-lever-equilibrium-sy" x="405" y="52" text-anchor="middle" style="fill:#c9554d;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-equilibrium-sy" x="89" y="170" text-anchor="end" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="opt-a-lever-equilibrium-sy" x="501" y="188" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="opt-a-lever-equilibrium-sy" x="348" y="154" text-anchor="start" style="fill:#20272b;font-size:16px">O</text>
+  <text class="opt-a-lever-equilibrium-sy" x="310" y="251" text-anchor="middle" style="fill:#20272b;font-size:20px">F₁l₁ = F₂l₂</text>
+</svg>

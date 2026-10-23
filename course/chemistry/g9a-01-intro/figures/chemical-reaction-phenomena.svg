@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 390" role="img" aria-labelledby="crp-t crp-d">
+  <title id="crp-t">化学反应伴随的特征现象示意图</title>
+  <desc id="crp-d">展示氢氧化钠与硫酸铜反应生成蓝色沉淀，以及大理石与稀盐酸反应放出气体的实验现象。</desc>
+  <style>
+    .crp-bg { fill: #ffffff; }
+    .crp-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .crp-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .crp-blue-ppt { fill: #287fc4; fill-opacity: 0.85; stroke: #1976d2; stroke-width: 1.2; }
+    .crp-clear-sol { fill: #f0f4f8; fill-opacity: 0.6; }
+    .crp-marble { fill: #b0bec5; stroke: #78909c; stroke-width: 1.2; }
+    .crp-bubble { fill: #ffffff; stroke: #287fc4; stroke-width: 1; }
+    .crp-lead { fill: none; stroke: #7d8990; stroke-width: 1.2; stroke-dasharray: 2 2; }
+    .crp-dot { fill: #52626a; }
+    .crp-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .crp-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .crp-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .crp-tag-b { fill: #f0f7fb; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .crp-tag-g { fill: #f4fbf7; stroke: #197a60; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="crp-bg" width="780" height="390"/>
+
+  <!-- Top Title Banner -->
+  <rect class="crp-card" x="25" y="14" width="730" height="36"/>
+  <text class="crp-title" x="390" y="37" text-anchor="middle">化学反应伴随的特征现象：生成沉淀与放出气体</text>
+
+  <!-- Left: 实验 1 生成蓝色沉淀 -->
+  <rect class="crp-card" x="25" y="62" width="355" height="314"/>
+  <rect x="35" y="72" width="335" height="24" rx="3" fill="#e1f5fe"/>
+  <text class="crp-label" x="202" y="88" text-anchor="middle" fill="#287fc4">实验 1：生成蓝色沉淀（氢氧化钠与硫酸铜反应）</text>
+
+  <!-- Dropper cx=120, y=104..136 -->
+  <path d="M 115 104 C 115 97 125 97 125 104 L 123 114 L 117 114 Z" fill="#ef5350"/>
+  <path d="M 118 114 L 122 114 L 121 136 L 119 136 Z" fill="#b0bec5" stroke="#52626a" stroke-width="1"/>
+  <line x1="120" y1="120" x2="120" y2="134" stroke="#287fc4" stroke-width="2"/>
+  <circle cx="120" cy="142" r="2" fill="#287fc4"/>
+
+  <!-- Test Tube 1 cx=120, y=148..248, w=26, h=100 -->
+  <rect class="crp-glass" x="107" y="148" width="26" height="95" rx="11"/>
+  <ellipse cx="120" cy="148" rx="14" ry="3" fill="none" stroke="#52626a" stroke-width="1.4"/>
+  <rect class="crp-clear-sol" x="108" y="185" width="24" height="40"/>
+  <path class="crp-blue-ppt" d="M 108 215 Q 120 212 132 215 L 132 232 Q 120 244 108 232 Z"/>
+
+  <!-- Leader lines for Left Tube -->
+  <line class="crp-lead" x1="123" y1="124" x2="170" y2="124"/>
+  <circle cx="123" cy="124" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="175" y="128">胶头滴管（硫酸铜溶液）</text>
+
+  <line class="crp-lead" x1="133" y1="195" x2="170" y2="195"/>
+  <circle cx="133" cy="195" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="175" y="199">氢氧化钠溶液</text>
+
+  <line class="crp-lead" x1="132" y1="226" x2="170" y2="226"/>
+  <circle cx="132" cy="226" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="175" y="230">蓝色絮状沉淀（氢氧化铜）</text>
+
+  <!-- Left Bottom Summary Card -->
+  <rect class="crp-tag-b" x="35" y="255" width="335" height="105"/>
+  <text class="crp-label" x="45" y="282">实验现象：滴入溶液后，产生蓝色絮状沉淀</text>
+  <text class="crp-sub" x="45" y="310">反应原理：硫酸铜 ＋ 氢氧化钠 → 氢氧化铜 ＋ 硫酸钠</text>
+  <text class="crp-sub" x="45" y="338">本质特征：有新物质生成，属于化学变化</text>
+
+  <!-- Right: 实验 2 放出气体 -->
+  <rect class="crp-card" x="400" y="62" width="355" height="314"/>
+  <rect x="410" y="72" width="335" height="24" rx="3" fill="#e8f5e9"/>
+  <text class="crp-label" x="577" y="88" text-anchor="middle" fill="#197a60">实验 2：放出气体（大理石与稀盐酸反应）</text>
+
+  <!-- Test Tube 2 cx=500, y=120..225, w=28, h=105 -->
+  <rect class="crp-glass" x="486" y="120" width="28" height="105" rx="12"/>
+  <ellipse cx="500" cy="120" rx="15" ry="3.5" fill="none" stroke="#52626a" stroke-width="1.4"/>
+
+  <!-- Acid liquid in tube -->
+  <rect class="crp-clear-sol" x="487" y="155" width="26" height="66"/>
+
+  <!-- Marble chips at tube bottom -->
+  <ellipse cx="494" cy="216" rx="5" ry="3.5" class="crp-marble"/>
+  <ellipse cx="504" cy="217" rx="5.5" ry="4" class="crp-marble"/>
+  <ellipse cx="499" cy="210" rx="5" ry="3.5" class="crp-marble"/>
+
+  <!-- Bubbles rising in liquid -->
+  <circle cx="495" cy="198" r="1.8" class="crp-bubble"/>
+  <circle cx="505" cy="190" r="2.2" class="crp-bubble"/>
+  <circle cx="497" cy="180" r="2" class="crp-bubble"/>
+  <circle cx="504" cy="168" r="2.4" class="crp-bubble"/>
+  <circle cx="496" cy="158" r="1.6" class="crp-bubble"/>
+
+  <!-- Labels on Right Apparatus -->
+  <line class="crp-lead" x1="514" y1="165" x2="560" y2="165"/>
+  <circle cx="514" cy="165" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="565" y="169">稀盐酸</text>
+
+  <line class="crp-lead" x1="514" y1="184" x2="560" y2="184"/>
+  <circle cx="514" cy="184" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="565" y="188">剧烈产生气泡（二氧化碳）</text>
+
+  <line class="crp-lead" x1="514" y1="214" x2="560" y2="214"/>
+  <circle cx="514" cy="214" r="2" class="crp-dot"/>
+  <text class="crp-sub" x="565" y="218">大理石（主要成分为碳酸钙）</text>
+
+  <!-- Right Bottom Summary Card -->
+  <rect class="crp-tag-g" x="410" y="255" width="335" height="105"/>
+  <text class="crp-label" x="420" y="282">实验现象：剧烈反应，产生大量气泡</text>
+  <text class="crp-sub" x="420" y="310">反应原理：碳酸钙 ＋ 盐酸 → 氯化钙 ＋ 水 ＋ 二氧化碳</text>
+  <text class="crp-sub" x="420" y="338">本质特征：有新物质生成，属于化学变化</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>车厢所受的四个平衡力</title>
+  <desc>车厢中心受到一对等长水平力和一对等长竖直力。</desc>
+  <rect x="53" y="32" width="44" height="26" rx="2" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <line x1="75" y1="45" x2="12" y2="45" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 12 45 L 20 39 L 20 51 Z" fill="#c9554d"/>
+  <line x1="75" y1="45" x2="138" y2="45" stroke="currentColor" stroke-width="4"/>
+  <path d="M 138 45 L 130 39 L 130 51 Z" fill="currentColor"/>
+  <line x1="75" y1="45" x2="75" y2="8" stroke="currentColor" stroke-width="4"/>
+  <path d="M 75 8 L 69 16 L 81 16 Z" fill="currentColor"/>
+  <line x1="75" y1="45" x2="75" y2="82" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 75 82 L 69 74 L 81 74 Z" fill="#c9554d"/>
+  <circle cx="75" cy="45" r="3.5" fill="#52626a"/>
+  <text x="11" y="33" fill="#2b3a3f" font-size="13" font-family="sans-serif">f</text>
+  <text x="139" y="33" fill="#2b3a3f" font-size="13" font-family="sans-serif" text-anchor="end">F</text>
+  <text x="87" y="14" fill="#2b3a3f" font-size="13" font-family="sans-serif">N</text>
+  <text x="87" y="83" fill="#2b3a3f" font-size="13" font-family="sans-serif">G</text>
+</svg>

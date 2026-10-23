@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>完全平方面积模型</title>
+<desc>边a+b的正方形以a=36、b=24分割；主色的两块为正方形，红色两块为ab。</desc>
+<rect x="44" y="24" width="36" height="36" fill="currentColor" fill-opacity="0.2"/>
+<rect x="80" y="60" width="24" height="24" fill="currentColor" fill-opacity="0.2"/>
+<rect x="80" y="24" width="24" height="36" fill="#c9554d" fill-opacity="0.2"/>
+<rect x="44" y="60" width="36" height="24" fill="#c9554d" fill-opacity="0.2"/>
+<path d="M 44 24 L 104 24 L 104 84 L 44 84 Z" stroke="currentColor" stroke-width="4" fill="none"/>
+<path d="M 80 24 L 80 84 M 44 60 L 104 60" stroke="#52626a" stroke-width="1.5" fill="none"/>
+<text x="62" y="16" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">a</text>
+<text x="92" y="16" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">b</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>对顶角</title>
+<desc>相交直线夹角 40°；两个 40° 对顶角用同样的主色弧线。</desc>
+<line x1="15" y1="45" x2="135" y2="45" stroke="#52626a" stroke-width="2"/><line x1="32.1015" y1="80.9961" x2="117.8985" y2="9.0039" stroke="#52626a" stroke-width="2"/><path d="M 95 45 A 20 20 0 0 0 90.3209 32.1442" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 55 45 A 20 20 0 0 0 59.6791 57.8558" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 87.2567 34.7154 A 16 16 0 0 0 59 45" stroke="#9aa5a8" stroke-width="2" fill="none"/><path d="M 62.7433 55.2846 A 16 16 0 0 0 91 45" stroke="#9aa5a8" stroke-width="2" fill="none"/>
+</svg>

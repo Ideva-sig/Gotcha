@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="circle-parts-29-1a-t circle-parts-29-1a-d">
+  <title id="circle-parts-29-1a-t">圆中的直径、弦、弧及点的位置</title>
+  <desc id="circle-parts-29-1a-d">左图：AB是直径，蓝色AC为弦，绿色小弧AC为劣弧。右侧三个独立小图，半径相同，OP依次小于、等于、大于半径r，点P依次在圆内、圆上、圆外。静态图。</desc>
+  <style>.circle-parts-29-1a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.circle-parts-29-1a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="320" fill="#fff" stroke="none"/>
+  <circle cx="130" cy="155" r="90" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M40 155L220 155" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 155L168 73.4" stroke="#287fc4" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M40 155A90 90 0 0 1 168 73.4" fill="none" stroke="#197a60" stroke-width="3"/>
+  <circle cx="40" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="22" y="161" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="220" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="238" y="161" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="168" cy="73.4" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="175.6" y="63.1" text-anchor="middle" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="130" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="135" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="circle-parts-29-1a-formula" x="130" y="284" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4">弦 <tspan font-style="italic">A</tspan><tspan font-style="italic">C</tspan></tspan><tspan fill="#197a60">   弧 <tspan font-style="italic">A</tspan><tspan font-style="italic">C</tspan></tspan></text>
+  <circle cx="340" cy="155" r="44" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M340 155L340 111" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M340 155L362.9 155" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="340" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="324" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <circle cx="362.9" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="365.9" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">P</text>
+  <text class="circle-parts-29-1a-sy" x="323" y="130" text-anchor="start" style="fill:#20272b;font-size:18px">r</text>
+  <text class="circle-parts-29-1a-formula" x="340" y="235" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">O</tspan><tspan font-style="italic">P</tspan> = <tspan font-style="italic">d</tspan></tspan></text>
+  <text class="circle-parts-29-1a-formula" x="340" y="261" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">d</tspan> &lt; <tspan font-style="italic">r</tspan></tspan></text>
+  <text class="circle-parts-29-1a-lb" x="340" y="288" text-anchor="middle" style="fill:#5d6970;font-size:14px;font-weight:500">圆内</text>
+  <circle cx="485" cy="155" r="44" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M485 155L485 111" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M485 155L529 155" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="485" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="469" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <circle cx="529" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="532" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">P</text>
+  <text class="circle-parts-29-1a-sy" x="468" y="130" text-anchor="start" style="fill:#20272b;font-size:18px">r</text>
+  <text class="circle-parts-29-1a-formula" x="485" y="235" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">O</tspan><tspan font-style="italic">P</tspan> = <tspan font-style="italic">d</tspan></tspan></text>
+  <text class="circle-parts-29-1a-formula" x="485" y="261" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">d</tspan> = <tspan font-style="italic">r</tspan></tspan></text>
+  <text class="circle-parts-29-1a-lb" x="485" y="288" text-anchor="middle" style="fill:#5d6970;font-size:14px;font-weight:500">圆上</text>
+  <circle cx="630" cy="155" r="44" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M630 155L630 111" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M630 155L696 155" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="630" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="614" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <circle cx="696" cy="155" r="2.5" fill="#20272b"/>
+  <text class="circle-parts-29-1a-sy" x="699" y="177" text-anchor="start" style="fill:#20272b;font-size:18px">P</text>
+  <text class="circle-parts-29-1a-sy" x="613" y="130" text-anchor="start" style="fill:#20272b;font-size:18px">r</text>
+  <text class="circle-parts-29-1a-formula" x="630" y="235" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">O</tspan><tspan font-style="italic">P</tspan> = <tspan font-style="italic">d</tspan></tspan></text>
+  <text class="circle-parts-29-1a-formula" x="630" y="261" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">d</tspan> &gt; <tspan font-style="italic">r</tspan></tspan></text>
+  <text class="circle-parts-29-1a-lb" x="630" y="288" text-anchor="middle" style="fill:#5d6970;font-size:14px;font-weight:500">圆外</text>
+</svg>

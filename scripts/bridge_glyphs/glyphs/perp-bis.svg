@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>垂直平分线</title>
+<desc>竖直虚线经过线段精确中点，线上P到两端距离相等。</desc>
+<path d="M 28 69 L 122 69" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 75 7 L 75 82" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 28 69 L 75 18 L 122 69" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 49.293932 41.466957 L 53.706068 45.533043" fill="none" stroke="currentColor" stroke-width="2"/><path d="M 100.706068 41.466957 L 96.293932 45.533043" fill="none" stroke="currentColor" stroke-width="2"/><path d="M 75 63 L 81 63 L 81 69" stroke="#52626a" stroke-width="1.5" fill="none"/><text x="18" y="78" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">A</text><text x="132" y="78" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">B</text><text x="87" y="20" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">P</text>
+</svg>

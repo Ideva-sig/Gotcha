@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 390" role="img" aria-labelledby="mod-t mod-d">
+  <title id="mod-t">氧化汞受热分解微观示意图</title>
+  <desc id="mod-d">展示氧化汞受热时分子分裂成汞原子和氧原子，氧原子重新结合成氧分子、汞原子聚集成金属汞的微观实质。</desc>
+  <style>
+    .mod-bg { fill: #ffffff; }
+    .mod-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .mod-atom-o { fill: #ef5350; stroke: #c9554d; stroke-width: 1.8; }
+    .mod-atom-hg { fill: #b2dfdb; stroke: #197a60; stroke-width: 1.8; }
+    .mod-arrow { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .mod-arrow-head { fill: #287fc4; }
+    .mod-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .mod-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .mod-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .mod-eq { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #287fc4; }
+    .mod-sym { font: 600 14px -apple-system, "PingFang SC", sans-serif; fill: #ffffff; }
+    .mod-sym-hg { font: 600 14px -apple-system, "PingFang SC", sans-serif; fill: #004d40; }
+    .mod-sec { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .mod-sec-b { fill: #f0f7fb; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .mod-sec-g { fill: #f4fbf7; stroke: #197a60; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="mod-bg" width="780" height="390"/>
+
+  <!-- Top Title Banner -->
+  <rect class="mod-card" x="25" y="14" width="730" height="36"/>
+  <text class="mod-title" x="390" y="37" text-anchor="middle">微观示意图：氧化汞受热分解（化学变化的微观实质）</text>
+
+  <!-- Top Process Container Card -->
+  <rect class="mod-card" x="25" y="60" width="730" height="195"/>
+  <rect x="35" y="68" width="710" height="24" rx="3" fill="#e1f5fe"/>
+  <text class="mod-label" x="390" y="84" text-anchor="middle" fill="#287fc4">氧化汞分子分解过程（课本图 3-6）</text>
+
+  <!-- Stage 1: 反应前 2个 HgO 分子 (cx=110, 160) -->
+  <rect x="45" y="98" width="155" height="145" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- HgO Molecule 1: O at (95, 128), Hg at (95, 162) -->
+  <circle cx="95" cy="128" r="16" class="mod-atom-o"/>
+  <text class="mod-sym" x="95" y="133" text-anchor="middle">O</text>
+  <circle cx="95" cy="160" r="18" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="95" y="165" text-anchor="middle">Hg</text>
+
+  <!-- HgO Molecule 2: O at (150, 128), Hg at (150, 162) -->
+  <circle cx="150" cy="128" r="16" class="mod-atom-o"/>
+  <text class="mod-sym" x="150" y="133" text-anchor="middle">O</text>
+  <circle cx="150" cy="160" r="18" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="150" y="165" text-anchor="middle">Hg</text>
+
+  <text class="mod-label" x="122" y="204" text-anchor="middle">氧化汞分子</text>
+  <text class="mod-sub" x="122" y="226" text-anchor="middle">汞原子与氧原子各 1 个</text>
+
+  <!-- Arrow 1: 加热破裂 -->
+  <path class="mod-arrow" d="M 210 160 L 260 160"/>
+  <polygon points="260,156 268,160 260,164" class="mod-arrow-head"/>
+  <text class="mod-sub" x="237" y="148" text-anchor="middle" fill="#287fc4">加热破裂</text>
+
+  <!-- Stage 2: 独立原子 (cx=325) -->
+  <rect x="278" y="98" width="135" height="145" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Separate O atoms -->
+  <circle cx="315" cy="128" r="15" class="mod-atom-o"/>
+  <text class="mod-sym" x="315" y="133" text-anchor="middle">O</text>
+  <circle cx="375" cy="128" r="15" class="mod-atom-o"/>
+  <text class="mod-sym" x="375" y="133" text-anchor="middle">O</text>
+  <!-- Separate Hg atoms -->
+  <circle cx="315" cy="162" r="17" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="315" y="167" text-anchor="middle">Hg</text>
+  <circle cx="375" cy="162" r="17" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="375" y="167" text-anchor="middle">Hg</text>
+
+  <text class="mod-label" x="345" y="204" text-anchor="middle">分裂成独立原子</text>
+  <text class="mod-sub" x="345" y="226" text-anchor="middle">氧原子与汞原子各 2 个</text>
+
+  <!-- Arrow 2: 重新组合 -->
+  <path class="mod-arrow" d="M 423 160 L 473 160"/>
+  <polygon points="473,156 481,160 473,164" class="mod-arrow-head"/>
+  <text class="mod-sub" x="450" y="148" text-anchor="middle" fill="#287fc4">重新组合</text>
+
+  <!-- Stage 3: 生成物 (Hg聚集成金属，O两两结合成O2) -->
+  <rect x="491" y="98" width="244" height="145" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Hg atoms gathering (metal Hg): a small cluster of mutually separated atoms -->
+  <circle cx="530" cy="132" r="14" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="530" y="136" font-size="9.5" text-anchor="middle">Hg</text>
+  <circle cx="565" cy="132" r="14" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="565" y="136" font-size="9.5" text-anchor="middle">Hg</text>
+  <circle cx="530" cy="168" r="14" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="530" y="172" font-size="9.5" text-anchor="middle">Hg</text>
+  <circle cx="565" cy="168" r="14" class="mod-atom-hg"/>
+  <text class="mod-sym-hg" x="565" y="172" font-size="9.5" text-anchor="middle">Hg</text>
+  <text class="mod-label" x="547" y="204" text-anchor="middle">金属汞</text>
+  <text class="mod-sub" x="547" y="226" text-anchor="middle">许多汞原子直接聚集</text>
+
+  <!-- Plus sign -->
+  <text class="mod-label" x="608" y="156" font-size="20" fill="#287fc4" text-anchor="middle">＋</text>
+
+  <!-- O2 molecule -->
+  <circle cx="668" cy="136" r="16" class="mod-atom-o"/>
+  <text class="mod-sym" x="668" y="141" text-anchor="middle">O</text>
+  <circle cx="668" cy="166" r="16" class="mod-atom-o"/>
+  <text class="mod-sym" x="668" y="171" text-anchor="middle">O</text>
+  <text class="mod-label" x="668" y="204" text-anchor="middle">氧分子</text>
+  <text class="mod-sub" x="668" y="226" text-anchor="middle">2 个氧原子结合</text>
+
+  <!-- Bottom Left Card: 微观本质 -->
+  <rect class="mod-sec-b" x="25" y="265" width="355" height="115"/>
+  <text class="mod-label" x="35" y="286" fill="#287fc4">化学反应的微观实质：</text>
+  <text class="mod-sub" x="35" y="308">• 分子分裂：在化学变化中，分子分裂成原子</text>
+  <text class="mod-sub" x="35" y="330">• 重新组合：原子重新结合成新分子或直接聚集构成物质</text>
+  <text class="mod-sub" x="35" y="352">• 核心本质：分子种类改变；原子种类、数目均不变</text>
+
+  <!-- Bottom Right Card: 核心概念辨析 -->
+  <rect class="mod-sec-g" x="400" y="265" width="355" height="115"/>
+  <text class="mod-label" x="410" y="286" fill="#197a60">分子与原子的根本区别与联系：</text>
+  <text class="mod-sub" x="410" y="308">• 分子：保持由分子构成的物质化学性质的最小微粒</text>
+  <text class="mod-sub" x="410" y="330">• 原子：化学变化中的最小微粒（在化学反应中不可再分）</text>
+  <text class="mod-sub" x="410" y="352">• 文字表达式：氧化汞 → 汞 ＋ 氧气（加热）</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="axis-symmetry-15-2a-t axis-symmetry-15-2a-d">
+  <title id="axis-symmetry-15-2a-t">平面直角坐标系中的轴对称与将军饮马最短路径</title>
+  <desc id="axis-symmetry-15-2a-d">左侧展示点P(-2,6)关于x轴对称到(-2,-6)、关于y轴对称到(2,6)，辅助垂线虚线，等距刻痕同色；右侧展示同侧两点A、B的最短路径，反射点B为B'，连结AB'交直线于C，折线AC+CB转化为直线段AB'最简路径。两点在同侧时使用对称点转化，不暗示路径最短对所有点无条件成立。</desc>
+  <style>.axis-symmetry-15-2a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.axis-symmetry-15-2a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="440" fill="#fff" stroke="none"/>
+  <path d="M360 20L360 420" stroke="#bec9ce" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M45 215L319.4 215" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M325 215L318 218.2L318 211.8Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M185 385L185 50.6" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M185 45L188.2 52L181.8 52Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="axis-symmetry-15-2a-math" x="335" y="220" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="175" y="36" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="173" y="235" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <path d="M129 212L129 218" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="axis-symmetry-15-2a-math" x="123" y="233" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan></text>
+  <path d="M241 212L241 218" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="axis-symmetry-15-2a-math" x="241" y="233" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M182 107L188 107" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="axis-symmetry-15-2a-math" x="177" y="103" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6</tspan></text>
+  <path d="M182 323L188 323" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="axis-symmetry-15-2a-math" x="177" y="337" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−6</tspan></text>
+  <circle cx="129" cy="107" r="3.8" fill="#20272b"/>
+  <text class="axis-symmetry-15-2a-math" x="121" y="99" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">P</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(−2, 6)</tspan></text>
+  <g data-step="1">
+  <path d="M129 107L129 323" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M129 207L137 207L137 215" stroke="#287fc4" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <path d="M125 161L133 161" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M125 269L133 269" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="129" cy="323" r="3.8" fill="#287fc4"/>
+  <text class="axis-symmetry-15-2a-math" x="121" y="339" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">P</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₁(−2, −6)</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="26" y="400" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">关于 </tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 轴对称：</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">横不变，纵变相反数</tspan></text>
+  </g>
+  <g data-step="2">
+  <path d="M129 107L241 107" stroke="#197a60" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M177 107L177 115L185 115" stroke="#197a60" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <path d="M155 103L155 111" stroke="#197a60" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M159 103L159 111" stroke="#197a60" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M211 103L211 111" stroke="#197a60" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M215 103L215 111" stroke="#197a60" stroke-width="1.3" stroke-linecap="round"/>
+  <circle cx="241" cy="107" r="3.8" fill="#197a60"/>
+  <text class="axis-symmetry-15-2a-math" x="249" y="99" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">P</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₂(2, 6)</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="26" y="424" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">关于 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 轴对称：</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">纵不变，横变相反数</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="axis-symmetry-15-2a-lb" x="380" y="36" text-anchor="start" style="fill:#20272b;font-size:16px;font-weight:600">将军饮马：同侧两点最短路径</text>
+  <path d="M380 225L650 225" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <text class="axis-symmetry-15-2a-math" x="658" y="230" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">直线 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">l</tspan></text>
+  <path d="M620 145L620 305" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M612 225L612 233L620 233" stroke="#287fc4" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <path d="M616 185L624 185" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M616 265L624 265" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M420 115L535.8 225" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M535.8 225L620 145" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M535.8 225L620 305" stroke="#197a60" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <circle cx="420" cy="115" r="3.8" fill="#20272b"/>
+  <circle cx="620" cy="145" r="3.8" fill="#20272b"/>
+  <circle cx="620" cy="305" r="3.8" fill="#287fc4"/>
+  <circle cx="535.8" cy="225" r="3.8" fill="#197a60"/>
+  <text class="axis-symmetry-15-2a-math" x="412" y="109" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="628" y="141" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="628" y="311" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">B</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="529.8" y="247" text-anchor="end" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">C</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="380" y="342" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1. 作点 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 关于直线 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">l</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 的对称点 </tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">B</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="380" y="366" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2. 连结 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">AB</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 交直线于点 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">C</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">，连结 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">CB</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="380" y="390" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3. 由对称性 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">CB</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">CB</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">，得 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">AC</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> + </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">CB</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">AB</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">′</tspan></text>
+  <text class="axis-symmetry-15-2a-math" x="380" y="416" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">两点之间线段最短：交点 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">C</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 处路径和最短</tspan></text>
+  </g>
+</svg>

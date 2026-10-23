@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>平行四边形对角线</title>
+<desc>对角线精确交于共同中点O；一组半对角线单刻痕，另一组双刻痕。</desc>
+<path d="M 38 20 L 133 20 L 112 72 L 17 72 Z" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 38 20 L 112 72" fill="none" stroke="#9aa5a8" stroke-width="2"/><path d="M 133 20 L 17 72" fill="none" stroke="#9aa5a8" stroke-width="2"/><path d="M 58.224837 30.545425 L 54.775163 35.454575" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 95.224837 56.545425 L 91.775163 61.454575" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 107.052186 34.919416 L 104.597851 29.44436" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 103.402149 36.55564 L 100.947814 31.080584" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 49.052186 60.919416 L 46.597851 55.44436" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 45.402149 62.55564 L 42.947814 57.080584" fill="none" stroke="#52626a" stroke-width="2"/><text x="75" y="66" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">O</text>
+</svg>

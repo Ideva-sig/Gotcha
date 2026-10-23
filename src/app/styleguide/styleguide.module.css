@@ -1,0 +1,54 @@
+.page {
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+.section {
+  margin-top: 36px;
+}
+
+.note {
+  max-width: 44rem;
+  margin: 0 0 16px;
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px 16px;
+}
+
+.cell {
+  padding: 4px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 8px 0 16px;
+}
+
+.stack {
+  display: grid;
+  max-width: 560px;
+  gap: 12px;
+  margin: 8px 0 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+.cards p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+}

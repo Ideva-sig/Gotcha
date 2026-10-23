@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" role="img" aria-labelledby="subclass-t subclass-d">
+  <title id="subclass-t">初中化学物质分类树状图</title>
+  <desc id="subclass-d">基于元素组成与物质种类的初中化学物质分类层级图，展示物质、混合物、纯净物、单质、化合物与氧化物的层级包含关系及辨析要点。</desc>
+  <style>
+    .subclass-bg { fill: #ffffff; }
+    .subclass-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .subclass-head { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .subclass-line { fill: none; stroke: #52626a; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .subclass-box-m { fill: #eef2f5; stroke: #52626a; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-pure { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-mix { fill: #fff8e6; stroke: #bf8d08; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-elem { fill: #e8f5e9; stroke: #197a60; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-comp { fill: #f3e5f5; stroke: #7e57c2; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-ox { fill: #fdf2f0; stroke: #c9554d; stroke-width: 1.8; rx: 5px; }
+    .subclass-box-other { fill: #fafafa; stroke: #7d8990; stroke-width: 1.4; rx: 4px; }
+    .subclass-t-main { font: 600 14px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .subclass-t-white { font: 600 12px -apple-system, "PingFang SC", sans-serif; fill: #ffffff; }
+    .subclass-t-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .subclass-t-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .subclass-r-card { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .subclass-r-title { font: 600 13px -apple-system, "PingFang SC", sans-serif; }
+  </style>
+  <rect class="subclass-bg" width="820" height="420"/>
+
+  <!-- Top Title Banner -->
+  <rect x="20" y="12" width="780" height="34" class="subclass-card"/>
+  <text class="subclass-head" x="410" y="35" text-anchor="middle">依据物质种类与元素组成的物质分类体系</text>
+
+  <!-- Left: Tree Hierarchy Container (x: 20..525, y: 55..405) -->
+  <rect class="subclass-card" x="20" y="55" width="505" height="350"/>
+
+  <!-- Connecting Lines -->
+  <!-- Root (90, 208) to Pure (130, 143) and Mix (130, 311) -->
+  <path class="subclass-line" d="M 90 208 L 110 208 L 110 143 L 130 143"/>
+  <path class="subclass-line" d="M 110 208 L 110 311 L 130 311"/>
+
+  <!-- Pure (200, 143) to Element (235, 102) and Compound (235, 182) -->
+  <path class="subclass-line" d="M 200 143 L 218 143 L 218 102 L 235 102"/>
+  <path class="subclass-line" d="M 218 143 L 218 182 L 235 182"/>
+
+  <!-- Compound (295, 182) to Oxide (315, 172) and Other (315, 230) -->
+  <path class="subclass-line" d="M 295 182 L 305 182 L 305 172 L 315 172"/>
+  <path class="subclass-line" d="M 305 182 L 305 230 L 315 230"/>
+
+  <!-- Nodes -->
+  <!-- 1. Root: 物质 -->
+  <rect class="subclass-box-m" x="30" y="190" width="60" height="36"/>
+  <text class="subclass-t-main" x="60" y="213" text-anchor="middle">物质</text>
+
+  <!-- 2. Pure: 纯净物 -->
+  <rect class="subclass-box-pure" x="130" y="125" width="70" height="36"/>
+  <text class="subclass-t-main" x="165" y="148" text-anchor="middle" fill="#287fc4">纯净物</text>
+
+  <!-- 3. Mixture: 混合物 -->
+  <rect class="subclass-box-mix" x="130" y="293" width="70" height="36"/>
+  <text class="subclass-t-main" x="165" y="316" text-anchor="middle" fill="#bf8d08">混合物</text>
+  <!-- Mixture detail box -->
+  <rect class="subclass-box-other" x="215" y="275" width="295" height="74"/>
+  <text class="subclass-t-sub" x="225" y="295">特征：由多种物质组成，无固定化学式</text>
+  <text class="subclass-t-sub" x="225" y="316">实例：空气、食盐水、自来水、黄铜</text>
+  <text class="subclass-t-emp" x="225" y="337">防错：冰水混合物是纯净物（同种水分子）</text>
+
+  <!-- 4. Element: 单质 -->
+  <rect class="subclass-box-elem" x="235" y="85" width="60" height="34"/>
+  <text class="subclass-t-main" x="265" y="107" text-anchor="middle" fill="#197a60">单质</text>
+  <!-- Element detail box -->
+  <rect class="subclass-box-other" x="310" y="65" width="200" height="74"/>
+  <text class="subclass-t-sub" x="318" y="85">由同种元素组成的纯净物</text>
+  <text class="subclass-t-sub" x="318" y="106">实例：O₂、N₂、H₂、Fe、C</text>
+  <text class="subclass-t-emp" x="318" y="127">辨析：O₂与O₃混合是混合物</text>
+
+  <!-- 5. Compound: 化合物 -->
+  <rect class="subclass-box-comp" x="235" y="165" width="60" height="34"/>
+  <text class="subclass-t-main" x="265" y="187" text-anchor="middle" fill="#7e57c2">化合物</text>
+
+  <!-- 6. Oxide: 氧化物 -->
+  <rect class="subclass-box-ox" x="315" y="146" width="195" height="52"/>
+  <text class="subclass-t-main" x="323" y="167" fill="#c9554d" font-size="12">氧化物（两种元素且含氧）</text>
+  <text class="subclass-t-sub" x="323" y="187">实例：H₂O、CO₂、CuO、Fe₃O₄</text>
+
+  <!-- 7. Other Compounds: 其他化合物 -->
+  <rect class="subclass-box-other" x="315" y="206" width="195" height="50"/>
+  <text class="subclass-t-main" x="323" y="226" fill="#52626a" font-size="12">其他化合物</text>
+  <text class="subclass-t-sub" x="323" y="245">实例：KMnO₄、NaCl 等</text>
+
+  <!-- Right: 3 Key Core Review Cards (x: 540..800, y: 55..405) -->
+  <rect class="subclass-card" x="540" y="55" width="260" height="350"/>
+  <text class="subclass-head" x="670" y="78" text-anchor="middle" font-size="14">中考核心分类法则与踩坑警示</text>
+
+  <!-- Card 1: 判定第一步 (纯净物 vs 混合物) -->
+  <rect class="subclass-r-card" x="552" y="90" width="236" height="74"/>
+  <rect x="560" y="98" width="60" height="20" rx="3" fill="#bf8d08"/>
+  <text class="subclass-t-white" x="590" y="113" text-anchor="middle">第一步</text>
+  <text class="subclass-r-title" x="628" y="113" fill="#bf8d08">区分纯净物与混合物</text>
+  <text class="subclass-t-sub" x="562" y="134">单一物质、有固定化学式：纯净物</text>
+  <text class="subclass-t-sub" x="562" y="152">多种物质混杂、无固定式：混合物</text>
+
+  <!-- Card 2: 判定第二步 (单质 vs 化合物) -->
+  <rect class="subclass-r-card" x="552" y="174" width="236" height="74"/>
+  <rect x="560" y="182" width="60" height="20" rx="3" fill="#287fc4"/>
+  <text class="subclass-t-white" x="590" y="197" text-anchor="middle">第二步</text>
+  <text class="subclass-r-title" x="628" y="197" fill="#287fc4">看纯净物中元素种类</text>
+  <text class="subclass-t-sub" x="562" y="218">纯净物中只有 1 种元素：单质</text>
+  <text class="subclass-t-sub" x="562" y="236">纯净物中含 2 种或更多元素：化合物</text>
+
+  <!-- Card 3: 判定第三步 (氧化物严密判据) -->
+  <rect class="subclass-r-card" x="552" y="258" width="236" height="134"/>
+  <rect x="560" y="266" width="60" height="20" rx="3" fill="#c9554d"/>
+  <text class="subclass-t-white" x="590" y="281" text-anchor="middle">第三步</text>
+  <text class="subclass-r-title" x="628" y="281" fill="#c9554d">氧化物“三要素”判据</text>
+  <text class="subclass-t-sub" x="562" y="302">① 前提必须是化合物（纯净物）；</text>
+  <text class="subclass-t-sub" x="562" y="321">② 必须且只能由 两种 元素组成；</text>
+  <text class="subclass-t-sub" x="562" y="340">③ 其中一种必须是 氧元素。</text>
+  <text class="subclass-t-emp" x="562" y="361">避坑：KMnO₄含氧但有3种元素，非氧化物</text>
+  <text class="subclass-t-emp" x="562" y="379">避坑：O₂含氧但属单质，非氧化物</text>
+</svg>

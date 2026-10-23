@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 390" role="img" aria-labelledby="mma-t mma-d">
+  <title id="mma-t">微观粒子在不断运动探究实验示意图</title>
+  <desc id="mma-d">展示大烧杯罩住浓氨水烧杯B与酚酞溶液烧杯A，氨分子不断运动扩散使烧杯A溶液变红的实验现象与微观解释。</desc>
+  <style>
+    .mma-bg { fill: #ffffff; }
+    .mma-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .mma-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .mma-dome { fill: #f0f7fb; stroke: #52626a; stroke-width: 2; fill-opacity: 0.25; }
+    .mma-clear { fill: #f4fbf7; stroke: #b0bec5; stroke-width: 1.2; fill-opacity: 0.8; }
+    .mma-red { fill: #fce4ec; stroke: #c9554d; stroke-width: 1.4; fill-opacity: 0.85; }
+    .mma-mol { fill: #287fc4; stroke: #1976d2; stroke-width: 1; }
+    .mma-trail { fill: none; stroke: #287fc4; stroke-width: 1.2; stroke-dasharray: 2 2; }
+    .mma-lead { fill: none; stroke: #7d8990; stroke-width: 1.2; stroke-dasharray: 2 2; }
+    .mma-dot { fill: #52626a; }
+    .mma-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .mma-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .mma-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .mma-eq { font: 600 12px -apple-system, "PingFang SC", sans-serif; fill: #287fc4; }
+    .mma-sec { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .mma-sec-b { fill: #f0f7fb; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .mma-table { stroke: #52626a; stroke-width: 2; }
+  </style>
+  <rect class="mma-bg" width="800" height="390"/>
+
+  <!-- Top Title Banner -->
+  <rect class="mma-card" x="25" y="14" width="750" height="36"/>
+  <text class="mma-title" x="400" y="37" text-anchor="middle">实验探究：微观粒子在不断运动（浓氨水挥发使酚酞变红）</text>
+
+  <!-- Left: 实验装置与现象结果 -->
+  <rect class="mma-card" x="25" y="62" width="465" height="314"/>
+  <rect x="35" y="72" width="445" height="24" rx="3" fill="#e1f5fe"/>
+  <text class="mma-label" x="257" y="88" text-anchor="middle" fill="#287fc4">分子运动探究装置与实验现象（课本图 3-4）</text>
+
+  <!-- Table surface -->
+  <line class="mma-table" x1="45" y1="242" x2="470" y2="242"/>
+
+  <!-- Big Inverted Beaker: centered in left panel (x=135..375, w=240, h=136) -->
+  <path class="mma-dome" d="M 135 242 L 135 116 Q 135 106 145 106 L 365 106 Q 375 106 375 116 L 375 242 Z"/>
+  <text x="255" y="124" font-size="12" font-weight="600" fill="#52626a" text-anchor="middle">大烧杯（密闭罩住 A 和 B）</text>
+
+  <!-- Small Beaker B (Left inside, Concentrated Ammonia): x=165..225, y=175..242 -->
+  <path class="mma-glass" d="M 165 175 L 165 238 Q 165 242 169 242 L 221 242 Q 225 242 225 238 L 225 175 Z"/>
+  <path class="mma-clear" d="M 166 198 L 224 198 L 224 238 Q 224 241 221 241 L 169 241 Q 166 241 166 238 Z"/>
+
+  <!-- Small Beaker A (Right inside, Phenolphthalein turns Red): x=285..345, y=175..242 -->
+  <path class="mma-glass" d="M 285 175 L 285 238 Q 285 242 289 242 L 341 242 Q 345 242 345 238 L 345 175 Z"/>
+  <path class="mma-red" d="M 286 198 L 344 198 L 344 238 Q 344 241 341 241 L 289 241 Q 286 241 286 238 Z"/>
+
+  <!-- Labels under beakers -->
+  <text x="195" y="256" font-size="11" font-weight="600" fill="#20272b" text-anchor="middle">烧杯 B（浓氨水）</text>
+  <text x="315" y="256" font-size="11" font-weight="600" fill="#c9554d" text-anchor="middle">烧杯 A（酚酞变红）</text>
+
+  <!-- Ammonia Molecules (NH3) diffusing from B to A -->
+  <circle cx="195" cy="165" r="3" class="mma-mol"/>
+  <circle cx="215" cy="145" r="3.5" class="mma-mol"/>
+  <circle cx="240" cy="138" r="3" class="mma-mol"/>
+  <circle cx="270" cy="145" r="3.5" class="mma-mol"/>
+  <circle cx="295" cy="165" r="3" class="mma-mol"/>
+  <circle cx="315" cy="180" r="3.5" class="mma-mol"/>
+  <path class="mma-trail" d="M 195 165 Q 255 128 315 175"/>
+
+  <!-- Left Bottom Summary -->
+  <rect class="mma-sec-b" x="35" y="268" width="445" height="98"/>
+  <text class="mma-label" x="45" y="292">实验现象：烧杯 A 中溶液变红，烧杯 B 中溶液仍为无色</text>
+  <text class="mma-sub" x="45" y="318">微观解释：浓氨水挥发出的氨分子运动到酚酞溶液中，使酚酞变红</text>
+  <text class="mma-sub" x="45" y="344">实验结论：分子总在不断运动；分子很小，肉眼看不见但客观存在</text>
+
+  <!-- Right: 核心性质与中考应用卡片 -->
+  <rect class="mma-card" x="505" y="62" width="270" height="314"/>
+  <rect x="515" y="72" width="250" height="24" rx="3" fill="#fdf5f4"/>
+  <text class="mma-label" x="640" y="88" text-anchor="middle" fill="#c9554d">分子的基本性质与生活解释</text>
+
+  <!-- Card 1: 分子三大基本性质 -->
+  <rect class="mma-sec" x="515" y="104" width="250" height="125"/>
+  <text class="mma-label" x="525" y="124" fill="#c9554d">分子的基本性质：</text>
+  <text class="mma-sub" x="525" y="146"><tspan font-weight="600" fill="#20272b">① 质量和体积都很小</tspan></text>
+  <text class="mma-sub" x="525" y="168"><tspan font-weight="600" fill="#20272b">② 微观粒子总在不断运动</tspan></text>
+  <text class="mma-sub" x="525" y="190"><tspan font-weight="600" fill="#20272b">③ 分子之间存在间隔</tspan></text>
+  <text class="mma-sub" x="525" y="212"><tspan font-weight="600" fill="#20272b">④ 同种分子化学性质相同</tspan></text>
+
+  <!-- Card 2: 常见生活现象辨析 -->
+  <rect class="mma-sec-b" x="515" y="238" width="250" height="126"/>
+  <text class="mma-label" x="525" y="258" fill="#287fc4">中考常见现象微观辨析：</text>
+  <text class="mma-sub" x="525" y="280">• 闻到花香、酒香：分子在不断运动</text>
+  <text class="mma-sub" x="525" y="302">• 气体加压储存：气体分子间间隔变小</text>
+  <text class="mma-sub" x="525" y="324">• 热胀冷缩：分子间隔改变（分子大小不变）</text>
+  <text class="mma-sub" x="525" y="346">• 阳光下晾衣干得快：温度高分子运动加快</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="cone-net-29-3c-t cone-net-29-3c-d">
+  <title id="cone-net-29-3c-t">圆锥沿母线剪开并展开</title>
+  <desc id="cone-net-29-3c-d">三步横向排列：圆锥的底面半径r与母线l；沿蓝色母线剪开；展开为半径l的扇形。母线与扇形半径同为蓝色，底面圆周与扇形弧同为绿色；扇形弧长2πr等于底面周长，侧面积S侧=1/2×2πr×l。圆锥底面圆为正投影椭圆。示意比例不带数值标注，不显示练一练中滤纸或漏斗的结果。无动画。</desc>
+  <style>.cone-net-29-3c-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.cone-net-29-3c-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="350" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="cone-net-29-3c-lb" x="120" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">圆锥</text>
+  <path d="M76.4 212.9A44 15.8 0 0 1 163.6 212.9" stroke="#197a60" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+  <path d="M76.4 212.9A44 15.8 0 1 0 163.6 212.9" stroke="#197a60" stroke-width="2.5" fill="none"/>
+  <path d="M120 98.8L76.4 212.9" stroke="#287fc4" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M120 98.8L163.6 212.9" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 215L164 215" stroke="#197a60" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="120" cy="215" r="2.5" fill="#20272b"/>
+  <text class="cone-net-29-3c-sy" x="174" y="220" text-anchor="start" style="fill:#197a60;font-size:18px">r</text>
+  <text class="cone-net-29-3c-sy" x="74" y="156" text-anchor="start" style="fill:#287fc4;font-size:18px">l</text>
+  </g>
+  <g data-step="2">
+  <text class="cone-net-29-3c-lb" x="350" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">沿母线剪开</text>
+  <path d="M306.4 212.9A44 15.8 0 0 1 393.6 212.9" stroke="#197a60" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+  <path d="M306.4 212.9A44 15.8 0 1 0 393.6 212.9" stroke="#197a60" stroke-width="2.5" fill="none"/>
+  <path d="M350 98.8L306.4 212.9" stroke="#287fc4" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M350 98.8L393.6 212.9" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M350 215L394 215" stroke="#197a60" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="350" cy="215" r="2.5" fill="#20272b"/>
+  <text class="cone-net-29-3c-sy" x="404" y="220" text-anchor="start" style="fill:#197a60;font-size:18px">r</text>
+  <text class="cone-net-29-3c-sy" x="304" y="156" text-anchor="start" style="fill:#287fc4;font-size:18px">l</text>
+  <path d="M321.7 153.3L334.7 158.3" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <text class="cone-net-29-3c-lb" x="350" y="267" text-anchor="middle" style="fill:#287fc4;font-size:14px;font-weight:500">沿蓝色母线剪开</text>
+  </g>
+  <g data-step="3">
+  <text class="cone-net-29-3c-lb" x="590" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">展开扇形</text>
+  <path d="M590 78L475.7 144A132 132 0 0 0 704.3 144Z" fill="#287fc4" fill-opacity="0.08" stroke="none"/>
+  <path d="M590 78L475.7 144" stroke="#287fc4" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M590 78L704.3 144" stroke="#287fc4" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M475.7 144A132 132 0 0 0 704.3 144" fill="none" stroke="#197a60" stroke-width="3"/>
+  <circle cx="590" cy="78" r="2.5" fill="#20272b"/>
+  <text class="cone-net-29-3c-sy" x="514" y="101" text-anchor="start" style="fill:#287fc4;font-size:18px">l</text>
+  <text class="cone-net-29-3c-sy" x="659" y="101" text-anchor="start" style="fill:#287fc4;font-size:18px">l</text>
+  <text class="cone-net-29-3c-formula" x="590" y="244" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:21px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#197a60">2π<tspan font-style="italic">r</tspan></tspan></text>
+  <text class="cone-net-29-3c-formula" x="360" y="320" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:25px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#20272b"><tspan font-style="italic">S</tspan>侧</tspan><tspan fill="#20272b"> = 1/2 × </tspan><tspan fill="#197a60">2π<tspan font-style="italic">r</tspan></tspan><tspan fill="#20272b"> × </tspan><tspan fill="#287fc4"><tspan font-style="italic">l</tspan></tspan></text>
+  </g>
+</svg>

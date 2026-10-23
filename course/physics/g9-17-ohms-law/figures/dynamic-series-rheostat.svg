@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="dyn-t dyn-d">
+  <title id="dyn-t">定值电阻与滑动变阻器串联的动态电路</title>
+  <desc id="dyn-d">定值电阻 R0 与滑动变阻器 R 串联，电流表测电路电流，电压表并联在变阻器接入电路的部分两端。变阻器接入的是左端到滑片 P 之间的电阻丝，滑片向右移动时接入电阻变大。静态图。</desc>
+  <style>.dyn-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.dyn-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="600" height="300" fill="#fff" stroke="none"/>
+  <path d="M100 90L330 90" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M370 66L520 66L520 250L100 250L100 90" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M300 90L300 30L450 30L450 66" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <rect x="163" y="84" width="34" height="12" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="328" y="84" width="64" height="12" rx="0" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M370 66L370 76" stroke="#20272b" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M370 83L366.4 75L373.6 75Z" stroke="#20272b" stroke-width="0.01" fill="#20272b" stroke-linejoin="round"/>
+  <circle cx="375" cy="30" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="dyn-sy" x="375" y="36" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">V</text>
+  <circle cx="520" cy="160" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="dyn-sy" x="520" y="166" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">A</text>
+  <rect x="211" y="234" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M215 235L215 265" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M225 242L225 258" stroke="#20272b" stroke-width="5" stroke-linecap="butt"/>
+  <rect x="383" y="246" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M383 250L421 245" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="383" cy="250" r="2.4" fill="#20272b"/>
+  <circle cx="417" cy="250" r="2.4" fill="#20272b"/>
+  <circle cx="300" cy="90" r="3.6" fill="#20272b"/>
+  <circle cx="450" cy="66" r="3.6" fill="#20272b"/>
+  <text class="dyn-sy" x="180" y="122" text-anchor="middle" style="fill:#20272b;font-size:18px">R<tspan font-size="13" dy="4" font-style="normal">0</tspan></text>
+  <text class="dyn-sy" x="360" y="122" text-anchor="middle" style="fill:#20272b;font-size:18px">R</text>
+  <text class="dyn-sy" x="364" y="62" text-anchor="end" style="fill:#20272b;font-size:18px">P</text>
+  <path d="M388 50L417.6 50" stroke="#52626a" stroke-width="1.6" stroke-linecap="butt"/>
+  <path d="M424 50L416 53.6L416 46.4Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="dyn-lb" x="400" y="186" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">滑片右移，接入电阻变大</text>
+  <text class="dyn-sy" x="400" y="284" text-anchor="middle" style="fill:#20272b;font-size:18px">S</text>
+</svg>

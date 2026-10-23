@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="stvt-t stvt-d">
+  <title id="stvt-t">匀速直线运动的 s-t 图像和 v-t 图像</title>
+  <desc id="stvt-d">左：s-t 图像，横轴时间 t，纵轴路程 s，匀速直线运动是一条过原点的倾斜直线。右：v-t 图像，横轴时间 t，纵轴速度 v，匀速直线运动是一条平行于时间轴的直线。静态图。</desc>
+  <style>.stvt-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.stvt-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="250" fill="#fff" stroke="none"/>
+  <path d="M60 190L282 190" stroke="#52626a" stroke-width="1.8" stroke-linecap="butt"/>
+  <path d="M290 190L280 194.5L280 185.5Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M60 190L60 38" stroke="#52626a" stroke-width="1.8" stroke-linecap="butt"/>
+  <path d="M60 30L64.5 40L55.5 40Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="stvt-sy" x="50" y="210" text-anchor="middle" style="fill:#20272b;font-size:16px">O</text>
+  <text class="stvt-sy" x="286" y="214" text-anchor="middle" style="fill:#20272b;font-size:18px">t</text>
+  <text class="stvt-sy" x="42" y="44" text-anchor="middle" style="fill:#20272b;font-size:18px">s</text>
+  <text class="stvt-lb" x="175" y="238" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">s-t 图像</text>
+  <path d="M380 190L602 190" stroke="#52626a" stroke-width="1.8" stroke-linecap="butt"/>
+  <path d="M610 190L600 194.5L600 185.5Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M380 190L380 38" stroke="#52626a" stroke-width="1.8" stroke-linecap="butt"/>
+  <path d="M380 30L384.5 40L375.5 40Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="stvt-sy" x="370" y="210" text-anchor="middle" style="fill:#20272b;font-size:16px">O</text>
+  <text class="stvt-sy" x="606" y="214" text-anchor="middle" style="fill:#20272b;font-size:18px">t</text>
+  <text class="stvt-sy" x="362" y="44" text-anchor="middle" style="fill:#20272b;font-size:18px">v</text>
+  <text class="stvt-lb" x="495" y="238" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">v-t 图像</text>
+  <path d="M60 190L250 62" stroke="#287fc4" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M380 120L580 120" stroke="#287fc4" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

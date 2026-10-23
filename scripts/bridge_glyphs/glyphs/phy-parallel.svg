@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90">
+  <title>并联电路电流关系</title>
+  <desc>电池连接两条并联支路，干路和两条支路分别标出电流 I、I1、I2。</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 37 V28 H50 M20 50 V72 H125 V28 M50 28 H73 M103 28 H125 M50 28 V61 H73 M103 61 H125" stroke="#9aa5a8" stroke-width="2.5"/>
+    <path d="M11 37 H29 M15 50 H25" stroke="#52626a" stroke-width="2.5"/>
+    <rect x="73" y="21" width="30" height="14" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <rect x="73" y="54" width="30" height="14" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M28 28 H44" stroke="currentColor" stroke-width="4"/>
+    <path d="M108 28 H121 M54 61 H68" stroke="#c9554d" stroke-width="4"/>
+  </g>
+  <path d="M44 28 L36.5 23.5 V32.5 Z" fill="currentColor"/>
+  <path d="M121 28 L113.5 23.5 V32.5 Z M68 61 L60.5 56.5 V65.5 Z" fill="#c9554d"/>
+  <g fill="#52626a">
+    <circle cx="50" cy="28" r="3"/><circle cx="50" cy="61" r="3"/>
+    <circle cx="125" cy="28" r="3"/><circle cx="125" cy="61" r="3"/>
+  </g>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13">
+    <text x="32" y="17">I</text>
+    <text x="106" y="17">I1</text>
+    <text x="55" y="50">I2</text>
+  </g>
+</svg>

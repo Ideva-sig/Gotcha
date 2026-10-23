@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>互补的两个角</title>
+<desc>水平直线上方的相邻角为 50° 与 130°。</desc>
+<line x1="14" y1="68" x2="137" y2="68" stroke="#52626a" stroke-width="2"/><line x1="67" y1="68" x2="109.424" y2="17.4411" stroke="currentColor" stroke-width="4"/><path d="M 91 68 A 24 24 0 0 0 82.4269 49.6149" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 82.4269 49.6149 A 24 24 0 0 0 43 68" stroke="#c9554d" stroke-width="4" fill="none"/>
+</svg>

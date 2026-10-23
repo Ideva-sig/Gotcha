@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" role="img" aria-labelledby="kmno4-t kmno4-d">
+  <title id="kmno4-t">高锰酸钾制取氧气实验装置示意图</title>
+  <desc id="kmno4-d">展示加热高锰酸钾制取氧气的规范装置（试管口略向下倾斜、管口塞棉花、排水集气法收集）及查装定点收离熄操作规程。</desc>
+  <style>
+    .kmno4-bg { fill: #ffffff; }
+    .kmno4-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .kmno4-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .kmno4-stand { fill: #52626a; stroke: #37474f; stroke-width: 1.6; }
+    .kmno4-water { fill: #e1f5fe; stroke: #287fc4; stroke-width: 1.2; fill-opacity: 0.8; }
+    .kmno4-tube { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .kmno4-rubber { fill: none; stroke: #bf8d08; stroke-width: 3.2; stroke-linecap: round; }
+    .kmno4-powder { fill: #4a148c; stroke: #311b92; stroke-width: 1; }
+    .kmno4-cotton { fill: #ffffff; stroke: #b0bec5; stroke-width: 1.2; stroke-dasharray: 2 1; }
+    .kmno4-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .kmno4-burner { fill: #eceff1; stroke: #52626a; stroke-width: 1.6; }
+    .kmno4-bubble { fill: #ffffff; stroke: #287fc4; stroke-width: 1; }
+    .kmno4-lead { fill: none; stroke: #7d8990; stroke-width: 1.2; stroke-dasharray: 2 2; }
+    .kmno4-dot { fill: #52626a; }
+    .kmno4-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .kmno4-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .kmno4-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .kmno4-eq { font: 600 12px -apple-system, "PingFang SC", sans-serif; fill: #287fc4; }
+    .kmno4-sec { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .kmno4-sec-b { fill: #f0f7fb; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .kmno4-table { stroke: #52626a; stroke-width: 2; }
+  </style>
+  <rect class="kmno4-bg" width="820" height="420"/>
+
+  <!-- Top Title Banner -->
+  <rect class="kmno4-card" x="25" y="14" width="770" height="36"/>
+  <text class="kmno4-title" x="410" y="37" text-anchor="middle">实验室制取氧气标准装置：加热高锰酸钾（排水集气法）</text>
+
+  <!-- Left: 完整规范实验装置图 -->
+  <rect class="kmno4-card" x="25" y="62" width="490" height="344"/>
+  <rect x="35" y="72" width="470" height="24" rx="3" fill="#e1f5fe"/>
+  <text class="kmno4-label" x="270" y="88" text-anchor="middle" fill="#287fc4">高锰酸钾制氧装置（课本图 2-14、图 2-18）</text>
+
+  <!-- Table line -->
+  <line class="kmno4-table" x1="35" y1="300" x2="505" y2="300"/>
+
+  <!-- Iron Stand: base at (120..175, 300), rod at x=148, y=95..300 -->
+  <rect class="kmno4-stand" x="120" y="293" width="55" height="7" rx="1"/>
+  <rect class="kmno4-stand" x="146" y="98" width="5" height="195"/>
+  <!-- Clamp at x=144, y=140 -->
+  <rect x="142" y="136" width="12" height="9" fill="#37474f"/>
+  <line x1="148" y1="140" x2="130" y2="140" stroke="#52626a" stroke-width="2.6"/>
+
+  <!-- Test Tube: Tilted slightly downwards by 6 degrees -->
+  <!-- Pivot at (130, 140), rotated 6 deg -->
+  <g transform="translate(130, 140) rotate(6)">
+    <!-- Test tube body: length 135, width 24. Bottom at x=-80, Mouth at x=55 -->
+    <rect class="kmno4-glass" x="-80" y="-12" width="135" height="24" rx="12"/>
+    <!-- KMnO4 powder at bottom -->
+    <path class="kmno4-powder" d="M -80 -10 Q -50 -10 -50 10 L -80 10 Z"/>
+    <!-- Cotton ball near mouth -->
+    <ellipse cx="40" cy="0" rx="10" ry="8" class="kmno4-cotton"/>
+    <!-- Stopper at mouth -->
+    <path d="M 53 -11 L 65 -11 L 63 11 L 53 11 Z" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.2"/>
+    <!-- Glass tube extending out of stopper -->
+    <path class="kmno4-tube" d="M 45 0 L 78 0"/>
+  </g>
+
+  <!-- Alcohol Lamp under tube bottom: cx=62, y=210..300 -->
+  <!-- Lift table / stand blocks -->
+  <rect x="44" y="285" width="36" height="15" rx="2" fill="#b0bec5" stroke="#52626a" stroke-width="1.2"/>
+  <!-- Lamp body -->
+  <path class="kmno4-burner" d="M 48 285 L 76 285 L 74 245 Q 74 235 62 235 Q 50 235 50 245 Z"/>
+  <!-- Lamp wick and cap ring -->
+  <rect x="58" y="228" width="8" height="7" fill="#78909c"/>
+  <line x1="62" y1="228" x2="62" y2="222" stroke="#37474f" stroke-width="2.2"/>
+  <!-- Outer and Inner Flame -->
+  <path class="kmno4-flame" d="M 62 222 C 52 205 55 185 62 172 C 69 185 72 205 62 222 Z"/>
+  <path d="M 62 220 C 56 210 58 198 62 188 C 66 198 68 210 62 220 Z" fill="#ffe082"/>
+
+  <!-- Delivery Tube Path: from tube mouth ~(208, 148) down to water trough -->
+  <!-- Glass bend 1 -->
+  <path class="kmno4-tube" d="M 208 148 L 235 170"/>
+  <!-- Rubber tubing connector -->
+  <line class="kmno4-rubber" x1="235" y1="170" x2="265" y2="198"/>
+  <!-- Glass delivery tube entering trough and into bottle -->
+  <path class="kmno4-tube" d="M 265 198 L 315 245 L 360 286 L 372 286 L 372 265"/>
+
+  <!-- Water Trough (水槽): x=305..480, y=235..299 -->
+  <path class="kmno4-glass" d="M 305 235 L 305 295 Q 305 299 310 299 L 475 299 Q 480 299 480 295 L 480 235 Z"/>
+  <path class="kmno4-water" d="M 306 250 L 479 250 L 479 295 Q 479 298 475 298 L 310 298 Q 306 298 306 295 Z"/>
+
+  <!-- Inverted Gas Collecting Jar in trough: cx=375, y=170..280, w=56 -->
+  <!-- Base of inverted jar at top: x=348..402, y=170..176 -->
+  <rect class="kmno4-glass" x="348" y="170" width="54" height="6" rx="2"/>
+  <!-- Body of inverted jar -->
+  <path class="kmno4-glass" d="M 351 176 L 351 268 Q 351 276 345 280 L 405 280 Q 399 276 399 268 L 399 176 Z"/>
+  <!-- Water inside inverted jar (lower part): from y=230 to y=280 -->
+  <path class="kmno4-water" d="M 352 230 L 398 230 L 398 268 Q 398 276 404 280 L 346 280 Q 352 276 352 268 Z"/>
+
+  <!-- Rising Oxygen Gas bubbles into jar -->
+  <circle cx="372" cy="256" r="2" class="kmno4-bubble"/>
+  <circle cx="375" cy="242" r="2.5" class="kmno4-bubble"/>
+  <circle cx="370" cy="228" r="3" class="kmno4-bubble"/>
+  <circle cx="376" cy="210" r="3.5" class="kmno4-bubble"/>
+  <text x="375" y="198" font-size="12" font-weight="600" fill="#287fc4" text-anchor="middle">氧气</text>
+
+  <!-- Labels on Left Apparatus (Carefully spaced) -->
+  <line class="kmno4-lead" x1="80" y1="134" x2="80" y2="120"/>
+  <circle cx="80" cy="134" r="2" class="kmno4-dot"/>
+  <text class="kmno4-sub" x="80" y="114" text-anchor="middle">试管口略向下倾斜</text>
+
+  <line class="kmno4-lead" x1="175" y1="145" x2="210" y2="120"/>
+  <circle cx="175" cy="145" r="2" class="kmno4-dot"/>
+  <text class="kmno4-sub" x="215" y="122">管口放棉花</text>
+
+  <line class="kmno4-lead" x1="415" y1="255" x2="435" y2="225"/>
+  <circle cx="415" cy="255" r="2" class="kmno4-dot"/>
+  <text class="kmno4-sub" x="440" y="228">排水集气法</text>
+
+  <!-- Left Bottom Bar -->
+  <rect class="kmno4-sec-b" x="35" y="315" width="470" height="80"/>
+  <text class="kmno4-label" x="45" y="344">反应原理：高锰酸钾 → 锰酸钾 ＋ 二氧化锰 ＋ 氧气（加热）</text>
+  <text class="kmno4-sub" x="45" y="372">收集方法：氧气不易溶于水用排水法收集；气泡连续均匀冒出时开始收集</text>
+
+  <!-- Right: 核心规程“查装定点收离熄”卡片 -->
+  <rect class="kmno4-card" x="525" y="62" width="270" height="344"/>
+  <rect x="535" y="72" width="250" height="24" rx="3" fill="#fdf5f4"/>
+  <text class="kmno4-label" x="660" y="88" text-anchor="middle" fill="#c9554d">核心操作规程：查装定点收离熄</text>
+
+  <!-- Procedural step card -->
+  <rect class="kmno4-sec" x="535" y="104" width="250" height="290"/>
+  <text class="kmno4-label" x="545" y="124" fill="#c9554d">七步标准操作规范：</text>
+
+  <text class="kmno4-sub" x="545" y="146"><tspan font-weight="600" fill="#20272b">① 查：</tspan>检查装置气密性（手握试管看气泡）</text>
+  <text class="kmno4-sub" x="545" y="168"><tspan font-weight="600" fill="#20272b">② 装：</tspan>装药品，管口放棉花，塞紧胶塞</text>
+  <text class="kmno4-sub" x="545" y="190"><tspan font-weight="600" fill="#20272b">③ 定：</tspan>固定铁架台，试管口略向下倾斜</text>
+  <text class="kmno4-sub" x="545" y="212"><tspan font-weight="600" fill="#20272b">④ 点：</tspan>点燃酒精灯，先均匀预热后集中加热</text>
+  <text class="kmno4-sub" x="545" y="234"><tspan font-weight="600" fill="#20272b">⑤ 收：</tspan>气泡连续均匀冒出时再开始收集</text>
+  <text class="kmno4-sub" x="545" y="256"><tspan font-weight="600" fill="#20272b">⑥ 离：</tspan>实验结束先将导管移出水槽（防倒吸）</text>
+  <text class="kmno4-sub" x="545" y="278"><tspan font-weight="600" fill="#20272b">⑦ 熄：</tspan>最后熄灭酒精灯（用灯帽盖灭）</text>
+
+  <!-- Safety note inside card -->
+  <rect x="545" y="295" width="230" height="85" rx="3" fill="#ffffff" stroke="#c9554d" stroke-width="1"/>
+  <text class="kmno4-label" x="555" y="315" font-size="11" fill="#c9554d">【安全避坑提醒】</text>
+  <text class="kmno4-sub" x="555" y="335" font-size="11">• 试管口略向下：防冷凝水倒流炸裂试管</text>
+  <text class="kmno4-sub" x="555" y="353" font-size="11">• 先移导管后熄灯：防冷水倒吸炸裂试管</text>
+  <text class="kmno4-sub" x="555" y="371" font-size="11">• 管口放棉花：防高锰酸钾粉末堵塞导管</text>
+</svg>

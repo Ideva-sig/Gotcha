@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>角平分线</title>
+<desc>70° 角被 35° 射线精确平分，两个小角用相同半径弧线。</desc>
+<line x1="32" y1="72" x2="104" y2="72" stroke="#52626a" stroke-width="2"/><line x1="32" y1="72" x2="54.5733" y2="9.9803" stroke="#52626a" stroke-width="2"/><line x1="32" y1="72" x2="93.4364" y2="28.9818" stroke="currentColor" stroke-width="4"/><path d="M 55 72 A 23 23 0 0 0 50.8405 58.8077" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 50.8405 58.8077 A 23 23 0 0 0 39.8665 50.3871" stroke="currentColor" stroke-width="4" fill="none"/><text x="118" y="77" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">A</text><text x="69" y="17" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">B</text><text x="23" y="84" fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">O</text>
+</svg>

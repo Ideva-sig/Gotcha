@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>三角形平移</title>
+<desc>原三角形向右 62、向上 24 平移；三条对应点虚线精确平行等长。</desc>
+<line x1="16" y1="67" x2="78" y2="43" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/><line x1="60" y1="67" x2="122" y2="43" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/><line x1="32" y1="34" x2="94" y2="10" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="3 4"/><path d="M 16 67 L 60 67 L 32 34 Z" stroke="#9aa5a8" stroke-width="2" fill="none"/><path d="M 78 43 L 122 43 L 94 10 Z" stroke="currentColor" stroke-width="4" fill="currentColor" fill-opacity="0.15"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="mdf-273b-t mdf-273b-d">
+  <title id="mdf-273b-t">电子屏幕数据反比例模型拟合与估计</title>
+  <desc id="mdf-273b-d">左侧展示课本电子屏幕尺寸x与像素密度y的数据表及乘积xy列表，各组乘积均接近2200，说明适合近似反比例模型y=2200/x。右侧坐标系展示5个蓝色数据散点与绿色拟合双曲线y=2200/x，并用虚线投影展示当像素密度为40 PPI时估计尺寸约为55英寸。</desc>
+  <style>.mdf-273b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.mdf-273b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="440" fill="#fff" stroke="none"/>
+  <path d="M335 25L335 420" stroke="#bec9ce" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <g data-step="1">
+  <text class="mdf-273b-lb" x="30" y="35" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:700">数据表与乘积检验</text>
+  <rect x="30" y="65" width="280" height="120" rx="0" fill="#ffffff" stroke="#52626a" stroke-width="1.2"/>
+  <path d="M30 105L310 105" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M30 145L310 145" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M115 65L115 185" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M154 65L154 185" stroke="#52626a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M193 65L193 185" stroke="#52626a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M232 65L232 185" stroke="#52626a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M271 65L271 185" stroke="#52626a" stroke-width="0.8" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="72" y="90" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">尺寸 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> (英寸)</tspan></text>
+  <text class="mdf-273b-math" x="72" y="130" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">密度 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> (</tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">PPI</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+  <text class="mdf-273b-math" x="72" y="170" text-anchor="middle" style="font-size:13px;font-weight:600;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">乘积 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">xy</tspan></text>
+  <text class="mdf-273b-math" x="134" y="90" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">5</tspan></text>
+  <text class="mdf-273b-math" x="134" y="130" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">440</tspan></text>
+  <text class="mdf-273b-math" x="134" y="170" text-anchor="middle" style="font-size:12px;font-weight:600;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2200</tspan></text>
+  <text class="mdf-273b-math" x="173" y="90" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7</tspan></text>
+  <text class="mdf-273b-math" x="173" y="130" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">314</tspan></text>
+  <text class="mdf-273b-math" x="173" y="170" text-anchor="middle" style="font-size:12px;font-weight:600;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2198</tspan></text>
+  <text class="mdf-273b-math" x="212" y="90" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">15</tspan></text>
+  <text class="mdf-273b-math" x="212" y="130" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">147</tspan></text>
+  <text class="mdf-273b-math" x="212" y="170" text-anchor="middle" style="font-size:12px;font-weight:600;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2205</tspan></text>
+  <text class="mdf-273b-math" x="251" y="90" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">24</tspan></text>
+  <text class="mdf-273b-math" x="251" y="130" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">92</tspan></text>
+  <text class="mdf-273b-math" x="251" y="170" text-anchor="middle" style="font-size:12px;font-weight:600;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2208</tspan></text>
+  <text class="mdf-273b-math" x="290" y="90" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">27</tspan></text>
+  <text class="mdf-273b-math" x="290" y="130" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">81</tspan></text>
+  <text class="mdf-273b-math" x="290" y="170" text-anchor="middle" style="font-size:12px;font-weight:600;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2187</tspan></text>
+  <text class="mdf-273b-math" x="30" y="212" text-anchor="start" style="font-size:14px;font-weight:600;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">规律分析：</tspan></text>
+  <text class="mdf-273b-math" x="30" y="238" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 各组乘积 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">xy</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 均非常接近 2200</tspan></text>
+  <text class="mdf-273b-math" x="30" y="262" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">• 平均乘积约为 2199.6 ≈ 2200</tspan></text>
+  <text class="mdf-273b-math" x="30" y="290" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">确定近似反比例模型：</tspan></text>
+  <rect x="30" y="305" width="280" height="48" rx="6" fill="#f0fdf4" stroke="#197a60" stroke-width="1.8"/>
+  <text class="mdf-273b-math" x="170" y="335" text-anchor="middle" style="font-size:18px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 2200 / </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">  (</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> &gt; 0)</tspan></text>
+  <text class="mdf-273b-math" x="30" y="382" text-anchor="start" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">实测数据存在取整与近似误差，</tspan></text>
+  <text class="mdf-273b-math" x="30" y="402" text-anchor="start" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">曲线不要求严格经过每个离散点</tspan></text>
+  </g>
+  <g data-step="2">
+  <path d="M350 360L664.4 360" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M670 360L663 363.1L663 356.9Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M360 370L360 50.6" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M360 45L363.1 52L356.9 52Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="mdf-273b-math" x="665" y="378" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> (英寸)</tspan></text>
+  <text class="mdf-273b-math" x="350" y="45" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> (</tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">PPI</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+  <text class="mdf-273b-math" x="350" y="375" text-anchor="end" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <path d="M429 357L429 363" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="429" y="375" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">15</tspan></text>
+  <path d="M498 357L498 363" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="498" y="375" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">30</tspan></text>
+  <path d="M567 357L567 363" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="567" y="375" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">45</tspan></text>
+  <path d="M636 357L636 363" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="636" y="375" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">60</tspan></text>
+  <path d="M357 304L363 304" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="354" y="308" text-anchor="end" style="font-size:11px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">100</tspan></text>
+  <path d="M357 248L363 248" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="354" y="252" text-anchor="end" style="font-size:11px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">200</tspan></text>
+  <path d="M357 192L363 192" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="354" y="196" text-anchor="end" style="font-size:11px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">300</tspan></text>
+  <path d="M357 136L363 136" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="mdf-273b-math" x="354" y="140" text-anchor="end" style="font-size:11px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">400</tspan></text>
+  <circle cx="383" cy="113.6" r="4" fill="#287fc4"/>
+  <circle cx="392.2" cy="184.2" r="4" fill="#287fc4"/>
+  <circle cx="429" cy="277.7" r="4" fill="#287fc4"/>
+  <circle cx="470.4" cy="308.5" r="4" fill="#287fc4"/>
+  <circle cx="484.2" cy="314.6" r="4" fill="#287fc4"/>
+  <path d="M380.7 86.2L384.4 127.5L388.1 158L391.7 181.4L395.4 200L399.1 215.1L402.8 227.5L406.5 238L410.1 247L413.8 254.7L417.5 261.4L421.2 267.4L424.9 272.6L428.5 277.3L432.2 281.5L435.9 285.3L439.6 288.8L443.3 291.9L446.9 294.8L450.6 297.5L454.3 299.9L458 302.2L461.7 304.3L465.3 306.2L469 308L472.7 309.7L476.4 311.3L480.1 312.8L483.7 314.2L487.4 315.5L491.1 316.8L494.8 318L498.5 319.1L502.1 320.1L505.8 321.1L509.5 322.1L513.2 323L516.9 323.9L520.5 324.7L524.2 325.5L527.9 326.2L531.6 327L535.3 327.7L538.9 328.3L542.6 329L546.3 329.6L550 330.2L553.7 330.7L557.3 331.3L561 331.8L564.7 332.3L568.4 332.8L572.1 333.3L575.7 333.7L579.4 334.2L583.1 334.6L586.8 335L590.5 335.4L594.1 335.8L597.8 336.2L601.5 336.5L605.2 336.9L608.9 337.2L612.5 337.6L616.2 337.9L619.9 338.2L623.6 338.5L627.3 338.8L630.9 339.1L634.6 339.4L638.3 339.6" stroke="#197a60" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <text class="mdf-273b-math" x="575" y="280" text-anchor="start" style="font-size:14px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 2200/</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  </g>
+  <g data-step="3">
+  <path d="M360 337.6L613 337.6" stroke="#c9554d" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M613 360L613 337.6" stroke="#c9554d" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <circle cx="613" cy="337.6" r="4.5" fill="#c9554d"/>
+  <text class="mdf-273b-math" x="621" y="331.6" text-anchor="start" style="font-size:13px;font-weight:600;stroke:none"><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">估计点 (55, 40)</tspan></text>
+  <text class="mdf-273b-math" x="613" y="375" text-anchor="middle" style="font-size:12px;font-weight:700;stroke:none"><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">55</tspan></text>
+  <rect x="365" y="392" width="335" height="40" rx="5" fill="#fef2f2" stroke="#c9554d" stroke-width="1.5"/>
+  <text class="mdf-273b-math" x="532" y="417" text-anchor="middle" style="font-size:14px;font-weight:700;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">当 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 40 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">PPI</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 时，屏幕尺寸约为 </tspan><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">55 英寸</tspan></text>
+  </g>
+</svg>

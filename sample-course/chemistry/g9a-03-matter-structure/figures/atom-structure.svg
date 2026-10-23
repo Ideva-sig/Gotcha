@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-labelledby="atom-t atom-d">
+  <title id="atom-t">原子的构成示意图</title>
+  <desc id="atom-d">原子由居于中心的原子核和核外电子构成；原子核包含带正电的质子和不带电的中子，核外电子带负电在核外空间高速运动。</desc>
+  <style>
+    .atom-bg { fill: #ffffff; }
+    .atom-box { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.8; rx: 8px; }
+    .atom-orbit { fill: none; stroke: #bec9ce; stroke-width: 1.6; stroke-dasharray: 4 4; }
+    .atom-nuc-bg { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.8; }
+    .atom-title { font: 600 16px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .atom-label { font: 500 14px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .atom-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .atom-line { fill: none; stroke: #52626a; stroke-width: 1.6; }
+    .atom-wire { fill: none; stroke: #bec9ce; stroke-width: 1.6; }
+  </style>
+  <rect class="atom-bg" width="600" height="320"/>
+
+  <!-- Left: Atom model -->
+  <!-- Outer atomic boundary -->
+  <circle cx="170" cy="160" r="110" fill="#f4f8fb" stroke="#287fc4" stroke-width="2" stroke-dasharray="6 4"/>
+  
+  <!-- Orbits -->
+  <ellipse cx="170" cy="160" rx="95" ry="42" class="atom-orbit" transform="rotate(-25 170 160)"/>
+  <ellipse cx="170" cy="160" rx="95" ry="42" class="atom-orbit" transform="rotate(35 170 160)"/>
+  <ellipse cx="170" cy="160" rx="95" ry="42" class="atom-orbit" transform="rotate(90 170 160)"/>
+
+  <!-- Electrons -->
+  <circle cx="95" cy="115" r="7" fill="#287fc4"/>
+  <text x="95" y="118" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+
+  <circle cx="245" cy="205" r="7" fill="#287fc4"/>
+  <text x="245" y="208" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+
+  <circle cx="140" cy="68" r="7" fill="#287fc4"/>
+  <text x="140" y="71" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+
+  <circle cx="200" cy="252" r="7" fill="#287fc4"/>
+  <text x="200" y="255" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+
+  <!-- Nucleus cluster at center (4 protons + 4 neutrons) -->
+  <circle cx="170" cy="160" r="28" class="atom-nuc-bg"/>
+  <!-- Neutrons (yellow) -->
+  <circle cx="170" cy="144" r="6.5" fill="#bf8d08"/>
+  <circle cx="170" cy="176" r="6.5" fill="#bf8d08"/>
+  <circle cx="144" cy="160" r="6.5" fill="#bf8d08"/>
+  <circle cx="196" cy="160" r="6.5" fill="#bf8d08"/>
+  <!-- Protons (coral) -->
+  <circle cx="157" cy="151" r="6.5" fill="#c9554d"/>
+  <text x="157" y="154" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <circle cx="183" cy="151" r="6.5" fill="#c9554d"/>
+  <text x="183" y="154" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <circle cx="157" cy="169" r="6.5" fill="#c9554d"/>
+  <text x="157" y="172" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <circle cx="183" cy="169" r="6.5" fill="#c9554d"/>
+  <text x="183" y="172" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+
+  <!-- Left dimension notes -->
+  <text class="atom-sub" x="170" y="30" text-anchor="middle">原子直径约 10⁻¹⁰ m</text>
+  <text class="atom-sub" x="170" y="295" text-anchor="middle">原子核直径约 10⁻¹⁵~10⁻¹⁴ m</text>
+
+  <!-- Connecting brackets/lines to cards on right -->
+  <!-- Right side cards explaining hierarchy -->
+  <rect class="atom-box" x="330" y="35" width="240" height="70"/>
+  <circle cx="355" cy="60" r="9" fill="#287fc4"/>
+  <text x="355" y="63" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">-</text>
+  <text class="atom-title" x="375" y="62">核外电子</text>
+  <text class="atom-sub" x="375" y="85">每个带 1 个单位负电荷，高速运动</text>
+
+  <rect class="atom-box" x="330" y="125" width="240" height="155"/>
+  <circle cx="355" cy="155" r="9" fill="#c9554d"/>
+  <text x="355" y="158" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <text class="atom-title" x="375" y="157">原子核（居于中心）</text>
+
+  <!-- Proton item -->
+  <circle cx="370" cy="190" r="7" fill="#c9554d"/>
+  <text x="370" y="193" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+  <text class="atom-label" x="390" y="194">质子</text>
+  <text class="atom-sub" x="430" y="194">带 1 个单位正电荷</text>
+
+  <!-- Neutron item -->
+  <circle cx="370" cy="225" r="7" fill="#bf8d08"/>
+  <text class="atom-label" x="390" y="229">中子</text>
+  <text class="atom-sub" x="430" y="229">不显电性（不带电）</text>
+
+  <!-- Summary note -->
+  <text class="atom-sub" x="350" y="262">核电荷数 = 质子数 = 核外电子数</text>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 320" role="img" aria-labelledby="purif-t purif-d">
+  <title id="purif-t">自来水厂净水过程示意图</title>
+  <desc id="purif-d">自来水厂净水工艺流程：取水口注入天然水，经加絮凝剂沉淀池、过滤池、活性炭吸附池除去杂质（物理变化），再经投药消毒池杀菌（化学变化），最后由配水井输送给用户。</desc>
+  <style>
+    .purif-bg { fill: #ffffff; }
+    .purif-tank { fill: #f8fafb; stroke: #52626a; stroke-width: 1.8; rx: 4px; }
+    .purif-water { fill: #e3f2fd; stroke: #287fc4; stroke-width: 1.4; }
+    .purif-pipe { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .purif-arrow { fill: #287fc4; }
+    .purif-title { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .purif-role { font: 400 11px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .purif-badge-phys { fill: #e8f5e9; stroke: #197a60; stroke-width: 1.2; rx: 4px; }
+    .purif-badge-chem { fill: #fdf2e9; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .purif-txt-phys { font: 600 11px -apple-system, "PingFang SC", sans-serif; fill: #197a60; }
+    .purif-txt-chem { font: 600 11px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .purif-flow-txt { font: 500 12px -apple-system, "PingFang SC", sans-serif; fill: #287fc4; }
+  </style>
+  <rect class="purif-bg" width="740" height="320"/>
+
+  <!-- Top summary banner -->
+  <rect x="25" y="16" width="480" height="26" class="purif-badge-phys"/>
+  <text class="purif-txt-phys" x="265" y="33" text-anchor="middle">沉降、过滤、吸附主要分离杂质 —— 物理变化</text>
+
+  <rect x="525" y="16" width="190" height="26" class="purif-badge-chem"/>
+  <text class="purif-txt-chem" x="620" y="33" text-anchor="middle">投药杀菌消毒 —— 化学变化</text>
+
+  <!-- Step 1: 天然水取水 (x=25, y=60) -->
+  <rect class="purif-tank" x="25" y="60" width="85" height="150"/>
+  <!-- River/Reservoir Water -->
+  <path d="M 27 120 Q 48 115 69 120 T 108 120 L 108 208 L 27 208 Z" class="purif-water"/>
+  <!-- Water waves -->
+  <path d="M 35 140 Q 48 135 60 140 T 85 140" fill="none" stroke="#287fc4" stroke-width="1.2"/>
+  <path d="M 45 160 Q 58 155 70 160 T 95 160" fill="none" stroke="#287fc4" stroke-width="1.2"/>
+  <text class="purif-title" x="67" y="85" text-anchor="middle">天然水库</text>
+  <text class="purif-role" x="67" y="103" text-anchor="middle">取水泵站</text>
+  <text class="purif-role" x="67" y="235" text-anchor="middle">天然水</text>
+  <text class="purif-role" x="67" y="250" text-anchor="middle">(含悬浮杂质)</text>
+
+  <!-- Pipe 1 -> 2 -->
+  <path class="purif-pipe" d="M 110 160 L 135 160"/>
+  <polygon class="purif-arrow" points="135,157 141,160 135,163"/>
+
+  <!-- Step 2: 沉淀池 (x=145, y=60) -->
+  <rect class="purif-tank" x="145" y="60" width="100" height="150"/>
+  <path d="M 147 130 L 243 130 L 243 208 L 147 208 Z" class="purif-water"/>
+  <!-- Flocculant dose funnels -->
+  <path d="M 185 68 L 195 85 L 205 68 Z" fill="#bf8d08" stroke="#52626a" stroke-width="1.2"/>
+  <text class="purif-role" x="195" y="100" text-anchor="middle" fill="#bf8d08" font-weight="600">加絮凝剂</text>
+  <!-- Sediment at bottom -->
+  <path d="M 147 195 Q 195 190 243 195 L 243 208 L 147 208 Z" fill="#d7ccc8"/>
+  <text class="purif-title" x="195" y="120" text-anchor="middle">反应沉淀池</text>
+  <text class="purif-role" x="195" y="235" text-anchor="middle">明矾吸附沉降</text>
+  <text class="purif-role" x="195" y="250" text-anchor="middle">除去大颗粒杂质</text>
+
+  <!-- Pipe 2 -> 3 -->
+  <path class="purif-pipe" d="M 245 160 L 270 160"/>
+  <polygon class="purif-arrow" points="270,157 276,160 270,163"/>
+
+  <!-- Step 3: 过滤池 (x=280, y=60) -->
+  <rect class="purif-tank" x="280" y="60" width="95" height="150"/>
+  <path d="M 282 125 L 373 125 L 373 208 L 282 208 Z" class="purif-water"/>
+  <!-- Filter layers: fine sand & pebbles -->
+  <rect x="282" y="160" width="91" height="18" fill="#e0e0e0" stroke="#bec9ce" stroke-width="1"/>
+  <rect x="282" y="178" width="91" height="16" fill="#b0bec5" stroke="#bec9ce" stroke-width="1"/>
+  <text class="purif-title" x="327" y="90" text-anchor="middle">过滤池</text>
+  <text class="purif-role" x="327" y="110" text-anchor="middle">砂石滤层</text>
+  <text class="purif-role" x="327" y="235" text-anchor="middle">细砂、卵石截留</text>
+  <text class="purif-role" x="327" y="250" text-anchor="middle">滤去不溶性杂质</text>
+
+  <!-- Pipe 3 -> 4 -->
+  <path class="purif-pipe" d="M 375 160 L 400 160"/>
+  <polygon class="purif-arrow" points="400,157 406,160 400,163"/>
+
+  <!-- Step 4: 活性炭吸附池 (x=410, y=60) -->
+  <rect class="purif-tank" x="410" y="60" width="95" height="150"/>
+  <path d="M 412 125 L 503 125 L 503 208 L 412 208 Z" class="purif-water"/>
+  <!-- Activated carbon layer -->
+  <rect x="412" y="155" width="91" height="35" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+  <!-- small carbon dots -->
+  <circle cx="430" cy="172" r="2" fill="#90a4ae"/>
+  <circle cx="450" cy="168" r="2" fill="#90a4ae"/>
+  <circle cx="470" cy="175" r="2" fill="#90a4ae"/>
+  <circle cx="490" cy="170" r="2" fill="#90a4ae"/>
+  <text class="purif-title" x="457" y="90" text-anchor="middle">活性炭吸附池</text>
+  <text class="purif-role" x="457" y="110" text-anchor="middle">物理吸附</text>
+  <text class="purif-role" x="457" y="235" text-anchor="middle">吸附色素与异味</text>
+  <text class="purif-role" x="457" y="250" text-anchor="middle">除部分可溶杂质</text>
+
+  <!-- Pipe 4 -> 5 -->
+  <path class="purif-pipe" d="M 505 160 L 530 160"/>
+  <polygon class="purif-arrow" points="530,157 536,160 530,163"/>
+
+  <!-- Step 5: 投药消毒池 (x=540, y=60) -->
+  <rect class="purif-tank" x="540" y="60" width="90" height="150" stroke="#c9554d"/>
+  <path d="M 542 140 L 628 140 L 628 208 L 542 208 Z" fill="#fff3e0" stroke="#ffb74d" stroke-width="1.2"/>
+  <!-- Disinfectant input tube on left side: x=550 -->
+  <path d="M 552 68 L 552 95" fill="none" stroke="#c9554d" stroke-width="2"/>
+  <polygon points="548,95 552,102 556,95" fill="#c9554d"/>
+  <text class="purif-role" x="562" y="86" fill="#c9554d" font-weight="600">投药消毒</text>
+  <text class="purif-title" x="585" y="120" text-anchor="middle">投药消毒池</text>
+  <text class="purif-role" x="585" y="235" text-anchor="middle">加入消毒剂杀菌</text>
+  <text class="purif-txt-chem" x="585" y="250" text-anchor="middle">(发生化学变化)</text>
+
+  <!-- Pipe 5 -> 6 -->
+  <path class="purif-pipe" d="M 630 160 L 650 160"/>
+  <polygon class="purif-arrow" points="650,157 656,160 650,163"/>
+
+  <!-- Step 6: 配水井与用户 (x=660, y=60) -->
+  <rect class="purif-tank" x="660" y="60" width="65" height="150"/>
+  <path d="M 662 135 L 723 135 L 723 208 L 662 208 Z" class="purif-water"/>
+  <!-- Pump icon / wheel -->
+  <circle cx="692" cy="170" r="12" fill="#ffffff" stroke="#52626a" stroke-width="1.8"/>
+  <circle cx="692" cy="170" r="4" fill="#52626a"/>
+  <text class="purif-title" x="692" y="90" text-anchor="middle">配水井</text>
+  <text class="purif-role" x="692" y="110" text-anchor="middle">水泵加压</text>
+  <text class="purif-title" x="692" y="235" text-anchor="middle" fill="#197a60">用户</text>
+  <text class="purif-role" x="692" y="250" text-anchor="middle">(洁净自来水)</text>
+
+  <!-- Bottom workflow indicator bar -->
+  <path d="M 40 285 L 700 285" fill="none" stroke="#287fc4" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <polygon points="700,281 708,285 700,289" fill="#287fc4"/>
+  <text class="purif-flow-txt" x="370" y="305" text-anchor="middle">生产流程：取水 → 沉淀 → 过滤 → 吸附 → 消毒 → 输送</text>
+</svg>

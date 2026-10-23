@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="h2app-t h2app-d">
+  <title id="h2app-t">氢能源高能环保应用示意图</title>
+  <desc id="h2app-d">展示氢能源在航天运载火箭动力与氢能源轨道列车交通中的前沿应用，归纳氢能三大核心优势与制储运技术瓶颈。</desc>
+  <style>
+    .h2app-bg { fill: #ffffff; }
+    .h2app-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .h2app-panel { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .h2app-head { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2app-sec { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2app-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .h2app-bold { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .h2app-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .h2app-blue { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.5; }
+    .h2app-metal { fill: #f0f4f8; stroke: #52626a; stroke-width: 1.6; }
+    .h2app-flame { fill: #ff9800; stroke: #e65100; stroke-width: 1.2; }
+    .h2app-tail { fill: #ffeb3b; fill-opacity: 0.6; }
+    .h2app-track { stroke: #78909c; stroke-width: 2.2; stroke-linecap: round; }
+    .h2app-sleeper { stroke: #b0bec5; stroke-width: 1.5; }
+    .h2app-vapor { fill: #e1f5fe; stroke: #81d4fa; stroke-width: 1; stroke-dasharray: 2 2; }
+    .h2app-box-b { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .h2app-box-g { fill: #f4faf6; stroke: #197a60; stroke-width: 1.2; rx: 4px; }
+    .h2app-box-y { fill: #fffdf5; stroke: #bf8d08; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="h2app-bg" width="800" height="420"/>
+
+  <!-- Top Banner -->
+  <rect x="20" y="12" width="760" height="34" class="h2app-card"/>
+  <text class="h2app-head" x="400" y="35" text-anchor="middle">氢能源的高能环保前沿应用（航天动力与绿色交通）</text>
+
+  <!-- Left: 航天应用（氢氧火箭发动机）(x: 20..390, y: 55..265) -->
+  <rect class="h2app-panel" x="20" y="55" width="370" height="210"/>
+  <rect x="30" y="63" width="350" height="22" rx="3" fill="#e8f4fc"/>
+  <text class="h2app-sec" x="205" y="79" text-anchor="middle" fill="#287fc4">航天高能动力：氢氧火箭发动机（课本图 7-24）</text>
+
+  <!-- Rocket Diagram (Diagrammatic, cx=205, y=95..205) -->
+  <!-- Nose cone -->
+  <path class="h2app-metal" d="M 205 92 L 195 115 L 215 115 Z"/>
+  <!-- Liquid Hydrogen Tank (Upper) -->
+  <rect class="h2app-blue" x="195" y="115" width="20" height="32" rx="2"/>
+  <text class="h2app-bold" x="222" y="132" fill="#287fc4">液氢仓 (H₂)</text>
+
+  <!-- Liquid Oxygen Tank (Lower) -->
+  <rect class="h2app-metal" x="195" y="147" width="20" height="26" rx="2"/>
+  <text class="h2app-bold" x="222" y="162" fill="#52626a">液氧仓 (O₂)</text>
+
+  <!-- Fins -->
+  <polygon points="195,160 183,178 195,178" class="h2app-metal"/>
+  <polygon points="215,160 227,178 215,178" class="h2app-metal"/>
+
+  <!-- Engine Bell Nozzle -->
+  <polygon points="197,173 192,185 218,185 213,173" fill="#455a64" stroke="#263238" stroke-width="1.2"/>
+
+  <!-- High-thrust rocket exhaust plume -->
+  <path class="h2app-tail" d="M 193 185 L 180 205 L 230 205 L 217 185 Z"/>
+  <path class="h2app-flame" d="M 197 185 C 193 195 200 204 205 208 C 210 204 217 195 213 185 Z"/>
+
+  <!-- Labels on left -->
+  <text class="h2app-emp" x="38" y="112">超大推力</text>
+  <text class="h2app-sub" x="38" y="128">完全燃烧热值高</text>
+  <line x1="145" y1="124" x2="190" y2="128" stroke="#287fc4" stroke-width="1"/>
+
+  <text class="h2app-bold" x="38" y="165">燃烧产物是水</text>
+  <text class="h2app-sub" x="38" y="181">不产生二氧化碳</text>
+
+  <!-- Left Bottom Box -->
+  <rect class="h2app-box-b" x="30" y="214" width="350" height="44"/>
+  <text class="h2app-bold" x="40" y="231">【航天核心】单位质量放热量极大，产物水蒸气喷射无积碳</text>
+  <text class="h2app-sub" x="40" y="249">【化学反应】2H₂ ＋ O₂ → 2H₂O（化学能转化为火箭动能）</text>
+
+  <!-- Right: 交通应用（氢能源市域列车）(x: 410..780, y: 55..265) -->
+  <rect class="h2app-panel" x="410" y="55" width="370" height="210"/>
+  <rect x="420" y="63" width="350" height="22" rx="3" fill="#f4faf6"/>
+  <text class="h2app-sec" x="595" y="79" text-anchor="middle" fill="#197a60">绿色清洁交通：氢能源市域列车（课本图 7-25）</text>
+
+  <!-- Rails at bottom: y=200 -->
+  <line class="h2app-track" x1="435" y1="202" x2="755" y2="202"/>
+  <line class="h2app-sleeper" x1="460" y1="198" x2="460" y2="206"/>
+  <line class="h2app-sleeper" x1="510" y1="198" x2="510" y2="206"/>
+  <line class="h2app-sleeper" x1="560" y1="198" x2="560" y2="206"/>
+  <line class="h2app-sleeper" x1="610" y1="198" x2="610" y2="206"/>
+  <line class="h2app-sleeper" x1="660" y1="198" x2="660" y2="206"/>
+  <line class="h2app-sleeper" x1="710" y1="198" x2="710" y2="206"/>
+
+  <!-- Streamlined Train Head: x=460..720, y=125..198 -->
+  <path class="h2app-blue" d="M 460 145 L 640 145 Q 690 145 715 175 L 720 192 L 460 192 Z"/>
+  <!-- Front window -->
+  <path d="M 645 152 Q 680 152 700 172 L 675 172 Q 655 160 645 152 Z" fill="#37474f"/>
+  <!-- Passenger windows -->
+  <rect x="480" y="155" width="28" height="15" rx="2" fill="#eceff1" stroke="#52626a" stroke-width="1"/>
+  <rect x="520" y="155" width="28" height="15" rx="2" fill="#eceff1" stroke="#52626a" stroke-width="1"/>
+  <rect x="560" y="155" width="28" height="15" rx="2" fill="#eceff1" stroke="#52626a" stroke-width="1"/>
+  <rect x="600" y="155" width="28" height="15" rx="2" fill="#eceff1" stroke="#52626a" stroke-width="1"/>
+
+  <!-- Label text below windows on train body -->
+  <text class="h2app-bold" x="550" y="185" text-anchor="middle" fill="#197a60">氢燃料电池驱动系统</text>
+
+  <!-- Wheels -->
+  <circle cx="485" cy="198" r="4.5" fill="#455a64"/>
+  <circle cx="535" cy="198" r="4.5" fill="#455a64"/>
+  <circle cx="635" cy="198" r="4.5" fill="#455a64"/>
+  <circle cx="685" cy="198" r="4.5" fill="#455a64"/>
+
+  <!-- Water vapor emission puff behind train (left: x=425..455) -->
+  <circle cx="445" cy="155" r="7" class="h2app-vapor"/>
+  <circle cx="435" cy="165" r="5" class="h2app-vapor"/>
+  <text class="h2app-emp" x="460" y="112">唯一产物：纯水 (H₂O)</text>
+  <text class="h2app-sub" x="460" y="128">零碳零污染，告别化石燃料黑烟</text>
+  <line x1="452" y1="132" x2="445" y2="148" stroke="#197a60" stroke-width="1"/>
+
+  <!-- Right Bottom Box -->
+  <rect class="h2app-box-g" x="420" y="214" width="350" height="44"/>
+  <text class="h2app-bold" x="430" y="231">【交通核心】氢燃料电池直接将化学能转化为电能</text>
+  <text class="h2app-emp" x="430" y="249">【环保优势】只生成水，不排放二氧化碳</text>
+
+  <!-- Bottom: Summary Cards Container (x: 20..780, y: 275..405) -->
+  <rect class="h2app-card" x="20" y="275" width="760" height="130"/>
+  <text class="h2app-head" x="400" y="295" text-anchor="middle" font-size="13">初中化学核心归纳：氢能三大优势、发展瓶颈与安全规范</text>
+
+  <!-- Card 1 -->
+  <rect class="h2app-box-b" x="32" y="306" width="235" height="90"/>
+  <text class="h2app-sec" x="149" y="325" text-anchor="middle" fill="#287fc4">氢能源三大显著优势</text>
+  <text class="h2app-bold" x="42" y="346">① 热值高：完全燃烧放热量大</text>
+  <text class="h2app-sub" x="42" y="366">② 零污染：燃烧产物只有洁净水</text>
+  <text class="h2app-sub" x="42" y="386">③ 资源广：原料水储量极其丰富</text>
+
+  <!-- Card 2 -->
+  <rect class="h2app-box-y" x="282" y="306" width="236" height="90"/>
+  <text class="h2app-sec" x="400" y="325" text-anchor="middle" fill="#bf8d08">当前两大制约技术瓶颈</text>
+  <text class="h2app-bold" x="292" y="346">① 制氢成本高：工业电解耗能巨大</text>
+  <text class="h2app-sub" x="292" y="366">② 贮存运输难：极难液化、易泄漏</text>
+  <text class="h2app-emp" x="292" y="386">突破路径：太阳能/风能绿电制氢</text>
+
+  <!-- Card 3 -->
+  <rect class="h2app-box-g" x="532" y="306" width="236" height="90"/>
+  <text class="h2app-sec" x="650" y="325" text-anchor="middle" fill="#197a60">化学反应与安全警示</text>
+  <text class="h2app-bold" x="542" y="346">反应式：2H₂ ＋ O₂ → 2H₂O（点燃）</text>
+  <text class="h2app-emp" x="542" y="366">点燃前规范：必须先检验气体纯度！</text>
+  <text class="h2app-sub" x="542" y="386">极限：空气中氢气 4%～74% 遇火爆炸</text>
+</svg>

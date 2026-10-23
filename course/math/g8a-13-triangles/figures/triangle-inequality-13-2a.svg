@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="triangle-inequality-13-2a-t triangle-inequality-13-2a-d">
+  <title id="triangle-inequality-13-2a-t">三角形三边关系：两边之差与两边之和的极限位置</title>
+  <desc id="triangle-inequality-13-2a-d">固定两边长7与2，第一步展示反向重叠共线的内侧极限，间距为5，共线不能组成三角形；第二步展示短边转动围成三角形，第三边在5与9之间；第三步展示同向拉直共线的外侧极限，间距为9，同样不能组成三角形。极限态画成共线，不标为三角形。</desc>
+  <style>.triangle-inequality-13-2a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.triangle-inequality-13-2a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="410" fill="#fff" stroke="none"/>
+  <text class="triangle-inequality-13-2a-math" x="26" y="30" text-anchor="start" style="font-size:17px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">已知两边长分别为 </tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 和 </tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">，第三边长为 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan></text>
+  <g data-step="1">
+  <text class="triangle-inequality-13-2a-lb" x="26" y="68" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">1. 内侧极限</text>
+  <path d="M100 114L296 114" stroke="#287fc4" stroke-width="2.8" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="198" y="104" text-anchor="middle" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7</tspan></text>
+  <path d="M240 88L296 88" stroke="#bf8d08" stroke-width="2.8" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="268" y="78" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M240 88L240 114" stroke="#bec9ce" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M296 88L296 114" stroke="#bec9ce" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <circle cx="100" cy="114" r="3.5" fill="#20272b"/>
+  <circle cx="240" cy="88" r="3.5" fill="#20272b"/>
+  <circle cx="296" cy="114" r="3.5" fill="#20272b"/>
+  <text class="triangle-inequality-13-2a-math" x="84" y="118" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="240" y="74" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">C</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="310" y="118" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <path d="M100 134L240 134" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M100 129L100 139" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M240 129L240 139" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="170" y="150" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">端点间距：</tspan><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7 − 2 = 5</tspan></text>
+  <text class="triangle-inequality-13-2a-lb" x="385" y="96" text-anchor="start" style="fill:#20272b;font-size:14px;font-weight:600">两边重叠折叠，三点落在同一直线上</text>
+  <text class="triangle-inequality-13-2a-math" x="385" y="122" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">共线不能围成三角形</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">（需满足 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> &gt; 5</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">）</tspan></text>
+  </g>
+  <g data-step="2">
+  <text class="triangle-inequality-13-2a-lb" x="26" y="180" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">2. 形成三角形</text>
+  <path d="M100 240L296 240" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="198" y="258" text-anchor="middle" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7</tspan></text>
+  <path d="M296 240L268 191.5" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="294" y="210" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M100 240L268 191.5" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="175" y="204" text-anchor="middle" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">第三边 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan></text>
+  <path d="M240 240A56 56 0 0 1 268 191.5" fill="none" stroke="#bec9ce" stroke-width="1.2"/>
+  <circle cx="100" cy="240" r="3.5" fill="#20272b"/>
+  <circle cx="296" cy="240" r="3.5" fill="#20272b"/>
+  <circle cx="268" cy="191.5" r="3.5" fill="#20272b"/>
+  <text class="triangle-inequality-13-2a-math" x="84" y="244" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="310" y="244" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="268" y="178" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">C</tspan></text>
+  <text class="triangle-inequality-13-2a-lb" x="385" y="206" text-anchor="start" style="fill:#20272b;font-size:14px;font-weight:600">短边绕端点旋转，三点脱离共线</text>
+  <text class="triangle-inequality-13-2a-math" x="385" y="234" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">两边之差 &lt; 第三边 &lt; 两边之和：</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">5 &lt; </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> &lt; 9</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="triangle-inequality-13-2a-lb" x="26" y="296" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">3. 外侧极限</text>
+  <path d="M100 340L296 340" stroke="#287fc4" stroke-width="2.8" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="198" y="330" text-anchor="middle" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7</tspan></text>
+  <path d="M296 340L352 340" stroke="#bf8d08" stroke-width="2.8" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="324" y="330" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <circle cx="100" cy="340" r="3.5" fill="#20272b"/>
+  <circle cx="296" cy="340" r="3.5" fill="#20272b"/>
+  <circle cx="352" cy="340" r="3.5" fill="#20272b"/>
+  <text class="triangle-inequality-13-2a-math" x="84" y="344" text-anchor="end" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">A</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="296" y="358" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">B</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="352" y="326" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">C</tspan></text>
+  <path d="M100 368L352 368" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M100 363L100 373" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M352 363L352 373" stroke="#c9554d" stroke-width="1.4" stroke-linecap="round"/>
+  <text class="triangle-inequality-13-2a-math" x="226" y="384" text-anchor="middle" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">端点间距：</tspan><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">7 + 2 = 9</tspan></text>
+  <text class="triangle-inequality-13-2a-lb" x="385" y="318" text-anchor="start" style="fill:#20272b;font-size:14px;font-weight:600">两边拉直成一条线段，三点再次共线</text>
+  <text class="triangle-inequality-13-2a-math" x="385" y="344" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">共线不能围成三角形</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">（需满足 </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> &lt; 9</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">）</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="370" y="378" text-anchor="start" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">结论：第三边取值范围为 </tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">5 &lt; </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">c</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> &lt; 9</tspan></text>
+  <text class="triangle-inequality-13-2a-math" x="370" y="398" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">（两端点均不取等号）</tspan></text>
+  </g>
+</svg>

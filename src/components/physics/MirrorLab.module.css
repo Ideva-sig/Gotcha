@@ -1,0 +1,281 @@
+.lab {
+  display: grid;
+  gap: 20px;
+}
+
+/* 实验台：白纸面，不加点阵、飘带 */
+.benchCard {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  background: #fff;
+}
+
+.benchWrap {
+  min-width: 0;
+  max-width: 860px;
+  width: 100%;
+  justify-self: center;
+}
+
+.bench {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+
+.handle {
+  cursor: grab;
+  outline: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.handle:focus-visible {
+  fill: rgba(25, 200, 185, 0.16);
+}
+
+.tickLabel {
+  fill: var(--course-muted);
+  font-size: 14px;
+}
+
+.faceLabel {
+  fill: var(--course-ink);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.partLabel {
+  fill: var(--course-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dimText {
+  fill: var(--course-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+}
+
+.group,
+.sideControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.sideControls {
+  margin-left: auto;
+}
+
+.groupLabel {
+  color: var(--course-ink);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.btn {
+  min-height: 48px;
+  font-size: 16px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dragHint {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.status,
+.tasks,
+.records,
+.rules {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+}
+
+.readRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.reading {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 2px;
+  min-width: 132px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--tint-green);
+}
+
+.readingV {
+  background: var(--tint-yellow);
+}
+
+.readLabel {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.readValue {
+  color: var(--course-ink);
+  font-size: 40px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.readValue small {
+  font-size: 20px;
+}
+
+.readWord {
+  padding: 8px 0;
+  font-size: 22px;
+}
+
+.facts {
+  display: grid;
+  margin: 0;
+}
+
+.facts > div {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.facts > div:last-child {
+  border-bottom: 0;
+}
+
+.facts dt {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.explain {
+  min-height: 3.4em;
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.taskList {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskList :global(.isl-check) {
+  pointer-events: none;
+}
+
+.note {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.table th {
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.table td.left {
+  text-align: left;
+}
+
+.currentRow td {
+  background: var(--tint-yellow);
+}
+
+.range {
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.empty {
+  color: var(--text-soft);
+  font-size: 15px;
+}
+
+.signList {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+/* 竖屏：下面的几块上下排 */
+@media (max-width: 820px) {
+  .panels {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sideControls {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .benchCard {
+    padding: 14px;
+  }
+}

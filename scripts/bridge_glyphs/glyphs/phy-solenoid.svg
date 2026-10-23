@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90">
+  <title>通电螺线管的磁极</title>
+  <desc>五匝螺线管接入电池，正面电流沿各匝斜向右下方流动，因此右端为 N 极，左端为 S 极。</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 20 H20 V74 H70 M80 74 H130 V52 H114" stroke="#9aa5a8" stroke-width="2.5"/>
+    <path d="M50 20 V52 M66 20 V52 M82 20 V52 M98 20 V52" stroke="#9aa5a8" stroke-width="2"/>
+    <path d="M34 20 L50 52 M50 20 L66 52 M66 20 L82 52 M82 20 L98 52 M98 20 L114 52" stroke="#52626a" stroke-width="3.5"/>
+    <path d="M38.5 29 L44.9 41.8 M54.5 29 L60.9 41.8 M70.5 29 L76.9 41.8 M86.5 29 L92.9 41.8 M102.5 29 L108.9 41.8" stroke="currentColor" stroke-width="2.8"/>
+    <path d="M70 65 V83 M80 69 V79" stroke="#52626a" stroke-width="2.5"/>
+  </g>
+  <g fill="currentColor">
+    <path d="M44.9 41.8 L40 38.7 L45.3 36 Z"/>
+    <path d="M60.9 41.8 L56 38.7 L61.3 36 Z"/>
+    <path d="M76.9 41.8 L72 38.7 L77.3 36 Z"/>
+    <path d="M92.9 41.8 L88 38.7 L93.3 36 Z"/>
+    <path d="M108.9 41.8 L104 38.7 L109.3 36 Z"/>
+  </g>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="14">
+    <text x="6" y="43">S</text>
+    <text x="135" y="43">N</text>
+    <text x="72" y="14">I</text>
+  </g>
+</svg>

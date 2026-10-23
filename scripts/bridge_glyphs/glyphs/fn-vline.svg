@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>竖线与函数图像</title>
+  <desc>曲线 y=70−(x−15)²/180，竖直线 x=90 只交曲线于 (90,38.75)。静态图。</desc>
+  <path d="M 10 73 L 139 73" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 70 L 139 73 L 135 76" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 30 80 L 30 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 27 14 L 30 10 L 33 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 15 70 Q 66.08816 70 117.17632 12" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 90 12 L 90 79" fill="none" stroke="#9aa5a8" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <circle cx="90" cy="38.75" r="3.5" fill="#c9554d"/>
+</svg>

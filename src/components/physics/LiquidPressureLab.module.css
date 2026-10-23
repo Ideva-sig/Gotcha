@@ -1,0 +1,313 @@
+.lab {
+  display: grid;
+  gap: 20px;
+}
+
+/* 实验台：白纸面，不加点阵、飘带 */
+.benchCard {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  background: #fff;
+}
+
+.stage {
+  display: grid;
+  grid-template-columns: minmax(0, 520px) minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+
+.benchWrap {
+  min-width: 0;
+}
+
+.bench {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+
+.handle {
+  cursor: ns-resize;
+  outline: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.handle:focus-visible {
+  fill: rgba(25, 200, 185, 0.12);
+}
+
+.tick {
+  fill: var(--course-muted);
+  font-size: 13px;
+}
+
+.partLabel {
+  fill: var(--course-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bigNum {
+  fill: var(--course-ink);
+  font-size: 22px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.dimLabel {
+  fill: #c9554d;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.side {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
+.choose {
+  display: grid;
+  gap: 8px;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.chooseBtn {
+  display: grid;
+  gap: 0;
+  justify-items: center;
+  min-height: 56px;
+  font-size: 16px;
+  line-height: 1.25;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chooseBtn small {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+}
+
+.moveGroup,
+.sideControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.sideControls {
+  margin-left: auto;
+}
+
+.groupLabel {
+  color: var(--course-ink);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.stepBtn,
+.resetBtn {
+  min-height: 48px;
+  font-size: 16px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dragHint {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.status,
+.tasks,
+.records,
+.rules {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+}
+
+.readRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.reading {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 2px;
+  min-width: 118px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--tint-green);
+}
+
+.readingDh {
+  background: var(--tint-accent);
+}
+
+.readLabel {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.readValue {
+  color: var(--course-ink);
+  font-size: 36px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.readValue small {
+  font-size: 18px;
+}
+
+.facts {
+  display: grid;
+  margin: 0;
+}
+
+.facts > div {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.facts > div:last-child {
+  border-bottom: 0;
+}
+
+.facts dt {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.explain {
+  min-height: 3.4em;
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.taskList {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskList :global(.isl-check) {
+  pointer-events: none;
+}
+
+.note {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--course-ink);
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.table th {
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.currentRow td {
+  background: var(--tint-yellow);
+}
+
+.range {
+  font-weight: 700;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.empty {
+  color: var(--text-soft);
+  font-size: 15px;
+}
+
+/* 竖屏：实验台占满一行，选择按钮放在下面 */
+@media (max-width: 900px) {
+  .panels,
+  .stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .benchWrap {
+    width: min(100%, 520px);
+    justify-self: center;
+  }
+
+  .sideControls {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .benchCard {
+    padding: 14px;
+  }
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="four-strokes-t four-strokes-d">
+  <title id="four-strokes-t">四冲程汽油机的四个冲程</title>
+  <desc id="four-strokes-d">从左到右依次是吸气、压缩、做功、排气冲程。吸气：进气门打开、排气门关闭，活塞向下，汽油和空气的混合物进入气缸；压缩：两个气门都关闭，活塞向上压缩混合物；做功：两个气门都关闭，火花塞点火，高温高压气体推动活塞向下；排气：排气门打开，活塞向上把废气排出。静止画面就是这四个状态；动画中进气、排气方向的虚线流动，活塞旁的箭头沿运动方向轻推，做功冲程的火花闪烁。</desc>
+  <style>.fs-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;fill:#20272b;stroke:none}</style>
+
+  <!-- 吸气 -->
+  <rect x="45.2" y="51.2" width="69.6" height="69" fill="#dceff9" stroke="none"/>
+  <path d="M44 150V50H52M68 50H76M84 50H92M108 50H116V150" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M52 50V31H16M68 50V23H16M108 50V31H144M92 50V23H144" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M60 14V58M52 58H68" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M100 14V50M92 50H108" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="76" y="35" width="8" height="15" rx="1.5" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M80 50V55" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="47" y="120.2" width="66" height="14" rx="2" fill="#bec9ce" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M80 127.2L97.3 195" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="80" cy="185" r="20" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M80 185L97.3 195" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="97.3" cy="195" r="3" fill="#52626a" stroke="none"/>
+  <g>
+    <path d="M134 84V116" stroke="#287fc4" stroke-width="2.4"/>
+    <path d="M134 124l-5 -9h10z" fill="#287fc4" stroke="none"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </g>
+  <path d="M20 27H60V66" stroke="#287fc4" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="18;0" dur="0.9s" repeatCount="indefinite"/></path>
+  <text class="fs-lb" x="80" y="238" text-anchor="middle">吸气</text>
+
+  <!-- 压缩 -->
+  <path d="M160 20V215" stroke="#d8dfe2" stroke-width="1.4"/>
+  <rect x="205.2" y="51.2" width="69.6" height="49" fill="#b9dcf2" stroke="none"/>
+  <path d="M204 150V50H212M228 50H236M244 50H252M268 50H276V150" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M212 50V31H176M228 50V23H176M268 50V31H304M252 50V23H304" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M220 14V50M212 50H228" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M260 14V50M252 50H268" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="236" y="35" width="8" height="15" rx="1.5" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M240 50V55" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="207" y="100.2" width="66" height="14" rx="2" fill="#bec9ce" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M240 107.2L222.7 175" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="240" cy="185" r="20" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M240 185L222.7 175" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="222.7" cy="175" r="3" fill="#52626a" stroke="none"/>
+  <g>
+    <path d="M294 124V92" stroke="#287fc4" stroke-width="2.4"/>
+    <path d="M294 84l-5 9h10z" fill="#287fc4" stroke="none"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </g>
+  <text class="fs-lb" x="240" y="238" text-anchor="middle">压缩</text>
+
+  <!-- 做功 -->
+  <path d="M320 20V215" stroke="#d8dfe2" stroke-width="1.4"/>
+  <rect x="365.2" y="51.2" width="69.6" height="49" fill="#f6d5d2" stroke="none"/>
+  <path d="M364 150V50H372M388 50H396M404 50H412M428 50H436V150" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M372 50V31H336M388 50V23H336M428 50V31H464M412 50V23H464" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M380 14V50M372 50H388" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M420 14V50M412 50H428" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="396" y="35" width="8" height="15" rx="1.5" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M400 50V55" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="367" y="100.2" width="66" height="14" rx="2" fill="#bec9ce" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M400 107.2L417.3 175" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="400" cy="185" r="20" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M400 185L417.3 175" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="417.3" cy="175" r="3" fill="#52626a" stroke="none"/>
+  <g>
+    <path d="M454 84V116" stroke="#287fc4" stroke-width="2.4"/>
+    <path d="M454 124l-5 -9h10z" fill="#287fc4" stroke="none"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </g>
+  <path d="M400 57l3 5 6-1-4 5 3 6-6-3-5 4 1-6-5-4 6-1z" fill="#f2c94c" stroke="#bf8d08" stroke-width="1.2">
+    <animate attributeName="opacity" values="1;0.25;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <text class="fs-lb" x="400" y="238" text-anchor="middle">做功</text>
+
+  <!-- 排气 -->
+  <path d="M480 20V215" stroke="#d8dfe2" stroke-width="1.4"/>
+  <rect x="525.2" y="51.2" width="69.6" height="69" fill="#e4e8ea" stroke="none"/>
+  <path d="M524 150V50H532M548 50H556M564 50H572M588 50H596V150" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M532 50V31H496M548 50V23H496M588 50V31H624M572 50V23H624" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M540 14V50M532 50H548" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M580 14V58M572 58H588" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="556" y="35" width="8" height="15" rx="1.5" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M560 50V55" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="527" y="120.2" width="66" height="14" rx="2" fill="#bec9ce" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M560 127.2L542.7 195" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="560" cy="185" r="20" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M560 185L542.7 195" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="542.7" cy="195" r="3" fill="#52626a" stroke="none"/>
+  <g>
+    <path d="M614 124V92" stroke="#287fc4" stroke-width="2.4"/>
+    <path d="M614 84l-5 9h10z" fill="#287fc4" stroke="none"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </g>
+  <path d="M580 66V27H620" stroke="#7d8990" stroke-width="2" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="18;0" dur="0.9s" repeatCount="indefinite"/></path>
+  <text class="fs-lb" x="560" y="238" text-anchor="middle">排气</text>
+</svg>

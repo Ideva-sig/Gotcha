@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="bridge-radius-29-2b-t bridge-radius-29-2b-d">
+  <title id="bridge-radius-29-2b-t">桥拱半径与平行弦的位置</title>
+  <desc id="bridge-radius-29-2b-d">上方三步：桥拱弧AB与拱高CD；连接OA并作OD垂直AB；突出直角三角形OAD。蓝色半弦AD=18.5，绿色弦心距OD=R−7.23，灰色半径OA=R，勾股方程三项同色对应。下方无数值小图分别表示平行弦在圆心同侧和两侧，不显示练习的数值或结果。无动画。</desc>
+  <style>.bridge-radius-29-2b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.bridge-radius-29-2b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="580" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="bridge-radius-29-2b-lb" x="120" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">桥拱与拱高</text>
+  <path d="M40.5 105.8A117.32008782849238 117.32008782849238 0 0 1 199.6 105.8" fill="none" stroke="#52626a" stroke-width="2.3"/>
+  <path d="M40.5 105.8L199.6 105.8" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M120 74.7L120 105.8" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <text class="bridge-radius-29-2b-formula" x="120" y="255" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan> = 37</tspan></text>
+  <text class="bridge-radius-29-2b-formula" x="120" y="283" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">C</tspan><tspan font-style="italic">D</tspan> = 7.23</tspan></text>
+  <circle cx="40.5" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="23.5" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="199.6" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="205.6" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="120" cy="74.7" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="113" y="62.7" text-anchor="start" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="120" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="127" y="96.8" text-anchor="start" style="fill:#20272b;font-size:18px">D</text>
+  </g>
+  <g data-step="2">
+  <text class="bridge-radius-29-2b-lb" x="360" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">连接半径、作垂线</text>
+  <path d="M280.4 105.8A117.32008782849238 117.32008782849238 0 0 1 439.6 105.8" fill="none" stroke="#52626a" stroke-width="2.3"/>
+  <path d="M280.4 105.8L439.6 105.8" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M360 74.7L360 105.8" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M360 192L280.4 105.8" stroke="#52626a" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M360 192L360 105.8" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M352 105.8L352 113.8L360 113.8" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="360" cy="192" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="364" y="215" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="bridge-radius-29-2b-formula" x="360" y="255" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan> = 37</tspan></text>
+  <text class="bridge-radius-29-2b-formula" x="360" y="283" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">C</tspan><tspan font-style="italic">D</tspan> = 7.23</tspan></text>
+  <circle cx="280.4" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="263.4" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="439.6" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="445.6" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="360" cy="74.7" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="353" y="62.7" text-anchor="start" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="360" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="367" y="96.8" text-anchor="start" style="fill:#20272b;font-size:18px">D</text>
+  </g>
+  <g data-step="3">
+  <text class="bridge-radius-29-2b-lb" x="600" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">直角三角形</text>
+  <path d="M520.5 105.8A117.32008782849238 117.32008782849238 0 0 1 679.5 105.8" fill="none" stroke="#52626a" stroke-width="2.3"/>
+  <path d="M520.5 105.8L679.5 105.8" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M600 74.7L600 105.8" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M600 192L520.5 105.8" stroke="#52626a" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M600 192L600 105.8" stroke="#197a60" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M592 105.8L592 113.8L600 113.8" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="600" cy="192" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="604" y="215" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <path d="M520.5 105.8L600 105.8" stroke="#287fc4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M600 192L520.5 105.8" stroke="#52626a" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <text class="bridge-radius-29-2b-formula" x="600" y="255" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4"><tspan font-style="italic">A</tspan><tspan font-style="italic">D</tspan> = 18.5</tspan></text>
+  <text class="bridge-radius-29-2b-formula" x="600" y="283" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#197a60"><tspan font-style="italic">O</tspan><tspan font-style="italic">D</tspan> = <tspan font-style="italic">R</tspan>−7.23</tspan></text>
+  <text class="bridge-radius-29-2b-formula" x="537" y="161" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">R</tspan></tspan></text>
+  <circle cx="520.5" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="503.5" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="679.5" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="685.5" y="111.8" text-anchor="start" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="600" cy="74.7" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="593" y="62.7" text-anchor="start" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="600" cy="105.8" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="607" y="96.8" text-anchor="start" style="fill:#20272b;font-size:18px">D</text>
+  <text class="bridge-radius-29-2b-formula" x="360" y="333" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:23px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">R</tspan>²</tspan><tspan fill="#20272b"> = </tspan><tspan fill="#287fc4">18.5²</tspan><tspan fill="#20272b"> + </tspan><tspan fill="#197a60">(<tspan font-style="italic">R</tspan>−7.23)²</tspan></text>
+  <circle cx="200" cy="452" r="67" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M150.9 406.4L249.1 406.4" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M200 452L200 406.4" stroke="#52626a" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M206 406.4L206 412.4L200 412.4" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M135.5 433.9L264.5 433.9" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M200 452L200 433.9" stroke="#52626a" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M206 433.9L206 439.9L200 439.9" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="200" cy="452" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="180" y="458" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="bridge-radius-29-2b-lb" x="200" y="553" text-anchor="middle" style="fill:#5d6970;font-size:16px;font-weight:500">同侧：弦心距之差</text>
+  <circle cx="520" cy="452" r="67" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M470.9 406.4L569.1 406.4" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M520 452L520 406.4" stroke="#52626a" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M526 406.4L526 412.4L520 412.4" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M455.5 470.1L584.5 470.1" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M520 452L520 470.1" stroke="#52626a" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M526 470.1L526 464.1L520 464.1" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="520" cy="452" r="2.5" fill="#20272b"/>
+  <text class="bridge-radius-29-2b-sy" x="500" y="458" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="bridge-radius-29-2b-lb" x="520" y="553" text-anchor="middle" style="fill:#5d6970;font-size:16px;font-weight:500">两侧：弦心距之和</text>
+  </g>
+</svg>

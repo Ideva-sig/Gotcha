@@ -1,0 +1,813 @@
+/* 错题本：一道一道练（单卡）+ 全部列表 */
+
+.page {
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  display: grid;
+  max-width: 880px;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.page > * {
+  min-width: 0;
+}
+
+.head,
+.controls,
+.review,
+.list,
+.empty {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.page[data-ready="true"] :is(.head, .controls, .review, .list, .empty) {
+  animation: rise 460ms var(--ease-out) forwards;
+}
+
+.page[data-ready="true"] .controls {
+  animation-delay: 80ms;
+}
+
+.page[data-ready="true"] :is(.review, .list, .empty) {
+  animation-delay: 140ms;
+}
+
+@keyframes rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- 页头 ---------- */
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 20px;
+}
+
+.title {
+  margin: 0 18px 18px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.stats strong {
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.statWrong strong {
+  color: var(--coral);
+}
+
+.statZero strong {
+  color: var(--text-faint);
+}
+
+.statFixed strong {
+  color: var(--green);
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tool,
+.primary {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  padding: 0 18px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--btn-face);
+  box-shadow: 0 4px 0 var(--btn-shadow);
+  color: var(--island-brown);
+  font-size: 13px;
+  font-weight: 700;
+  transition:
+    background-color 160ms ease,
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.tool:hover {
+  background: #fffef8;
+}
+
+.tool:active {
+  box-shadow: 0 0 0 var(--btn-shadow);
+  transform: translateY(4px);
+}
+
+.primary {
+  border-color: var(--btn-primary);
+  background: var(--btn-primary);
+  box-shadow: 0 4px 0 var(--btn-primary-shadow);
+  color: #fff;
+}
+
+.primary:active {
+  box-shadow: 0 0 0 var(--btn-primary-shadow);
+  transform: translateY(4px);
+}
+
+:root[data-theme="dark"] .primary {
+  color: #0f1a22;
+}
+
+.primary svg {
+  transition: transform 200ms var(--ease-out);
+}
+
+.primary:hover svg {
+  transform: translateX(3px);
+}
+
+.toolChevron {
+  color: var(--text-soft);
+  transition: transform 260ms var(--ease-out);
+}
+
+.tool[aria-expanded="true"] .toolChevron {
+  transform: rotate(180deg);
+}
+
+/* ---------- 备份 ---------- */
+
+.backup {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--tint-neutral);
+}
+
+.backupNote {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.backupActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.backupText {
+  width: 100%;
+  height: 110px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  resize: vertical;
+}
+
+.notice {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: var(--tint-yellow);
+  font-size: 13px;
+}
+
+/* ---------- 台词 ---------- */
+
+.topLine {
+  max-width: 640px;
+}
+
+/* ---------- 显示方式、错因筛选 ---------- */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.segmented,
+.tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 3px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--btn-face);
+  box-shadow: 0 3px 0 var(--btn-shadow);
+}
+
+.segmented button,
+.tags button {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 5px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 700;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.segmented button[aria-pressed="true"],
+.tags button:not([class])[aria-pressed="true"] {
+  background: var(--isl-primary-deep);
+  color: #fff;
+  text-shadow: none;
+}
+
+/* 带颜色的错因按钮：平时淡底，选中变成实色 */
+.tags button[class*="tone-"] {
+  background: var(--rs);
+  color: var(--rsi);
+}
+
+.tags button[class*="tone-"][aria-pressed="true"] {
+  background: var(--rf);
+  color: var(--rt);
+  box-shadow: inset 0 0 0 2px var(--rb);
+}
+
+.tags button[class*="tone-"] span {
+  color: inherit;
+  opacity: 0.8;
+}
+
+.tags button span {
+  color: var(--text-faint);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tags button:not([class])[aria-pressed="true"] span {
+  color: #fff;
+}
+
+.tags button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+/* ---------- 一道一道练 ---------- */
+
+.review {
+  display: grid;
+  gap: 14px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.progressBar {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.progressBar li {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.progressBar button {
+  display: flex;
+  width: 100%;
+  height: 28px;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.progressBar button span {
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--surface-strong);
+  transition:
+    background-color 300ms ease,
+    height 160ms ease;
+}
+
+.progressBar button[data-result="fixed"] span {
+  background: var(--green);
+}
+
+.progressBar button[data-result="wrong"] span {
+  background: var(--coral);
+}
+
+.progressBar button[aria-current="step"] span {
+  height: 10px;
+}
+
+.progressBar button[aria-current="step"][data-result="todo"] span {
+  background: var(--accent);
+}
+
+.progressBar button:hover span {
+  height: 10px;
+}
+
+.progressText {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  color: var(--text-soft);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.progressText em {
+  color: var(--green);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.stage {
+  touch-action: pan-y;
+}
+
+/* 单张错题卡：从切换方向滑进来 */
+.card {
+  padding: 24px 26px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-panel);
+  transition:
+    border-color 400ms ease,
+    background-color 400ms ease;
+  animation: cardIn 380ms var(--ease-out) both;
+}
+
+.card[data-dir="1"] {
+  animation-name: cardFromRight;
+}
+
+.card[data-dir="-1"] {
+  animation-name: cardFromLeft;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+}
+
+@keyframes cardFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+}
+
+@keyframes cardFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+}
+
+.card[data-result="fixed"] {
+  border-color: color-mix(in srgb, var(--green) 45%, transparent);
+  background: color-mix(in srgb, var(--green) 4%, var(--surface));
+}
+
+.cardHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.kpTag {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 0 8px;
+  border-radius: 5px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.errCount {
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+.fixedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 700;
+  animation: badgeIn 520ms var(--ease-out);
+}
+
+.fixedBadge path {
+  stroke-dasharray: 1;
+  animation: draw 420ms 160ms var(--ease-out) both;
+}
+
+@keyframes badgeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 8px 0 14px;
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+/* 错题卡里的题目不再套一层底色 */
+.card :global(article) {
+  padding: 0;
+  background: transparent;
+}
+
+/* 卡片是白底，选项改用浅灰底才分得开 */
+.card :global(button[data-state="idle"]),
+.card :global(button[data-state="dim"]) {
+  background: var(--tint-neutral);
+}
+
+.hint {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--tint-yellow);
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.hint a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pager > button:not(.primary) {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  padding: 0 18px;
+  border: 2px solid var(--btn-edge);
+  border-radius: 999px;
+  background: var(--btn-face);
+  box-shadow: 0 4px 0 var(--btn-shadow);
+  color: var(--island-brown);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pager > button:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+.pager > .primary {
+  min-height: 44px;
+  font-size: 14px;
+}
+
+.swipeHint {
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .swipeHint {
+    visibility: hidden;
+  }
+}
+
+/* ---------- 一轮结束 ---------- */
+
+.summary {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  padding: 32px 24px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-panel);
+  text-align: center;
+  animation: cardIn 420ms var(--ease-out) both;
+}
+
+.summaryNumber {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.summaryNumber strong {
+  color: var(--green);
+  font-size: 44px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.summaryText {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.summary > section {
+  max-width: 520px;
+  text-align: left;
+}
+
+.summaryActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ---------- 全部列表 ---------- */
+
+.list {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-panel);
+  list-style: none;
+}
+
+.list li + li {
+  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+.row {
+  display: grid;
+  width: 100%;
+  min-height: 64px;
+  grid-template-columns: minmax(0, 13em) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  transition: background-color 160ms ease;
+}
+
+.row:hover {
+  background: var(--surface-raised);
+}
+
+.rowKp {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.rowCode {
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+.rowStem {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.6;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.rowMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-faint);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.rowGo {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.row:hover .rowGo svg {
+  transform: translateX(3px);
+}
+
+.rowGo svg {
+  transition: transform 200ms var(--ease-out);
+}
+
+.listEmpty {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+/* ---------- 没有错题 ---------- */
+
+.empty {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-panel);
+}
+
+.empty p {
+  flex: 1 1 240px;
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+/* ---------- 暑假旧版错题 ---------- */
+
+.archive {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.archive summary {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 650;
+  cursor: pointer;
+  list-style: none;
+}
+
+.archive summary::-webkit-details-marker {
+  display: none;
+}
+
+.archiveChevron {
+  transition: transform 260ms var(--ease-out);
+}
+
+.archive[open] .archiveChevron {
+  transform: rotate(180deg);
+}
+
+.archiveList {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.archiveList li {
+  padding: 14px 0;
+  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+  font-size: 14px;
+}
+
+.archiveTitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin: 0 0 6px;
+  color: var(--text-faint);
+  font-size: 12px;
+}
+
+.archiveTitle strong {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.archiveAnswer {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+}
+
+/* ---------- 尺寸适配 ---------- */
+
+@media (max-width: 760px) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 18px 16px;
+  }
+
+  .progressText {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .head,
+  .controls,
+  .review,
+  .list,
+  .empty {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.traceBlock {
+  margin-top: 16px;
+}

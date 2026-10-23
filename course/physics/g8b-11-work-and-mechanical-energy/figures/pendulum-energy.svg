@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="pen-t pen-d">
+  <title id="pen-t">摆动中动能和重力势能相互转化</title>
+  <desc id="pen-d">铁锁用细绳挂在 O 点，从 A 点由静止释放，摆到最低点 B 再摆到 C 点。A 到 B 重力势能转化为动能，B 到 C 动能转化为重力势能；忽略空气阻力时机械能守恒，C 与 A 一样高。静态图。</desc>
+  <style>.pen-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.pen-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="560" height="320" fill="#fff" stroke="none"/>
+  <path d="M220 30L340 30" stroke="#52626a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M226 30L218 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M238 30L230 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M250 30L242 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M262 30L254 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M274 30L266 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M286 30L278 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M298 30L290 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M310 30L302 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M322 30L314 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M334 30L326 20" stroke="#52626a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M139.5 186.1A210 210 0 0 0 420.5 186.1" stroke="#bec9ce" stroke-width="1.6" stroke-dasharray="6 5" fill="none"/>
+  <path d="M280 30L139.5 186.1" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M280 30L420.5 186.1" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M280 30L280 240" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="139.5" cy="186.1" r="11" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="280" cy="240" r="11" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <circle cx="420.5" cy="186.1" r="11" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
+  <path d="M99.5 186.1L460.5 186.1" stroke="#5d6970" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <text class="pen-sy" x="288" y="82" text-anchor="start" style="fill:#20272b;font-size:16px">O</text>
+  <text class="pen-sy" x="117.5" y="172.1" text-anchor="start" style="fill:#20272b;font-size:17px">A</text>
+  <text class="pen-sy" x="280" y="274" text-anchor="middle" style="fill:#20272b;font-size:17px">B</text>
+  <text class="pen-sy" x="436.5" y="172.1" text-anchor="start" style="fill:#20272b;font-size:17px">C</text>
+  <text class="pen-lb" x="125.5" y="220.1" text-anchor="middle" style="fill:#287fc4;font-size:13px;font-weight:600">势能最大</text>
+  <text class="pen-lb" x="280" y="298" text-anchor="middle" style="fill:#c9554d;font-size:13px;font-weight:600">动能最大</text>
+  <text class="pen-lb" x="434.5" y="220.1" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">与 A 一样高</text>
+  <text class="pen-lb" x="220.5" y="216.1" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:500">势能→动能</text>
+  <text class="pen-lb" x="339.5" y="216.1" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:500">动能→势能</text>
+</svg>

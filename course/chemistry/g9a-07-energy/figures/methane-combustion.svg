@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="ch4-t ch4-d">
+  <title id="ch4-t">甲烷燃烧产物检验实验示意图</title>
+  <desc id="ch4-d">展示点燃纯净甲烷后在火焰上方罩干冷烧杯检验水生成，以及倒转烧杯注入澄清石灰水振荡检验二氧化碳生成的实验规范与元素守恒结论。</desc>
+  <style>
+    .ch4-bg { fill: #ffffff; }
+    .ch4-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .ch4-panel { fill: #ffffff; stroke: #cfd8dc; stroke-width: 1.4; rx: 5px; }
+    .ch4-head { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .ch4-sec { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .ch4-sub { font: 400 11.5px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .ch4-bold { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .ch4-emp { font: 600 11.5px -apple-system, "PingFang SC", sans-serif; fill: #c9554d; }
+    .ch4-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.6; }
+    .ch4-tube { fill: #eceff1; stroke: #52626a; stroke-width: 2.2; stroke-linecap: round; }
+    .ch4-flame-outer { fill: #64b5f6; fill-opacity: 0.7; }
+    .ch4-flame-inner { fill: #1e88e5; }
+    .ch4-drop { fill: #287fc4; fill-opacity: 0.7; }
+    .ch4-turbid { fill: #eceff1; fill-opacity: 0.85; stroke: #b0bec5; stroke-width: 1.2; }
+    .ch4-dropper { fill: #cfd8dc; stroke: #52626a; stroke-width: 1.2; }
+    .ch4-rubber { fill: #ef5350; }
+    .ch4-shake { fill: none; stroke: #bf8d08; stroke-width: 1.6; stroke-dasharray: 3 3; }
+    .ch4-box-b { fill: #e8f4fc; stroke: #287fc4; stroke-width: 1.2; rx: 4px; }
+    .ch4-box-r { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+    .ch4-box-y { fill: #fffdf5; stroke: #bf8d08; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="ch4-bg" width="800" height="420"/>
+
+  <!-- Top Banner -->
+  <rect x="20" y="12" width="760" height="34" class="ch4-card"/>
+  <text class="ch4-head" x="400" y="35" text-anchor="middle">甲烷燃烧实验与产物检验（检验水和二氧化碳）</text>
+
+  <!-- Left: Step 1 检验生成水 (x: 20..390, y: 55..265) -->
+  <rect class="ch4-panel" x="20" y="55" width="370" height="210"/>
+  <rect x="30" y="63" width="350" height="22" rx="3" fill="#e8f4fc"/>
+  <text class="ch4-sec" x="205" y="79" text-anchor="middle" fill="#287fc4">步骤 1：罩干冷烧杯（检验水生成）</text>
+
+  <!-- Methane nozzle tube -->
+  <line class="ch4-tube" x1="160" y1="202" x2="195" y2="168"/>
+  <text class="ch4-bold" x="110" y="202" fill="#287fc4">CH₄ 气体</text>
+
+  <!-- Blue Flame of Methane -->
+  <path class="ch4-flame-outer" d="M 195 168 C 188 158 192 145 200 135 C 208 145 210 158 195 168 Z"/>
+  <path class="ch4-flame-inner" d="M 195 168 C 191 161 194 151 200 145 C 205 151 206 161 195 168 Z"/>
+
+  <!-- Inverted Beaker: cx=200, y=95..172 -->
+  <path class="ch4-glass" d="M 160 172 L 170 102 Q 172 96 180 96 L 220 96 Q 228 96 230 102 L 240 172 Z"/>
+  <line x1="156" y1="172" x2="244" y2="172" stroke="#52626a" stroke-width="2"/>
+
+  <!-- Water droplets / mist on inner wall -->
+  <ellipse cx="178" cy="115" rx="2" ry="3" class="ch4-drop"/>
+  <ellipse cx="182" cy="130" rx="2.5" ry="3.5" class="ch4-drop"/>
+  <ellipse cx="175" cy="145" rx="2" ry="2.5" class="ch4-drop"/>
+  <ellipse cx="222" cy="117" rx="2" ry="3" class="ch4-drop"/>
+  <ellipse cx="218" cy="133" rx="2.5" ry="3.5" class="ch4-drop"/>
+  <ellipse cx="225" cy="147" rx="2" ry="2.5" class="ch4-drop"/>
+
+  <!-- Labels on Left -->
+  <text class="ch4-bold" x="40" y="112">干冷的烧杯</text>
+  <line x1="102" y1="108" x2="168" y2="108" stroke="#7d8990" stroke-width="1"/>
+  <text class="ch4-emp" x="40" y="136">内壁出现水雾</text>
+  <text class="ch4-sub" x="40" y="152">（或凝结小水珠）</text>
+  <line x1="112" y1="135" x2="174" y2="135" stroke="#c9554d" stroke-width="1"/>
+
+  <text class="ch4-bold" x="252" y="145">明亮淡蓝色火焰</text>
+  <line x1="250" y1="147" x2="208" y2="152" stroke="#287fc4" stroke-width="1"/>
+  <text class="ch4-sub" x="252" y="163">手触发烫（放热）</text>
+
+  <!-- Left Bottom Box (y: 212..258) -->
+  <rect class="ch4-box-b" x="30" y="212" width="350" height="46"/>
+  <text class="ch4-bold" x="40" y="230">【现象】烧杯内壁凝结水雾，手感发烫</text>
+  <text class="ch4-emp" x="40" y="248">【结论】反应生成水（H₂O），证明甲烷含有氢元素</text>
+
+  <!-- Right: Step 2 检验生成二氧化碳 (x: 410..780, y: 55..265) -->
+  <rect class="ch4-panel" x="410" y="55" width="370" height="210"/>
+  <rect x="420" y="63" width="350" height="22" rx="3" fill="#fdf5f4"/>
+  <text class="ch4-sec" x="595" y="79" text-anchor="middle" fill="#c9554d">步骤 2：注入石灰水振荡（检验 CO₂）</text>
+
+  <!-- Dropper injecting limewater (y: 92..120) -->
+  <path class="ch4-rubber" d="M 591 90 C 591 84 599 84 599 90 L 598 98 L 592 98 Z"/>
+  <path class="ch4-dropper" d="M 593 98 L 597 98 L 596 116 L 594 116 Z"/>
+  <circle cx="595" cy="124" r="2" class="ch4-drop"/>
+  <circle cx="595" cy="136" r="2" class="ch4-drop"/>
+  <text class="ch4-sub" x="614" y="106">注入少量澄清石灰水</text>
+
+  <!-- Upright Beaker: cx=595, y=125..195, w=80 -->
+  <path class="ch4-glass" d="M 555 125 L 555 190 Q 555 195 560 195 L 630 195 Q 635 195 635 190 L 635 125 Z"/>
+  <line x1="551" y1="125" x2="639" y2="125" stroke="#52626a" stroke-width="2"/>
+
+  <!-- Liquid inside: Milky Turbid Limewater -->
+  <path class="ch4-turbid" d="M 557 165 L 633 165 L 633 192 Q 633 194 630 194 L 560 194 Q 557 194 557 192 Z"/>
+  <line x1="557" y1="165" x2="633" y2="165" stroke="#b0bec5" stroke-width="1.2"/>
+
+  <!-- Shake arcs -->
+  <path class="ch4-shake" d="M 545 155 Q 538 165 545 175"/>
+  <path class="ch4-shake" d="M 645 155 Q 652 165 645 175"/>
+  <text class="ch4-bold" x="655" y="168" fill="#bf8d08">振荡</text>
+
+  <!-- Labels on Right -->
+  <text class="ch4-emp" x="425" y="158">石灰水变浑浊</text>
+  <text class="ch4-sub" x="425" y="174">生成碳酸钙沉淀</text>
+  <line x1="510" y1="165" x2="555" y2="175" stroke="#c9554d" stroke-width="1"/>
+
+  <!-- Right Bottom Box (y: 212..258) -->
+  <rect class="ch4-box-r" x="420" y="212" width="350" height="46"/>
+  <text class="ch4-bold" x="430" y="230">【现象】倒转烧杯注入石灰水，振荡后变浑浊</text>
+  <text class="ch4-emp" x="430" y="248">【结论】反应生成 CO₂，证明甲烷含有碳元素</text>
+
+  <!-- Bottom: Summary Cards Container (x: 20..780, y: 275..405) -->
+  <rect class="ch4-card" x="20" y="275" width="760" height="130"/>
+  <text class="ch4-head" x="400" y="295" text-anchor="middle" font-size="13">初中化学核心归纳：反应方程式、元素守恒与实验安全</text>
+
+  <!-- Card 1 -->
+  <rect class="ch4-box-b" x="32" y="306" width="235" height="90"/>
+  <text class="ch4-sec" x="149" y="325" text-anchor="middle" fill="#287fc4">化学反应方程式</text>
+  <text class="ch4-bold" x="42" y="346">CH₄ ＋ 2O₂ → CO₂ ＋ 2H₂O（点燃）</text>
+  <text class="ch4-sub" x="42" y="366">现象：明亮淡蓝色火焰，放出热量</text>
+  <text class="ch4-sub" x="42" y="386">微观：分子数 3 → 3 不变，原子守恒</text>
+
+  <!-- Card 2 -->
+  <rect class="ch4-box-r" x="282" y="306" width="236" height="90"/>
+  <text class="ch4-sec" x="400" y="325" text-anchor="middle" fill="#c9554d">元素守恒推断结论</text>
+  <text class="ch4-sub" x="292" y="346">生成物中含 C、H、O 三种元素</text>
+  <text class="ch4-sub" x="292" y="366">反应物 O₂ 只能提供氧元素</text>
+  <text class="ch4-emp" x="292" y="386">确定推论：甲烷一定含 C、H 两种元素</text>
+
+  <!-- Card 3 -->
+  <rect class="ch4-box-y" x="532" y="306" width="236" height="90"/>
+  <text class="ch4-sec" x="650" y="325" text-anchor="middle" fill="#bf8d08">实验安全与防错规范</text>
+  <text class="ch4-emp" x="542" y="346">点燃前规范：必须先检验气体纯度！</text>
+  <text class="ch4-sub" x="542" y="366">防爆：可燃气体混空气点燃易爆炸</text>
+  <text class="ch4-sub" x="542" y="386">必须使用干冷烧杯，否则水雾无法判定</text>
+</svg>

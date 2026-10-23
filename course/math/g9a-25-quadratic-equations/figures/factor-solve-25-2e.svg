@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="fs-252e-t fs-252e-d">
+  <title id="fs-252e-t">因式分解法两式相乘为零的分支求解</title>
+  <desc id="fs-252e-d">第一步展示方程x(x−2)+(x−2)=0，黄色标出两处公因式(x−2)。第二步提取公因式得到(x−2)(x+1)=0，说明两项相乘为零意味着至少有一个为零。第三步分两支独立求解：由x−2=0得x₁=2；由x+1=0得x₂=−1。</desc>
+  <style>.fs-252e-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.fs-252e-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="390" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="fs-252e-lb" x="40" y="35" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:700">1. 识别公因式</text>
+  <rect x="170" y="52" width="68" height="32" rx="4" fill="#fef9c3" stroke="#bf8d08" stroke-width="1.5"/>
+  <rect x="265" y="52" width="68" height="32" rx="4" fill="#fef9c3" stroke="#bf8d08" stroke-width="1.5"/>
+  <text class="fs-252e-math" x="155" y="74" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="fs-252e-math" x="176" y="74" text-anchor="start" style="font-size:17px;font-weight:700;stroke:none"><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2)</tspan></text>
+  <text class="fs-252e-math" x="246" y="74" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">+</tspan></text>
+  <text class="fs-252e-math" x="271" y="74" text-anchor="start" style="font-size:17px;font-weight:700;stroke:none"><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2)</tspan></text>
+  <text class="fs-252e-math" x="342" y="74" text-anchor="start" style="font-size:18px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">= 0</tspan></text>
+  <text class="fs-252e-math" x="395" y="74" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">把后项看作整体 1·(</tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2)</tspan></text>
+  </g>
+  <g data-step="2">
+  <path d="M240 95L240 123.6" stroke="#52626a" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M240 130L236.4 122L243.6 122Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="fs-252e-lb" x="40" y="145" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:700">2. 提取公因式</text>
+  <rect x="160" y="130" width="185" height="45" rx="6" fill="#f0f9ff" stroke="#287fc4" stroke-width="1.8"/>
+  <text class="fs-252e-math" x="252" y="158" text-anchor="middle" style="font-size:18px;font-weight:700;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan><tspan fill="#bf8d08" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#bf8d08" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)(</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">+1</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">) = 0</tspan></text>
+  <text class="fs-252e-math" x="380" y="158" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">A</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> · </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">B</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 0  ⇒  至少有一个因式为 0（逻辑“或”）</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="fs-252e-lb" x="40" y="205" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:700">3. 分成两个一次方程</text>
+  <path d="M220 185L164.7 221.9" stroke="#52626a" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M160 225L164.1 218.5L167.6 223.7Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M285 185L340.3 221.9" stroke="#52626a" stroke-width="1.5" stroke-linecap="butt"/>
+  <path d="M345 225L337.4 223.7L340.9 218.5Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <rect x="70" y="235" width="180" height="125" rx="8" fill="#f0fdf4" stroke="#197a60" stroke-width="1.5"/>
+  <text class="fs-252e-math" x="160" y="265" text-anchor="middle" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">第一支：</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> − 2 = 0</tspan></text>
+  <text class="fs-252e-math" x="160" y="310" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">解得：</tspan></text>
+  <text class="fs-252e-math" x="160" y="340" text-anchor="middle" style="font-size:22px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₁ = 2</tspan></text>
+  <rect x="290" y="235" width="180" height="125" rx="8" fill="#f0fdf4" stroke="#197a60" stroke-width="1.5"/>
+  <text class="fs-252e-math" x="380" y="265" text-anchor="middle" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">第二支：</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> + 1 = 0</tspan></text>
+  <text class="fs-252e-math" x="380" y="310" text-anchor="middle" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">解得：</tspan></text>
+  <text class="fs-252e-math" x="380" y="340" text-anchor="middle" style="font-size:22px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₂ = −1</tspan></text>
+  <rect x="495" y="235" width="190" height="125" rx="6" fill="#f8fafc" stroke="#bec9ce" stroke-width="1"/>
+  <text class="fs-252e-math" x="510" y="265" text-anchor="start" style="font-size:15px;font-weight:700;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">求解结论：</tspan></text>
+  <text class="fs-252e-math" x="510" y="295" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">原方程有两个实数根：</tspan></text>
+  <text class="fs-252e-math" x="510" y="325" text-anchor="start" style="font-size:15px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₁ = 2，</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">₂ = −1</tspan></text>
+  <text class="fs-252e-math" x="510" y="348" text-anchor="start" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">不能两边同时除以(</tspan><tspan fill="#c9554d" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#c9554d" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2)</tspan></text>
+  </g>
+</svg>

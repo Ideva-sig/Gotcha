@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>中线等分面积</title>
+<desc>D是底边的精确中点，两个淡色三角形共用同一条垂直高。</desc>
+<path d="M 62 15 L 22 68 L 75 68 Z" fill="currentColor" fill-opacity="0.2"/>
+<path d="M 62 15 L 75 68 L 128 68 Z" fill="#c9554d" fill-opacity="0.2"/>
+<path d="M 62 15 L 22 68 L 128 68 Z" stroke="#52626a" stroke-width="2" fill="none"/>
+<path d="M 62 15 L 62 68" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 62 62 L 68 62 L 68 68" stroke="#52626a" stroke-width="1.5" fill="none"/>
+<path d="M 62 15 L 75 68" fill="none" stroke="currentColor" stroke-width="4"/>
+<path d="M 48.5 65 L 48.5 71 M 101.5 65 L 101.5 71" fill="none" stroke="#52626a" stroke-width="2"/>
+<text x="47" y="21" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">A</text>
+<text x="75" y="82" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">D</text>
+</svg>

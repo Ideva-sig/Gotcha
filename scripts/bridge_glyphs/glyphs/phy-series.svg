@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90">
+  <title>串联电路电压关系</title>
+  <desc>电池和两个电阻串联，两个电阻上方分别标出电压 U1 和 U2。</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 35 H35 M66 35 H84 M115 35 H132 V76 H20 V64 M20 52 V35" stroke="#9aa5a8" stroke-width="2.5"/>
+    <rect x="35" y="28" width="31" height="14" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <rect x="84" y="28" width="31" height="14" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M11 52 H29 M15 64 H25" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M35 8 H66 M35 4 V12 M66 4 V12" stroke="currentColor" stroke-width="3"/>
+    <path d="M84 8 H115 M84 4 V12 M115 4 V12" stroke="#c9554d" stroke-width="3"/>
+  </g>
+  <path d="M35 8 L41 4 V12 Z M66 8 L60 4 V12 Z" fill="currentColor"/>
+  <path d="M84 8 L90 4 V12 Z M115 8 L109 4 V12 Z" fill="#c9554d"/>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13">
+    <text x="42" y="25">U1</text>
+    <text x="91" y="25">U2</text>
+    <text x="31" y="62">U</text>
+  </g>
+</svg>

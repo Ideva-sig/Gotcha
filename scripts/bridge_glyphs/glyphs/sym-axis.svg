@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>轴对称</title>
+<desc>右三角形逐点由 x 映射为150减x得到；对应点连线被竖直轴垂直平分。</desc>
+<path d="M 20 65 L 48 18 L 61 72 Z" stroke="#9aa5a8" stroke-width="2" fill="none"/><path d="M 130 65 L 102 18 L 89 72 Z" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 75 7 L 75 83" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 20 65 L 130 65" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 47.5 62 L 47.5 68" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 102.5 62 L 102.5 68" fill="none" stroke="#52626a" stroke-width="2"/><path d="M 75 59 L 81 59 L 81 65" stroke="#52626a" stroke-width="1.5" fill="none"/>
+</svg>

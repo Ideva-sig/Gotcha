@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>同弧所对的圆心角与圆周角</title>
+  <desc>圆心角 100°，圆周角 50°；两角共同对应右侧主色小弧 AB。角度由圆上坐标精确计算。静态图。</desc>
+  <circle cx="75" cy="45" r="33" fill="none" stroke="#52626a" stroke-width="2"/>
+  <path d="M 96.21199 19.72053 A 33 33 0 0 1 96.21199 70.27947" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 75 45 L 96.21199 19.72053" fill="none" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 75 45 L 96.21199 70.27947" fill="none" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 42 45 L 96.21199 19.72053" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 42 45 L 96.21199 70.27947" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 82.07066 36.57351 A 11 11 0 0 1 82.07066 53.42649" fill="none" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 53.782 39.50596 A 13 13 0 0 1 53.782 50.49404" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="75" cy="45" r="2" fill="#52626a"/>
+</svg>

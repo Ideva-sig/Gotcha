@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>导线与电炉丝串联</title>
+  <desc>电池、电阻很小的导线和电阻很大的电炉丝串联，同一电流依次通过两者。</desc>
+  <g fill="none">
+    <path d="M22 36 H38 M52 36 H70 M110 36 H134 V78 H22 V68 M22 58 V36" stroke="#9aa5a8" stroke-width="2.5"/>
+    <rect x="38" y="29" width="14" height="14" rx="2" fill="#fff" stroke="#c9554d" stroke-width="2.5"/>
+    <rect x="70" y="26" width="40" height="20" rx="2" fill="#fff" stroke="currentColor" stroke-width="4"/>
+    <path d="M13 58 H31 M17 68 H27" stroke="#52626a" stroke-width="2.5"/>
+    <path d="M96 78 H72" stroke="#52626a" stroke-width="2.5"/>
+  </g>
+  <path d="M72 78 L80 73 V83 Z" fill="#52626a"/>
+  <g fill="#2b3a3f" font-family="sans-serif" font-size="13" text-anchor="middle">
+    <text x="45" y="21">r</text>
+    <text x="90" y="21">R</text>
+    <text x="90" y="70">I</text>
+  </g>
+</svg>

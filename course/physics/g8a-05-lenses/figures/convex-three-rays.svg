@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="ray3-t ray3-d">
+  <title id="ray3-t">凸透镜的三条特殊光线</title>
+  <desc id="ray3-d">三幅小图并排，主光轴上标出光心 O 和两侧焦点 F。①过光心的光线传播方向不变；②平行于主光轴的光线经透镜后过焦点；③过焦点的光线经透镜后平行于主光轴。静态图。</desc>
+  <style>.ray3-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.ray3-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="660" height="230" fill="#fff" stroke="none"/>
+  <path d="M10 110L210 110" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="10 4 2 4"/>
+  <path d="M110 48Q130 110 110 172Q90 110 110 48Z" fill="#dceff9" stroke="#287fc4" stroke-width="1.8"/>
+  <circle cx="48" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="48" y="134" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="172" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="164" y="100" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="110" cy="110" r="2.6" fill="#20272b"/>
+  <text class="ray3-sy" x="88" y="136" text-anchor="middle" style="fill:#20272b;font-size:15px">O</text>
+  <path d="M15 65L110 110L205 155" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M67.5 89.9L55.4 89.6L59.6 80.7Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M162.5 134.9L150.4 134.6L154.6 125.7Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="ray3-lb" x="110" y="214" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">过光心：方向不变</text>
+  <path d="M230 110L430 110" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="10 4 2 4"/>
+  <path d="M330 48Q350 110 330 172Q310 110 330 48Z" fill="#dceff9" stroke="#287fc4" stroke-width="1.8"/>
+  <circle cx="268" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="268" y="134" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="392" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="382" y="134" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="330" cy="110" r="2.6" fill="#20272b"/>
+  <text class="ray3-sy" x="308" y="136" text-anchor="middle" style="fill:#20272b;font-size:15px">O</text>
+  <path d="M235 70L330 70" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M292.8 70L281.8 75L281.8 65Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M330 70L424.1 130.7" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M405.2 118.5L393.3 116.7L398.6 108.4Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="ray3-lb" x="330" y="214" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">平行光轴→过焦点</text>
+  <path d="M450 110L650 110" stroke="#bec9ce" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="10 4 2 4"/>
+  <path d="M550 48Q570 110 550 172Q530 110 550 48Z" fill="#dceff9" stroke="#287fc4" stroke-width="1.8"/>
+  <circle cx="488" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="480" y="100" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="612" cy="110" r="3" fill="#20272b"/>
+  <text class="ray3-sy" x="612" y="134" text-anchor="middle" style="fill:#20272b;font-size:15px">F</text>
+  <circle cx="550" cy="110" r="2.6" fill="#20272b"/>
+  <text class="ray3-sy" x="528" y="136" text-anchor="middle" style="fill:#20272b;font-size:15px">O</text>
+  <path d="M454.4 131.7L550 70" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M530.7 82.4L524.2 92.6L518.8 84.2Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <path d="M550 70L645 70" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M607.8 70L596.8 75L596.8 65Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="ray3-lb" x="550" y="214" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">过焦点→平行光轴</text>
+</svg>

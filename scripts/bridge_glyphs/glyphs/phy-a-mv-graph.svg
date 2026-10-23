@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>质量与体积的关系图像</title>
+  <desc>横轴体积、纵轴质量，两种物质的图像都是过原点的直线，较陡的那条密度较大。</desc>
+  <line x1="30" y1="74" x2="136" y2="74" stroke="#9aa5a8" stroke-width="2"/>
+  <path d="M 138 74 L 130 70.5 L 130 77.5 Z" fill="#9aa5a8" stroke="none"/>
+  <line x1="30" y1="74" x2="30" y2="12" stroke="#9aa5a8" stroke-width="2"/>
+  <path d="M 30 8 L 26.5 16 L 33.5 16 Z" fill="#9aa5a8" stroke="none"/>
+  <line x1="90" y1="74" x2="90" y2="33.50" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="30" y1="74" x2="120" y2="50" stroke="#c9554d" stroke-width="4"/>
+  <line x1="30" y1="74" x2="110" y2="20" stroke="currentColor" stroke-width="4"/>
+  <circle cx="90" cy="33.50" r="3.5" fill="currentColor"/>
+  <circle cx="90" cy="58.00" r="3.5" fill="#c9554d"/>
+  <text x="38" y="20" fill="#2b3a3f" font-size="13" font-family="sans-serif">m</text>
+  <text x="124" y="68" fill="#2b3a3f" font-size="13" font-family="sans-serif">V</text>
+</svg>

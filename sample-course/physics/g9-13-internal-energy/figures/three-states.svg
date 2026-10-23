@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" role="img" aria-labelledby="ts-t ts-d">
+  <title id="ts-t">固态、液态、气态的分子排列</title>
+  <desc id="ts-d">固态分子紧密、整齐排列；液态分子之间距离比固体略大，排列没有固定位置，聚在容器底部；气态分子相距很远，分散在整个容器中。</desc>
+  <style>.ts-box{fill:#f8fafb;stroke:#bec9ce;stroke-width:2}.ts-t{font:600 19px -apple-system,"PingFang SC",sans-serif;fill:#20272b}.ts-s{font:500 14px -apple-system,"PingFang SC",sans-serif;fill:#5d6970}.ts-m{fill:#287fc4}.ts-a{fill:none;stroke:#7d8990;stroke-width:1.6;stroke-linecap:round}</style>
+  <rect width="900" height="330" fill="#ffffff"/>
+  <text class="ts-t" x="160" y="34" text-anchor="middle">固态</text>
+  <rect class="ts-box" x="30" y="50" width="260" height="200" rx="6"/>
+  <text class="ts-s" x="160" y="280" text-anchor="middle">分子间距离小，作用力大</text>
+  <text class="ts-s" x="160" y="304" text-anchor="middle">有一定的形状和体积</text>
+  <text class="ts-t" x="450" y="34" text-anchor="middle">液态</text>
+  <rect class="ts-box" x="320" y="50" width="260" height="200" rx="6"/>
+  <text class="ts-s" x="450" y="280" text-anchor="middle">距离比固体略大，作用力较小</text>
+  <text class="ts-s" x="450" y="304" text-anchor="middle">有一定的体积，没有确定的形状</text>
+  <text class="ts-t" x="740" y="34" text-anchor="middle">气态</text>
+  <rect class="ts-box" x="610" y="50" width="260" height="200" rx="6"/>
+  <text class="ts-s" x="740" y="280" text-anchor="middle">距离很大，几乎没有作用力</text>
+  <text class="ts-s" x="740" y="304" text-anchor="middle">没有确定的形状和体积</text>
+  <circle class="ts-m" cx="95" cy="123" r="11"/>
+  <circle class="ts-m" cx="95" cy="148" r="11"/>
+  <circle class="ts-m" cx="95" cy="173" r="11"/>
+  <circle class="ts-m" cx="95" cy="198" r="11"/>
+  <circle class="ts-m" cx="120" cy="123" r="11"/>
+  <circle class="ts-m" cx="120" cy="148" r="11"/>
+  <circle class="ts-m" cx="120" cy="173" r="11"/>
+  <circle class="ts-m" cx="120" cy="198" r="11"/>
+  <circle class="ts-m" cx="145" cy="123" r="11"/>
+  <circle class="ts-m" cx="145" cy="148" r="11"/>
+  <circle class="ts-m" cx="145" cy="173" r="11"/>
+  <circle class="ts-m" cx="145" cy="198" r="11"/>
+  <circle class="ts-m" cx="170" cy="123" r="11"/>
+  <circle class="ts-m" cx="170" cy="148" r="11"/>
+  <circle class="ts-m" cx="170" cy="173" r="11"/>
+  <circle class="ts-m" cx="170" cy="198" r="11"/>
+  <circle class="ts-m" cx="195" cy="123" r="11"/>
+  <circle class="ts-m" cx="195" cy="148" r="11"/>
+  <circle class="ts-m" cx="195" cy="173" r="11"/>
+  <circle class="ts-m" cx="195" cy="198" r="11"/>
+  <circle class="ts-m" cx="220" cy="123" r="11"/>
+  <circle class="ts-m" cx="220" cy="148" r="11"/>
+  <circle class="ts-m" cx="220" cy="173" r="11"/>
+  <circle class="ts-m" cx="220" cy="198" r="11"/>
+  <circle class="ts-m" cx="245" cy="123" r="11"/>
+  <circle class="ts-m" cx="245" cy="148" r="11"/>
+  <circle class="ts-m" cx="245" cy="173" r="11"/>
+  <circle class="ts-m" cx="245" cy="198" r="11"/>
+  <circle class="ts-m" cx="410" cy="156" r="11"/>
+  <circle class="ts-m" cx="484" cy="149" r="11"/>
+  <circle class="ts-m" cx="458" cy="176" r="11"/>
+  <circle class="ts-m" cx="349" cy="189" r="11"/>
+  <circle class="ts-m" cx="352" cy="150" r="11"/>
+  <circle class="ts-m" cx="433" cy="218" r="11"/>
+  <circle class="ts-m" cx="479" cy="229" r="11"/>
+  <circle class="ts-m" cx="559" cy="146" r="11"/>
+  <circle class="ts-m" cx="532" cy="169" r="11"/>
+  <circle class="ts-m" cx="377" cy="196" r="11"/>
+  <circle class="ts-m" cx="491" cy="181" r="11"/>
+  <circle class="ts-m" cx="408" cy="196" r="11"/>
+  <circle class="ts-m" cx="517" cy="206" r="11"/>
+  <circle class="ts-m" cx="553" cy="206" r="11"/>
+  <circle class="ts-m" cx="342" cy="222" r="11"/>
+  <circle class="ts-m" cx="530" cy="233" r="11"/>
+  <circle class="ts-m" cx="381" cy="161" r="11"/>
+  <circle class="ts-m" cx="455" cy="144" r="11"/>
+  <circle class="ts-m" cx="386" cy="230" r="11"/>
+  <circle class="ts-m" cx="459" cy="208" r="11"/>
+  <path d="M322 132H578" stroke="#7d8990" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <circle class="ts-m" cx="650" cy="90" r="11"/>
+  <path class="ts-a" d="M663 82L682 71"/>
+  <path d="M687 68L684 74L680 68Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="760" cy="80" r="11"/>
+  <path class="ts-a" d="M746 84L725 91"/>
+  <path d="M719 92L723 87L726 94Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="845" cy="140" r="11"/>
+  <path class="ts-a" d="M839 154L831 174"/>
+  <path d="M829 180L828 173L835 176Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="700" cy="170" r="11"/>
+  <path class="ts-a" d="M712 179L729 193"/>
+  <path d="M734 197L726 196L731 190Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="800" cy="215" r="11"/>
+  <path class="ts-a" d="M787 208L767 198"/>
+  <path d="M762 196L769 195L765 202Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="660" cy="225" r="11"/>
+  <path class="ts-a" d="M669 213L681 195"/>
+  <path d="M685 190L684 197L678 192Z" fill="#7d8990"/>
+  <circle class="ts-m" cx="745" cy="135" r="11"/>
+  <path class="ts-a" d="M748 150L752 171"/>
+  <path d="M753 177L748 172L756 170Z" fill="#7d8990"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-fixed-movable-pulleys-t opt-a-fixed-movable-pulleys-d">
+  <title id="opt-a-fixed-movable-pulleys-t">定滑轮和动滑轮的轴与物体</title>
+  <desc id="opt-a-fixed-movable-pulleys-d">左图定滑轮轴连接上方支架，物体挂在绳的一端，向下拉另一端。右图动滑轮轴连接物体，绳的一端固定上方，另一端向上拉，轴随物体一起上升。不标具体拉力或重量。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
+  <style>.opt-a-fixed-movable-pulleys-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-fixed-movable-pulleys-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="390" fill="#fff" stroke="none"/>
+  <path d="M98 36L222 36" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M378 36L502 36" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M160 36L160 88" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="160" cy="88" r="28" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M160 36L160 88" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="160" cy="88" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M132 88A28 28 0 0 1 188 88" stroke="#287fc4" stroke-width="2"/>
+  <path d="M132 88L132 258" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M188 88L188 210" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M188 210L188 253.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M188 262L183.1 251L192.9 251Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-fixed-movable-pulleys-sy" x="203" y="239" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
+  <rect x="108" y="258" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="132" y="284" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">物体</text>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="68" y="88" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">轴固定</text>
+  <path d="M101 83L152 83" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M412 36L412 224" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M468 224L468 123" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M468 123L468 74.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
+  <path d="M468 66L472.9 77L463.1 77Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-a-fixed-movable-pulleys-sy" x="483" y="105" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
+  <circle cx="440" cy="224" r="28" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M412 224A28 28 0 0 0 468 224" stroke="#287fc4" stroke-width="2"/>
+  <circle cx="440" cy="224" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M440 229L440 294" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="416" y="294" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="440" y="320" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">物体</text>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="550" y="216" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">轴随物体</text>
+  <path d="M449 224L515 224" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M549 325L549 265" stroke="#c9554d" stroke-width="2.2" stroke-linecap="butt"/>
+  <path d="M549 257L553.5 267L544.5 267Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="567" y="295" text-anchor="start" style="fill:#c9554d;font-size:13px;font-weight:600">上升</text>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="160" y="369" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">定滑轮</text>
+  <text class="opt-a-fixed-movable-pulleys-lb" x="440" y="369" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">动滑轮</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="lv-t lv-d">
+  <title id="lv-t">撬棒的支点、动力、阻力和力臂</title>
+  <desc id="lv-d">撬棒绕支点 O 转动。动力 F1 竖直向下作用在撬棒左端，阻力 F2 是石头对撬棒竖直向下的力。F1 的作用线延长（虚线）后，从 O 向两条作用线作垂线段，得到动力臂 l1 和阻力臂 l2。静态图。</desc>
+  <style>.lv-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.lv-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="280" fill="#fff" stroke="none"/>
+  <path d="M350 212L630 212" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M414 181L398 212L430 212Z" stroke="#52626a" stroke-width="1.8" fill="#f4f8fa" stroke-linejoin="round"/>
+  <path d="M506 212C499 196 512 172 540 160C575 146 612 160 618 190C620 200 617 208 614 212" stroke="#52626a" stroke-width="1.8" fill="#f4f8fa"/>
+  <path d="M70 90L502 200.5" stroke="#20272b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M70 150L70 194" stroke="#52626a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M500 140L500 198" stroke="#52626a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M414 178L70 178" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 178L78 170L70 170" stroke="#287fc4" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M414 178L500 178" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M492 178L492 186L500 186" stroke="#c9554d" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M70 90L70 137.6" stroke="#287fc4" stroke-width="2.8" stroke-linecap="butt"/>
+  <path d="M70 148L64.2 135L75.8 135Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M500 200L500 251.6" stroke="#c9554d" stroke-width="2.8" stroke-linecap="butt"/>
+  <path d="M500 262L494.1 249L505.9 249Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <circle cx="414" cy="178" r="3.6" fill="#20272b"/>
+  <text class="lv-sy" x="418" y="166" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="lv-sy" x="34" y="132" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="lv-sy" x="510" y="258" text-anchor="start" style="fill:#c9554d;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+  <text class="lv-sy" x="234" y="202" text-anchor="start" style="fill:#287fc4;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="lv-sy" x="452" y="170" text-anchor="start" style="fill:#c9554d;font-size:18px">l<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+</svg>

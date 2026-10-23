@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-b-energy-t opt-b-energy-d">
+  <title id="opt-b-energy-t">热机中燃料化学能的去向</title>
+  <desc id="opt-b-energy-d">参考课本图14.3-2：燃料化学能一部分转化为有用机械能，另一部分随废气带走或以散热等方式损失。箭头仅表示能量去向，不表示能量大小或比例；不列效率、热量和练习题的结果。完整静态图，无动画。</desc>
+  <style>.opt-b-energy-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-b-energy-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="620" height="260" fill="#fff" stroke="none"/>
+  <text class="opt-b-energy-lb" x="38" y="133" text-anchor="start" style="fill:#20272b;font-size:14px;font-weight:600">燃料化学能</text>
+  <path d="M163 128L240 128" stroke="#52626a" stroke-width="2.2" stroke-linecap="butt"/>
+  <path d="M248 128L238 132.5L238 123.5Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M248 128L294 128L294 55L390 55" stroke="#287fc4" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M400 55L389 60L389 50Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="opt-b-energy-lb" x="415" y="60" text-anchor="start" style="fill:#287fc4;font-size:14px;font-weight:600">有用机械能</text>
+  <path d="M294 128L294 145L390 145" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M400 145L389 149.9L389 140.1Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-b-energy-lb" x="415" y="150" text-anchor="start" style="fill:#c9554d;font-size:14px;font-weight:600">废气带走</text>
+  <path d="M294 145L294 217L390 217" stroke="#c9554d" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M400 217L389 221.9L389 212.1Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="opt-b-energy-lb" x="415" y="222" text-anchor="start" style="fill:#c9554d;font-size:14px;font-weight:600">散热等损失</text>
+</svg>

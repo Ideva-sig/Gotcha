@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>压力与受力面积</title>
+  <desc>方块放在水平地面上，竖直向下的力作用在顶面中心，红色底边表示受力面积。</desc>
+  <line x1="10" y1="68" x2="140" y2="68" stroke="#9aa5a8" stroke-width="3"/>
+  <rect x="48" y="35" width="54" height="33" rx="2" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <line x1="75" y1="8" x2="75" y2="35" stroke="currentColor" stroke-width="4"/>
+  <path d="M 75 35 L 70 27 L 80 27 Z" fill="currentColor"/>
+  <line x1="49" y1="68" x2="101" y2="68" stroke="#c9554d" stroke-width="4"/>
+  <text x="84" y="20" fill="#2b3a3f" font-size="13" font-family="sans-serif">F</text>
+  <text x="108" y="85" fill="#2b3a3f" font-size="13" font-family="sans-serif">S</text>
+</svg>

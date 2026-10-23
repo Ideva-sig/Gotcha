@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>关于y轴对称</title>
+<desc>单位网格20，两个点相对原点分别为负2、1和2、1，仅标点名。</desc>
+<path d="M 12 65 L 138 65" fill="none" stroke="#9aa5a8" stroke-width="1.5"/><path d="M 132 61 L 138 65 L 132 69" stroke="#9aa5a8" stroke-width="1.5" fill="none"/><path d="M 75 83 L 75 7" fill="none" stroke="#9aa5a8" stroke-width="1.5"/><path d="M 71 13 L 75 7 L 79 13" stroke="#9aa5a8" stroke-width="1.5" fill="none"/><path d="M 35 45 L 115 45" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 75 65 L 75 7" fill="none" stroke="currentColor" stroke-width="4" stroke-dasharray="4 4"/><circle cx="35" cy="45" r="3" fill="currentColor"/><circle cx="115" cy="45" r="3" fill="currentColor"/><text x="35" y="34" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">P′</text><text x="115" y="34" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">P</text>
+</svg>

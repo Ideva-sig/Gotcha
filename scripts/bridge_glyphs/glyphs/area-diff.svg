@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>平方差面积模型</title>
+<desc>边66的大正方形扣掉右下角边26的小正方形，保留主色L形。</desc>
+<path d="M 44 12 L 110 12 L 110 52 L 84 52 L 84 78 L 44 78 Z" stroke="currentColor" stroke-width="4" fill="currentColor" fill-opacity="0.2"/><path d="M 84 52 L 110 52 L 110 78 L 84 78 Z" stroke="#9aa5a8" stroke-width="1.5" fill="none" stroke-dasharray="4 4"/><text x="31" y="49" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">a</text><text x="97" y="69" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">b</text>
+</svg>

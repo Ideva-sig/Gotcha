@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>力对物体做功</title>
+  <desc>水平力推动方块向右，地面下方的同向距离箭头表示物体移动的距离。</desc>
+  <line x1="9" y1="56" x2="141" y2="56" stroke="#9aa5a8" stroke-width="3"/>
+  <rect x="25" y="24" width="32" height="30" rx="2" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+  <line x1="57" y1="39" x2="118" y2="39" stroke="currentColor" stroke-width="4"/>
+  <path d="M 118 39 L 110 33 L 110 45 Z" fill="currentColor"/>
+  <line x1="25" y1="61" x2="25" y2="84" stroke="#9aa5a8" stroke-width="2" stroke-dasharray="3 4"/>
+  <line x1="118" y1="61" x2="118" y2="84" stroke="#9aa5a8" stroke-width="2" stroke-dasharray="3 4"/>
+  <line x1="25" y1="76" x2="118" y2="76" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 25 76 L 33 70 L 33 82 Z M 118 76 L 110 70 L 110 82 Z" fill="#c9554d"/>
+  <text x="126" y="35" fill="#2b3a3f" font-size="13" font-family="sans-serif">F</text>
+  <text x="72" y="68" fill="#2b3a3f" font-size="13" font-family="sans-serif" text-anchor="middle">s</text>
+</svg>

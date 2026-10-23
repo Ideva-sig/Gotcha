@@ -1,0 +1,99 @@
+# Gotcha
+
+给初中生准备中考复习的学习网站，覆盖物理、化学、数学三科。讲解、示意图、互动小实验、做题对答案、错题本都在网页里完成，主要在 iPad 上使用，电脑可以正常用，手机只保证能看。
+
+不做账号，学习记录只存在使用者自己的浏览器里（本机），不上传。
+
+## 在线试用
+
+https://study.idesia.work
+
+供学习参考，不得商用。
+
+## 现在有什么
+
+- **三科讲义**：物理 22 章（八上、八下、九年级全一册，人教版）；数学 30 章（七上至九上）；化学 7 个单元（九上）。数学哪些章对外开放，由 `course/math/open-chapters.txt` 控制。
+- **每章的讲法**：先认住要点、容易错的地方、跟着做一遍、自己练一练；数学另有“数形结合”，物理和化学另有“破题钥匙”。具体格式见 `course/FORMAT.md`。
+- **示意图**：以手写的轻量 SVG 为主（个别场景图是生成的图片），部分带简单动画；开启系统“减少动态效果”时停在静态的第一帧。
+- **物理小实验**：9 个可以操作的小实验（物态变化、凸透镜、浮力、杠杆、欧姆定律、测小灯泡功率、液体压强、测密度、平面镜）。
+- **题目**：真题、课本习题、少量例题，做完可以对答案、看解析；课本习题的答案由本项目编写，页面上会标明“待复核”或“已复核”。
+- **错题本**：记录做错的题和错因。数学错题可以顺着知识点的前置关系往前查，找出哪一步没跟上，并给出补课顺序。
+- **其他**：公式速查、知识点地图、搜索、化学元素周期表、“怎么想”思维方法页、知识点角色台词。
+- **界面风格**：岛屿风，只有浅色主题。
+
+## 技术栈
+
+- Next.js 16（静态导出，`output: "export"`）、React 19
+- KaTeX（公式和化学式）
+- 内容是 `course/` 下的 Markdown 和 YAML，构建时由 Python 脚本导出为 JSON（“内容包”，见 [docs/CONTENT-PACK.md](./docs/CONTENT-PACK.md)）
+- 测试用 Node 自带的 `node --test`
+
+## 本地运行
+
+需要 Node.js 20.9 或更高版本；构建内容需要系统 Python 3（带 PyYAML）；个别素材脚本（`build-materials.py` 等）另需 PyMuPDF 和本机的课本、真题资料（路径用环境变量 `COURSE_MATERIALS_DIR` 指定），普通构建和测试不需要。
+
+```bash
+npm install
+npm run build:content   # 把 course/ 的内容导出成网站用的数据，并生成搜索索引
+npm run dev             # 开发预览（会先检查内容是否已构建）
+```
+
+生成可部署的静态网站：
+
+```bash
+npm run build           # 等于 build:content + build:site，输出到 out/
+```
+
+其他命令：
+
+```bash
+npm test                # 运行单元测试
+```
+
+写内容后建议跑一遍检查脚本，例如：
+
+```bash
+/usr/bin/python3 scripts/check-chapter.py course/physics/<章目录>
+/usr/bin/python3 scripts/check-kp-map.py
+```
+
+## 目录结构
+
+```
+course/         内容源（唯一的内容来源）：physics / math / chemistry，格式规范见 course/FORMAT.md
+src/app/        页面（Next.js App Router）
+src/components/ 界面组件，含 island/ 下的岛屿风小组件
+src/lib/        数据读取、实验逻辑、错题回溯等
+public/         静态资源：图标、周期表图片、头像、品牌图
+scripts/        内容导出、检查脚本、示意图生成脚本
+test/           单元测试
+docs/           说明文档
+```
+
+## 内容与许可
+
+| 部分 | 许可 |
+| --- | --- |
+| 网站代码（`src/`、`scripts/`、`test/` 等） | AGPL-3.0，全文见 [LICENSE](./LICENSE) |
+| 讲义文字和示意图（`course/` 中本项目编写的部分） | CC BY-NC-SA 4.0，范围见 [LICENSE-CONTENT.md](./LICENSE-CONTENT.md) |
+| 元素周期表图示版（`public/periodic/`） | 原作者 Keith Enevoldsen，CC BY-SA 4.0，单独声明（许可依据已核实，见 [ACKNOWLEDGMENTS](./ACKNOWLEDGMENTS.md)） |
+| 课本、真题及其插图、解析 | 版权归原权利人，**不在本项目的开源授权范围内** |
+| 角色头像（`public/avatars/`） | AI 生成的卡通形象，角色版权归原权利人，**不在本项目的开源授权范围内** |
+| 第三方库、图标、字体 | 各自的许可，见 [NOTICE](./NOTICE.md) |
+
+**关于课本和真题**：本项目收录的课本习题、课本插图、中考真题和相关解析，版权归各自的权利人（教材出版方、各地考试机构、解析整理方等）所有，仅供个人学习和教学研究参考，**供学习参考，不得商用**。题目都标有来源（地区、年份、题号或课本页码）。真题题干按原卷收录，不改编、不另编；课本习题的答案由本项目编写，可能有错，发现请告诉我们。
+
+**下架与更正**：如果权利人认为收录不当，请按 [TAKEDOWN.md](./TAKEDOWN.md) 联系我们，核实后会及时处理。
+
+## 致谢
+
+参考过的界面风格、图标、字体、依赖库、内容思路和教材来源，见 [ACKNOWLEDGMENTS.md](./ACKNOWLEDGMENTS.md)；第三方许可声明见 [NOTICE.md](./NOTICE.md)。
+
+## AI 辅助声明
+
+本项目的部分内容与代码是在 AI 辅助下完成的:讲义起草、编程、审阅和部分图片都用过 AI 工具。所有内容由作者审阅取舍;课本习题的答案由本项目编写,标注“待复核”或“已复核”,如发现错误欢迎指出。
+
+## 版权
+
+© 2026 ideva.sig
+

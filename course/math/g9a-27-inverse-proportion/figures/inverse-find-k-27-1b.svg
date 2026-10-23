@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="ifk-271b-t ifk-271b-d">
+  <title id="ifk-271b-t">待定系数法求反比例解析式及检验点</title>
+  <desc id="ifk-271b-d">左侧直角坐标系展示反比例函数y=12/x的双曲线两支，标出已知点(2,6)与检验点(4,3)及其虚线投影。右侧展示四步推导：第一步由点(2,6)在曲线上；第二步代入算得k=2×6=12；第三步写出解析式y=12/x；第四步代入x=4算出y=3，验证两点乘积恒为12。</desc>
+  <style>.ifk-271b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.ifk-271b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="460" fill="#fff" stroke="none"/>
+  <path d="M355 25L355 435" stroke="#bec9ce" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M45 230L329.4 230" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M335 230L328 233.2L328 226.8Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <path d="M180 415L180 50.6" stroke="#52626a" stroke-width="1.3" stroke-linecap="butt"/>
+  <path d="M180 45L183.2 52L176.8 52Z" stroke="#52626a" stroke-width="0.01" fill="#52626a" stroke-linejoin="round"/>
+  <text class="ifk-271b-math" x="342" y="235" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="ifk-271b-math" x="170" y="38" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan></text>
+  <text class="ifk-271b-math" x="166" y="248" text-anchor="end" style="font-size:15px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">O</tspan></text>
+  <path d="M100 227L100 233" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="100" y="246" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−4</tspan></text>
+  <path d="M140 227L140 233" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="140" y="246" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan></text>
+  <path d="M220 227L220 233" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="220" y="246" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M260 227L260 233" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="260" y="246" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">4</tspan></text>
+  <path d="M300 227L300 233" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="300" y="246" text-anchor="middle" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6</tspan></text>
+  <path d="M177 310L183 310" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="172" y="314" text-anchor="end" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−4</tspan></text>
+  <path d="M177 270L183 270" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="172" y="274" text-anchor="end" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">−2</tspan></text>
+  <path d="M177 190L183 190" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="172" y="194" text-anchor="end" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2</tspan></text>
+  <path d="M177 150L183 150" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="172" y="154" text-anchor="end" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">4</tspan></text>
+  <path d="M177 110L183 110" stroke="#52626a" stroke-width="1" stroke-linecap="round"/>
+  <text class="ifk-271b-math" x="172" y="114" text-anchor="end" style="font-size:12px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6</tspan></text>
+  <path d="M216 96.7L218 103.7L220 110L222 115.7L224 120.9L226 125.7L228 130L230 134L232 137.7L234 141.1L236 144.3L238 147.2L240 150L242 152.6L244 155L246 157.3L248 159.4L250 161.4L252 163.3L254 165.1L256 166.8L258 168.5L260 170L262 171.5L264 172.9L266 174.2L268 175.5L270 176.7L272 177.8L274 178.9L276 180L278 181L280 182L282 182.9L284 183.8L286 184.7L288 185.6L290 186.4L292 187.1L294 187.9L296 188.6L298 189.3L300 190L302 190.7L304 191.3L306 191.9L308 192.5L310 193.1" stroke="#197a60" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M50 266.9L52 267.5L54 268.1L56 268.7L58 269.3L60 270L62 270.7L64 271.4L66 272.1L68 272.9L70 273.6L72 274.4L74 275.3L76 276.2L78 277.1L80 278L82 279L84 280L86 281.1L88 282.2L90 283.3L92 284.5L94 285.8L96 287.1L98 288.5L100 290L102 291.5L104 293.2L106 294.9L108 296.7L110 298.6L112 300.6L114 302.7L116 305L118 307.4L120 310L122 312.8L124 315.7L126 318.9L128 322.3L130 326L132 330L134 334.3L136 339.1L138 344.3L140 350L142 356.3L144 363.3" stroke="#197a60" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+  <path d="M220 230L220 110" stroke="#287fc4" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M180 110L220 110" stroke="#287fc4" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <circle cx="220" cy="110" r="4.5" fill="#287fc4"/>
+  <text class="ifk-271b-math" x="228" y="104" text-anchor="start" style="font-size:15px;font-weight:700;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(2, 6)</tspan></text>
+  <path d="M260 230L260 170" stroke="#287fc4" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M180 170L260 170" stroke="#287fc4" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <circle cx="260" cy="170" r="4.5" fill="#287fc4"/>
+  <text class="ifk-271b-math" x="268" y="164" text-anchor="start" style="font-size:15px;font-weight:700;stroke:none"><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(4, 3)</tspan></text>
+  <g data-step="1">
+  <text class="ifk-271b-lb" x="380" y="35" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:700">待定系数法四步推导</text>
+  <text class="ifk-271b-math" x="380" y="70" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">1. 设解析式与已知点：</tspan></text>
+  <text class="ifk-271b-math" x="405" y="98" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">设 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> / </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">，已知点 </tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(2, 6)</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> 在图象上</tspan></text>
+  </g>
+  <g data-step="2">
+  <text class="ifk-271b-math" x="380" y="138" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">2. 代入坐标求系数 </tspan><tspan fill="#5d6970" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">：</tspan></text>
+  <text class="ifk-271b-math" x="405" y="168" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">代入得：</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">6 = </tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> / 2</tspan></text>
+  <text class="ifk-271b-math" x="405" y="198" text-anchor="start" style="font-size:17px;font-weight:700;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">解得：</tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">k</tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 2 × 6 = 12</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="ifk-271b-math" x="380" y="240" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">3. 写回函数解析式：</tspan></text>
+  <rect x="400" y="255" width="180" height="46" rx="6" fill="#f0fdf4" stroke="#197a60" stroke-width="2"/>
+  <text class="ifk-271b-math" x="490" y="285" text-anchor="middle" style="font-size:20px;font-weight:700;stroke:none"><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 12 / </tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="ifk-271b-math" x="405" y="322" text-anchor="start" style="font-size:13px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">双曲线两支分别位于第一、三象限</tspan></text>
+  </g>
+  <g data-step="4">
+  <text class="ifk-271b-math" x="380" y="355" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">4. 代入求值与检验点：</tspan></text>
+  <text class="ifk-271b-math" x="405" y="385" text-anchor="start" style="font-size:16px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">当 </tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 4 时，</tspan><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">y</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal"> = 12 / 4 = 3</tspan></text>
+  <text class="ifk-271b-math" x="405" y="415" text-anchor="start" style="font-size:14px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">得到点 </tspan><tspan fill="#287fc4" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(4, 3)</tspan><tspan fill="#5d6970" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">；两点横纵坐标乘积均为 12</tspan></text>
+  </g>
+</svg>

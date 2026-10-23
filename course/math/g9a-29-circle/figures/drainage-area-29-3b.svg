@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 355" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="drainage-area-29-3b-t drainage-area-29-3b-d">
+  <title id="drainage-area-29-3b-t">有水面积等于扇形减三角形</title>
+  <desc id="drainage-area-29-3b-d">三步横向排列：排水管截面与水面AB；作OD垂直AB并连接OA、OB，标半径0.6米和水深0.3米；最后将扇形OAB分成淡蓝水域与淡绿三角形OAB，两块合起来是完整扇形。面积差中的扇形项为蓝色、三角形项为绿色，水域的弦与下方小弧完整显示。无动画。</desc>
+  <style>.drainage-area-29-3b-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.drainage-area-29-3b-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="355" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="drainage-area-29-3b-lb" x="120" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">截面与水面</text>
+  <circle cx="120" cy="157" r="79" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M51.6 196.5A79 79 0 0 0 188.4 196.5Z" fill="#287fc4" fill-opacity="0.14" stroke="none"/>
+  <path d="M51.6 196.5L188.4 196.5" stroke="#287fc4" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M51.6 196.5A79 79 0 0 0 188.4 196.5" fill="none" stroke="#287fc4" stroke-width="2.7"/>
+  <circle cx="51.6" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="36" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="188.4" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="204" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="120" cy="157" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="100" y="149" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  </g>
+  <g data-step="2">
+  <text class="drainage-area-29-3b-lb" x="360" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">补出半径、垂线</text>
+  <circle cx="360" cy="157" r="79" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M291.6 196.5A79 79 0 0 0 428.4 196.5Z" fill="#287fc4" fill-opacity="0.14" stroke="none"/>
+  <path d="M360 157L291.6 196.5" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M360 157L428.4 196.5" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M360 157L360 236" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M291.6 196.5L360 236" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M367 196.5L367 189.5L360 189.5" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <circle cx="360" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="370" y="188.5" text-anchor="start" style="fill:#20272b;font-size:18px">D</text>
+  <circle cx="360" cy="236" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="355" y="262" text-anchor="start" style="fill:#20272b;font-size:18px">C</text>
+  <text class="drainage-area-29-3b-formula" x="305" y="167" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:16px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a">0.6 <tspan font-style="italic">m</tspan></tspan></text>
+  <text class="drainage-area-29-3b-formula" x="386" y="216" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:14px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a">0.3 <tspan font-style="italic">m</tspan></tspan></text>
+  <path d="M291.6 196.5L428.4 196.5" stroke="#287fc4" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M291.6 196.5A79 79 0 0 0 428.4 196.5" fill="none" stroke="#287fc4" stroke-width="2.7"/>
+  <circle cx="291.6" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="276" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="428.4" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="444" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="360" cy="157" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="340" y="149" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  </g>
+  <g data-step="3">
+  <text class="drainage-area-29-3b-lb" x="600" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">扇形减三角形</text>
+  <circle cx="600" cy="157" r="79" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M531.6 196.5A79 79 0 0 0 668.4 196.5Z" fill="#287fc4" fill-opacity="0.14" stroke="none"/>
+  <path d="M600 157L531.6 196.5L668.4 196.5Z" fill="#197a60" fill-opacity="0.15" stroke="none"/>
+  <path d="M600 157L531.6 196.5" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M600 157L668.4 196.5" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M531.6 196.5L668.4 196.5" stroke="#287fc4" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M531.6 196.5A79 79 0 0 0 668.4 196.5" fill="none" stroke="#287fc4" stroke-width="2.7"/>
+  <circle cx="531.6" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="516" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="668.4" cy="196.5" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="684" y="211.5" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="600" cy="157" r="2.5" fill="#20272b"/>
+  <text class="drainage-area-29-3b-sy" x="580" y="149" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="drainage-area-29-3b-formula" x="360" y="322" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:24px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#20272b"><tspan font-style="italic">S</tspan></tspan><tspan fill="#20272b"> = </tspan><tspan fill="#287fc4"><tspan font-style="italic">S</tspan>扇形<tspan font-style="italic">O</tspan><tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan></tspan><tspan fill="#20272b"> − </tspan><tspan fill="#197a60"><tspan font-style="italic">S</tspan>△<tspan font-style="italic">O</tspan><tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan></tspan></text>
+  </g>
+</svg>

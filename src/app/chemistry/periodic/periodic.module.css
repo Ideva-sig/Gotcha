@@ -1,0 +1,40 @@
+.page {
+  max-width: 1180px;
+  min-width: 0;
+}
+
+.header p {
+  margin-top: 14px;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-top: 36px;
+}
+
+.legend {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 14px;
+  border-radius: 10px;
+}
+
+.hint {
+  margin-top: 12px;
+  color: var(--text-soft);
+}
+
+.credit {
+  margin-top: 40px;
+  padding-top: 14px;
+  border-top: 2px dashed var(--border-strong);
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.7;
+}

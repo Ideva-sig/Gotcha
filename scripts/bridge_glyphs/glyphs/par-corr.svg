@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>同位角和内错角</title>
+<desc>主色弧在两交点左上，为同位角；红色弧在上交点左下和下交点右上，为内错角。</desc>
+<line x1="12" y1="23" x2="138" y2="23" stroke="#52626a" stroke-width="2"/><line x1="12" y1="67" x2="138" y2="67" stroke="#52626a" stroke-width="2"/><line x1="95.2376" y1="7" x2="51.9363" y2="82" stroke="#9aa5a8" stroke-width="2"/><path d="M 92.5 11.7417 A 13 13 0 0 0 73 23" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 67.0966 55.7417 A 13 13 0 0 0 47.5966 67" stroke="currentColor" stroke-width="4" fill="none"/><path d="M 73 23 A 13 13 0 0 0 79.5 34.2583" stroke="#c9554d" stroke-width="4" fill="none"/><path d="M 73.5966 67 A 13 13 0 0 0 67.0966 55.7417" stroke="#c9554d" stroke-width="4" fill="none"/>
+</svg>

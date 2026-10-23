@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="garden-domain-26-4a-t garden-domain-26-4a-d">
+  <title id="garden-domain-26-4a-t">三边围园与面积式</title>
+  <desc id="garden-domain-26-4a-d">第一步用20米篱笆靠墙围三边，垂直边为x，平行边为20−2x。第二步由矩形面积列出S=x(20−2x)。蓝色配对x与垂直边，绿色配对平行边与其式子。不展示练一练的题设、模型、范围或答案。</desc>
+  <style>.garden-domain-26-4a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.garden-domain-26-4a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="280" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="garden-domain-26-4a-lb" x="26" y="28" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">靠墙围三边：20 m</text>
+  <rect x="67" y="70" width="214" height="12" rx="0" fill="#bec9ce" stroke="#52626a" stroke-width="1.2"/>
+  <path d="M79 82L79 190" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M269 82L269 190" stroke="#287fc4" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M79 190L269 190" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M79 182L87 182L87 190" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <path d="M269 182L261 182L261 190" stroke="#52626a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <text class="garden-domain-26-4a-math" x="54" y="143" text-anchor="end" style="font-size:20px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="garden-domain-26-4a-math" x="292" y="143" text-anchor="start" style="font-size:20px;font-weight:500;stroke:none"><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  <text class="garden-domain-26-4a-math" x="174" y="222" text-anchor="middle" style="font-size:20px;font-weight:500;stroke:none"><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">20−2</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan></text>
+  </g>
+  <g data-step="2">
+  <text class="garden-domain-26-4a-lb" x="382" y="28" text-anchor="start" style="fill:#20272b;font-size:15px;font-weight:600">列面积式</text>
+  <text class="garden-domain-26-4a-math" x="382" y="143" text-anchor="start" style="font-size:23px;font-weight:500;stroke:none"><tspan fill="#20272b" font-family="Times New Roman,serif" font-style="italic">S</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">=</tspan><tspan fill="#287fc4" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">(</tspan><tspan fill="#197a60" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">20−2</tspan><tspan fill="#197a60" font-family="Times New Roman,serif" font-style="italic">x</tspan><tspan fill="#20272b" font-family="-apple-system,PingFang SC,sans-serif" font-style="normal">)</tspan></text>
+  </g>
+</svg>

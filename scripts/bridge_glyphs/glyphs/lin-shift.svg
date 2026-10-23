@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>平行直线向上平移</title>
+  <desc>两条直线的斜率均为 0.4，上方直线比下方高 22。箭头连接纵轴上的两个截距。静态图。</desc>
+  <path d="M 10 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 12 75.2 L 137 25.2" fill="none" stroke="#9aa5a8" stroke-width="2"/>
+  <path d="M 12 53.2 L 127 7.2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 42 63.2 L 42 41.2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M 45 46.2 L 42 41.2 L 39 46.2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="42" cy="63.2" r="2.5" fill="#9aa5a8"/>
+  <circle cx="42" cy="41.2" r="2.5" fill="currentColor"/>
+</svg>

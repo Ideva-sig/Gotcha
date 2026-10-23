@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>正斜率、正截距</title>
+  <desc>直线屏幕坐标 y=57−0.4x；纵轴 x=42，横轴 y=58，纵截距在原点上方。静态图。</desc>
+  <path d="M 10 58 L 139 58" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 135 55 L 139 58 L 135 61" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 42 80 L 42 10" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 39 14 L 42 10 L 45 14" fill="none" stroke="#9aa5a8" stroke-width="1.8"/>
+  <path d="M 12 52.2 L 127 6.2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <circle cx="42" cy="40.2" r="3.5" fill="#c9554d"/>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 370" role="img" aria-labelledby="litheat-t litheat-d">
+  <title id="litheat-t">二氧化碳与石蕊溶液反应及受热变色实验</title>
+  <desc id="litheat-d">二氧化碳通入紫色石蕊溶液生成碳酸使溶液变红，加热后碳酸分解二氧化碳逸出，溶液又变回紫色。</desc>
+  <style>
+    .litheat-bg { fill: #ffffff; }
+    .litheat-card { fill: #f8fafb; stroke: #bec9ce; stroke-width: 1.6; rx: 6px; }
+    .litheat-glass { fill: #f0f7fb; stroke: #52626a; stroke-width: 1.8; fill-opacity: 0.5; }
+    .litheat-purple { fill: #ede7f6; stroke: #7e57c2; stroke-width: 1.4; fill-opacity: 0.85; }
+    .litheat-red { fill: #ffebee; stroke: #ef5350; stroke-width: 1.4; fill-opacity: 0.85; }
+    .litheat-drop { fill: #7e57c2; stroke: #5e35b1; stroke-width: 1.2; }
+    .litheat-tube { fill: none; stroke: #287fc4; stroke-width: 2.2; stroke-linecap: round; }
+    .litheat-clamp { fill: #d7ccc8; stroke: #8d6e63; stroke-width: 1.4; }
+    .litheat-burner { fill: #eceff1; stroke: #52626a; stroke-width: 1.6; }
+    .litheat-flame { fill: #ffb74d; stroke: #f57c00; stroke-width: 1.2; }
+    .litheat-bubble { fill: #ffffff; stroke: #ef5350; stroke-width: 1; }
+    .litheat-title { font: 600 15px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .litheat-label { font: 600 13px -apple-system, "PingFang SC", sans-serif; fill: #20272b; }
+    .litheat-sub { font: 400 12px -apple-system, "PingFang SC", sans-serif; fill: #52626a; }
+    .litheat-p-tag { fill: #ede7f6; stroke: #7e57c2; stroke-width: 1.2; rx: 4px; }
+    .litheat-r-tag { fill: #fdf5f4; stroke: #c9554d; stroke-width: 1.2; rx: 4px; }
+  </style>
+  <rect class="litheat-bg" width="740" height="370"/>
+
+  <!-- Top Banner -->
+  <rect x="25" y="15" width="690" height="36" class="litheat-card"/>
+  <text class="litheat-title" x="370" y="38" text-anchor="middle">实验活动：二氧化碳与水反应及碳酸受热分解性质探究</text>
+
+  <!-- Step 1: 向蒸馏水中滴加石蕊 (x=25, w=220, y=65..290) -->
+  <rect class="litheat-card" x="25" y="65" width="220" height="225"/>
+  <rect x="35" y="74" width="200" height="24" rx="3" fill="#ede7f6"/>
+  <text class="litheat-label" x="135" y="90" text-anchor="middle" fill="#7e57c2">步骤 1：滴加石蕊溶液</text>
+
+  <!-- Test tube 1 (vertical): cx=135, y=130..215, w=24 -->
+  <rect class="litheat-glass" x="123" y="130" width="24" height="85" rx="10"/>
+  <!-- Purple liquid inside -->
+  <rect class="litheat-purple" x="124" y="160" width="22" height="53" rx="8"/>
+  <line x1="124" y1="160" x2="146" y2="160" stroke="#7e57c2" stroke-width="1.4"/>
+
+  <!-- Dropper above tube 1 -->
+  <!-- Glass dropper tip: x=135, y=116..128 -->
+  <path d="M 133 116 L 137 116 L 136 128 L 134 128 Z" fill="#b0bec5" stroke="#52626a" stroke-width="1.2"/>
+  <!-- Dropper rubber cap -->
+  <path d="M 130 105 C 130 99 140 99 140 105 L 138 116 L 132 116 Z" fill="#ef5350"/>
+  <!-- Falling purple drop -->
+  <circle cx="135" cy="134" r="2.5" class="litheat-drop"/>
+
+  <!-- Result Banner 1 -->
+  <rect x="35" y="222" width="200" height="58" class="litheat-p-tag"/>
+  <text class="litheat-label" x="135" y="242" text-anchor="middle" fill="#7e57c2">现象：溶液呈紫色</text>
+  <text class="litheat-sub" x="135" y="262" text-anchor="middle">水呈中性，石蕊保持紫色</text>
+
+  <!-- Step 2: 通入二氧化碳 (x=260, w=220, y=65..290) -->
+  <rect class="litheat-card" x="260" y="65" width="220" height="225"/>
+  <rect x="270" y="74" width="200" height="24" rx="3" fill="#fdf5f4"/>
+  <text class="litheat-label" x="370" y="90" text-anchor="middle" fill="#c9554d">步骤 2：通入 CO₂ 气体</text>
+
+  <!-- Test tube 2: cx=370, y=130..215 -->
+  <rect class="litheat-glass" x="358" y="130" width="24" height="85" rx="10"/>
+  <!-- Red liquid inside -->
+  <rect class="litheat-red" x="359" y="160" width="22" height="53" rx="8"/>
+  <line x1="359" y1="160" x2="381" y2="160" stroke="#ef5350" stroke-width="1.4"/>
+
+  <!-- Delivery tube bubbling CO2 into tube 2 -->
+  <path class="litheat-tube" d="M 315 108 L 366 108 L 366 195"/>
+  <polygon points="330,104 338,108 330,112" fill="#287fc4"/>
+  <!-- Bubbles -->
+  <circle cx="367" cy="188" r="1.8" class="litheat-bubble"/>
+  <circle cx="372" cy="178" r="2.2" class="litheat-bubble"/>
+  <circle cx="364" cy="168" r="2" class="litheat-bubble"/>
+
+  <!-- Result Banner 2 -->
+  <rect x="270" y="222" width="200" height="58" class="litheat-r-tag"/>
+  <text class="litheat-label" x="370" y="242" text-anchor="middle" fill="#c9554d">现象：溶液迅速由紫变红</text>
+  <text class="litheat-sub" x="370" y="262" text-anchor="middle">生成碳酸：CO₂＋H₂O → H₂CO₃</text>
+
+  <!-- Step 3: 加热试管 (x=495, w=220, y=65..290) -->
+  <rect class="litheat-card" x="495" y="65" width="220" height="225"/>
+  <rect x="505" y="74" width="200" height="24" rx="3" fill="#ede7f6"/>
+  <text class="litheat-label" x="605" y="90" text-anchor="middle" fill="#7e57c2">步骤 3：加热变红溶液</text>
+
+  <!-- Tilted test tube 3 with wooden clamp: cx=605, cy=145, tilt 20 deg -->
+  <g transform="translate(605, 145) rotate(22)">
+    <rect class="litheat-glass" x="-11" y="-45" width="22" height="75" rx="9"/>
+    <!-- Liquid turned BACK to purple -->
+    <rect class="litheat-purple" x="-10" y="-15" width="20" height="43" rx="7"/>
+    <!-- Escaping gas bubbles/steam -->
+    <circle cx="0" cy="-22" r="1.8" fill="#ffffff" stroke="#7e57c2" stroke-width="1"/>
+    <circle cx="2" cy="-32" r="2.2" fill="#ffffff" stroke="#7e57c2" stroke-width="1"/>
+    <!-- Test tube clamp (wooden) -->
+    <rect class="litheat-clamp" x="-18" y="-30" width="36" height="10" rx="2"/>
+    <line x1="18" y1="-25" x2="35" y2="-25" stroke="#8d6e63" stroke-width="3"/>
+  </g>
+
+  <!-- Alcohol lamp heating tube bottom -->
+  <path class="litheat-burner" d="M 590 215 L 590 195 L 595 190 L 595 182 L 605 182 L 605 190 L 610 195 L 610 215 Z"/>
+  <path class="litheat-flame" d="M 600 182 C 594 170 596 160 600 152 C 604 160 606 170 600 182 Z"/>
+
+  <!-- Result Banner 3 -->
+  <rect x="505" y="222" width="200" height="58" class="litheat-p-tag"/>
+  <text class="litheat-label" x="605" y="242" text-anchor="middle" fill="#7e57c2">现象：红色溶液恢复为紫色</text>
+  <text class="litheat-sub" x="605" y="262" text-anchor="middle">受热分解：H₂CO₃ → H₂O＋CO₂↑</text>
+
+  <!-- Bottom Synthesis Banner -->
+  <rect x="25" y="302" width="690" height="52" rx="4" fill="#fdf5f4" stroke="#c9554d" stroke-width="1.4"/>
+  <text class="litheat-label" x="370" y="322" text-anchor="middle" fill="#c9554d">结论：使石蕊变红的是 CO₂ 与水反应生成的碳酸（H₂CO₃），而不是 CO₂ 气体本身！</text>
+  <text class="litheat-sub" x="370" y="342" text-anchor="middle">碳酸很不稳定，受热极易分解成水和二氧化碳；加热时必须先来回移动试管均匀预热，防止局部过热炸裂。</text>
+</svg>

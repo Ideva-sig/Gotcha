@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="arc-length-29-3a-t arc-length-29-3a-d">
+  <title id="arc-length-29-3a-t">弧长占整圆周长的份额</title>
+  <desc id="arc-length-29-3a-d">三步横向排列：整圆周长2πR；取圆心角n度的扇形；对应弧长l=(n/360)×2πR。圆周及所取弧为蓝色，半径R为绿色，式中的l与R同色对应。n为一般参数，不标示具体角度。无动画。</desc>
+  <style>.arc-length-29-3a-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.arc-length-29-3a-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="720" height="310" fill="#fff" stroke="none"/>
+  <g data-step="1">
+  <text class="arc-length-29-3a-lb" x="120" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">整圆周长</text>
+  <circle cx="120" cy="149" r="74" fill="#fff" stroke="#287fc4" stroke-width="2.5"/>
+  <path d="M120 149L194 149" stroke="#197a60" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="120" cy="149" r="2.5" fill="#20272b"/>
+  <text class="arc-length-29-3a-sy" x="153" y="136" text-anchor="start" style="fill:#197a60;font-size:18px">R</text>
+  <text class="arc-length-29-3a-formula" x="120" y="271" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:23px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4">2π</tspan><tspan fill="#197a60"><tspan font-style="italic">R</tspan></tspan></text>
+  </g>
+  <g data-step="2">
+  <text class="arc-length-29-3a-lb" x="360" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">取一个扇形</text>
+  <circle cx="360" cy="149" r="74" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M360 149L429.5 123.7A74 74 0 0 0 312.4 92.3Z" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
+  <path d="M360 149L429.5 123.7" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M360 149L312.4 92.3" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M429.5 123.7A74 74 0 0 0 312.4 92.3" fill="none" stroke="#287fc4" stroke-width="3"/>
+  <path d="M380.7 141.5A22 22 0 0 0 345.9 132.1" fill="none" stroke="#52626a" stroke-width="1.4"/>
+  <circle cx="360" cy="149" r="2.5" fill="#20272b"/>
+  <text class="arc-length-29-3a-formula" x="370.4" y="115.4" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">n</tspan>°</tspan></text>
+  <text class="arc-length-29-3a-sy" x="384.3" y="58.2" text-anchor="middle" style="fill:#287fc4;font-size:18px">l</text>
+  <text class="arc-length-29-3a-sy" x="403" y="158" text-anchor="start" style="fill:#197a60;font-size:18px">R</text>
+  <text class="arc-length-29-3a-formula" x="360" y="271" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:23px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">n</tspan>°</tspan></text>
+  </g>
+  <g data-step="3">
+  <text class="arc-length-29-3a-lb" x="600" y="30" text-anchor="middle" style="fill:#20272b;font-size:15px;font-weight:600">弧长的份额</text>
+  <path d="M600 149L669.5 123.7A74 74 0 0 0 552.4 92.3Z" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
+  <path d="M600 149L669.5 123.7" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M600 149L552.4 92.3" stroke="#197a60" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M669.5 123.7A74 74 0 0 0 552.4 92.3" fill="none" stroke="#287fc4" stroke-width="3"/>
+  <path d="M620.7 141.5A22 22 0 0 0 585.9 132.1" fill="none" stroke="#52626a" stroke-width="1.4"/>
+  <circle cx="600" cy="149" r="2.5" fill="#20272b"/>
+  <text class="arc-length-29-3a-formula" x="610.4" y="115.4" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:18px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#52626a"><tspan font-style="italic">n</tspan>°</tspan></text>
+  <text class="arc-length-29-3a-sy" x="624.3" y="58.2" text-anchor="middle" style="fill:#287fc4;font-size:18px">l</text>
+  <text class="arc-length-29-3a-sy" x="643" y="158" text-anchor="start" style="fill:#197a60;font-size:18px">R</text>
+  <text class="arc-length-29-3a-formula" x="600" y="271" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:19px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4"><tspan font-style="italic">l</tspan></tspan><tspan fill="#20272b"> = (<tspan font-style="italic">n</tspan>/360)×2π</tspan><tspan fill="#197a60"><tspan font-style="italic">R</tspan></tspan></text>
+  </g>
+</svg>

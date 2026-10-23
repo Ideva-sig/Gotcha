@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="sym-t sym-d">
+  <title id="sym-t">常用元件符号和一个简单电路图</title>
+  <desc id="sym-d">上排：电池、开关、小灯泡、电动机、电流表的电路符号（以课本图 15.2-6 为准），电池的长线是正极、短线是负极。下方：电池、开关、小灯泡用导线连成的电路图。静态图。</desc>
+  <style>.sym-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.sym-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="330" fill="#fff" stroke="none"/>
+  <path d="M28 60L112 60" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="61" y="44" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M65 45L65 75" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M75 52L75 68" stroke="#20272b" stroke-width="5" stroke-linecap="butt"/>
+  <text class="sym-lb" x="70" y="104" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">电池</text>
+  <path d="M153 60L237 60" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="178" y="56" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M178 60L210 47" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="178" cy="60" r="2.4" fill="#20272b"/>
+  <text class="sym-lb" x="195" y="104" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">开关</text>
+  <path d="M278 60L362 60" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="320" cy="60" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M310.8 50.8L329.2 69.2" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M310.8 69.2L329.2 50.8" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <text class="sym-lb" x="320" y="104" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">小灯泡</text>
+  <path d="M403 60L487 60" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="445" cy="60" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sym-sy" x="445" y="66" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">M</text>
+  <text class="sym-lb" x="445" y="104" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">电动机</text>
+  <path d="M528 60L612 60" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="570" cy="60" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sym-sy" x="570" y="66" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">A</text>
+  <text class="sym-lb" x="570" y="104" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">电流表</text>
+  <path d="M30 128L610 128" stroke="#d8dfe2" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M230 170L410 170L410 270L230 270L230 170" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <rect x="268" y="166" width="34" height="8" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M268 170L300 157" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="268" cy="170" r="2.4" fill="#20272b"/>
+  <rect x="351" y="154" width="18" height="32" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M355 155L355 185" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M365 162L365 178" stroke="#20272b" stroke-width="5" stroke-linecap="butt"/>
+  <circle cx="320" cy="270" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M310.8 260.8L329.2 279.2" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M310.8 279.2L329.2 260.8" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <text class="sym-lb" x="320" y="314" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">电路图</text>
+</svg>

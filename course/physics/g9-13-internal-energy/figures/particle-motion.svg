@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" fill="none" stroke-linecap="round" role="img" aria-labelledby="particle-motion-t particle-motion-d">
+  <title id="particle-motion-t">温度越高，分子热运动越剧烈</title>
+  <desc id="particle-motion-d">左框低温：分子身后的运动轨迹很短，动画中只轻微晃动。右框高温：轨迹长，动画中运动幅度大、速度快。</desc>
+  <style>.pm-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;fill:#20272b;stroke:none}</style>
+
+  <text class="pm-lb" x="160" y="20" text-anchor="middle">低温</text>
+  <rect x="20" y="30" width="280" height="150" rx="8" fill="#f6f8f9" stroke="#d0d8dc" stroke-width="1.6"/>
+  <g stroke="#287fc4" stroke-width="2" stroke-opacity=".35">
+    <path d="M60 76l10-6"/><path d="M160 66l-10-6"/><path d="M230 86l10-6"/>
+    <path d="M92 141l8-6"/><path d="M198 126l-8-6"/><path d="M252 151l8-6"/>
+  </g>
+  <g fill="#287fc4">
+    <g><circle cx="70" cy="70" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;3 -2;-2 2;0 0" dur="2.4s" repeatCount="indefinite"/></g>
+    <g><circle cx="150" cy="60" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 3;2 -2;0 0" dur="2.6s" repeatCount="indefinite"/></g>
+    <g><circle cx="240" cy="80" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;2 2;-3 -1;0 0" dur="2.2s" repeatCount="indefinite"/></g>
+    <g><circle cx="100" cy="135" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;-3 -2;2 2;0 0" dur="2.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="190" cy="120" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;2 -3;-2 2;0 0" dur="2.3s" repeatCount="indefinite"/></g>
+    <g><circle cx="260" cy="145" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 2;3 -2;0 0" dur="2.7s" repeatCount="indefinite"/></g>
+  </g>
+
+  <text class="pm-lb" x="480" y="20" text-anchor="middle">高温</text>
+  <rect x="340" y="30" width="280" height="150" rx="8" fill="#f6f8f9" stroke="#d0d8dc" stroke-width="1.6"/>
+  <g stroke="#c9554d" stroke-width="2" stroke-opacity=".35">
+    <path d="M362 98q8-22 28-28"/><path d="M498 82q-6-24-28-27"/><path d="M546 112q4-24 24-27"/>
+    <path d="M384 120q4 22 26 20"/><path d="M528 104q-4 18-28 16"/><path d="M560 132q4 18 25 18"/>
+  </g>
+  <g fill="#c9554d">
+    <g><circle cx="390" cy="70" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;14 -9;-10 12;8 6;0 0" dur="0.9s" repeatCount="indefinite"/></g>
+    <g><circle cx="470" cy="55" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;-12 10;10 14;-6 4;0 0" dur="1s" repeatCount="indefinite"/></g>
+    <g><circle cx="570" cy="85" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;12 12;-14 -6;6 -8;0 0" dur="0.85s" repeatCount="indefinite"/></g>
+    <g><circle cx="410" cy="140" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;-12 -10;12 8;-6 6;0 0" dur="0.95s" repeatCount="indefinite"/></g>
+    <g><circle cx="500" cy="120" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;10 -14;-12 10;6 -4;0 0" dur="0.9s" repeatCount="indefinite"/></g>
+    <g><circle cx="585" cy="150" r="7"/><animateTransform attributeName="transform" type="translate" values="0 0;12 -10;-12 12;-8 -6;0 0" dur="1.05s" repeatCount="indefinite"/></g>
+  </g>
+</svg>

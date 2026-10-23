@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="blw-t blw-d">
+  <title id="blw-t">向纸条上方吹气：上方流速大、压强小</title>
+  <desc id="blw-d">手持纸条一端，在纸条上方水平吹气。纸条上方空气流速大、压强小，下方空气流速小、压强大，上下压强差形成向上的压力差，纸条向上飘起。静态图，纸条画在飘起后的位置。</desc>
+  <style>.blw-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.blw-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="600" height="260" fill="#fff" stroke="none"/>
+  <rect x="40" y="108" width="26" height="30" rx="4" fill="#f4f8fa" stroke="#52626a" stroke-width="1.8"/>
+  <text class="blw-lb" x="53" y="162" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">手持</text>
+  <path d="M66 116 C200 112 340 116 480 132" stroke="#20272b" stroke-width="3" fill="none"/>
+  <path d="M110 74L470 74" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="10 7"/>
+  <path d="M482 74L471 79L471 69Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <path d="M110 94L470 94" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="10 7"/>
+  <path d="M482 94L471 99L471 89Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
+  <text class="blw-lb" x="66" y="90" text-anchor="middle" style="fill:#287fc4;font-size:14px;font-weight:600">吹气</text>
+  <text class="blw-lb" x="240" y="52" text-anchor="middle" style="fill:#287fc4;font-size:14px;font-weight:600">流速大  压强小</text>
+  <text class="blw-lb" x="240" y="214" text-anchor="middle" style="fill:#5d6970;font-size:14px;font-weight:600">流速小  压强大</text>
+  <path d="M300 200L300 145.4" stroke="#c9554d" stroke-width="2.8" stroke-linecap="butt"/>
+  <path d="M300 135L305.9 148L294.1 148Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
+  <text class="blw-lb" x="312" y="180" text-anchor="start" style="fill:#c9554d;font-size:14px;font-weight:600">压力差向上</text>
+</svg>

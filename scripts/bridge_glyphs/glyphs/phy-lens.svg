@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+  <title>凸透镜会聚平行光</title>
+  <desc>三条平行光射向凸透镜，中间光线沿主光轴直行，上下光线折射后准确会聚在焦点。</desc>
+  <line x1="5" y1="45" x2="145" y2="45" stroke="#9aa5a8" stroke-width="2"/>
+  <line x1="7" y1="29" x2="72" y2="29" stroke="currentColor" stroke-width="4"/>
+  <path d="M 48 29 L 40 33 L 40 25 Z" fill="currentColor"/>
+  <line x1="7" y1="45" x2="72" y2="45" stroke="currentColor" stroke-width="4"/>
+  <path d="M 48 45 L 40 49 L 40 41 Z" fill="currentColor"/>
+  <line x1="7" y1="61" x2="72" y2="61" stroke="currentColor" stroke-width="4"/>
+  <path d="M 48 61 L 40 65 L 40 57 Z" fill="currentColor"/>
+  <line x1="72" y1="29" x2="120" y2="45" stroke="#c9554d" stroke-width="4"/>
+  <line x1="72" y1="45" x2="141" y2="45" stroke="#c9554d" stroke-width="4"/>
+  <line x1="72" y1="61" x2="120" y2="45" stroke="#c9554d" stroke-width="4"/>
+  <path d="M 72 8 C 60 20 60 70 72 82 C 84 70 84 20 72 8 Z" fill="#fff" stroke="#52626a" stroke-width="2.5"/>
+  <line x1="63" y1="45" x2="81" y2="45" stroke="#9aa5a8" stroke-width="2"/>
+  <circle cx="120" cy="45" r="3" fill="#52626a"/>
+  <text x="116" y="64" fill="#2b3a3f" font-size="13" font-family="sans-serif">F</text>
+</svg>

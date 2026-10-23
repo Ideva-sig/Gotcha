@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>勾股定理面积模型</title>
+<desc>三角形直角边3和4、斜边5；三边外的正方形由垂直旋转精确构造。</desc>
+<path d="M 61.545455 55.090909 L 88.454545 55.090909 L 88.454545 82 L 61.545455 82 Z" stroke="currentColor" stroke-width="2" fill="currentColor" fill-opacity="0.2"/><path d="M 88.454545 55.090909 L 61.545455 34.909091 L 81.727273 8 L 108.636364 28.181818 Z" stroke="#c9554d" stroke-width="2" fill="#c9554d" fill-opacity="0.2"/><path d="M 61.545455 34.909091 L 61.545455 55.090909 L 41.363636 55.090909 L 41.363636 34.909091 Z" stroke="currentColor" stroke-width="2" fill="currentColor" fill-opacity="0.2"/><path d="M 61.545455 55.090909 L 88.454545 55.090909 L 61.545455 34.909091 Z" stroke="#52626a" stroke-width="2" fill="none"/><path d="M 65.545455 55.090909 L 65.545455 51.090909 L 61.545455 51.090909" stroke="#52626a" stroke-width="1.5" fill="none"/>
+</svg>

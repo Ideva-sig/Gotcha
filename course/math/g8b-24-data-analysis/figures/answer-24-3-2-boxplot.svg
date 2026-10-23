@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="150" viewBox="0 0 640 150" role="img" aria-labelledby="title desc">
+  <title id="title">九名销售人员汽车销售数量的箱线图</title>
+  <desc id="desc">最小值2，下四分位数4.5，中位数10，上四分位数12，最大值14，单位辆。</desc>
+  <rect width="640" height="150" fill="#fff"/>
+  <g fill="none" stroke="#52626a" stroke-width="2">
+    <path d="M100 45H200M500 45H580M100 29V61M580 29V61"/>
+    <rect x="200" y="25" width="300" height="40" fill="#edf6fc" stroke="#287fc4"/>
+    <path d="M420 25V65" stroke="#c9554d" stroke-width="3"/>
+    <path d="M65 118H610M100 113V123M200 113V123M420 113V123M500 113V123M580 113V123"/>
+  </g>
+  <g fill="#52626a" font-family="system-ui, sans-serif" font-size="18" text-anchor="middle">
+    <text x="100" y="94">2</text><text x="200" y="94">4.5</text><text x="420" y="94">10</text><text x="500" y="94">12</text><text x="580" y="94">14</text>
+  </g>
+  <text x="607" y="143" fill="#52626a" font-family="system-ui, sans-serif" font-size="15" text-anchor="end">汽车销售数量 / 辆</text>
+</svg>

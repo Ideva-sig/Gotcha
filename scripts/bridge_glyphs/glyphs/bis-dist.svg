@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 90" stroke-linecap="round" stroke-linejoin="round">
+<title>角平分线上的点到两边等距</title>
+<desc>两条射线夹角60度，平分线水平；垂足由正交投影计算，两条垂线等长。</desc>
+<path d="M 83.549981 6 L 16 45 L 83.549981 84" stroke="#52626a" stroke-width="2" fill="none"/><path d="M 16 45 L 106 45" fill="none" stroke="#9aa5a8" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M 76 45 L 61 19.019238" fill="none" stroke="currentColor" stroke-width="4"/><path d="M 76 45 L 61 70.980762" fill="none" stroke="currentColor" stroke-width="4"/><path d="M 65.901924 33.509619 L 71.098076 30.509619" fill="none" stroke="currentColor" stroke-width="2"/><path d="M 71.098076 59.490381 L 65.901924 56.490381" fill="none" stroke="currentColor" stroke-width="2"/><path d="M 55.803848 22.019238 L 58.803848 27.21539 L 64 24.21539" stroke="#52626a" stroke-width="1.5" fill="none"/><path d="M 55.803848 67.980762 L 58.803848 62.78461 L 64 65.78461" stroke="#52626a" stroke-width="1.5" fill="none"/><circle cx="76" cy="45" r="3" fill="currentColor"/><text x="86" y="39" fill="#2b3a3f" font-size="13" text-anchor="middle" font-family="sans-serif">P</text>
+</svg>

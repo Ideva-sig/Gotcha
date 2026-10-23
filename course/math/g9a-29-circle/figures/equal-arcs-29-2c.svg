@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="equal-arcs-29-2c-t equal-arcs-29-2c-d">
+  <title id="equal-arcs-29-2c-t">等圆心角、等弧与等弦</title>
+  <desc id="equal-arcs-29-2c-d">同一个圆O中，角AOB和角COD由旋转对应的两组半径围成；两个角及对应小弧为蓝色，等弦AB、CD为绿色。相等角有同样单弧，相等小弧有同样刻痕，相等弦有同样刻痕。仅表达讲义的等量关系，不给出练习的角度。静态图。</desc>
+  <style>.equal-arcs-29-2c-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.equal-arcs-29-2c-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="640" height="330" fill="#fff" stroke="none"/>
+  <circle cx="175" cy="159" r="99" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M175 159L264.7 117.2" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M175 159L183.6 60.4" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M175 159L79.4 184.6" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M175 159L149.4 254.6" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M197.7 148.4A25 25 0 0 0 177.2 134.1" fill="none" stroke="#287fc4" stroke-width="2"/>
+  <path d="M264.7 117.2A99 99 0 0 0 183.6 60.4" fill="none" stroke="#287fc4" stroke-width="3"/>
+  <path d="M229.5 81.2L234.1 74.6" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M264.7 117.2L183.6 60.4" stroke="#197a60" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M222.7 82.2L217.5 89.6" stroke="#197a60" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M150.9 165.5A25 25 0 0 0 168.5 183.1" fill="none" stroke="#287fc4" stroke-width="2"/>
+  <path d="M79.4 184.6A99 99 0 0 0 149.4 254.6" fill="none" stroke="#287fc4" stroke-width="3"/>
+  <path d="M107.8 226.2L102.2 231.8" stroke="#287fc4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M79.4 184.6L149.4 254.6" stroke="#197a60" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M114.7 226.3L121.1 219.9" stroke="#197a60" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="264.7" cy="117.2" r="2.5" fill="#20272b"/>
+  <text class="equal-arcs-29-2c-sy" x="281" y="115.6" text-anchor="middle" style="fill:#20272b;font-size:18px">A</text>
+  <circle cx="183.6" cy="60.4" r="2.5" fill="#20272b"/>
+  <text class="equal-arcs-29-2c-sy" x="185.2" y="48.4" text-anchor="middle" style="fill:#20272b;font-size:18px">B</text>
+  <circle cx="79.4" cy="184.6" r="2.5" fill="#20272b"/>
+  <text class="equal-arcs-29-2c-sy" x="62" y="195.3" text-anchor="middle" style="fill:#20272b;font-size:18px">C</text>
+  <circle cx="149.4" cy="254.6" r="2.5" fill="#20272b"/>
+  <text class="equal-arcs-29-2c-sy" x="144.7" y="278" text-anchor="middle" style="fill:#20272b;font-size:18px">D</text>
+  <circle cx="175" cy="159" r="2.5" fill="#20272b"/>
+  <text class="equal-arcs-29-2c-sy" x="187" y="183" text-anchor="start" style="fill:#20272b;font-size:18px">O</text>
+  <text class="equal-arcs-29-2c-formula" x="458" y="116" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:20px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4">∠<tspan font-style="italic">A</tspan><tspan font-style="italic">O</tspan><tspan font-style="italic">B</tspan> = ∠<tspan font-style="italic">C</tspan><tspan font-style="italic">O</tspan><tspan font-style="italic">D</tspan></tspan></text>
+  <text class="equal-arcs-29-2c-formula" x="458" y="166" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:20px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#287fc4">弧 <tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan> = 弧 <tspan font-style="italic">C</tspan><tspan font-style="italic">D</tspan></tspan></text>
+  <text class="equal-arcs-29-2c-formula" x="458" y="216" text-anchor="middle" style="font-family:Times New Roman, PingFang SC, serif;font-size:20px;font-weight:500;fill:#20272b;stroke:none"><tspan fill="#197a60"><tspan font-style="italic">A</tspan><tspan font-style="italic">B</tspan> = <tspan font-style="italic">C</tspan><tspan font-style="italic">D</tspan></tspan></text>
+</svg>

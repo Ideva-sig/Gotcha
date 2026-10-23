@@ -1,0 +1,52 @@
+# Build output and dependencies
+node_modules/
+.npm-cache/
+.next/
+out/
+.next-ipad-local/
+.next-sample/
+out-sample/
+.build/
+releases/
+__pycache__/
+*.pyc
+
+# 视频、课本原文等素材放在项目外（见 .env.example），不进入版本库
+asset/video/
+public/videos/
+
+# 带刷题平台水印或残留的题图：这些图已不被页面使用，仅防止误入库
+public/questions/guangxi-2025/GX2025-MATH-009.webp
+public/questions/guangxi-2025/GX2025-MATH-012.webp
+public/questions/guangxi-2025/GX2025-MATH-015.webp
+public/questions/guangxi-2025/GX2025-MATH-022.webp
+public/questions/guangxi-2025/GX2025-MATH-023.webp
+public/questions/physics/textbook/gd2025-phy-011.png
+# 以上题图的原始截图同样来自刷题平台导出件
+asset/math/questions/guangxi-2025/
+asset/physics/questions/guangdong-2025/
+asset/questions/physics/source/gd2025-*
+
+# Local persistence and Cloudflare state
+.wrangler/
+.dev.vars
+.env
+.env.local
+*.sqlite
+
+# Temporary files
+tmp/
+
+# OS and editor files
+.DS_Store
+*.log
+
+# 由 course/ 生成的试读网页（PDF 保留在 output/pdf/）
+output/preview/
+
+# 由 course/ 生成的网站数据，以及子代理整理的每章素材包（都可重新生成）
+output/app-data/
+output/sample-pack/
+output/materials/
+public/app-data/
+public/search-index.json

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="vac-t vac-d">
+  <title id="vac-t">灯泡和电动机各由一个开关控制的电路</title>
+  <desc id="vac-d">灯泡 L 与开关 S1 串联成一条支路，电动机 M 与开关 S2 串联成另一条支路，两条支路并联后接在电源两端。静态图。</desc>
+  <style>.vac-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.vac-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="480" height="260" fill="#fff" stroke="none"/>
+  <path d="M240 50L80 50L80 210L240 210" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M240 50L400 50L400 210L240 210" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M240 50L240 210" stroke="#20272b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <rect x="64" y="121" width="32" height="18" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M65 125L95 125" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 135L88 135" stroke="#20272b" stroke-width="5" stroke-linecap="butt"/>
+  <rect x="236" y="78" width="8" height="34" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M240 112L227 80" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="240" cy="112" r="2.4" fill="#20272b"/>
+  <circle cx="240" cy="160" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <path d="M230.8 150.8L249.2 169.2" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M230.8 169.2L249.2 150.8" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <rect x="396" y="78" width="8" height="34" rx="0" fill="#fff" stroke="none" stroke-width="0"/>
+  <path d="M400 112L387 80" stroke="#20272b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="400" cy="112" r="2.4" fill="#20272b"/>
+  <circle cx="400" cy="160" r="13" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="vac-sy" x="400" y="166" text-anchor="middle" style="fill:#20272b;font-size:17px;font-style:normal;font-family:-apple-system,'PingFang SC',sans-serif;font-weight:600">M</text>
+  <circle cx="240" cy="50" r="3.6" fill="#20272b"/>
+  <circle cx="240" cy="210" r="3.6" fill="#20272b"/>
+  <text class="vac-sy" x="256" y="100" text-anchor="start" style="fill:#20272b;font-size:18px">S<tspan font-size="13" dy="4" font-style="normal">1</tspan></text>
+  <text class="vac-sy" x="260" y="166" text-anchor="start" style="fill:#20272b;font-size:18px">L</text>
+  <text class="vac-sy" x="416" y="100" text-anchor="start" style="fill:#20272b;font-size:18px">S<tspan font-size="13" dy="4" font-style="normal">2</tspan></text>
+</svg>
