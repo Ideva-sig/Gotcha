@@ -290,6 +290,22 @@ p {
   text-decoration: underline;
 }
 
+.site-footer .site-footer-github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 4px;
+  color: var(--text-soft);
+  text-decoration: none;
+}
+
+.site-footer .site-footer-github:active,
+.site-footer .site-footer-github:hover {
+  color: var(--accent);
+}
+
 /* 有底部浮动导航条的页面，舞台下方留出导航条的高度，免得最后一段被盖住 */
 body:has([data-dock]) .island-stage {
   margin-bottom: calc(88px + env(safe-area-inset-bottom));
