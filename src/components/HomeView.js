@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Icon } from "./Icon";
 import { SearchBox } from "./SearchBox";
-import { Card, Progress, Tag } from "./island/Island";
+import { Card, Divider, Progress, Tag } from "./island/Island";
 import { getActiveMistakes, loadCourseV3Data, subscribeCourseV3 } from "@/lib/studyData";
 import styles from "./HomeView.module.css";
 
@@ -112,11 +112,15 @@ export function HomeView({ subjects, hotQueries }) {
           </div>
         </header>
 
+        <div className={styles.divider}><Divider variant="wave" /></div>
+
         <div className={styles.grid}>
           {subjects.map((subject) => (
             <SubjectCard key={subject.key} subject={subject} />
           ))}
         </div>
+
+        <div className={styles.divider}><Divider icon="leaf" /></div>
 
         <Link className={styles.mistakes} href="/mistakes/">
           <Icon name="bookmark" size={28} />

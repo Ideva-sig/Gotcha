@@ -88,7 +88,7 @@ const STATUS_CLASS = {
 };
 
 export function PhysicsHome({ availableKps = [], chapters = [], kpIndex = {}, questionsMap = {} }) {
-  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, label } = useCourseStudy();
+  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, regradeChoiceAttempts, label } = useCourseStudy();
   const [ready, setReady] = useState(false);
   const [statuses, setStatuses] = useState({});
   const [mistakes, setMistakes] = useState([]);
@@ -97,6 +97,7 @@ export function PhysicsHome({ availableKps = [], chapters = [], kpIndex = {}, qu
 
   const refresh = useCallback(() => {
     try {
+      regradeChoiceAttempts(questionsMap);
       const data = loadCourseV3Data();
       const next = {};
       for (const kp of availableKps) next[kp.id] = getKpStatus(kp, questionsMap, data);
@@ -270,7 +271,7 @@ function ContinueCard({ nextKp, chapter, kpIndex, statuses }) {
       </div>
 
       {upcoming.length > 0 && (
-        <ul className={styles.upcoming}>
+        <ul className={`${styles.upcoming} isl-rule-top isl-rows`}>
           {upcoming.map((id) => (
             <li key={id}>
               <Link href={`/physics/kp/${id}/`}>

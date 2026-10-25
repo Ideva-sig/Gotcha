@@ -10,9 +10,13 @@
 
 ### 01. 速度与平均速度
 
-- **公式与变形式**：
-  $$v = \frac{s}{t} \quad \Longleftrightarrow \quad s = vt, \quad t = \frac{s}{v}$$
-  $$v_{\text{平}} = \frac{s_{\text{总}}}{t_{\text{总}}} = \frac{s_1 + s_2 + \dots}{t_1 + t_2 + \dots}$$
+- **轻重**：重点
+- **核心公式**：
+  $$v = \frac{s}{t}$$
+  $$v_{\text{平}} = \frac{s_{\text{总}}}{t_{\text{总}}}$$
+- **变形式**：
+  $$s = vt, \quad t = \frac{s}{v}$$
+  $$v_{\text{平}} = \frac{s_1 + s_2 + \dots}{t_1 + t_2 + \dots}$$
 - **各物理量含义与法定单位**：
   - $v$：速度（表示物体运动快慢的物理量），单位：米每秒（$\text{m/s}$）或千米每小时（$\text{km/h}$）
   - $s$：路程（物体运动轨迹的长度），单位：米（$\text{m}$）或千米（$\text{km}$）
@@ -27,8 +31,11 @@
 
 ### 02. 质量与密度
 
-- **公式与变形式**：
-  $$\rho = \frac{m}{V} \quad \Longleftrightarrow \quad m = \rho V, \quad V = \frac{m}{\rho}$$
+- **轻重**：重点
+- **核心公式**：
+  $$\rho = \frac{m}{V}$$
+- **变形式**：
+  $$m = \rho V, \quad V = \frac{m}{\rho}$$
 - **各物理量含义与法定单位**：
   - $\rho$：密度（某种物质单位体积的质量），单位：千克每立方米（$\text{kg/m}^3$）或克每立方厘米（$\text{g/cm}^3$）
   - $m$：质量（物体所含物质的多少），单位：千克（$\text{kg}$）或克（$\text{g}$）
@@ -42,8 +49,11 @@
 
 ### 03. 重力与质量
 
-- **公式与变形式**：
-  $$G = mg \quad \Longleftrightarrow \quad m = \frac{G}{g}$$
+- **轻重**：一般
+- **核心公式**：
+  $$G = mg$$
+- **变形式**：
+  $$m = \frac{G}{g}$$
 - **各物理量含义与法定单位**：
   - $G$：重力（物体由于地球的吸引而受到的力），单位：牛顿（$\text{N}$），方向恒为**竖直向下**
   - $m$：质量（物体的基本属性），单位：千克（$\text{kg}$）

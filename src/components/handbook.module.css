@@ -17,8 +17,10 @@
   gap: 8px;
   margin: 24px 0 32px;
   padding: 16px 0;
-  border-top: 2px dashed var(--border-strong);
-  border-bottom: 2px dashed var(--border-strong);
+  /* 上下两条岛屿风虚线，同 Divider 默认款 */
+  background:
+    linear-gradient(to right, var(--isl-line-strong) 50%, transparent 50%) top / 12px 2px repeat-x,
+    linear-gradient(to right, var(--isl-line-strong) 50%, transparent 50%) bottom / 12px 2px repeat-x;
 }
 
 .section {
@@ -26,9 +28,8 @@
   padding-bottom: 32px;
 }
 
-.section + .section {
-  padding-top: 32px;
-  border-top: 1px solid var(--border);
+.sectionDivider {
+  margin: 0 0 28px;
 }
 
 .section h2 {

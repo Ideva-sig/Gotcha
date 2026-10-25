@@ -114,6 +114,25 @@
   font-size: 15px;
 }
 
+.source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
+  margin: 10px 0 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.sourceLabel {
+  font-weight: 700;
+}
+
+.sourcePages {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .meta {
   display: flex;
   flex-wrap: wrap;

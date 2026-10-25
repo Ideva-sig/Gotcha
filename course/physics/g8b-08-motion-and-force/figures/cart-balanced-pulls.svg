@@ -3,10 +3,16 @@
   <desc id="opt-a-cart-balanced-pulls-d">同一辆小车的两端受到大小相等、方向相反、在同一直线上的两个水平拉力。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
   <style>.opt-a-cart-balanced-pulls-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-cart-balanced-pulls-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="600" height="240" fill="#fff" stroke="none"/>
-  <rect x="245" y="92" width="110" height="58" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <circle cx="268" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <circle cx="332" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M95 120L505 120" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <rect x="245" y="92" width="110" height="58" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="245" y="92" width="110" height="58" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="245" y="92" width="110" height="58" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="268" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="268" cy="161" r="11" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <circle cx="268" cy="161" r="11" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="332" cy="161" r="11" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="332" cy="161" r="11" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <circle cx="332" cy="161" r="11" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M95 120L505 120" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
   <path d="M245 120L164.6 120" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
   <path d="M155 120L167 114.6L167 125.4Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
   <path d="M355 120L435.4 120" stroke="#c9554d" stroke-width="2.6" stroke-linecap="butt"/>

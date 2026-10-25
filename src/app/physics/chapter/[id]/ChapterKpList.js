@@ -27,7 +27,7 @@ export function ChapterKpList({ kps = [], questionsMap = {}, chapterId }) {
   }, []);
 
   return (
-    <div className={styles.kpList}>
+    <div className={`${styles.kpList} isl-rows`}>
       {kps.map((kp) => {
         const status = getKpStatus(kp, questionsMap, studyData);
         const code = kp.id.replace(/^MATH-[^-]+-/, "").replace(/^PHY-9-/, "").replace(/^PHY-/, "");

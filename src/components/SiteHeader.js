@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getActiveMistakes, subscribeCourseV3 } from "@/lib/studyData";
 import { Icon } from "./Icon";
+import { Badge } from "./island/Island";
 import styles from "./SiteHeader.module.css";
 
 const SUBJECTS = [
@@ -101,19 +102,17 @@ export function SiteHeader() {
             >
               <Icon name="search" size={20} />
             </Link>
-            <Link
-              aria-current={mistakesActive ? "page" : undefined}
-              className={styles.mistakes}
-              href={mistakesHref}
-            >
-              <Icon name="bookmark" size={18} />
-              <span className={styles.mistakesLabel}>错题本</span>
-              {pending > 0 && (
-                <span aria-label={`${pending} 道待复习`} className={styles.count}>
-                  {pending > 99 ? "99+" : pending}
-                </span>
-              )}
-            </Link>
+            <Badge count={pending}>
+              <Link
+                aria-current={mistakesActive ? "page" : undefined}
+                aria-label={pending > 0 ? `错题本，${pending} 道待复习` : "错题本"}
+                className={styles.mistakes}
+                href={mistakesHref}
+              >
+                <Icon name="bookmark" size={18} />
+                <span className={styles.mistakesLabel}>错题本</span>
+              </Link>
+            </Badge>
           </div>
         </div>
       </header>

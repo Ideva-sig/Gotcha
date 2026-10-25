@@ -559,6 +559,63 @@ export function getLatestAttempt(questionId, part = null, subject = "physics") {
   return attempts.length > 0 ? attempts[attempts.length - 1] : null;
 }
 
+// 自动判分的选择题（或小问）：返回选项、正确选项和做错时的默认错因；其他题返回 null。
+// 小问的字段合并方式同 PhysicsExercisePanel 的 questionForPart。
+function choiceTarget(question, part) {
+  if (!question) return null;
+  const p = part ? (question.parts || []).find((x) => String(x.part) === part) : null;
+  if (part && !p) return null;
+  const type = p?.type || question.type;
+  const grading = p?.grading || question.grading;
+  const answer = p ? (p.answer ?? question.answer) : question.answer;
+  const options = p?.options || question.options;
+  if (type !== "选择" || grading !== "自动" || !answer?.key || !Array.isArray(options)) return null;
+  const review = p?.review
+    ? (Array.isArray(p.review) ? p.review : Object.entries(p.review).map(([tag]) => ({ tag })))
+    : (question.review || []).filter((r) => !part || !r.part || String(r.part) === part);
+  return {
+    keys: options.map((o) => o.key),
+    answerKey: answer.key,
+    // 同作答面板：题目没写错因时默认“概念”（ERROR_TAGS 第一个）
+    defaultTag: review[0]?.tag || "概念",
+  };
+}
+
+/**
+ * 选择题按题目里现在的答案重判旧记录：讲义改了答案后，错题本、过关进度跟着变。
+ * 只动 questionsMap 里有的自动判分选择题；有改动才保存，返回改了几条。
+ */
+export function regradeChoiceAttempts(questionsMap, subject = "physics") {
+  if (!questionsMap) return 0;
+  const data = loadCourseV3Data(subject);
+  let changed = 0;
+  const attempts = data.attempts.map((att) => {
+    const target = choiceTarget(questionsMap[att.questionId], att.part);
+    if (!target || !target.keys.includes(att.userAnswer)) return att;
+    const isCorrect = att.userAnswer === target.answerKey;
+    if (isCorrect === att.isCorrect) return att;
+    changed += 1;
+    return { ...att, isCorrect, errorTag: isCorrect ? null : att.errorTag || target.defaultTag };
+  });
+  if (changed > 0) saveCourseV3Data({ ...data, attempts }, subject);
+  return changed;
+}
+
+/**
+ * 错题本里对不上题目的记录：题目删掉了或改了编号。按题目编号合并，返回 [{ questionId, kpId, chapterId, count }]。
+ */
+export function getOrphanMistakes(questionsMap, subject = "physics") {
+  if (!questionsMap) return [];
+  const byId = new Map();
+  for (const m of getActiveMistakes(null, subject)) {
+    if (questionsMap[m.questionId]) continue;
+    const cur = byId.get(m.questionId) || { questionId: m.questionId, kpId: m.kpId, chapterId: m.chapterId, count: 0 };
+    cur.count += 1;
+    byId.set(m.questionId, cur);
+  }
+  return [...byId.values()];
+}
+
 /**
  * 判定知识点完成与掌握状态（修复旧版已知问题 #3）
  * 1. 已完成 = 打开过知识点页 + 练一练每题（每个小问）都作答过至少一次

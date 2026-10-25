@@ -5,15 +5,17 @@
   <rect width="660" height="500" fill="#fff" stroke="none"/>
   <text class="opt-a-liquid-pressure-manometers-lb" x="330" y="23" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">同种液体</text>
   <rect x="36" y="90" width="108" height="123" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M36 71L36 213L144 213L144 71" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M36 71L36 213L144 213L144 71" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
   <path d="M36 90L144 90" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="82" y="116" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <rect x="82" y="116" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="82" y="116" width="16" height="20" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="82" y="116" width="16" height="20" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <path d="M82 117L82 135" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
-  <path d="M98 126L157 126L157 50L224 50L224 65" stroke="#52626a" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <path d="M98 126L157 126L157 50L224 50L224 65" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
   <path d="M220 141.96V180A24 24 0 0 0 268 180V116.04H260V180A16 16 0 0 1 228 180V141.96Z" fill="#287fc4" fill-opacity=".28" stroke="none"/>
-  <path d="M220 65V180A24 24 0 0 0 268 180V65" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M228 65V180A16 16 0 0 0 260 180V65" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M220 65L228 65" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M220 65V180A24 24 0 0 0 268 180V65" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M228 65V180A16 16 0 0 0 260 180V65" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M220 65L228 65" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
   <path d="M220 142L228 142" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M260 116L268 116" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M283 116L283 142" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
@@ -22,15 +24,17 @@
   <text class="opt-a-liquid-pressure-manometers-lb" x="90" y="240" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">浅处</text>
   <text class="opt-a-liquid-pressure-manometers-lb" x="244" y="240" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">液面差</text>
   <rect x="366" y="90" width="108" height="123" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M366 71L366 213L474 213L474 71" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M366 71L366 213L474 213L474 71" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
   <path d="M366 90L474 90" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="412" y="163" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <rect x="412" y="163" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="412" y="163" width="16" height="20" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="412" y="163" width="16" height="20" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <path d="M412 164L412 182" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
-  <path d="M428 173L487 173L487 50L554 50L554 65" stroke="#52626a" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <path d="M428 173L487 173L487 50L554 50L554 65" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
   <path d="M550 158.88V180A24 24 0 0 0 598 180V99.12H590V180A16 16 0 0 1 558 180V158.88Z" fill="#287fc4" fill-opacity=".28" stroke="none"/>
-  <path d="M550 65V180A24 24 0 0 0 598 180V65" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M558 65V180A16 16 0 0 0 590 180V65" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M550 65L558 65" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M550 65V180A24 24 0 0 0 598 180V65" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M558 65V180A16 16 0 0 0 590 180V65" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M550 65L558 65" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
   <path d="M550 158.9L558 158.9" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M590 99.1L598 99.1" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M613 99.1L613 158.9" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
@@ -40,15 +44,17 @@
   <text class="opt-a-liquid-pressure-manometers-lb" x="574" y="240" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">液面差</text>
   <text class="opt-a-liquid-pressure-manometers-lb" x="330" y="268" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">同一深度</text>
   <rect x="36" y="335" width="108" height="123" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M36 316L36 458L144 458L144 316" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M36 316L36 458L144 458L144 316" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
   <path d="M36 335L144 335" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="82" y="381" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <rect x="82" y="381" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="82" y="381" width="16" height="20" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="82" y="381" width="16" height="20" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <path d="M82 382L82 400" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
-  <path d="M98 391L157 391L157 295L224 295L224 310" stroke="#52626a" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <path d="M98 391L157 391L157 295L224 295L224 310" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
   <path d="M220 390V425A24 24 0 0 0 268 425V358H260V425A16 16 0 0 1 228 425V390Z" fill="#287fc4" fill-opacity=".28" stroke="none"/>
-  <path d="M220 310V425A24 24 0 0 0 268 425V310" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M228 310V425A16 16 0 0 0 260 425V310" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M220 310L228 310" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M220 310V425A24 24 0 0 0 268 425V310" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M228 310V425A16 16 0 0 0 260 425V310" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M220 310L228 310" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
   <path d="M220 390L228 390" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M260 358L268 358" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M283 358L283 390" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>
@@ -57,15 +63,17 @@
   <text class="opt-a-liquid-pressure-manometers-lb" x="90" y="485" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">密度较小</text>
   <text class="opt-a-liquid-pressure-manometers-lb" x="244" y="485" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:600">液面差</text>
   <rect x="366" y="335" width="108" height="123" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M366 316L366 458L474 458L474 316" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M366 316L366 458L474 458L474 316" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
   <path d="M366 335L474 335" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="412" y="381" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
+  <rect x="412" y="381" width="16" height="20" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="412" y="381" width="16" height="20" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="412" y="381" width="16" height="20" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <path d="M412 382L412 400" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
-  <path d="M428 391L487 391L487 295L554 295L554 310" stroke="#52626a" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <path d="M428 391L487 391L487 295L554 295L554 310" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
   <path d="M550 403V425A24 24 0 0 0 598 425V345H590V425A16 16 0 0 1 558 425V403Z" fill="#287fc4" fill-opacity=".28" stroke="none"/>
-  <path d="M550 310V425A24 24 0 0 0 598 425V310" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M558 310V425A16 16 0 0 0 590 425V310" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M550 310L558 310" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M550 310V425A24 24 0 0 0 598 425V310" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M558 310V425A16 16 0 0 0 590 425V310" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M550 310L558 310" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
   <path d="M550 403L558 403" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M590 345L598 345" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <path d="M613 345L613 403" stroke="#c9554d" stroke-width="1.6" stroke-linecap="round"/>

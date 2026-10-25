@@ -316,12 +316,7 @@
 .upcoming {
   margin: 20px 0 0;
   padding: 0;
-  border-top: 1px solid var(--border);
   list-style: none;
-}
-
-.upcoming li + li {
-  border-top: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
 }
 
 .upcoming a {
@@ -985,13 +980,19 @@ a.kpRow:hover {
     gap: 20px;
   }
 
+  /* 竖排时竖线改成顶上一条岛屿风虚线 */
   .book + .book::before {
-    display: none;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: auto;
+    height: 2px;
+    background: linear-gradient(to right, var(--isl-line-strong) 50%, transparent 50%) 0 0 / 12px 2px repeat-x;
   }
 
   .book + .book {
     padding-top: 20px;
-    border-top: 1px solid var(--border);
   }
 
   .rows {

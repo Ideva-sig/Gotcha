@@ -33,7 +33,6 @@
 .credit {
   margin-top: 40px;
   padding-top: 14px;
-  border-top: 2px dashed var(--border-strong);
   color: var(--text-soft);
   font-size: 13px;
   line-height: 1.7;

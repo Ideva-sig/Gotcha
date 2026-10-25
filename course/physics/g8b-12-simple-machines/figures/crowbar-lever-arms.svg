@@ -4,11 +4,17 @@
   <style>.lv-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.lv-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="640" height="280" fill="#fff" stroke="none"/>
   <path d="M350 212L630 212" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M414 181L398 212L430 212Z" stroke="#52626a" stroke-width="1.8" fill="#f4f8fa" stroke-linejoin="round"/>
-  <path d="M506 212C499 196 512 172 540 160C575 146 612 160 618 190C620 200 617 208 614 212" stroke="#52626a" stroke-width="1.8" fill="#f4f8fa"/>
-  <path d="M70 90L502 200.5" stroke="#20272b" stroke-width="5" stroke-linecap="round"/>
-  <path d="M70 150L70 194" stroke="#52626a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
-  <path d="M500 140L500 198" stroke="#52626a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M414 181L398 212L430 212Z" stroke="#52626a" stroke-width="2.4" fill="#fff" stroke-linejoin="round"/>
+  <polygon points="414,181 398,212 430,212" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <path d="M414 181L398 212L430 212Z" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+  <path d="M506 212C499 196 512 172 540 160C575 146 612 160 618 190C620 200 617 208 614 212" stroke="#52626a" stroke-width="2.4" fill="#fff"/>
+  <path d="M506 212C499 196 512 172 540 160C575 146 612 160 618 190C620 200 617 208 614 212" fill="#bf8d08" fill-opacity=".18" stroke="none"/>
+  <path d="M506 212C499 196 512 172 540 160C575 146 612 160 618 190C620 200 617 208 614 212" stroke="#52626a" stroke-width="2.4" fill="none"/>
+  <path d="M68.9 94.4L500.9 204.9L503.1 196.1L71.1 85.6Z" stroke="#52626a" stroke-width="2.4" fill="#fff" stroke-linejoin="round"/>
+  <polygon points="68.9,94.4 500.9,204.9 503.1,196.1 71.1,85.6" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <path d="M68.9 94.4L500.9 204.9L503.1 196.1L71.1 85.6Z" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+  <path d="M70 150L70 194" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M500 140L500 198" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
   <path d="M414 178L70 178" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
   <path d="M78 178L78 170L70 170" stroke="#287fc4" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
   <path d="M414 178L500 178" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>

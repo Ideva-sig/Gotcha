@@ -284,6 +284,58 @@
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10'%3E%3Cpath d='M0 2.5 C 30 2.5, 30 7.5, 60 7.5 C 90 7.5, 90 2.5, 120 2.5' fill='none' stroke='%2319c8b9' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E") center / 120px 10px repeat-x;
 }
 
+/* 图标串：每格 = 短线 + 图标 + 短线；格子自动排满一行，多出来的格子落到高度为 0 的下一行被藏住 */
+.isl-divider--icon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(var(--isl-divider-icon) + 16px), 1fr));
+  grid-template-rows: var(--isl-divider-icon);
+  grid-auto-rows: 0;
+  height: var(--isl-divider-icon);
+  overflow: hidden;
+  background: none;
+}
+
+.isl-dividerCell {
+  --gap: calc(var(--isl-divider-icon) / 2 + 5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 线在图标两侧断开，不靠底色遮挡，放在任何底色上都行 */
+  background: linear-gradient(
+      to right,
+      var(--isl-line-strong) calc(50% - var(--gap)),
+      transparent calc(50% - var(--gap)) calc(50% + var(--gap)),
+      var(--isl-line-strong) calc(50% + var(--gap))
+    )
+    center / 100% 2px no-repeat;
+}
+
+/* 不方便放 <Divider> 的地方用这两个类：
+   isl-rule-top = 区块顶上一条虚线（同 Divider 默认款）；isl-rows = 列表行与行之间的点线。
+   点线左右缩进用 --isl-rows-inset 调。 */
+.isl-rule-top,
+.isl-rows > * + * {
+  position: relative;
+}
+
+.isl-rule-top::before,
+.isl-rows > * + *::before {
+  position: absolute;
+  top: 0;
+  right: var(--isl-rows-inset, 0);
+  left: var(--isl-rows-inset, 0);
+  height: 2px;
+  background: linear-gradient(to right, var(--isl-line-strong) 50%, transparent 50%) 0 0 / 6px 2px repeat-x;
+  content: "";
+  pointer-events: none;
+}
+
+.isl-rule-top::before {
+  right: 0;
+  left: 0;
+  background-size: 12px 2px;
+}
+
 /* ---------- 进度条：点阵槽 + 青色填充 ---------- */
 
 .isl-progress {
@@ -624,6 +676,64 @@
   transition: visibility 0s 0.3s;
 }
 
+/* 不带卡片底：放在已有卡片里，箭头和展开动画不变 */
+.isl-collapse--bare {
+  overflow: visible;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.isl-collapse--bare .isl-collapseHead {
+  width: auto;
+  min-height: 44px;
+  gap: 10px;
+  padding: 0;
+  font-size: 15px;
+}
+
+.isl-collapse--bare .isl-collapseArrow {
+  width: 26px;
+  height: 26px;
+}
+
+.isl-collapse--bare .isl-collapseInner {
+  padding: 0;
+}
+
+.isl-collapse--bare .isl-collapseBody[data-open="true"] .isl-collapseInner {
+  padding-bottom: 4px;
+}
+
+/* ---------- 回到顶部 ---------- */
+
+.isl-backTop {
+  position: fixed;
+  right: calc(20px + env(safe-area-inset-right));
+  bottom: calc(92px + env(safe-area-inset-bottom));
+  z-index: 29;
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 2px solid var(--btn-edge);
+  border-radius: 50%;
+  background: var(--btn-face);
+  box-shadow: 0 4px 0 var(--btn-shadow), 0 10px 24px rgba(94, 64, 36, 0.16);
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 120ms ease;
+}
+
+.isl-backTop[data-show="false"] {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
+}
+
+.isl-backTop:active {
+  box-shadow: 0 0 0 var(--btn-shadow);
+  transform: translateY(4px);
+}
+
 /* ---------- 通知：成功 / 信息 / 警告 / 错误 ---------- */
 
 .isl-notice {
@@ -922,6 +1032,7 @@
 @media (prefers-reduced-motion: reduce) {
   .isl-progressFill,
   .isl-collapseBody,
+  .isl-backTop,
   .isl-tabLeaf,
   .isl-skeleton::after,
   .isl-checkBox input:checked ~ .isl-checkSplash {

@@ -547,42 +547,11 @@
   font-size: 13px;
 }
 
-.stepsToggle {
-  display: inline-flex;
-  min-height: 40px;
-  align-items: center;
-  gap: 6px;
+.stepsCollapse {
   margin-top: 8px;
-  padding: 0 12px;
-  border: 2px solid var(--btn-edge);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--text);
-  font-size: 13px;
-  font-weight: 650;
-  transition:
-    background-color 160ms ease,
-    transform 140ms ease;
 }
 
-.stepsToggle:hover {
-  background: var(--surface-raised);
-}
-
-.stepsToggle:active {
-  transform: scale(0.98);
-}
-
-.stepsChevron {
-  color: var(--text-soft);
-  transition: transform 260ms var(--ease-out);
-}
-
-.stepsToggle[aria-expanded="true"] .stepsChevron {
-  transform: rotate(180deg);
-}
-
-.stepsReveal[data-open="true"] .steps > li {
+.stepsCollapse :global(.isl-collapseBody[data-open="true"]) .steps > li {
   animation: stepIn 380ms var(--ease-out) both;
   animation-delay: calc(140ms + var(--k, 0) * 90ms);
 }

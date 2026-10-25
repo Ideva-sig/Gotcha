@@ -3,32 +3,65 @@
   <desc id="opt-a-fixed-movable-pulleys-d">左图定滑轮轴连接上方支架，物体挂在绳的一端，向下拉另一端。右图动滑轮轴连接物体，绳的一端固定上方，另一端向上拉，轴随物体一起上升。不标具体拉力或重量。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
   <style>.opt-a-fixed-movable-pulleys-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-fixed-movable-pulleys-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="640" height="390" fill="#fff" stroke="none"/>
-  <path d="M98 36L222 36" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
-  <path d="M378 36L502 36" stroke="#52626a" stroke-width="2" stroke-linecap="round"/>
-  <path d="M160 36L160 88" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <circle cx="160" cy="88" r="28" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M160 36L160 88" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M102 36L107.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M112 36L117.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M122 36L127.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M132 36L137.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M142 36L147.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M152 36L157.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M162 36L167.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M172 36L177.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M182 36L187.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M192 36L197.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M202 36L207.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M212 36L217.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M222 36L227.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M98 36L222 36" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M382 36L387.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M392 36L397.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M402 36L407.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M412 36L417.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M422 36L427.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M432 36L437.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M442 36L447.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M452 36L457.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M462 36L467.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M472 36L477.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M482 36L487.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M492 36L497.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M502 36L507.7 30.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M378 36L502 36" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M160 36L160 88" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="160" cy="88" r="28" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="160" cy="88" r="28" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <circle cx="160" cy="88" r="28" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <circle cx="160" cy="88" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
-  <path d="M132 88A28 28 0 0 1 188 88" stroke="#287fc4" stroke-width="2"/>
-  <path d="M132 88L132 258" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
-  <path d="M188 88L188 210" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M132 88A28 28 0 0 1 188 88" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M132 88L132 258" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M188 88L188 210" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M188 210L188 253.2" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
   <path d="M188 262L183.1 251L192.9 251Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
   <text class="opt-a-fixed-movable-pulleys-sy" x="203" y="239" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
-  <rect x="108" y="258" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <rect x="108" y="258" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="108" y="258" width="48" height="43" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="108" y="258" width="48" height="43" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <text class="opt-a-fixed-movable-pulleys-lb" x="132" y="284" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">物体</text>
   <text class="opt-a-fixed-movable-pulleys-lb" x="68" y="88" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">轴固定</text>
   <path d="M101 83L152 83" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M412 36L412 224" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
-  <path d="M468 224L468 123" stroke="#287fc4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M412 36L412 224" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M468 224L468 123" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M468 123L468 74.8" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
   <path d="M468 66L472.9 77L463.1 77Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
   <text class="opt-a-fixed-movable-pulleys-sy" x="483" y="105" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>
-  <circle cx="440" cy="224" r="28" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M412 224A28 28 0 0 0 468 224" stroke="#287fc4" stroke-width="2"/>
+  <circle cx="440" cy="224" r="28" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="440" cy="224" r="28" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <circle cx="440" cy="224" r="28" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <circle cx="440" cy="224" r="4" fill="#fff" stroke="#52626a" stroke-width="1.6"/>
-  <path d="M440 229L440 294" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="416" y="294" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <path d="M412 224A28 28 0 0 0 468 224" stroke="#52626a" stroke-width="1.6"/>
+  <path d="M440 229L440 294" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="416" y="294" width="48" height="43" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="416" y="294" width="48" height="43" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="416" y="294" width="48" height="43" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <text class="opt-a-fixed-movable-pulleys-lb" x="440" y="320" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">物体</text>
   <text class="opt-a-fixed-movable-pulleys-lb" x="550" y="216" text-anchor="middle" style="fill:#20272b;font-size:13px;font-weight:600">轴随物体</text>
   <path d="M449 224L515 224" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>

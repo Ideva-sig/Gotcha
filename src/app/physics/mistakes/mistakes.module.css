@@ -616,8 +616,9 @@
   list-style: none;
 }
 
-.list li + li {
-  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
+/* 行间点线来自 isl-rows，缩回到行内文字边 */
+.list {
+  --isl-rows-inset: 16px;
 }
 
 .row {
@@ -717,32 +718,7 @@
 /* ---------- 暑假旧版错题 ---------- */
 
 .archive {
-  border-top: 1px solid var(--border);
-  padding-top: 12px;
-}
-
-.archive summary {
-  display: flex;
-  min-height: 44px;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-soft);
-  font-size: 13px;
-  font-weight: 650;
-  cursor: pointer;
-  list-style: none;
-}
-
-.archive summary::-webkit-details-marker {
-  display: none;
-}
-
-.archiveChevron {
-  transition: transform 260ms var(--ease-out);
-}
-
-.archive[open] .archiveChevron {
-  transform: rotate(180deg);
+  margin-top: 20px;
 }
 
 .archiveList {
@@ -755,7 +731,6 @@
 
 .archiveList li {
   padding: 14px 0;
-  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
   font-size: 14px;
 }
 
@@ -776,6 +751,12 @@
 .archiveAnswer {
   margin: 8px 0 0;
   color: var(--text-soft);
+}
+
+.orphanNote {
+  margin: 0 0 4px;
+  color: var(--text-soft);
+  font-size: 14px;
 }
 
 /* ---------- 尺寸适配 ---------- */

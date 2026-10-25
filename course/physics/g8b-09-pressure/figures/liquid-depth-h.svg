@@ -4,11 +4,11 @@
   <style>.opt-a-liquid-depth-h-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-liquid-depth-h-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="560" height="285" fill="#fff" stroke="none"/>
   <rect x="120" y="76" width="250" height="162" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M120 35L120 238L370 238L370 35" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M120 35L120 238L370 238L370 35" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
   <path d="M120 76L370 76" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
   <circle cx="268" cy="181" r="4" fill="#c9554d"/>
-  <path d="M276 181L416 181" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
-  <path d="M376 76L416 76" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M276 181L416 181" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <path d="M376 76L416 76" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
   <path d="M429 76L429 181" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M434 76L424 76" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M434 181L424 181" stroke="#287fc4" stroke-width="1.6" stroke-linecap="round"/>

@@ -25,6 +25,8 @@ export function useCourseStudy() {
     recordAttempt: (attempt) => study.recordAttempt(attempt, subject),
     getLatestAttempt: (id, part) => study.getLatestAttempt(id, part, subject),
     getActiveMistakes: (questions) => study.getActiveMistakes(questions, subject),
+    regradeChoiceAttempts: (questions) => study.regradeChoiceAttempts(questions, subject),
+    getOrphanMistakes: (questions) => study.getOrphanMistakes(questions, subject),
     resolvePhysicsTarget: (id) => resolvePhysicsTarget(id, subject),
   }), [subject]);
 }

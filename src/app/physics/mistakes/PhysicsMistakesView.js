@@ -10,7 +10,7 @@ import { ArrowLeft, ArrowRight, Check, Chevron } from "@/components/LineIcons";
 import { Icon } from "@/components/Icon";
 import { QuestionCard, questionForPart, Reveal } from "@/components/PhysicsExercisePanel";
 import { ERROR_TAGS, resolvePhysicsTarget } from "@/lib/courseV3Client";
-import { Title } from "@/components/island/Island";
+import { Collapse, Title } from "@/components/island/Island";
 import { ERROR_TONE, ErrorTag } from "@/components/island/KpTags";
 import { PrereqTrace } from "./PrereqTrace";
 import styles from "./mistakes.module.css";
@@ -50,9 +50,10 @@ export function PhysicsMistakesView({
   backupSlot = null,
   prereqGraph = null,
 }) {
-  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, subject, label } = useCourseStudy();
+  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, regradeChoiceAttempts, getOrphanMistakes, subject, label } = useCourseStudy();
   const [ready, setReady] = useState(false);
   const [active, setActive] = useState([]);
+  const [orphans, setOrphans] = useState([]);
   const [fixedTotal, setFixedTotal] = useState(0);
   const [v1Mistakes, setV1Mistakes] = useState([]);
   const [tag, setTag] = useState("all");
@@ -62,7 +63,9 @@ export function PhysicsMistakesView({
   const [topLine, setTopLine] = useState(null);
 
   const loadAll = useCallback(() => {
+    regradeChoiceAttempts(questionsMap);
     setActive(getActiveMistakes(questionsMap).filter((m) => m.question));
+    setOrphans(getOrphanMistakes(questionsMap));
     try {
       setFixedTotal(countFixed(loadCourseV3Data()));
       const rawV1 = subject !== "physics" ? [] : JSON.parse(localStorage.getItem(MISTAKES_V1_KEY) || "[]");
@@ -247,12 +250,11 @@ export function PhysicsMistakesView({
           )}
 
           {v1Mistakes.length > 0 && (
-            <details className={styles.archive}>
-              <summary>
-                暑假旧版物理错题（{v1Mistakes.length} 条，单独保留，不混进新版）
-                <Chevron className={styles.archiveChevron} size={14} />
-              </summary>
-              <ul className={styles.archiveList}>
+            <Collapse
+              className={styles.archive}
+              title={`暑假旧版物理错题（${v1Mistakes.length} 条，单独保留，不混进新版）`}
+            >
+              <ul className={`${styles.archiveList} isl-rows`}>
                 {v1Mistakes.map((m, i) => (
                   <li key={i}>
                     <p className={styles.archiveTitle}>
@@ -270,7 +272,29 @@ export function PhysicsMistakesView({
                   </li>
                 ))}
               </ul>
-            </details>
+            </Collapse>
+          )}
+
+          {orphans.length > 0 && (
+            <Collapse
+              className={styles.archive}
+              title={`还有 ${orphans.length} 道错题暂时打不开（题目改过或删掉了）`}
+            >
+              <p className={styles.orphanNote}>
+                做错的记录还在，没有丢。等题目找回来，它们会自动回到上面的列表。
+              </p>
+              <ul className={`${styles.archiveList} isl-rows`}>
+                {orphans.map((m) => (
+                  <li key={m.questionId}>
+                    <p className={styles.archiveTitle}>
+                      <strong>{kpTitles[m.kpId] || m.kpId}</strong>
+                      <span>题目编号 {m.questionId}</span>
+                      {m.count > 1 && <span>{m.count} 个小问</span>}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </Collapse>
           )}
         </div>
   );
@@ -538,7 +562,7 @@ function MistakeList({ items, kpTitles, onReview }) {
     return <p className={styles.listEmpty}>这个错因下没有错题。</p>;
   }
   return (
-    <ul className={styles.list}>
+    <ul className={`${styles.list} isl-rows`}>
       {items.map((m, i) => (
         <li key={keyOf(m)} style={{ "--i": i }}>
           <button className={styles.row} onClick={() => onReview(i)} type="button">

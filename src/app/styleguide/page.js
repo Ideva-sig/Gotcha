@@ -109,6 +109,8 @@ export default function StyleGuide() {
 
         <Section title="分隔线">
           <Divider /><Divider variant="thin" /><Divider variant="dotted" /><Divider variant="wave" /><Divider variant="squiggle" />
+          <Divider icon="leaf" />
+          <p>分工：页面大段落之间（外壳区）用黄色波浪或青色波纹；区块之间用虚线；列表行之间用点线；首页、庆祝等外壳区收尾可用图标串。讲义正文和题目区只用细线。</p>
         </Section>
         <Section title="进度条与页签">
           <div className={styles.stack}>
@@ -147,10 +149,11 @@ export default function StyleGuide() {
           <div className={styles.stack}>
             <Collapse defaultOpen title="知识关系">必须先会：温度计的使用；学会后会用到：计算吸收或放出的热量。</Collapse>
             <Collapse title="先看答案再看解析">折叠区点开后平滑展开。</Collapse>
+            <Collapse bare title="看解析（3 步）">不带卡片底的款式，放在题目卡片里面。</Collapse>
           </div>
         </Section>
 
-        <Section title="通知、徽标、头像、骨架屏、提示">
+        <Section title="通知、徽标、头像、骨架屏、提示" note="回到顶部：长页面（如公式速查）往下读过一屏半后，右下角出现圆形按钮。">
           <div className={styles.stack}>
             <Notice type="success" title="改对了！">这道错题已经移出待复习。</Notice>
             <Notice type="info" title="小提示">比热容是物质自身的性质。</Notice>

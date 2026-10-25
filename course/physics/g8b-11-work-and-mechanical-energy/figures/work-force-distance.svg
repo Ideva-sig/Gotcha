@@ -3,12 +3,16 @@
   <desc id="opt-a-work-force-distance-d">同一构件从下方起点竖直提升到上方终点，拉力 F 竖直向上；s 标在与拉力平行的竖直尺寸线上，两端与构件同一参考点的起、终位置等高。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
   <style>.opt-a-work-force-distance-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-work-force-distance-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="540" height="345" fill="#fff" stroke="none"/>
-  <rect x="220" y="243" width="54" height="50" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <rect x="220" y="100" width="54" height="50" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
+  <rect x="220" y="243" width="54" height="50" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="220" y="243" width="54" height="50" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="220" y="243" width="54" height="50" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="220" y="100" width="54" height="50" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="220" y="100" width="54" height="50" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="220" y="100" width="54" height="50" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <circle cx="247" cy="268" r="3" fill="#52626a"/>
-  <path d="M282 268L381 268" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M282 268L381 268" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
   <circle cx="247" cy="125" r="3" fill="#52626a"/>
-  <path d="M282 125L381 125" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M282 125L381 125" stroke="#52626a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
   <path d="M247 100L247 53.6" stroke="#287fc4" stroke-width="2.6" stroke-linecap="butt"/>
   <path d="M247 44L252.4 56L241.6 56Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
   <text class="opt-a-work-force-distance-sy" x="263" y="76" text-anchor="start" style="fill:#287fc4;font-size:18px">F</text>

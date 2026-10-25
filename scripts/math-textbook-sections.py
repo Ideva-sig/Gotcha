@@ -14,7 +14,10 @@ from pathlib import Path
 import pymupdf
 
 ROOT = Path(__file__).resolve().parent.parent
-DIR = Path(os.environ.get("COURSE_MATERIALS_DIR") or (Path.home() / "Desktop/中考")) / "初中人教版课本/数学/人教版"
+sys.path.insert(0, str(ROOT / "scripts"))
+from course_subjects import MATERIALS  # noqa: E402  资料目录只在 course_subjects.py 里配一处
+
+DIR = MATERIALS / "初中人教版课本/数学/人教版"
 BOOKS = [("7A", "七年级上册"), ("7B", "七年级下册"), ("8A", "八年级上册"),
          ("8B", "八年级下册"), ("9A", "九年级上册"), ("9B", "九年级下册")]
 CN = {c: i for i, c in enumerate("零一二三四五六七八九")}

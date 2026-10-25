@@ -2,7 +2,7 @@
 
 // 岛屿风小组件，样式在 src/app/island.css。tone 取 13 色之一：
 // green pink purple blue yellow orange teal leaf red lime lemon brown peach
-import { useId, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { Icon } from "../Icon";
 
 const cx = (...parts) => parts.filter(Boolean).join(" ");
@@ -65,7 +65,17 @@ export function Card({ variant = "plain", tone, hoverable, as: Tag = "div", clas
 }
 
 // 分隔线：variant = dashed（默认）/ thin / dotted / wave / squiggle
-export function Divider({ variant = "dashed" }) {
+// 给 icon（island 图标名）时画“图标 + 短线”串成一行；放够数量，排不下的整格藏起来，行尾不出现半个图标。
+export function Divider({ variant = "dashed", icon, iconSize = 22 }) {
+  if (icon) {
+    return (
+      <div aria-hidden="true" className="isl-divider isl-divider--icon" style={{ "--isl-divider-icon": `${iconSize}px` }}>
+        {Array.from({ length: 48 }, (_, i) => (
+          <span className="isl-dividerCell" key={i}><Icon name={icon} size={iconSize} /></span>
+        ))}
+      </div>
+    );
+  }
   return <hr aria-hidden="true" className={cx("isl-divider", variant !== "dashed" && `isl-divider--${variant}`)} />;
 }
 
@@ -180,17 +190,22 @@ export function Switch({ checked, defaultChecked, onChange, label }) {
   );
 }
 
-// 折叠
-export function Collapse({ title, defaultOpen = false, children }) {
-  const [open, setOpen] = useState(defaultOpen);
+// 折叠：默认是一张卡片；bare 不带卡片底，放在已有卡片里（如题目的“看解析”）。
+// 传 open / onOpenChange 由外面控制开合（标题要跟着开合变时用）
+export function Collapse({ title, defaultOpen = false, open: controlled, onOpenChange, bare, className, children }) {
+  const [inner, setInner] = useState(defaultOpen);
+  const open = controlled ?? inner;
   const id = useId();
   return (
-    <div className="isl-collapse">
+    <div className={cx("isl-collapse", bare && "isl-collapse--bare", className)}>
       <button
         aria-controls={id}
         aria-expanded={open}
         className="isl-collapseHead"
-        onClick={() => setOpen(!open)}
+        onClick={() => {
+          setInner(!open);
+          onOpenChange?.(!open);
+        }}
         type="button"
       >
         <span className="isl-collapseArrow">
@@ -230,11 +245,38 @@ export function Badge({ count, children }) {
     <span className="isl-badge">
       {children}
       {count !== 0 && (
-        <span className={cx("isl-badgeDot", count === undefined && "isl-badgeDot--dot")}>
+        <span aria-hidden="true" className={cx("isl-badgeDot", count === undefined && "isl-badgeDot--dot")}>
           {count === undefined ? null : count > 99 ? "99+" : count}
         </span>
       )}
     </span>
+  );
+}
+
+// 回到顶部：长页面往下读过一屏半后出现在右下角，避开底部导航条
+export function BackTop({ threshold = 1.5 }) {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setShow(window.scrollY > window.innerHeight * threshold);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [threshold]);
+  const toTop = () => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+  };
+  return (
+    <button
+      aria-label="回到顶部"
+      className="isl-backTop no-print"
+      data-show={show ? "true" : "false"}
+      onClick={toTop}
+      tabIndex={show ? 0 : -1}
+      type="button"
+    >
+      <Icon name="arrow-up" size={24} />
+    </button>
   );
 }
 

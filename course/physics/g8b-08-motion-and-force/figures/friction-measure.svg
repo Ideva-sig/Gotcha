@@ -3,23 +3,30 @@
   <desc id="fr-d">木块放在水平长木板上，弹簧测力计水平拉着木块向右匀速运动。拉力 F 向右，长木板对木块的滑动摩擦力 f 向左，二力平衡，大小相等。静态图。</desc>
   <style>.fr-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.fr-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="640" height="220" fill="#fff" stroke="none"/>
-  <rect x="30" y="140" width="580" height="20" rx="0" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
-  <rect x="150" y="90" width="100" height="50" rx="0" fill="#e9e3d4" stroke="#52626a" stroke-width="2.2"/>
-  <path d="M250 115L300 115" stroke="#20272b" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="300" y="103" width="170" height="24" rx="4" fill="#f4f8fa" stroke="#52626a" stroke-width="2"/>
-  <path d="M320 103L320 115" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M333 103L333 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M346 103L346 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M359 103L359 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M372 103L372 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M385 103L385 115" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M398 103L398 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M411 103L411 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M424 103L424 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M437 103L437 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M450 103L450 115" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M470 115L520 115" stroke="#20272b" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M520 115L560 115" stroke="#20272b" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="30" y="140" width="580" height="20" fill="#fff" stroke="none"/>
+  <rect x="30" y="140" width="580" height="20" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="30" y="140" width="580" height="20" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="150" y="90" width="100" height="50" fill="#fff" stroke="none"/>
+  <rect x="150" y="90" width="100" height="50" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="150" y="90" width="100" height="50" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M250 115L300 115" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="300" y="103" width="170" height="24" rx="4" fill="#fff" stroke="none"/>
+  <rect x="300" y="103" width="170" height="24" rx="4" fill="#52626a" fill-opacity=".08" stroke="none"/>
+  <rect x="316" y="105" width="138" height="20" rx="0" fill="#fff" stroke="#bec9ce" stroke-width="1"/>
+  <path d="M320 105L320 115" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M333 105L333 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M346 105L346 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M359 105L359 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M372 105L372 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M385 105L385 115" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M398 105L398 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M411 105L411 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M424 105L424 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M437 105L437 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M450 105L450 115" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="300" y="103" width="170" height="24" rx="4" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M470 115L520 115" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M520 115L560 115" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
   <text class="fr-lb" x="568" y="120" text-anchor="start" style="fill:#5d6970;font-size:13px;font-weight:500">拉</text>
   <circle cx="200" cy="104" r="3.2" fill="#287fc4"/>
   <path d="M200 104L281.6 104" stroke="#287fc4" stroke-width="2.8" stroke-linecap="butt"/>

@@ -3,47 +3,49 @@
   <desc id="ssc-d">竖直放置的弹簧测力计，刻度板从 0 到 5 N，每 1 N 之间分成 5 个小格，每小格 0.2 N。左侧标出零刻度线、量程，右侧放大标出一个小格即分度值，下端标出挂钩，指针指在零刻度线上。静态图。</desc>
   <style>.ssc-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.ssc-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="420" height="420" fill="#fff" stroke="none"/>
-  <rect x="170" y="30" width="60" height="330" rx="6" fill="#f4f8fa" stroke="#52626a" stroke-width="2.2"/>
-  <circle cx="200" cy="22" r="8" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <rect x="186" y="84" width="28" height="262" rx="0" fill="#fff" stroke="#bec9ce" stroke-width="1.2"/>
+  <rect x="170" y="30" width="60" height="330" rx="6" fill="#fff" stroke="none"/>
+  <rect x="170" y="30" width="60" height="330" rx="6" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="170" y="30" width="60" height="330" rx="6" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <circle cx="200" cy="22" r="8" fill="none" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="186" y="84" width="28" height="262" rx="0" fill="#fff" stroke="#bec9ce" stroke-width="1"/>
   <path d="M186 90L214 90" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="95" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">0</text>
-  <path d="M194 100L206 100" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 110L206 110" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 120L206 120" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 130L206 130" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194 100L206 100" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 110L206 110" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 120L206 120" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 130L206 130" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M186 140L214 140" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="145" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">1</text>
-  <path d="M194 150L206 150" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 160L206 160" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 170L206 170" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 180L206 180" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194 150L206 150" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 160L206 160" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 170L206 170" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 180L206 180" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M186 190L214 190" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="195" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">2</text>
-  <path d="M194 200L206 200" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 210L206 210" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 220L206 220" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 230L206 230" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194 200L206 200" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 210L206 210" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 220L206 220" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 230L206 230" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M186 240L214 240" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="245" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">3</text>
-  <path d="M194 250L206 250" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 260L206 260" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 270L206 270" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 280L206 280" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194 250L206 250" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 260L206 260" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 270L206 270" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 280L206 280" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M186 290L214 290" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="295" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">4</text>
-  <path d="M194 300L206 300" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 310L206 310" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 320L206 320" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
-  <path d="M194 330L206 330" stroke="#20272b" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M194 300L206 300" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 310L206 310" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 320L206 320" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M194 330L206 330" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M186 340L214 340" stroke="#20272b" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="220" y="345" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">5</text>
   <text class="ssc-lb" x="236" y="345" text-anchor="start" style="fill:#20272b;font-size:13px;font-weight:500">N</text>
   <path d="M174 90L176 90" stroke="#c9554d" stroke-width="2" stroke-linecap="round"/>
   <path d="M185 90L175 94.5L175 85.5Z" stroke="#c9554d" stroke-width="0.01" fill="#c9554d" stroke-linejoin="round"/>
-  <path d="M200 360L200 378" stroke="#52626a" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M200 378 a10 10 0 1 1 -10 10" stroke="#52626a" stroke-width="2.2" fill="none"/>
-  <path d="M164 90L130 90" stroke="#5d6970" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M200 360L200 378" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M200 378 a10 10 0 1 1 -10 10" stroke="#52626a" stroke-width="1.6" fill="none"/>
+  <path d="M164 90L130 90" stroke="#5d6970" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="126" y="95" text-anchor="end" style="fill:#20272b;font-size:14px;font-weight:600">零刻度线</text>
   <path d="M154 90L154 340" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
   <path d="M149 90L159 90" stroke="#287fc4" stroke-width="1.4" stroke-linecap="round"/>
@@ -56,6 +58,6 @@
   <path d="M260 245L280 245" stroke="#197a60" stroke-width="1.2" stroke-linecap="round"/>
   <text class="ssc-lb" x="284" y="242" text-anchor="start" style="fill:#197a60;font-size:14px;font-weight:600">分度值</text>
   <text class="ssc-lb" x="284" y="260" text-anchor="start" style="fill:#197a60;font-size:13px;font-weight:500">一小格 0.2 N</text>
-  <path d="M186 395L130 395" stroke="#5d6970" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M186 395L130 395" stroke="#5d6970" stroke-width="1.6" stroke-linecap="round"/>
   <text class="ssc-lb" x="126" y="400" text-anchor="end" style="fill:#20272b;font-size:14px;font-weight:600">挂钩</text>
 </svg>

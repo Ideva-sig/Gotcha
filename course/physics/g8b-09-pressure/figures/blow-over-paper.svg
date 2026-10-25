@@ -3,9 +3,11 @@
   <desc id="blw-d">手持纸条一端，在纸条上方水平吹气。纸条上方空气流速大、压强小，下方空气流速小、压强大，上下压强差形成向上的压力差，纸条向上飘起。静态图，纸条画在飘起后的位置。</desc>
   <style>.blw-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.blw-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
   <rect width="600" height="260" fill="#fff" stroke="none"/>
-  <rect x="40" y="108" width="26" height="30" rx="4" fill="#f4f8fa" stroke="#52626a" stroke-width="1.8"/>
+  <rect x="40" y="108" width="26" height="30" rx="4" fill="#fff" stroke="none"/>
+  <rect x="40" y="108" width="26" height="30" rx="4" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="40" y="108" width="26" height="30" rx="4" fill="none" stroke="#52626a" stroke-width="2.4"/>
   <text class="blw-lb" x="53" y="162" text-anchor="middle" style="fill:#5d6970;font-size:13px;font-weight:500">手持</text>
-  <path d="M66 116 C200 112 340 116 480 132" stroke="#20272b" stroke-width="3" fill="none"/>
+  <path d="M66 116 C200 112 340 116 480 132" stroke="#20272b" stroke-width="2.4" fill="none"/>
   <path d="M110 74L470 74" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="10 7"/>
   <path d="M482 74L471 79L471 69Z" stroke="#287fc4" stroke-width="0.01" fill="#287fc4" stroke-linejoin="round"/>
   <path d="M110 94L470 94" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="10 7"/>

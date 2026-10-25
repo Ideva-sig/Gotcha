@@ -65,6 +65,20 @@ function latestFor(data, target) {
   return latest;
 }
 
+// 课本出处：章节一行，页码加粗，查原文时一眼找到
+function TextbookRef({ text }) {
+  const at = text.search(/(印刷)?p\./);
+  const where = at > 0 ? text.slice(0, at).replace(/[，,\s]+$/, "") : text;
+  const pages = at > 0 ? text.slice(at) : "";
+  return (
+    <p className={styles.source}>
+      <span className={styles.sourceLabel}>课本</span>
+      <span>{where}</span>
+      {pages && <strong className={styles.sourcePages}>{pages}</strong>}
+    </p>
+  );
+}
+
 // 讲解块标题的颜色：每种块固定一色
 const BLOCK_TONE = { 先认住: "yellow", 数形结合: "lime", 破题钥匙: "peach", 容易错: "pink", 走一遍: "teal", 练一练: "purple" };
 
@@ -83,7 +97,7 @@ export function KpView({
   usedBy = [],
   questionsMap = {},
 }) {
-  const { loadCourseV3Data, markKpVisited, subscribeCourseV3, subject, label } = useCourseStudy();
+  const { loadCourseV3Data, markKpVisited, regradeChoiceAttempts, subscribeCourseV3, subject, label } = useCourseStudy();
   const [studyData, setStudyData] = useState(() => createEmptyCourseV3());
   const [ready, setReady] = useState(false);
   const [justMastered, setJustMastered] = useState(false);
@@ -92,6 +106,7 @@ export function KpView({
 
   useEffect(() => {
     markKpVisited(kp.id);
+    regradeChoiceAttempts(questionsMap);
     setStudyData(loadCourseV3Data());
     const frame = requestAnimationFrame(() => setReady(true));
     const unsubscribe = subscribeCourseV3((next) => setStudyData(next));
@@ -172,8 +187,8 @@ export function KpView({
             </div>
           )}
 
+          {kp.textbook && <TextbookRef text={kp.textbook} />}
           <p className={styles.meta}>
-            {kp.textbook && <span>课本 {kp.textbook}</span>}
             <span>
               {examHits > 0 ? `${subject !== "physics" ? "统计的" : "10 套"}中考卷里考了 ${examHits} 次` : `${subject !== "physics" ? "统计的" : "10 套"}中考卷里没有直接考到`}
             </span>

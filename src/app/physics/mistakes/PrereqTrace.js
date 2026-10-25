@@ -35,7 +35,7 @@ export function PrereqTrace({ graph, startKp, reviewTarget, questionsMap }) {
   const title = (id) => graph[id]?.title || id;
 
   return (
-    <div className={styles.trace}>
+    <div className={`${styles.trace} isl-rule-top`}>
       {state.asked.length + (kp ? 1 : 0) > 0 && (
         <ol aria-label="查过的知识点" className={styles.marks}>
           {state.asked.map((a) => (

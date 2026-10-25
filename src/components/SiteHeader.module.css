@@ -136,19 +136,6 @@
   color: #fff;
 }
 
-.count {
-  display: inline-grid;
-  min-width: 22px;
-  height: 22px;
-  place-items: center;
-  padding: 0 6px;
-  border-radius: 999px;
-  background: #c4413b;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 1;
-}
 
 /* 底部浮动导航条 */
 .dock {

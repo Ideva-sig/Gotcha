@@ -1,0 +1,219 @@
+/* 公式速查的一条：核心公式高光、变形式降一级、含义表、适用一行、踩坑淡珊瑚底。 */
+.entry {
+  min-width: 0;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+/* 核心公式：分区色的淡底（--rs 来自 tone-*），字号放大 */
+.core {
+  padding: 6px 20px;
+  border-radius: 14px;
+  background: var(--rs);
+  color: var(--text);
+}
+
+.core :global(.katex-display) {
+  margin: 10px 0;
+  font-size: 1.45em;
+}
+
+/* 几条公式排成一行，排不下再换行；Markdown 留下的空段落不占位 */
+.core > div,
+.variants > div,
+.tileCore > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.core > div {
+  justify-content: center;
+}
+
+.core :global(p:empty),
+.variants :global(p:empty),
+.tileCore :global(p:empty),
+.core :global(br),
+.variants :global(br),
+.tileCore :global(br) {
+  display: none;
+}
+
+.core :global(div),
+.variants :global(div),
+.tileCore :global(div) {
+  margin: 0;
+}
+
+.variants {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0 0;
+  padding: 0 20px;
+  color: var(--text-soft);
+}
+
+.variants :global(.katex-display) {
+  margin: 4px 0;
+}
+
+.variants > div {
+  min-width: 0;
+  column-gap: 32px;
+}
+
+.label {
+  flex: none;
+  color: var(--text-soft);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.meanings {
+  width: 100%;
+  margin: 18px 0 0;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.meanings th {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border-strong);
+  color: var(--text-soft);
+  font-size: 14px;
+  text-align: left;
+}
+
+.meanings td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.symbol {
+  width: 4.5em;
+  font-size: 17px;
+}
+
+.note {
+  display: block;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.condition {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0 0;
+  padding: 0 10px;
+  color: var(--text-soft);
+  font-size: 15px;
+}
+
+.pitfall {
+  margin: 18px 0 0;
+  padding: 14px 20px 6px;
+  border-radius: 14px;
+  background: var(--tint-coral);
+}
+
+.pitfall h4 {
+  margin-bottom: 8px;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 外观（白纸、阴影、按下回弹）来自岛屿风 Card，这里只管排版 */
+.tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+}
+
+.tileHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tileCore {
+  flex: 1;
+  margin-top: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: var(--rs);
+}
+
+.tileCore > div {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.tileCore :global(.katex-display) {
+  margin: 8px 0;
+  font-size: 1.15em;
+}
+
+@media (max-width: 640px) {
+  .core,
+  .variants {
+    padding-inline: 12px;
+  }
+
+  .core :global(.katex-display) {
+    font-size: 1.25em;
+  }
+
+  /* 窄屏：单位挪到含义下面，表格不撑出页面 */
+  .meanings thead {
+    display: none;
+  }
+
+  .meanings tr {
+    display: grid;
+    grid-template-columns: 3em minmax(0, 1fr);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .meanings td {
+    border-bottom: 0;
+  }
+
+  .meanings td:last-child {
+    grid-column: 2;
+    padding-top: 0;
+  }
+
+  .symbol {
+    width: auto;
+  }
+}
+
+@media print {
+  .entry {
+    break-inside: avoid;
+  }
+}

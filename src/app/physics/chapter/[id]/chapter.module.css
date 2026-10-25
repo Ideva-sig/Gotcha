@@ -58,6 +58,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 0.5rem;
+  /* 行间点线（isl-rows）缩回到文字边 */
+  --isl-rows-inset: 0.75rem;
 }
 
 /* 列表行用细分隔线，不再在卡片里套带框的小卡片 */
@@ -73,10 +75,6 @@
   color: var(--text);
   transition: background-color 0.15s ease;
   min-height: 44px;
-}
-
-.kpCard + .kpCard {
-  border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
 }
 
 .kpCard:hover {

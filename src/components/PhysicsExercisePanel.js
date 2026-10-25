@@ -6,7 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import { CourseMarkdown, CourseText } from "./CourseMarkdown";
 import { CourseFigure } from "./CourseFigure";
 import { mathQuestionParts } from "@/lib/mathWidgets";
-import { ArrowRight, Check, Chevron, Cross } from "./LineIcons";
+import { ArrowRight, Check, Cross } from "./LineIcons";
+import { Collapse } from "./island/Island";
 import { ERROR_TONE } from "./island/KpTags";
 import { ERROR_TAGS, resolvePhysicsTarget } from "@/lib/courseV3Client";
 import { getLatestAttempt, recordAttempt } from "@/lib/studyData";
@@ -310,16 +311,13 @@ export function QuestionCard({
               {!showSteps && isWrong && (
                 <p className={styles.thinkFirst}>先对着答案自己想想错在哪，想不通再看解析。</p>
               )}
-              <button
-                aria-expanded={showSteps}
-                className={styles.stepsToggle}
-                onClick={() => setShowSteps((v) => !v)}
-                type="button"
+              <Collapse
+                bare
+                className={styles.stepsCollapse}
+                onOpenChange={setShowSteps}
+                open={showSteps}
+                title={showSteps ? "收起解析" : `看解析（${question.steps.length} 步）`}
               >
-                {showSteps ? "收起解析" : `看解析（${question.steps.length} 步）`}
-                <Chevron className={styles.stepsChevron} size={14} />
-              </button>
-              <Reveal className={styles.stepsReveal} open={showSteps}>
                 <ol className={styles.steps}>
                   {question.steps.map((step, sIdx) => (
                     <li key={sIdx} style={{ "--k": sIdx }}>
@@ -332,7 +330,7 @@ export function QuestionCard({
                     </li>
                   ))}
                 </ol>
-              </Reveal>
+              </Collapse>
             </>
           )}
 

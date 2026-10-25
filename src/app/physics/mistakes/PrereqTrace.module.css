@@ -1,10 +1,9 @@
-/* 回溯区：只用细分隔线和淡底色，不加彩色边条、不套卡片 */
+/* 回溯区：顶上一条岛屿风虚线（isl-rule-top）和淡底色，不加彩色边条、不套卡片 */
 .trace {
   display: grid;
   gap: 14px;
   margin-top: 16px;
   padding-top: 16px;
-  border-top: 1px dashed var(--border-strong);
 }
 
 .marks {

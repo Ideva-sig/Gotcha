@@ -38,7 +38,7 @@ export default function PeriodicPage() {
           </p>
         </section>
 
-        <footer className={styles.credit}>
+        <footer className={`${styles.credit} isl-rule-top`}>
           元素周期表图示版 © 2005–2016 Keith Enevoldsen（elements.wlonk.com）。中文翻译：邹超、张凯博士；校对：余珊珊；平面：周娇娇。
           本页的元素图片由原图裁切而来，依据
           <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans" target="_blank" rel="noreferrer">知识共享 署名-相同方式共享 4.0 国际许可协议（CC BY-SA 4.0）</a>

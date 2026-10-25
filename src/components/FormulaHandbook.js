@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { packPath } from "@/lib/contentPack.mjs";
 import { CourseMarkdown } from "@/components/CourseMarkdown";
 import { PrintButton } from "./PrintButton";
-import { Title } from "@/components/island/Island";
+import { BackTop, Divider, Title } from "@/components/island/Island";
 import styles from "./handbook.module.css";
 
 function splitHeading(block) {
@@ -57,6 +57,7 @@ export function FormulaHandbook({ subject, sectionLinks: SECTION_LINKS }) {
           const { id, tone } = SECTION_LINKS[index];
           return (
             <section className={styles.section} id={id} key={id} aria-labelledby={`${id}-title`}>
+              {index > 0 && <div className={styles.sectionDivider}><Divider /></div>}
               <Title as="h2" id={`${id}-title`} tone={tone} variant="layer">{sectionTitle}</Title>
               <MarkdownBody content={lead} />
               {entries.map((entry) => {
@@ -72,6 +73,7 @@ export function FormulaHandbook({ subject, sectionLinks: SECTION_LINKS }) {
           );
         })}
       </div>
+      <BackTop />
     </main>
   );
 }

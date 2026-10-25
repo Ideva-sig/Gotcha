@@ -9,6 +9,7 @@
 加新学科（如化学）：在 SUBJECTS 里加一份 Subject。数学里标 TODO 的项（课本页码差等）要等课本识别稿做好后再填，
 不要猜数值；脚本遇到 None 时会提示，不会瞎算。
 """
+import glob as _glob
 import os
 import re
 import sys
@@ -19,8 +20,13 @@ ROOT = Path(__file__).resolve().parent.parent
 # 内容源目录：默认 <仓库>/course；环境变量 COURSE_DIR 可改成别处（如 sample-course），相对路径按仓库根算。
 COURSE_ROOT = (ROOT / os.environ["COURSE_DIR"]) if os.environ.get("COURSE_DIR") else ROOT / "course"
 # 本机资料根目录（课本 PDF、真题 Word、识别稿放在这里，不随仓库发布）。
-# 默认是用户桌面上的“中考”文件夹；放在别处就设环境变量 COURSE_MATERIALS_DIR。
+# 默认是用户桌面上的“中考”文件夹（课本在各科的“人教版”文件夹里）；放在别处就设环境变量 COURSE_MATERIALS_DIR。
 MATERIALS = Path(os.environ.get("COURSE_MATERIALS_DIR") or (Path.home() / "Desktop/中考"))
+
+
+def _pat(rel):
+    """资料目录下的 glob 写法；目录名带“[文件]”这种方括号，要先转义，不然会被当成通配符。"""
+    return _glob.escape(str(MATERIALS)) + "/" + rel
 
 
 @dataclass
@@ -162,8 +168,8 @@ PHYSICS = Subject(
     exam_root=MATERIALS / "中考真题/物理",
     exam_special={"GZ2025": MATERIALS / "物理/精品解析：2025年广东省广州市中考物理试题"},
     exam_region={"GZ": "广州市", "GD": "广东省中考", "SZ": "深圳市"},
-    exam_globs=(str(MATERIALS / "中考真题/物理/*/*解析版*.docx"),
-                str(MATERIALS / "物理/精品解析：2025年广东省广州市中考物理试题/*.docx")),
+    exam_globs=(_pat("中考真题/物理/*/*解析版*.docx"),
+                _pat("物理/精品解析：2025年广东省广州市中考物理试题/*.docx")),
 )
 
 # ---------------------------------------------------------------------------
@@ -220,8 +226,8 @@ MATH = Subject(
     exam_special={"GZ2025": MATERIALS / "数学/2025年广东省广州市中考数学真题"},
     # 文件名里广州卷写法不一（“广东广州中考”“广东省广州市中考”），所以只用“广州”
     exam_region={"GZ": "广州", "GD": "广东省中考", "SZ": "深圳"},
-    exam_globs=(str(MATERIALS / "中考真题/数学/*/*解析版*.docx"),
-                str(MATERIALS / "数学/2025年广东省广州市中考数学真题/*解析版*.docx")),
+    exam_globs=(_pat("中考真题/数学/*/*解析版*.docx"),
+                _pat("数学/2025年广东省广州市中考数学真题/*解析版*.docx")),
     # 2025 广东卷只有刷题平台导出的 PDF（公式文字层不可用，只能当线索），广西卷不收
     exam_pdf={"GD2025": [MATERIALS / "数学/2025-数学-广东-01.pdf",
                          MATERIALS / "数学/2025-数学-广东-02.pdf"]},
@@ -277,8 +283,8 @@ CHEM = Subject(
     exam_root=MATERIALS / "中考真题/化学",
     exam_special={"GD2025": MATERIALS / "化学/2025年广东省中考化学真题"},
     exam_region={"GZ": "广州市", "GD": "广东省中考", "SZ": "深圳市"},
-    exam_globs=(str(MATERIALS / "中考真题/化学/*/*解析版*.docx"),
-                str(MATERIALS / "化学/2025年广东省中考化学真题/*解析版*.docx")),
+    exam_globs=(_pat("中考真题/化学/*/*解析版*.docx"),
+                _pat("化学/2025年广东省中考化学真题/*解析版*.docx")),
 )
 
 SUBJECTS = {"physics": PHYSICS, "math": MATH, "chemistry": CHEM}
@@ -337,4 +343,4 @@ def exam_docx(cfg, code):
     import glob
     region, year = code[:2], code[2:]
     folder = cfg.exam_special.get(code, cfg.exam_root / year)
-    return [f for f in glob.glob(str(folder / "*解析版*.docx")) if f"{year}年" in f and cfg.exam_region[region] in f]
+    return [f for f in glob.glob(_glob.escape(str(folder)) + "/*解析版*.docx") if f"{year}年" in f and cfg.exam_region[region] in f]

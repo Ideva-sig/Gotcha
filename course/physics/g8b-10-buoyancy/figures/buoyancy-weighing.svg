@@ -1,43 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 365" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-buoyancy-weighing-t opt-a-buoyancy-weighing-d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 387" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="opt-a-buoyancy-weighing-t opt-a-buoyancy-weighing-d">
   <title id="opt-a-buoyancy-weighing-t">称重法测量浮力</title>
   <desc id="opt-a-buoyancy-weighing-d">同一物体分别静止悬挂在空气中和浸没在液体中。测力计示数只用 G 和 F拉 标明，不标具体读数；液体中的物体不接触容器底或壁。 静态 SVG，无动画；图形尺寸仅作示意，不表示实测数值或题目数据。</desc>
   <style>.opt-a-buoyancy-weighing-lb{font:600 14px -apple-system,"PingFang SC",sans-serif;stroke:none}.opt-a-buoyancy-weighing-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
-  <rect width="600" height="365" fill="#fff" stroke="none"/>
-  <circle cx="155" cy="30" r="7" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
-  <rect x="137" y="39" width="36" height="126" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M155 47L149 55L161 62.6L149 70.2L161 77.9L149 85.5L161 93.1L149 100.8L161 108.4L149 116L155 124" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
-  <path d="M155 124L155 184" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M163 87L170 87" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M163 97L170 97" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M163 107L170 107" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M163 117L170 117" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M163 127L170 127" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M163 137L170 137" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M142 124L150 124" stroke="#c9554d" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M155 184a7 7 0 1 1 -7 7" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <path d="M155 198L155 250" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="131" y="250" width="48" height="48" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M181 111L214 111" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <text class="opt-a-buoyancy-weighing-sy" x="226" y="117" text-anchor="start" style="fill:#287fc4;font-size:18px">G</text>
-  <text class="opt-a-buoyancy-weighing-lb" x="155" y="350" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">空气中</text>
-  <circle cx="435" cy="30" r="7" fill="#fff" stroke="#52626a" stroke-width="1.8"/>
-  <rect x="417" y="39" width="36" height="126" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M435 47L429 55L441 59.9L429 64.8L441 69.6L429 74.5L441 79.4L429 84.2L441 89.1L429 94L435 102" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
-  <path d="M435 102L435 184" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M443 87L450 87" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M443 97L450 97" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M443 107L450 107" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M443 117L450 117" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M443 127L450 127" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M443 137L450 137" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M422 102L430 102" stroke="#c9554d" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M435 184a7 7 0 1 1 -7 7" stroke="#52626a" stroke-width="1.8" fill="none"/>
-  <rect x="350" y="223" width="170" height="101" fill="#287fc4" fill-opacity="0.12" stroke="none"/>
-  <path d="M350 197L350 324L520 324L520 197" stroke="#52626a" stroke-width="2" fill="none" stroke-linejoin="round"/>
-  <path d="M350 223L520 223" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M435 198L435 250" stroke="#52626a" stroke-width="1.8" stroke-linecap="round"/>
-  <rect x="411" y="250" width="48" height="48" rx="0" fill="#fff" stroke="#52626a" stroke-width="2"/>
-  <path d="M461 111L494 111" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
-  <text class="opt-a-buoyancy-weighing-sy" x="506" y="117" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">拉</tspan></text>
-  <text class="opt-a-buoyancy-weighing-lb" x="435" y="350" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">浸入液体</text>
+  <rect width="600" height="387" fill="#fff" stroke="none"/>
+  <path d="M129 14L134.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M139 14L144.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M149 14L154.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M159 14L164.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M169 14L174.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M179 14L184.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M125 14L185 14" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M155 14L155 45" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="155" cy="52" r="7" fill="none" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="137" y="61" width="36" height="126" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="137" y="61" width="36" height="126" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="160" y="103" width="12" height="62" rx="0" fill="#fff" stroke="#bec9ce" stroke-width="1"/>
+  <rect x="137" y="61" width="36" height="126" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M155 69L149 77L161 84.6L149 92.2L161 99.9L149 107.5L161 115.1L149 122.8L161 130.4L149 138L155 146" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M155 146L155 206" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 109L170 109" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 119L170 119" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 129L170 129" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 139L170 139" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 149L170 149" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M163 159L170 159" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M142 146L150 146" stroke="#c9554d" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M155 206a7 7 0 1 1 -7 7" stroke="#52626a" stroke-width="1.6" fill="none"/>
+  <path d="M155 220L155 272" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="131" y="272" width="48" height="48" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="131" y="272" width="48" height="48" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="131" y="272" width="48" height="48" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M181 133L214 133" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="opt-a-buoyancy-weighing-sy" x="226" y="139" text-anchor="start" style="fill:#287fc4;font-size:18px">G</text>
+  <text class="opt-a-buoyancy-weighing-lb" x="155" y="372" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">空气中</text>
+  <path d="M409 14L414.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M419 14L424.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M429 14L434.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M439 14L444.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M449 14L454.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M459 14L464.7 8.3" stroke="#52626a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M405 14L465 14" stroke="#52626a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M435 14L435 45" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="435" cy="52" r="7" fill="none" stroke="#52626a" stroke-width="1.6"/>
+  <rect x="417" y="61" width="36" height="126" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="417" y="61" width="36" height="126" fill="#52626a" fill-opacity="0.08" stroke="none"/>
+  <rect x="440" y="103" width="12" height="62" rx="0" fill="#fff" stroke="#bec9ce" stroke-width="1"/>
+  <rect x="417" y="61" width="36" height="126" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M435 69L429 77L441 81.9L429 86.8L441 91.6L429 96.5L441 101.4L429 106.2L441 111.1L429 116L435 124" stroke="#52626a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  <path d="M435 124L435 206" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 109L450 109" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 119L450 119" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 129L450 129" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 139L450 139" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 149L450 149" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M443 159L450 159" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M422 124L430 124" stroke="#c9554d" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M435 206a7 7 0 1 1 -7 7" stroke="#52626a" stroke-width="1.6" fill="none"/>
+  <rect x="350" y="245" width="170" height="101" fill="#287fc4" fill-opacity=".12" stroke="none"/>
+  <path d="M350 219L350 346L520 346L520 219" stroke="#52626a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+  <path d="M350 245L520 245" stroke="#287fc4" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M435 220L435 272" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="411" y="272" width="48" height="48" rx="0" fill="#fff" stroke="#52626a" stroke-width="2.4"/>
+  <rect x="411" y="272" width="48" height="48" fill="#bf8d08" fill-opacity="0.18" stroke="none"/>
+  <rect x="411" y="272" width="48" height="48" rx="0" fill="none" stroke="#52626a" stroke-width="2.4"/>
+  <path d="M461 133L494 133" stroke="#52626a" stroke-width="1.6" stroke-linecap="round"/>
+  <text class="opt-a-buoyancy-weighing-sy" x="506" y="139" text-anchor="start" style="fill:#287fc4;font-size:18px">F<tspan font-size="13" dy="4" font-style="normal">拉</tspan></text>
+  <text class="opt-a-buoyancy-weighing-lb" x="435" y="372" text-anchor="middle" style="fill:#20272b;font-size:14px;font-weight:600">浸入液体</text>
 </svg>
