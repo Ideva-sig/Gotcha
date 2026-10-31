@@ -1,6 +1,6 @@
 .widget { margin: 20px 0; padding: 16px 0; border-block: 1px solid var(--border); }
-.widget svg { display: block; width: 100%; max-height: 440px; background: var(--surface); }
-.widget svg text { paint-order: stroke fill; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.widget > svg { display: block; width: 100%; max-height: 440px; }
+.widget > svg text { paint-order: stroke fill; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
 .readout { margin: 12px 0; text-align: center; line-height: 1.8; }
 .sliders { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .sliders label { display: flex; flex-direction: column; gap: 4px; }
@@ -16,7 +16,11 @@
 .hint { margin-bottom: 0; text-align: center; }
 .functionSliders { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .singleSlider { grid-template-columns: 1fr; }
-.handle { touch-action: none; cursor: grab; }
+.handle { touch-action: none; cursor: grab; outline: none; }
 .handle:active { cursor: grabbing; }
 .handle:focus-visible { stroke: var(--text); stroke-width: 2; outline: none; }
+.keyed { color: var(--text); border-bottom: 3px solid var(--key); }
+.chart { margin-top: 4px; max-height: 200px !important; }
+.controlsRow { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 24px; margin-top: 12px; }
+.switchRow { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; cursor: pointer; }
 @media (max-width: 600px) { .sliders, .functionSliders { grid-template-columns: 1fr; gap: 12px; } }

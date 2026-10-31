@@ -98,6 +98,12 @@ answer_by: 原卷解析
 review:
   概念: CHEM-9A-03-2b
   审题: CHEM-9A-03-2a
+widget: |
+  type: atom-ion
+  symbol: Rb
+  Z: 37
+  shells: "2 8 18 8 1"
+widget_figure: figures/gz2022-04-ion.svg
 ```
 
 **题干**

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 310" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="560" height="310" fill="#ffffff"/>
+<rect x="232" y="70" width="96" height="68.20022271742539" fill="#287fc4" fill-opacity="0.14"/>
+<path d="M230 214V70H330V214" fill="none" stroke="#20272b" stroke-width="4" stroke-linejoin="round"/>
+<path d="M250 52V83M236 83h28" stroke="#20272b" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M310 52V74M296 74h28" stroke="#20272b" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M280 44V70" stroke="#20272b" stroke-width="6" stroke-linecap="round"/>
+<circle cx="280" cy="236" r="44" fill="none" stroke="#bec9ce" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M280 146.2002227174254L324 236" stroke="#52626a" stroke-width="6" stroke-linecap="round"/>
+<path d="M280 236L324 236" stroke="#20272b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="280" cy="236" r="6" fill="#20272b"/>
+<circle cx="324" cy="236" r="6" fill="#fff" stroke="#20272b" stroke-width="3"/>
+<rect x="232" y="138.2002227174254" width="96" height="16" rx="3" fill="#fff" stroke="#20272b" stroke-width="3"/>
+<text x="236" y="44" text-anchor="end" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">进气门（开）</text><text x="324" y="44" text-anchor="start" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">排气门</text><text x="280" y="14" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">火花塞</text><text x="352" y="151.2002227174254" text-anchor="start" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">活塞</text>
+</svg>

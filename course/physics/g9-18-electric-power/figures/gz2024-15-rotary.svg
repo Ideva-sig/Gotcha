@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 16 430 296" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="rh-t rh-d">
+  <title id="rh-t">电热敷腰带：旋转开关转至 de（高温挡）</title>
+  <desc id="rh-d">照 2024 广州第 15 题图乙。开关接通 d、e，R2 与 R3 并联在 220 V 上，蓝色是有电流的导线；R1 两端的导线是浅灰色，没有电流。电阻越红发热越多。静态图。</desc>
+  <style>.sy{font:italic 20px "Times New Roman",Times,serif;fill:#20272b;stroke:none}.lb{font:600 15px -apple-system,"PingFang SC",sans-serif;fill:#5d6970;stroke:none}.sb{font-size:13px;font-style:normal}</style>
+  <rect x="90" y="16" width="430" height="296" fill="#fff" stroke="none"/>
+  <path d="M198.0 240.4A64 64 0 1 1 294.0 185.0" stroke="#bec9ce" stroke-width="2" stroke-dasharray="5 6"/>
+  <path d="M198.0 129.6L110.0 129.6L110.0 56.0L262.0 56.0" stroke="#bec9ce" stroke-width="2.2"/>
+  <path d="M262.0 129.6L262.0 56.0" stroke="#287fc4" stroke-width="3"/>
+  <path d="M262.0 56.0L500.0 56.0L500.0 185.0" stroke="#287fc4" stroke-width="3"/>
+  <path d="M294.0 185.0L500.0 185.0" stroke="#287fc4" stroke-width="3"/>
+  <path d="M500.0 185.0L500.0 290.0L434.0 290.0" stroke="#287fc4" stroke-width="3"/>
+  <path d="M326.0 290.0L230.0 290.0L230.0 185.0" stroke="#287fc4" stroke-width="3"/>
+  <rect x="152" y="46" width="68" height="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="186" y="38" text-anchor="middle">R<tspan class="sb" dy="5">1</tspan></text>
+  <rect x="347" y="46" width="68" height="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="348" y="47" width="66" height="18" fill="#c9554d" opacity="0.80" stroke="none"/>
+  <text class="sy" x="381" y="38" text-anchor="middle">R<tspan class="sb" dy="5">2</tspan></text>
+  <rect x="363" y="175" width="68" height="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <rect x="364" y="176" width="66" height="18" fill="#c9554d" opacity="0.26" stroke="none"/>
+  <text class="sy" x="397" y="167" text-anchor="middle">R<tspan class="sb" dy="5">3</tspan></text>
+  <circle cx="262.0" cy="56.0" r="4" fill="#20272b" stroke="none"/>
+  <circle cx="500.0" cy="185.0" r="4" fill="#20272b" stroke="none"/>
+  <circle cx="330" cy="290" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <circle cx="430" cy="290" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="lb" x="380.0" y="295.0" text-anchor="middle">220 V</text>
+  <path d="M230 185L262.0 129.6L294.0 185.0Z" fill="#f4f5f5" stroke="#20272b" stroke-width="2"/>
+  <circle cx="198.0" cy="240.4" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="188.0" y="263.7" text-anchor="middle">a</text>
+  <circle cx="166.0" cy="185.0" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="146.0" y="191.0" text-anchor="middle">b</text>
+  <circle cx="198.0" cy="129.6" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="188.0" y="118.3" text-anchor="middle">c</text>
+  <circle cx="262.0" cy="129.6" r="5" fill="#20272b" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="272.0" y="118.3" text-anchor="middle">d</text>
+  <circle cx="294.0" cy="185.0" r="5" fill="#20272b" stroke="#20272b" stroke-width="2"/>
+  <text class="sy" x="306.7" y="225.2" text-anchor="middle">e</text>
+  <circle cx="230" cy="185" r="5" fill="#20272b" stroke="none"/>
+</svg>

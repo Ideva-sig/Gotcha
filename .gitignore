@@ -50,3 +50,6 @@ output/sample-pack/
 output/materials/
 public/app-data/
 public/search-index.json
+
+# 开发复盘（不公开，不进版本库）
+docs/2026-10-27-designer-and-ai-retrospective.md

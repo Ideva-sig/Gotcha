@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="640" height="300" fill="#ffffff"/>
+<text x="140" y="28" text-anchor="middle" font-size="16" fill="#52626a">反应前</text>
+<text x="500" y="28" text-anchor="middle" font-size="16" fill="#52626a">反应后</text>
+<text x="320" y="28" text-anchor="middle" font-size="16" fill="#52626a">催化剂</text>
+<path d="M276 44H360" stroke="#52626a" stroke-width="2"/>
+<path d="M352 38L364 44L352 50" fill="none" stroke="#52626a" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="54.7" cy="95.0" r="18" fill="#20669d" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="85.3" cy="95.0" r="18" fill="#20669d" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="59.0" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="81.0" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="198.9" cy="95.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="221.1" cy="95.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="198.9" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="221.1" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="500.0" cy="95.0" r="18" fill="#20669d" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="500.0" cy="225.0" r="18" fill="#20669d" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="500.0" cy="68.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="476.9" cy="108.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="523.1" cy="108.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="500.0" cy="198.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="476.9" cy="238.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="523.1" cy="238.3" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<text x="54.7" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">N</text>
+<text x="85.3" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">N</text>
+<text x="59.0" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="81.0" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="198.9" y="100.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="221.1" y="100.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="198.9" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="221.1" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="500.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">N</text>
+<text x="500.0" y="231.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">N</text>
+<text x="500.0" y="73.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="476.9" y="113.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="523.1" y="113.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="500.0" y="203.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="476.9" y="243.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="523.1" y="243.3" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+</svg>

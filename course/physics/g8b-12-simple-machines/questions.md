@@ -116,6 +116,13 @@ parts:
     review:
       公式: PHY-8B-12-1b
       计算: PHY-8B-12-1b
+widget: |
+  type: lever
+  f1: 1.5
+  l1: 4
+  l2: 3
+  max: 4
+widget_figure: figures/gd2022-21-lever.svg
 ```
 
 **题干**

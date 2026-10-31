@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="640" height="300" fill="#ffffff"/>
+<path d="M20 150H620" stroke="#52626a" stroke-width="1.6"/>
+<path d="M383.33333333333337 40V260" stroke="#52626a" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+<path d="M300 72Q320 150 300 228Q280 150 300 72Z" fill="#eaf2fa" stroke="#287fc4" stroke-width="2.4"/>
+<path d="M175.0 110.0L300.0 110.0L383.3 176.7" fill="none" stroke="#287fc4" stroke-width="2" stroke-linejoin="round"/>
+<path d="M175.0 110.0L383.3 176.7" fill="none" stroke="#287fc4" stroke-width="2" stroke-linejoin="round"/>
+<path d="M175 150V113.6" stroke="#c9554d" stroke-width="4" stroke-linecap="round"/><path d="M168 119L175 110L182 119" fill="none" stroke="#c9554d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M383.33333333333337 150V173.0666666666667" stroke="#197a60" stroke-width="4" stroke-linecap="round"/><path d="M376.33333333333337 167.66666666666669L383.33333333333337 176.66666666666669L390.33333333333337 167.66666666666669" fill="none" stroke="#197a60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="250" cy="150" r="4" fill="#20272b"/><text x="250" y="174" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">F</text>
+<circle cx="350" cy="150" r="4" fill="#20272b"/><text x="346" y="128" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">F</text>
+<circle cx="200" cy="150" r="4" fill="#20272b"/><text x="200" y="174" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">2F</text>
+<circle cx="400" cy="150" r="4" fill="#20272b"/><text x="400" y="128" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">2F</text>
+<text x="175" y="174" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">物</text>
+<text x="397.33333333333337" y="182.66666666666669" text-anchor="start" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">像</text>
+<text x="383.33333333333337" y="32" text-anchor="middle" font-size="15" font-weight="600" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">光屏</text>
+</svg>

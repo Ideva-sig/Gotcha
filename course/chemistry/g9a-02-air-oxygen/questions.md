@@ -333,7 +333,7 @@ review:
 
 **答案**
 
-$3\ce{Fe}+2\ce{O2}\xrightarrow{点燃}\ce{Fe3O4}$；在集气瓶底部加少量水（或铺一层细沙）
+$3\ce{Fe}+2\ce{O2}\xrightarrow{\text{点燃}}\ce{Fe3O4}$；在集气瓶底部加少量水（或铺一层细沙）
 
 **解析**
 

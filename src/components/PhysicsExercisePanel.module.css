@@ -547,6 +547,16 @@
   font-size: 13px;
 }
 
+.solutionWidget {
+  margin-top: 16px;
+}
+
+.solutionWidgetLead {
+  margin: 0;
+  font-weight: 700;
+  color: var(--text);
+}
+
 .stepsCollapse {
   margin-top: 8px;
 }

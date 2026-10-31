@@ -340,6 +340,15 @@ answer_by: 原卷解析
 review:
   概念: PHY-9-15-5a
   审题: PHY-9-15-3a
+widget: |
+  type: series-lamps
+  l1v: 2.5
+  l1a: 0.3
+  l2v: 6
+  l2a: 0.15
+  max: 8
+  step: 0.25
+widget_figure: figures/gd2023-14-series.svg
 ```
 
 **题干**

@@ -28,6 +28,13 @@ answer_by: 本项目编写，待复核
 review:
   概念: MATH-9A-30-1a
   计算: MATH-9A-30-1a
+widget: |
+  type: line-circle
+  ac: 3
+  bc: 4
+  r: 2
+  max: 4
+widget_figure: figures/tb30-1-q1-position.svg
 ```
 
 **题干**

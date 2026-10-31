@@ -136,6 +136,12 @@ kp: MATH-9A-28-1d
 do: 本章只做第（2）问
 other_parts: 第（1）问的作图要求作为原题保留；本章不安排该问作答，不另制课本作图答案图。
 type: 解答
+widget: |
+  type: rotation-explorer
+  bc: 3
+  ac: 4
+  start: 90
+widget_figure: figures/tb28-1-q7-rotate.svg
 grading: 自评
 answer_by: 本项目编写，待复核
 review:

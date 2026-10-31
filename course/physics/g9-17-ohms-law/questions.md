@@ -300,6 +300,13 @@ answer_by: 原卷解析
 review:
   概念: PHY-9-17-4b
   前置: PHY-9-16-4a
+widget: |
+  type: weighbridge
+  U: 6
+  R0: 10
+  R: 20
+  p: 40
+widget_figure: figures/gz2024-09-weighbridge.svg
 ```
 
 **题干**

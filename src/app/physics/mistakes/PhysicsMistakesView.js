@@ -10,6 +10,7 @@ import { ArrowLeft, ArrowRight, Check, Chevron } from "@/components/LineIcons";
 import { Icon } from "@/components/Icon";
 import { QuestionCard, questionForPart, Reveal } from "@/components/PhysicsExercisePanel";
 import { ERROR_TAGS, resolvePhysicsTarget } from "@/lib/courseV3Client";
+import { REVIEW_GAPS } from "@/lib/reviewSchedule";
 import { Collapse, Title } from "@/components/island/Island";
 import { ERROR_TONE, ErrorTag } from "@/components/island/KpTags";
 import { PrereqTrace } from "./PrereqTrace";
@@ -24,18 +25,25 @@ function shortCode(kpId) {
 
 const keyOf = (m) => `${m.questionId}:${m.part || ""}`;
 
-// 做错过、但最近一次已经做对的题：错题本里“已经改对”的数量
-function countFixed(data) {
-  const latest = new Map();
-  const everWrong = new Set();
-  for (const a of data.attempts) {
-    const key = `${a.questionId}:${a.part || ""}`;
-    latest.set(key, a);
-    if (!a.isCorrect) everWrong.add(key);
-  }
-  let n = 0;
-  for (const key of everWrong) if (latest.get(key)?.isCorrect) n += 1;
-  return n;
+const EMPTY_QUEUE = { wrong: [], due: [], waiting: [], mastered: [] };
+
+// 复习日期：明天、后天直接说，再远写几月几日
+function dayLabel(dayMs) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const diff = Math.round((dayMs - today.getTime()) / 86_400_000);
+  if (diff <= 0) return "今天";
+  if (diff === 1) return "明天";
+  if (diff === 2) return "后天";
+  const d = new Date(dayMs);
+  return `${d.getMonth() + 1}月${d.getDate()}日`;
+}
+
+// 这次做对之后怎样：改对了明天再考；按时复习做对了排下一次，第三次就掌握了
+function nextStepText(item) {
+  if (item.status !== "due") return `改对了 · 明天再考`;
+  const streak = (item.streak || 0) + 1;
+  return streak >= REVIEW_GAPS.length ? "又做对了 · 掌握了" : `又做对了 · ${REVIEW_GAPS[streak]} 天后再考`;
 }
 
 // embedded：放在统一错题本的标签页里，外层的 <main> 和备份面板由统一页面提供
@@ -50,11 +58,10 @@ export function PhysicsMistakesView({
   backupSlot = null,
   prereqGraph = null,
 }) {
-  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, regradeChoiceAttempts, getOrphanMistakes, subject, label } = useCourseStudy();
+  const { subscribeCourseV3, getReviewQueue, regradeChoiceAttempts, getOrphanMistakes, subject, label } = useCourseStudy();
   const [ready, setReady] = useState(false);
-  const [active, setActive] = useState([]);
+  const [queue, setQueue] = useState(EMPTY_QUEUE);
   const [orphans, setOrphans] = useState([]);
-  const [fixedTotal, setFixedTotal] = useState(0);
   const [v1Mistakes, setV1Mistakes] = useState([]);
   const [tag, setTag] = useState("all");
   const [mode, setMode] = useState("review");
@@ -64,10 +71,11 @@ export function PhysicsMistakesView({
 
   const loadAll = useCallback(() => {
     regradeChoiceAttempts(questionsMap);
-    setActive(getActiveMistakes(questionsMap).filter((m) => m.question));
+    const q = getReviewQueue(questionsMap);
+    const has = (m) => m.question;
+    setQueue({ wrong: q.wrong.filter(has), due: q.due.filter(has), waiting: q.waiting.filter(has), mastered: q.mastered });
     setOrphans(getOrphanMistakes(questionsMap));
     try {
-      setFixedTotal(countFixed(loadCourseV3Data()));
       const rawV1 = subject !== "physics" ? [] : JSON.parse(localStorage.getItem(MISTAKES_V1_KEY) || "[]");
       setV1Mistakes(
         (rawV1 || []).filter(
@@ -92,6 +100,8 @@ export function PhysicsMistakesView({
     };
   }, [loadAll]);
 
+  // 今天要做的：要再练的错题 + 到了复习日的题
+  const active = useMemo(() => [...queue.wrong, ...queue.due], [queue]);
   const filtered = useMemo(
     () => (tag === "all" ? active : active.filter((m) => m.errorTag === tag)),
     [active, tag],
@@ -128,11 +138,19 @@ export function PhysicsMistakesView({
             <div>
               <Title as="h1" className={styles.title} tone="red">错题本</Title>
               <p className={styles.stats}>
-                <span className={hasMistakes ? styles.statWrong : styles.statZero}>
-                  <strong>{active.length}</strong> 道要再练
+                <span className={queue.wrong.length ? styles.statWrong : styles.statZero}>
+                  <strong>{queue.wrong.length}</strong> 道要再练
                 </span>
+                <span className={queue.due.length ? styles.statDue : styles.statZero}>
+                  今天复习 <strong>{queue.due.length}</strong> 道
+                </span>
+                {queue.waiting.length > 0 && (
+                  <span>
+                    <strong>{queue.waiting.length}</strong> 道过几天再考
+                  </span>
+                )}
                 <span className={styles.statFixed}>
-                  已经改对 <strong>{fixedTotal}</strong> 道
+                  已掌握 <strong>{queue.mastered.length}</strong> 道
                 </span>
               </p>
             </div>
@@ -240,13 +258,41 @@ export function PhysicsMistakesView({
             ready && (
               <div className={styles.empty}>
                 <Icon name="smile" size={40} />
-                <p>做错的题会自动收进这里，按错因分好类，还能直接重做。</p>
+                {queue.waiting.length > 0 ? (
+                  <p>
+                    今天的题都做完了。下一次复习在{dayLabel(queue.waiting[0].dueDay)}，
+                    {queue.waiting.filter((m) => m.dueDay === queue.waiting[0].dueDay).length} 道。
+                  </p>
+                ) : (
+                  <p>做错的题会自动收进这里，按错因分好类，还能直接重做。改对以后隔几天再考，连对三次才算掌握。</p>
+                )}
                 <Link className={styles.primary} href="/physics/">
                   回首页接着学
                   <ArrowRight size={14} />
                 </Link>
               </div>
             )
+          )}
+
+          {queue.waiting.length > 0 && (
+            <Collapse className={styles.archive} title={`过几天再考的 ${queue.waiting.length} 道`}>
+              <p className={styles.orphanNote}>
+                改对的题隔 1 天、3 天、7 天各考一次，三次都对就算掌握。没到日子提前做对不算数。
+              </p>
+              <ul className={`${styles.archiveList} isl-rows`}>
+                {queue.waiting.map((m) => (
+                  <li key={keyOf(m)}>
+                    <p className={styles.archiveTitle}>
+                      <strong>{dayLabel(m.dueDay)}</strong>
+                      <span>
+                        {shortCode(m.kpId)} <CourseText>{kpTitles[m.kpId]}</CourseText>
+                      </span>
+                      <span>已按时做对 {m.streak} / {REVIEW_GAPS.length} 次</span>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </Collapse>
           )}
 
           {v1Mistakes.length > 0 && (
@@ -374,7 +420,7 @@ function ReviewSession({ session, kpTitles, lines, avatars, stillActive, onResta
               <li key={keyOf(m)}>
                 <button
                   aria-current={i === index ? "step" : undefined}
-                  aria-label={`第 ${i + 1} 道${r === "fixed" ? "，已改对" : r === "wrong" ? "，还没对" : ""}`}
+                  aria-label={`第 ${i + 1} 道${r === "fixed" ? "，做对了" : r === "wrong" ? "，还没对" : ""}`}
                   data-result={r || "todo"}
                   onClick={() => go(i)}
                   type="button"
@@ -387,7 +433,7 @@ function ReviewSession({ session, kpTitles, lines, avatars, stillActive, onResta
         </ol>
         <span className={styles.progressText}>
           {done ? "这一轮做完了" : `第 ${index + 1} / ${items.length} 道`}
-          {fixedCount > 0 && <em>改对 {fixedCount}</em>}
+          {fixedCount > 0 && <em>做对 {fixedCount}</em>}
         </span>
       </div>
 
@@ -447,7 +493,7 @@ function MistakeCard({ item, kpTitles, onResult, result, dir, prereqGraph, quest
   const q = item.part ? questionForPart(item.question, mathQuestionParts(item.question).find((p) => String(p.part) === item.part) || { part: item.part }) : item.question;
   const review = q.review?.find((r) => r.tag === item.errorTag) || q.review?.[0];
   const target = review?.target ? resolvePhysicsTarget(review.target) : null;
-  const last = item.latestAttempt;
+  const last = item.lastWrong || item.latestAttempt;
   // 只有数学、错因是“前置”、知识点在图里时，才给“往前找找”
   const canTrace = subject === "math" && !!prereqGraph?.[item.kpId] && item.errorTag === "前置";
   const reviewTarget = q.review?.find((r) => r.tag === "前置")?.target || null;
@@ -465,10 +511,13 @@ function MistakeCard({ item, kpTitles, onResult, result, dir, prereqGraph, quest
           {shortCode(item.kpId)} <CourseText>{kpTitles[item.kpId]}</CourseText>
         </Link>
         <ErrorTag tag={item.errorTag}>错因：{item.errorTag}</ErrorTag>
+        {item.status === "due" && (
+          <span className={styles.errCount}>第 {(item.streak || 0) + 1} 次复习</span>
+        )}
         {item.errorCount > 1 && <span className={styles.errCount}>错过 {item.errorCount} 次</span>}
         {result === "fixed" && (
           <span className={styles.fixedBadge}>
-            <Icon name="thumbs-up" size={18} /> 改对了
+            <Icon name="thumbs-up" size={18} /> {nextStepText(item)}
           </span>
         )}
       </header>
@@ -537,8 +586,8 @@ function RoundSummary({ total, fixed, remaining, line, avatars, onRestart, onLis
       </p>
       <p className={styles.summaryText}>
         {fixed === total
-          ? "这一轮全部改对了！"
-          : `这一轮改对了 ${fixed} 道，还有 ${remaining} 道要再练。`}
+          ? "这一轮全部做对了！"
+          : `这一轮做对了 ${fixed} 道，还有 ${remaining} 道要再练。`}
       </p>
       {shownLine && <SpeechBubble avatars={avatars} cheer={fixed > 0} line={shownLine} />}
       <div className={styles.summaryActions}>
@@ -584,7 +633,7 @@ function MistakeList({ items, kpTitles, onReview }) {
               <ErrorTag tag={m.errorTag} />
               {m.errorCount > 1 && <span>错 {m.errorCount} 次</span>}
               <span className={styles.rowGo}>
-                重做 <ArrowRight size={12} />
+                {m.status === "due" ? "复习" : "重做"} <ArrowRight size={12} />
               </span>
             </span>
           </button>

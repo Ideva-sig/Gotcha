@@ -379,19 +379,42 @@
     - id: CHEM-9A-03-3a
       strength: hard
       reason: 熟练运用元素符号正确拼写物质的化学式。
-  - id: CHEM-9A-04-3b
-    title: 化合价规则与根据化学式求化合价
+  - id: CHEM-9A-04-3d
+    title: 化合价的含义与常见元素和原子团的化合价
     weight: 重点
-    weight_note: 7 套卷直接考查 4 次
-    exam_hits: 4
-    exam_refs: [GD2022-20(2), GD2023-20(2), GD2024-21(1), GD2025-21(2)]
+    weight_note: 7 套卷未单独设问，但它是求化合价（3b）和由化合价写化学式（3e）的共同前提；课本表 4-3 是本课题的核心
+    exam_hits: 0
+    exam_refs: []
     prerequisites:
     - id: CHEM-9A-03-2c
       strength: hard
       reason: 依据原子得失电子形成的离子电荷数理解元素化合价的数值与正负。
     - id: CHEM-9A-04-3a
       strength: hard
-      reason: 正确辨识化学式中各元素的原子个数比以运用正负化合价代数和为零的原则。
+      reason: 辨识化学式中各元素的原子个数比，才能理解化合价决定原子个数比。
+  - id: CHEM-9A-04-3b
+    title: 由化学式求化合价（含原子团、变价元素）
+    weight: 重点
+    weight_note: 7 套卷直接考查 4 次
+    exam_hits: 4
+    exam_refs: [GD2022-20(2), GD2023-20(2), GD2024-21(1), GD2025-21(2)]
+    prerequisites:
+    - id: CHEM-9A-04-3d
+      strength: hard
+      reason: 先记住常见元素和原子团的化合价，才能用代数和为 0 求出未知的化合价。
+  - id: CHEM-9A-04-3e
+    title: 由化合价写化学式
+    weight: 重点
+    weight_note: 7 套卷未单独设问，但书写化学式是化学用语的基本功，课本课题 3 习题直接考查
+    exam_hits: 0
+    exam_refs: []
+    prerequisites:
+    - id: CHEM-9A-04-3d
+      strength: hard
+      reason: 需要先知道各元素和原子团的化合价，才能按正负价代数和为 0 推出原子个数比。
+    - id: CHEM-9A-04-3a
+      strength: hard
+      reason: 化学式里右下角的数字表示原子个数，写好后还要会读、会命名。
   - id: CHEM-9A-04-3c
     title: 基于化学式的定量计算
     weight: 重点
@@ -472,7 +495,7 @@
     exam_hits: 8
     exam_refs: [GD2022-17(2), GD2022-20(5), GD2023-11, GD2023-20(2), GD2024-16(2), GD2025-08, GZ2022-09, GZ2024-17(2)]
     prerequisites:
-    - id: CHEM-9A-04-3b
+    - id: CHEM-9A-04-3e
       strength: hard
       reason: 正确书写反应物与生成物的化学式是书写方程式的前提。
     - id: CHEM-9A-05-1a

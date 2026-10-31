@@ -21,7 +21,7 @@ cfg = cs.PHYSICS  # main() 里按路径换成实际学科
 SUBS = ["本次只学", "先认住", "破题钥匙", "数形结合", "走一遍", "容易错", "练一练"]  # 数形结合：数学可选；破题钥匙：物理/化学可选；各最多一块
 # 轻重与篇幅：先认住、容易错条数上限；练一练题数范围；是否写“走一遍”
 BUDGET = {
-    "重点": dict(know=4, pitfalls=3, qs=(1, 2), walk=True),
+    "重点": dict(know=4, pitfalls=3, qs=(1, 99), walk=True),  # 重点题数不设上限
     "一般": dict(know=3, pitfalls=2, qs=(1, 1), walk=False),
     "了解": dict(know=3, pitfalls=0, qs=(0, 0), walk=False),
 }
@@ -30,6 +30,7 @@ TAGS = {"概念", "公式", "单位", "计算", "审题", "前置"}
 BANNED = ["sources.md", "待复核", "TODO", "待查", "维护", "审查", "v1", "状元笔记", "OCR", "备选"]
 
 errors, warnings = [], []
+minor_refs = []  # 非重点知识点用的题，全章题量提示只数这些
 err = errors.append
 warn = warnings.append
 
@@ -259,6 +260,8 @@ def check_lesson(chapter_dir, kpmap):
             if line.startswith("- `Q-") and re.sub(r"^- `Q-[^`]+`(\s*第（\d+）问)?", "", line).strip():
                 err(f"{kid}：练一练的说明文字要另起一行，不和编号写在同一行：{line}")
         refs += qs
+        if mk["weight"] != "重点":
+            minor_refs.extend(qs)
         student = re.sub(r"```yaml.*?```", "", chunk, flags=re.S)
         for w in BANNED:
             if w in student:
@@ -290,8 +293,8 @@ def check_questions(chapter_dir, kpmap, refs):
     for q in blocks:
         if q not in refs:
             warn(f"{q} 在讲义用题部分，但讲义没有引用（不用就移到备选）")
-    if len(set(refs)) > 10:
-        warn(f"全章 {len(set(refs))} 道题，一般在 10 道以内")
+    if len(set(minor_refs)) > 10:
+        warn(f"一般/了解知识点用了 {len(set(minor_refs))} 道题，一般在 10 道以内（重点知识点的题不限）")
 
     # 题号全科唯一：别的章已经用过的编号不能再用（同一道真题在不同章只能用不同小问、不同编号）
     for other in sorted(cfg.dir.glob("*/questions.md")):
@@ -325,6 +328,12 @@ def check_questions(chapter_dir, kpmap, refs):
         if meta.get("category") == "课本习题" and "待复核" not in str(meta.get("answer_by", "")) \
                 and "复核" not in str(meta.get("answer_by", "")):
             err(f"{qid}：课本习题答案由本项目编写，answer_by 要标“本项目编写，待复核”（家长复核后改“本项目编写，已复核”）")
+        if meta.get("widget") or meta.get("widget_figure"):
+            fig = str(meta.get("widget_figure", ""))
+            if not re.search(r"^type:\s*\S", str(meta.get("widget", "")), re.M):
+                err(f"{qid}：widget 要写组件参数，第一行 type: 组件名（见 FORMAT.md）")
+            if not fig.endswith(".svg") or not (chapter_dir / fig).exists():
+                err(f"{qid}：widget 要配 widget_figure 静态 SVG，文件要存在：{fig}")
         do = meta.get("do")
         if do and not re.fullmatch(r"本章只做[^；;。]*", str(do)):
             err(f"{qid}：do 会印在学生版题目上，只能写“本章只做第（N）问”这类说明；维护说明写进 sources.md")

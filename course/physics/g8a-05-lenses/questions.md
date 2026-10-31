@@ -209,6 +209,15 @@ answer_by: 原卷解析
 review:
   概念: PHY-8A-05-3b
   前置: PHY-8A-05-1b
+widget: |
+  type: lens-imaging
+  u: 25
+  f: 10
+  vary: u
+  min: 5
+  max: 40
+  step: 5
+widget_figure: figures/gz2023-11-lens.svg
 ```
 
 **题干**

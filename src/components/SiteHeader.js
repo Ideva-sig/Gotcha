@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { getActiveMistakes, subscribeCourseV3 } from "@/lib/studyData";
+import { getReviewQueue, subscribeCourseV3 } from "@/lib/studyData";
 import { Icon } from "./Icon";
 import { Badge } from "./island/Island";
 import styles from "./SiteHeader.module.css";
@@ -57,13 +57,16 @@ export function SiteHeader() {
   const mistakesHref = MISTAKES_HREF[subject] ?? "/mistakes/";
   const sections = SECTIONS[subject] ?? [];
 
-  // 学科页显示本科的待复习数；首页和统一错题本页显示各科合计
+  // 学科页显示本科今天要做的错题数（要再练 + 到了复习日）；首页和统一错题本页显示各科合计
   const studyKey = ["physics", "math", "chemistry"].includes(subject) ? subject : "math,physics,chemistry";
   const [pending, setPending] = useState(0);
   useEffect(() => {
     const subjects = studyKey.split(",");
     const update = () =>
-      setPending(subjects.reduce((sum, s) => sum + getActiveMistakes(null, s).length, 0));
+      setPending(subjects.reduce((sum, s) => {
+        const q = getReviewQueue(null, s);
+        return sum + q.wrong.length + q.due.length;
+      }, 0));
     update();
     const unsubscribes = subjects.map((s) => subscribeCourseV3(update, s));
     return () => unsubscribes.forEach((off) => off());

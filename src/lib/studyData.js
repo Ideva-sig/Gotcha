@@ -1,4 +1,5 @@
 import { mathQuestionParts } from './mathWidgets.js';
+import { reviewStates } from './reviewSchedule.js';
 
 export const STUDY_PAYLOAD_VERSION = 1;
 export const EMPTY_PROGRESS = { completedTopicIds: [] };
@@ -519,9 +520,11 @@ export function recordAttempt({
   const lastAttempt =
     previousAttempts.length > 0 ? previousAttempts[previousAttempts.length - 1] : null;
 
-  // 防重复连击判断：作答、对错、错因完全相同时不重复计数
+  // 防重复连击判断：同一天里作答、对错、错因完全相同时不重复计数
+  // （隔天再做同样的答案要记下来，复习节奏靠它往前走）
   if (
     lastAttempt &&
+    new Date(lastAttempt.timestamp).toDateString() === now.toDateString() &&
     lastAttempt.userAnswer === userAnswer &&
     lastAttempt.isCorrect === Boolean(isCorrect) &&
     (lastAttempt.errorTag || null) === (errorTag || null)
@@ -737,4 +740,25 @@ export function getActiveMistakes(questionsMap, subject = "physics") {
   });
 
   return activeMistakes;
+}
+
+/**
+ * 错题本今天的复习安排（规则见 reviewStates）。questionsMap 给了就挂上题目对象。
+ * 返回 { wrong, due, waiting, mastered }，每组是 [{ questionId, part, kpId, chapterId, status, streak, dueDay, errorCount, errorTag, latestAttempt, question }]
+ */
+export function getReviewQueue(questionsMap, subject = "physics", now = Date.now()) {
+  const data = loadCourseV3Data(subject);
+  const groups = { wrong: [], due: [], waiting: [], mastered: [] };
+  for (const s of reviewStates(data.attempts, now).values()) {
+    groups[s.status].push({
+      ...s,
+      question: questionsMap ? questionsMap[s.questionId] : null,
+      errorTag: s.lastWrong?.errorTag || "未指定",
+    });
+  }
+  const byKp = (a, b) => a.kpId.localeCompare(b.kpId) || (a.errorTag || "").localeCompare(b.errorTag || "");
+  groups.wrong.sort(byKp);
+  groups.due.sort((a, b) => a.dueDay - b.dueDay || byKp(a, b));
+  groups.waiting.sort((a, b) => a.dueDay - b.dueDay || byKp(a, b));
+  return groups;
 }

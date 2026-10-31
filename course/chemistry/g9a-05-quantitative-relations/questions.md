@@ -26,6 +26,11 @@ answer_by: 原卷解析
 review:
   概念: CHEM-9A-05-1a
   审题: CHEM-9A-03-1a
+widget: |
+  type: reaction-micro
+  equation: "N2 + 3H2 -> 2NH3"
+  condition: 催化剂
+widget_figure: figures/gz2023-11-micro.svg
 ```
 
 **题干**
@@ -142,6 +147,11 @@ answer_by: 原卷解析
 review:
   概念: CHEM-9A-05-2a
   计算: CHEM-9A-05-2a
+widget: |
+  type: reaction-micro
+  equation: "CH4 + 2O2 -> CO2 + 2H2O"
+  condition: 点燃
+widget_figure: figures/gd2023-11-micro.svg
 ```
 
 **题干**

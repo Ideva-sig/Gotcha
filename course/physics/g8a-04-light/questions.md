@@ -93,6 +93,10 @@ grading: 自评
 answer_by: 原卷解析
 review:
   概念: PHY-8A-04-3a
+widget: |
+  type: mirror-image
+  d: 5
+widget_figure: figures/gd2022-13-mirror.svg
 ```
 **题干**
 

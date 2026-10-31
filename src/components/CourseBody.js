@@ -10,12 +10,25 @@ import { ThinkCard } from '@/components/physics/ThinkCard';
 import BridgeCards from './math/BridgeCards';
 
 const MathWidget = lazy(() => import('./math/MathWidget'));
+const RotaryHeater = lazy(() => import('./physics/RotaryHeater'));
+const Weighbridge = lazy(() => import('./physics/Weighbridge'));
+const AtomIon = lazy(() => import('./chemistry/AtomIon'));
+const Lever = lazy(() => import('./physics/Lever'));
+const FourStroke = lazy(() => import('./physics/FourStroke'));
+const BuoyancyDensity = lazy(() => import('./physics/BuoyancyDensity'));
+const MirrorImage = lazy(() => import('./physics/MirrorImage'));
+const RotationExplorer = lazy(() => import('./math/RotationExplorer'));
+const ReactionMicro = lazy(() => import('./chemistry/ReactionMicro'));
+const LensImaging = lazy(() => import('./physics/LensImaging'));
+const SeriesLamps = lazy(() => import('./physics/SeriesLamps'));
+const LineCircle = lazy(() => import('./math/LineCircle'));
+const WIDGETS = { 'line-circle': LineCircle, 'four-stroke': FourStroke, 'series-lamps': SeriesLamps, 'rotary-heater': RotaryHeater, 'reaction-micro': ReactionMicro, 'lens-imaging': LensImaging, weighbridge: Weighbridge, 'atom-ion': AtomIon, 'rotation-explorer': RotationExplorer, lever: Lever, 'buoyancy-density': BuoyancyDensity, 'mirror-image': MirrorImage };
 class WidgetBoundary extends Component {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
   render() { return this.state.failed ? this.props.fallback : this.props.children; }
 }
-function WidgetSlot({ source, figure }) {
+export function WidgetSlot({ source, figure }) {
   const [enabled, setEnabled] = useState(false);
   useEffect(() => {
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -28,7 +41,7 @@ function WidgetSlot({ source, figure }) {
   try { config = parseWidget(source); } catch { return fallback; }
   return <>
     <div className="course-widget-screen">
-      {enabled ? <WidgetBoundary fallback={fallback}><Suspense fallback={fallback}><MathWidget config={config} /></Suspense></WidgetBoundary> : fallback}
+      {enabled ? <WidgetBoundary fallback={fallback}><Suspense fallback={fallback}>{(() => { const W = WIDGETS[config.type] || MathWidget; return <W config={config} />; })()}</Suspense></WidgetBoundary> : fallback}
     </div>
     <div className="course-widget-print">{fallback}</div>
   </>;

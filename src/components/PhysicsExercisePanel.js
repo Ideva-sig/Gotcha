@@ -5,6 +5,7 @@ import { useCourseStudy } from "./CourseSubject";
 import { useEffect, useRef, useState } from "react";
 import { CourseMarkdown, CourseText } from "./CourseMarkdown";
 import { CourseFigure } from "./CourseFigure";
+import { WidgetSlot } from "./CourseBody";
 import { mathQuestionParts } from "@/lib/mathWidgets";
 import { ArrowRight, Check, Cross } from "./LineIcons";
 import { Collapse } from "./island/Island";
@@ -330,6 +331,12 @@ export function QuestionCard({
                     </li>
                   ))}
                 </ol>
+                {question.widget && showSteps && (
+                  <div className={styles.solutionWidget}>
+                    <p className={styles.solutionWidgetLead}>拖着看一看</p>
+                    <WidgetSlot source={question.widget.source} figure={question.widget.figure} />
+                  </div>
+                )}
               </Collapse>
             </>
           )}

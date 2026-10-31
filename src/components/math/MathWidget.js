@@ -1,6 +1,8 @@
 "use client";
 import { useId, useMemo, useState } from "react";
 import { CourseMarkdown } from "../CourseMarkdown";
+import { Switch } from "../island/Island";
+import { circleReflectSetup, circleReflectAt, circleReflectMinimum } from "@/lib/circleReflectMin";
 import { circleGeometry, ghostCoefficients, sliderValues, validateFunctionWidget, lineFormula, lineQuadrantText, inverseFormula, inverseBranches, validateNumberLine, numberLineRelations, rayGeometry } from "@/lib/mathWidgets";
 import styles from "./MathWidget.module.css";
 
@@ -273,11 +275,107 @@ function NumberLine({ config }) {
   </div>;
 }
 
+// 圆内动点最值：P 在直径 AB 上拖动，看 △PCD 周长；作 C 的对称点 C′ 后，C′、P、D 共线时最短。
+function CircleReflectMin({ config }) {
+  const setup = useMemo(() => circleReflectSetup(config), [config]);
+  const best = useMemo(() => circleReflectMinimum(setup), [setup]);
+  const r = setup.radius;
+  const [x, setX] = useState(() => Math.max(-r, Math.min(r, config.P ?? -r / 2)));
+  const [mirror, setMirror] = useState(false);
+  const now = circleReflectAt(setup, x);
+  const atBest = Math.abs(x - setup.bestX) < 1e-9;
+  const s = 140 / r;
+  const fx = (v) => 280 + v * s, fy = (v) => 172 - v * s;
+  const pt = (p) => [fx(p.x), fy(p.y)];
+  const line = (p, q) => `M${pt(p).join(',')}L${pt(q).join(',')}`;
+  const place = (v) => setX(Math.abs(v - setup.bestX) < r * 0.02 ? setup.bestX : Math.max(-r, Math.min(r, v)));
+  // 下方曲线：周长随 P 的位置变化
+  const samples = Array.from({ length: 161 }, (_, i) => circleReflectAt(setup, -r + (2 * r * i) / 160));
+  const lo = Math.floor(best.perimeter), hi = Math.ceil(Math.max(...samples.map((q) => q.perimeter)));
+  const cx = (v) => 64 + ((v + r) / (2 * r)) * 448, cy = (v) => 140 - ((v - lo) / (hi - lo)) * 112;
+  const curve = samples.map((q, i) => `${i ? 'L' : 'M'}${cx(q.P.x).toFixed(1)},${cy(q.perimeter).toFixed(1)}`).join(' ');
+  const svgX = (event) => {
+    const svg = event.currentTarget.ownerSVGElement || event.currentTarget;
+    return new DOMPoint(event.clientX, event.clientY).matrixTransform(svg.getScreenCTM().inverse()).x;
+  };
+  const dragOn = (toX) => ({
+    onPointerDown: (e) => { e.currentTarget.setPointerCapture(e.pointerId); place(toX(svgX(e))); },
+    onPointerMove: (e) => { if (e.currentTarget.hasPointerCapture(e.pointerId)) place(toX(svgX(e))); },
+    onPointerUp: (e) => { if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId); },
+  });
+  const fromFigure = (px) => (px - 280) / s, fromChart = (px) => ((px - 64) / 448) * 2 * r - r;
+  const keys = (e) => {
+    if (!['ArrowLeft', 'ArrowDown', 'ArrowRight', 'ArrowUp'].includes(e.key)) return;
+    e.preventDefault(); setX((v) => Math.max(-r, Math.min(r, v + (['ArrowLeft', 'ArrowDown'].includes(e.key) ? -1 : 1) * r / 40)));
+  };
+  const f2 = (v) => v.toFixed(2);
+  const label = (p, dx, dy, text, color = 'var(--text)') => <text x={fx(p.x) + dx} y={fy(p.y) + dy} textAnchor="middle" fill={color} fontSize="18">{text}</text>;
+  const [ppx, ppy] = pt(now.P);
+  return <div className={styles.widget} data-widget="circle-reflect-min">
+    <svg viewBox="0 0 560 352" aria-label="拖动直径 AB 上的点 P，观察三角形 PCD 的周长">
+      <circle cx="280" cy="172" r="140" fill="none" stroke="var(--text-soft)" strokeWidth="1.8" />
+      <path d={line(setup.A, setup.B)} stroke="var(--text-soft)" strokeWidth="1.8" />
+      {mirror && <g fill="none" strokeWidth="2.2" strokeDasharray="7 6">
+        <path d={line(setup.C, setup.C2)} stroke="var(--course-light-line)" strokeWidth="1.5" />
+        <path d={line(setup.C2, setup.D)} stroke="var(--course-coral)" />
+        <path d={line(now.P, setup.C2)} stroke="var(--course-blue)" />
+      </g>}
+      <g fill="none" strokeWidth="2.6" strokeLinecap="round">
+        <path d={line(setup.C, setup.D)} stroke="var(--course-line)" />
+        <path d={line(now.P, setup.C)} stroke="var(--course-blue)" />
+        <path d={line(now.P, setup.D)} stroke="var(--course-green)" />
+      </g>
+      <circle cx="280" cy="172" r="3" fill="var(--text)" />
+      {[setup.A, setup.B, setup.C, setup.D].map((p, i) => <circle key={i} cx={fx(p.x)} cy={fy(p.y)} r="4" fill="var(--text)" />)}
+      {mirror && <circle cx={fx(setup.C2.x)} cy={fy(setup.C2.y)} r="4" fill="var(--text)" />}
+      {label(setup.A, -18, 6, 'A')}{label(setup.B, 18, 6, 'B')}{label({ x: 0, y: 0 }, x > -0.2 * r && x < 0.25 * r ? -16 : 0, 24, 'O')}
+      {label(setup.C, 0, -12, 'C')}{label(setup.D, 16, -8, 'D')}
+      {mirror && label(setup.C2, 0, 28, 'C′')}
+      <rect x="130" y="148" width="300" height="48" fill="transparent" className={styles.handle} {...dragOn(fromFigure)} />
+      <circle cx={ppx} cy={ppy} r="7" fill="var(--course-coral)" stroke="var(--surface)" strokeWidth="2" />
+      <text x={ppx + (mirror ? (now.P.x >= setup.C2.x ? 16 : -16) : 0)} y={ppy + 28} textAnchor="middle" fill="var(--text)" fontSize="20" fontWeight="700">P</text>
+      <circle cx={ppx} cy={ppy} r="26" fill="transparent" className={styles.handle} tabIndex="0" role="slider"
+        aria-label="直径上的动点 P" aria-valuemin={-r} aria-valuemax={r} aria-valuenow={Number(f2(x))}
+        aria-valuetext={`周长 ${f2(now.perimeter)}`} onKeyDown={keys} {...dragOn(fromFigure)} />
+    </svg>
+    <p className={styles.readout}>
+      <strong className={styles.keyed} style={{ '--key': 'var(--course-blue)' }}>PC = {f2(now.pc)}</strong>　
+      <strong className={styles.keyed} style={{ '--key': 'var(--course-green)' }}>PD = {f2(now.pd)}</strong>　
+      <strong className={styles.keyed} style={{ '--key': 'var(--course-line)' }}>CD = {f2(now.cd)}</strong><br />
+      周长 = <strong>{f2(now.perimeter)}</strong>{atBest && config.answer && <>，最小值 <CourseMarkdown inline content={`$${config.answer}$`} /></>}
+    </p>
+    <svg viewBox="0 0 560 176" className={styles.chart} aria-label="周长随 P 的位置变化的曲线">
+      <path d="M64 28V140H512" fill="none" stroke="var(--text-soft)" strokeWidth="1.5" />
+      {Array.from({ length: hi - lo + 1 }, (_, i) => lo + i).map((v) => <g key={v}>
+        <path d={`M64 ${cy(v)}H512`} stroke="var(--border)" />
+        <text x="54" y={cy(v) + 5} textAnchor="end" fill="var(--text-soft)" fontSize="14">{v}</text>
+      </g>)}
+      {[[-r, 'A'], [0, 'O'], [r, 'B']].map(([v, t]) => <text key={t} x={cx(v)} y="162" textAnchor="middle" fill="var(--text-soft)" fontSize="14">{t}</text>)}
+      <text x="64" y="16" fill="var(--text-soft)" fontSize="14">周长</text>
+      <path d={curve} fill="none" stroke="var(--text)" strokeWidth="2.2" />
+      <path d={`M${cx(x)} 28V140`} stroke="var(--course-coral)" strokeDasharray="4 4" />
+      <circle cx={cx(x)} cy={cy(now.perimeter)} r="6" fill="var(--course-coral)" stroke="var(--surface)" strokeWidth="2" />
+      <rect x="64" y="20" width="448" height="128" fill="transparent" className={styles.handle} {...dragOn(fromChart)} />
+    </svg>
+    <div className={styles.controlsRow}>
+      <button type="button" className="island-btn island-btn--primary" onClick={() => setX(setup.bestX)} disabled={atBest}>跳到最小</button>
+      <label className={styles.switchRow}>
+        <Switch checked={mirror} onChange={setMirror} label="作对称点 C′" />
+        <span>作 C 关于 AB 的对称点 C′</span>
+      </label>
+    </div>
+    <p className={styles.hint}>{mirror
+      ? (atBest ? 'C′、P、D 在一条直线上，PC′ + PD 最短，周长最小。' : 'PC = PC′，所以 PC + PD = PC′ + PD；P 走到 C′D 上时最短。')
+      : '拖动直径上的 P，或在曲线上拖，看周长什么时候最小。'}</p>
+  </div>;
+}
+
 export default function MathWidget({ config }) {
   if (config.type === 'parabola-explorer') return <Parabola config={config} />;
   if (config.type === 'circle-angle') return <CircleAngle config={config} />;
   if (config.type === 'line-explorer') return <LineExplorer config={config} />;
   if (config.type === 'inverse-explorer') return <InverseExplorer config={config} />;
   if (config.type === 'number-line') return <NumberLine config={config} />;
+  if (config.type === 'circle-reflect-min') return <CircleReflectMin config={config} />;
   throw new Error('未知组件');
 }

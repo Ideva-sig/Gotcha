@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="640" height="300" fill="#ffffff"/>
+<text x="140" y="28" text-anchor="middle" font-size="16" fill="#52626a">反应前</text>
+<text x="500" y="28" text-anchor="middle" font-size="16" fill="#52626a">反应后</text>
+<text x="320" y="28" text-anchor="middle" font-size="16" fill="#52626a">点燃</text>
+<path d="M276 44H360" stroke="#52626a" stroke-width="2"/>
+<path d="M352 38L364 44L352 50" fill="none" stroke="#52626a" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="70.0" cy="95.0" r="18" fill="#20272b" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="54.7" cy="225.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="85.3" cy="225.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="194.7" cy="95.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="225.3" cy="95.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="88.9" cy="76.1" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="51.1" cy="76.1" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="51.1" cy="113.9" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="88.9" cy="113.9" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="430.0" cy="95.0" r="18" fill="#20272b" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="399.0" cy="95.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="461.0" cy="95.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="430.0" cy="225.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="570.0" cy="95.0" r="18" fill="#a14540" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="403.3" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="456.7" cy="225.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="543.3" cy="95.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<circle cx="596.7" cy="95.0" r="13" fill="#ffffff" stroke="#20272b" stroke-width="1.8"/>
+<text x="70.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">C</text>
+<text x="54.7" y="231.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="85.3" y="231.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="194.7" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="225.3" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="88.9" y="81.1" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="51.1" y="81.1" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="51.1" y="118.9" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="88.9" y="118.9" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="430.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">C</text>
+<text x="399.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="461.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="430.0" y="231.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="570.0" y="101.0" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">O</text>
+<text x="403.3" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="456.7" y="230.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="543.3" y="100.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+<text x="596.7" y="100.0" text-anchor="middle" font-size="14" font-weight="700" fill="#20272b">H</text>
+</svg>

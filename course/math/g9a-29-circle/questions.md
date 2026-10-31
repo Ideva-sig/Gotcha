@@ -438,6 +438,14 @@ grading: 自动
 answer_by: 原卷解析
 review:
   概念: MATH-9A-29-2c
+widget: |
+  type: circle-reflect-min
+  radius: 2
+  C: 90
+  D: 30
+  P: -1
+  answer: '2+2\sqrt3'
+widget_figure: figures/gz2025-09-min.svg
 ```
 
 **题干**

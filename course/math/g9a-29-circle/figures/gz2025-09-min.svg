@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 352" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="gz2025-09-min-t gz2025-09-min-d">
+  <title id="gz2025-09-min-t">P 在使三角形 PCD 周长最小的位置</title>
+  <desc id="gz2025-09-min-d">圆 O 的直径 AB=4，C 为半圆弧中点，D 在弧 BC 上且角 BOD=30°。作 C 关于 AB 的对称点 C′，连接 C′D 交 AB 于 P，此时 PC=PC′，三角形 PCD 周长最小。PC 蓝、PD 绿、CD 灰，C′D 珊瑚红虚线。静态图。</desc>
+  <style>.gz2025-09-min-sy{font:italic 18px "Times New Roman",Times,serif;stroke:none}</style>
+  <rect width="560" height="352" fill="#fff" stroke="none"/>
+  <circle cx="280" cy="172" r="140" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M140 172H420" stroke="#52626a" stroke-width="1.8"/>
+  <path d="M280 32L280 312" stroke="#bec9ce" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <path d="M280 312L401.2 102" stroke="#c9554d" stroke-width="2.6" stroke-dasharray="7 6"/>
+  <path d="M280 32L401.2 102" stroke="#52626a" stroke-width="2.6"/>
+  <path d="M360.8 172L280 32" stroke="#287fc4" stroke-width="2.6"/>
+  <path d="M360.8 172L401.2 102" stroke="#197a60" stroke-width="2.6"/>
+  <circle cx="140" cy="172" r="4" fill="#20272b" stroke="none"/><circle cx="420" cy="172" r="4" fill="#20272b" stroke="none"/><circle cx="280" cy="32" r="4" fill="#20272b" stroke="none"/><circle cx="401.2" cy="102" r="4" fill="#20272b" stroke="none"/><circle cx="280" cy="312" r="4" fill="#20272b" stroke="none"/><circle cx="280" cy="172" r="4" fill="#20272b" stroke="none"/>
+  <circle cx="360.8" cy="172" r="7" fill="#c9554d" stroke="#fff" stroke-width="2"/>
+  <text class="gz2025-09-min-sy" x="122" y="178" text-anchor="middle" fill="#20272b">A</text><text class="gz2025-09-min-sy" x="438" y="178" text-anchor="middle" fill="#20272b">B</text><text class="gz2025-09-min-sy" x="264" y="196" text-anchor="middle" fill="#20272b">O</text><text class="gz2025-09-min-sy" x="280" y="20" text-anchor="middle" fill="#20272b">C</text><text class="gz2025-09-min-sy" x="417.2" y="94" text-anchor="middle" fill="#20272b">D</text><text class="gz2025-09-min-sy" x="280" y="340" text-anchor="middle" fill="#20272b">C′</text><text class="gz2025-09-min-sy" x="374.8" y="200" text-anchor="middle" fill="#20272b">P</text>
+</svg>

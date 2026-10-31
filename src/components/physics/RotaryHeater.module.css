@@ -1,0 +1,24 @@
+.widget { margin: 20px 0; padding: 16px 0; border-block: 1px solid var(--border); }
+.circuit { display: block; width: 100%; max-height: 420px; }
+.circuit text, .chart text { paint-order: stroke fill; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.flow { fill: none; stroke-linecap: round; stroke-dasharray: 0.01 34; animation: flow linear infinite; pointer-events: none; }
+.ring { stroke: var(--surface); stroke-width: 10; }
+.core { stroke: var(--course-blue); stroke-width: 6; }
+@keyframes flow { to { stroke-dashoffset: -34; } }
+@media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+.sym { font: italic 20px "Times New Roman", Times, serif; fill: var(--text); }
+.label { font-size: 15px; font-weight: 600; fill: var(--course-muted); }
+.handle { touch-action: none; cursor: grab; outline: none; }
+.handle:active { cursor: grabbing; }
+.handle:focus-visible { stroke: var(--text); stroke-width: 2; stroke-dasharray: 4 6; }
+.picker { display: flex; justify-content: center; margin-top: 8px; }
+.picker :global(.isl-tabItem) { min-width: 64px; min-height: 48px; justify-content: center; font-size: 18px; }
+.readout { margin: 12px 0; text-align: center; line-height: 1.9; }
+.keyed { color: var(--text); border-bottom: 3px solid var(--key, var(--course-line)); }
+.chart { display: block; width: 100%; max-height: 180px; margin-top: 4px; }
+.bar { cursor: pointer; }
+.value { font-size: 16px; font-weight: 700; fill: var(--text); }
+.axis { font-size: 15px; fill: var(--course-muted); }
+.axisOn { font-size: 15px; font-weight: 700; fill: var(--text); }
+.hint { margin: 8px 0 0; text-align: center; }
+.note { margin: 8px 0 0; text-align: center; font-size: 14px; color: var(--course-muted); }

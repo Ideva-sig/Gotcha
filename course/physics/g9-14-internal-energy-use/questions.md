@@ -62,6 +62,10 @@ grading: 自动
 answer_by: 原卷解析
 review:
   概念: PHY-9-14-2a
+widget: |
+  type: four-stroke
+  start: 90
+widget_figure: figures/gd2023-05-engine.svg
 ```
 
 **题干**

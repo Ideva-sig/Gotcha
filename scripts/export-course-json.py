@@ -164,6 +164,9 @@ def export_question(q, kp_id, chapter_dir, chapter_id, png_files):
     out["answer_by"] = meta.get("answer_by")
     out["needs_review"] = "待复核" in (meta.get("answer_by") or "")
     out["review"] = review
+    if meta.get("widget"):  # 数学题解析后的可拖动图：组件参数 + 静态图（减少动态效果时显示）
+        out["widget"] = {"source": meta["widget"],
+                         "figure": figure_block("互动图的静态版", meta["widget_figure"], chapter_dir, chapter_id, png_files)}
     for extra in ("accepted", "parts", "do"):  # 填空的可接受答案、分空信息、本章只做哪一问
         if meta.get(extra):
             out[extra] = meta[extra]

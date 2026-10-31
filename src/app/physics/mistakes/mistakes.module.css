@@ -76,6 +76,10 @@
   color: var(--text-faint);
 }
 
+.statDue strong {
+  color: var(--text);
+}
+
 .statFixed strong {
   color: var(--green);
 }

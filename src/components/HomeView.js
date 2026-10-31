@@ -6,10 +6,10 @@ import { useEffect, useState } from "react";
 import { Icon } from "./Icon";
 import { SearchBox } from "./SearchBox";
 import { Card, Divider, Progress, Tag } from "./island/Island";
-import { getActiveMistakes, loadCourseV3Data, subscribeCourseV3 } from "@/lib/studyData";
+import { getReviewQueue, loadCourseV3Data, subscribeCourseV3 } from "@/lib/studyData";
 import styles from "./HomeView.module.css";
 
-// 读本机的学习记录：学过几个知识点、下一个学哪个、几道错题待复习。
+// 读本机的学习记录：学过几个知识点、下一个学哪个、今天几道错题要做（要再练 + 到了复习日）。
 // 服务器渲染时没有记录，先显示“还没开始”，挂载后再换成真实数字。
 function useSubjectProgress(subject) {
   const [state, setState] = useState(null);
@@ -19,7 +19,8 @@ function useSubjectProgress(subject) {
       const visited = new Set(loadCourseV3Data(subject.key).visitedKps);
       const done = ids.filter((id) => visited.has(id)).length;
       const next = subject.kps.find((kp) => !visited.has(kp.id)) ?? null;
-      setState({ done, next, pending: getActiveMistakes(null, subject.key).length });
+      const queue = getReviewQueue(null, subject.key);
+      setState({ done, next, pending: queue.wrong.length + queue.due.length });
     };
     update();
     return subscribeCourseV3(update, subject.key);
@@ -66,7 +67,7 @@ function SubjectCard({ subject }) {
         <Link className="island-btn island-btn--primary" href={subject.href}>进入{subject.title}</Link>
         {progress?.pending > 0 && (
           <Link className={styles.pending} href={`/mistakes/#${subject.key}`}>
-            <Tag tone="red" variant="solid" size="md">{progress.pending} 道待复习</Tag>
+            <Tag tone="red" variant="solid" size="md">今天 {progress.pending} 道要复习</Tag>
           </Link>
         )}
       </div>
@@ -126,7 +127,7 @@ export function HomeView({ subjects, hotQueries }) {
           <Icon name="bookmark" size={28} />
           <span>
             <strong>错题本</strong>
-            <span>三科错题放在一起，一道一道重做，改对了就划掉。</span>
+            <span>三科错题放在一起，一道一道重做；改对以后隔几天再考，连对三次才划掉。</span>
           </span>
           <Icon name="arrow-right" size={20} />
         </Link>

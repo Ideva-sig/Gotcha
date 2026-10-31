@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 310" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="520" height="310" fill="#ffffff"/>
+<path d="M470 128L470 56L212 56L212 96" fill="none" stroke="#287fc4" stroke-width="3" stroke-linejoin="round"/>
+<path d="M212 246L212 280L470 280L470 172" fill="none" stroke="#287fc4" stroke-width="3" stroke-linejoin="round"/>
+<path d="M212 56H148" fill="none" stroke="#b9c3c8" stroke-width="2.2"/>
+<path d="M108 56H52V156H191" fill="none" stroke="#b9c3c8" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="199" y="96" width="26" height="150" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<rect x="200" y="97" width="24" height="59" fill="#287fc4" opacity="0.25"/>
+<path d="M181 149L195 156L181 163Z" fill="#20272b"/>
+<circle cx="212" cy="56" r="4" fill="#20272b"/>
+<rect x="326" y="270" width="68" height="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<path d="M268 56L308 56" stroke="#20272b" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="268" cy="56" r="4" fill="#fff" stroke="#20272b" stroke-width="2"/><circle cx="308" cy="56" r="4" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<circle cx="128" cy="56" r="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<circle cx="380" cy="56" r="20" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<circle cx="470" cy="128" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/><circle cx="470" cy="172" r="5" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<text x="239" y="177" text-anchor="start" font-size="20" font-style="italic" font-family="Times New Roman, serif" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">R</text>
+<text x="177" y="184" text-anchor="end" font-size="20" font-style="italic" font-family="Times New Roman, serif" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">P</text>
+<text x="360" y="262" text-anchor="middle" font-size="20" font-style="italic" font-family="Times New Roman, serif" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">R₀</text>
+<text x="288" y="36" text-anchor="middle" font-size="20" font-style="italic" font-family="Times New Roman, serif" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">S</text>
+<text x="494" y="156" text-anchor="start" font-size="20" font-style="italic" font-family="Times New Roman, serif" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">U</text>
+<text x="128" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">V</text><text x="380" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">A</text>
+<text x="128" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">1.6 V</text><text x="380" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">0.2 A</text>
+</svg>

@@ -156,7 +156,7 @@ weight: 重点
 weight_note: 7 套卷直接考查 8 次
 textbook: 九上 5.2 化学方程式，p.117–119
 prerequisites:
-  - id: CHEM-9A-04-3b
+  - id: CHEM-9A-04-3e
     strength: hard
     reason: 正确书写反应物与生成物的化学式是书写方程式的前提。
   - id: CHEM-9A-05-1a

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="560" height="400" fill="#ffffff"/>
+<rect x="20" y="190" width="520" height="200" fill="#287fc4" fill-opacity="0.14"/>
+<path d="M20 190H540" stroke="#20272b" stroke-width="3"/>
+<path d="M160 90V290" stroke="#bec9ce" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M160 90L348.8888888888889 190L500 110" fill="none" stroke="#c9554d" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M348.8888888888889 190L160 290" stroke="#c9554d" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M132 90V190" stroke="#287fc4" stroke-width="2.5"/><path d="M132 190V290" stroke="#287fc4" stroke-width="2.5"/>
+<circle cx="160" cy="90" r="8" fill="#bf8d08" stroke="#20272b" stroke-width="2"/>
+<circle cx="160" cy="290" r="8" fill="#fff" stroke="#20272b" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="500" cy="110" r="8" fill="#20272b"/>
+<text x="160" y="74" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">物</text>
+<text x="160" y="320" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">像（虚像）</text>
+<text x="500" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">眼睛</text>
+<text x="120" y="145" text-anchor="end" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">5 m</text>
+<text x="120" y="245" text-anchor="end" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">5 m</text>
+<text x="530" y="214" text-anchor="end" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">水面（相当于平面镜）</text>
+</svg>

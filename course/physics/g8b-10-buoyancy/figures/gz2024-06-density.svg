@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="680" height="320" fill="#ffffff"/>
+<rect x="20" y="30" width="300" height="270" fill="#287fc4" fill-opacity="0.18" stroke="#287fc4" stroke-width="2"/>
+<ellipse cx="170" cy="130" rx="78" ry="28" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<rect x="150" y="84" width="34" height="22" rx="4" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<circle cx="140" cy="130" r="7" fill="none" stroke="#20272b" stroke-width="2"/><circle cx="170" cy="130" r="7" fill="none" stroke="#20272b" stroke-width="2"/>
+<text x="34" y="54" text-anchor="start" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">高密度 1.03 g/cm³</text>
+<text x="170" y="286" text-anchor="middle" font-size="15" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">浮力 = 重力：悬浮</text>
+<rect x="360" y="30" width="300" height="270" fill="#287fc4" fill-opacity="0.18" stroke="#287fc4" stroke-width="2"/>
+<ellipse cx="510" cy="214.14239482200645" rx="78" ry="28" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<rect x="490" y="168.14239482200645" width="34" height="22" rx="4" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<circle cx="480" cy="214.14239482200645" r="7" fill="none" stroke="#20272b" stroke-width="2"/><circle cx="510" cy="214.14239482200645" r="7" fill="none" stroke="#20272b" stroke-width="2"/>
+<text x="374" y="54" text-anchor="start" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">低密度 1.01 g/cm³</text>
+<text x="510" y="286" text-anchor="middle" font-size="15" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">浮力 < 重力：下沉</text>
+<path d="M326 160H354M346 153L354 160L346 167" fill="none" stroke="#20272b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

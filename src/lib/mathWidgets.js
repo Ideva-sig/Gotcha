@@ -1,3 +1,17 @@
+import { circleReflectSetup } from './circleReflectMin.js';
+import { rotaryHeaterSetup } from './rotaryHeater.js';
+import { weighbridgeSetup } from './weighbridge.js';
+import { atomIonSetup } from './atomIon.js';
+import { rotationSetup } from './rotationExplorer.js';
+import { leverSetup } from './lever.js';
+import { buoyancySetup } from './buoyancyDensity.js';
+import { mirrorSetup } from './mirrorImage.js';
+import { seriesSetup } from './seriesLamps.js';
+import { lineCircleSetup } from './lineCircle.js';
+import { fourStrokeSetup } from './fourStroke.js';
+import { reactionSetup } from './reactionMicro.js';
+import { lensSetup } from './lensImaging.js';
+
 // 数学题没有 parts 元数据时，按题干行首小问号分开记录；不改写题干与答案。
 export function mathQuestionParts(question, ref = {}) {
   const selected = String(ref.note || question?.do || '').match(/只做第（([1-9])）问/);
@@ -57,7 +71,20 @@ export function parseWidget(source) {
     if (!m) throw new Error('组件仅支持单行参数');
     config[m[1]] = value(m[2]);
   }
-  if (!['parabola-explorer', 'circle-angle', 'line-explorer', 'inverse-explorer', 'number-line'].includes(config.type)) throw new Error('未知组件');
+  if (!['parabola-explorer', 'circle-angle', 'line-explorer', 'inverse-explorer', 'number-line', 'circle-reflect-min', 'rotary-heater', 'reaction-micro', 'lens-imaging', 'weighbridge', 'atom-ion', 'rotation-explorer', 'lever', 'buoyancy-density', 'mirror-image', 'series-lamps', 'line-circle', 'four-stroke'].includes(config.type)) throw new Error('未知组件');
+  if (config.type === 'circle-reflect-min') circleReflectSetup(config);
+  if (config.type === 'rotary-heater') rotaryHeaterSetup(config);
+  if (config.type === 'weighbridge') weighbridgeSetup(config);
+  if (config.type === 'atom-ion') atomIonSetup(config);
+  if (config.type === 'rotation-explorer') rotationSetup(config);
+  if (config.type === 'lever') leverSetup(config);
+  if (config.type === 'buoyancy-density') buoyancySetup(config);
+  if (config.type === 'mirror-image') mirrorSetup(config);
+  if (config.type === 'series-lamps') seriesSetup(config);
+  if (config.type === 'line-circle') lineCircleSetup(config);
+  if (config.type === 'four-stroke') fourStrokeSetup(config);
+  if (config.type === 'reaction-micro') reactionSetup(config);
+  if (config.type === 'lens-imaging') lensSetup(config);
   if (config.type === 'number-line') validateNumberLine(config);
   if (['line-explorer', 'inverse-explorer'].includes(config.type)) validateFunctionWidget(config);
   return config;

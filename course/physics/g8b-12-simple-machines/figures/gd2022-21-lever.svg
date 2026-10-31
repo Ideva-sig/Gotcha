@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="560" height="300" fill="#ffffff"/>
+<rect x="36" y="163" width="488" height="14" rx="3" fill="#fff" stroke="#20272b" stroke-width="2"/>
+<path d="M56 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M112 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M168 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M224 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M280 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M336 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M392 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M448 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M504 163v14" stroke="#bec9ce" stroke-width="2"/>
+<path d="M280 177l-24 46h48z" fill="#52626a"/>
+<path d="M56 177v20" stroke="#20272b" stroke-width="2"/>
+<rect x="39" y="197" width="34" height="22" rx="4" fill="#bf8d08" stroke="#20272b" stroke-width="2"/>
+<rect x="39" y="221" width="34" height="22" rx="4" fill="#bf8d08" stroke="#20272b" stroke-width="2"/>
+<rect x="39" y="245" width="34" height="22" rx="4" fill="#bf8d08" stroke="#20272b" stroke-width="2"/>
+<path d="M448 95V159" stroke="#c9554d" stroke-width="4" stroke-linecap="round"/>
+<path d="M439 147L448 160L457 147" fill="none" stroke="#c9554d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="462" y="99" text-anchor="start" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">F = 2 N</text>
+<text x="56" y="293" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">1.5 N</text>
+<path d="M56 268H280" stroke="#287fc4" stroke-width="2.5"/><path d="M280 268H448" stroke="#c9554d" stroke-width="2.5"/>
+<text x="168" y="290" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">4 格</text>
+<text x="364" y="290" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">3 格</text>
+<text x="280" y="246" text-anchor="middle" font-size="20" font-weight="400" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">O</text>
+</svg>

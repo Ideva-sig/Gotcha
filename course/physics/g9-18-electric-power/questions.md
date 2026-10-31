@@ -303,6 +303,14 @@ grading: 自评
 answer_by: 原卷解析（改写为着色步骤）
 review:
   概念: PHY-9-18-4c
+widget: |
+  type: rotary-heater
+  U: 220
+  R1: 1100
+  R2: 1100
+  I_high: 0.25
+  position: bc
+widget_figure: figures/gz2024-15-rotary.svg
 ```
 
 **题干**

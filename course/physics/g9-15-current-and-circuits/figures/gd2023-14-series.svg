@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" font-family="-apple-system, 'PingFang SC', sans-serif">
+<rect width="560" height="270" fill="#ffffff"/>
+<path d="M50 120V50H510V210H50V134" fill="none" stroke="#287fc4" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 120H70" stroke="#20272b" stroke-width="3"/><path d="M39 134H61" stroke="#20272b" stroke-width="3"/>
+<text x="78" y="126" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">＋</text>
+<text x="80" y="156" text-anchor="start" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">7.25 V</text>
+<circle cx="200" cy="50" r="24" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<circle cx="200" cy="50" r="22" fill="#bf8d08" opacity="0.30"/>
+<path d="M183.2 33.2L216.8 66.8M183.2 66.8L216.8 33.2" stroke="#20272b" stroke-width="2"/>
+<text x="200" y="14" text-anchor="middle" font-size="20" font-weight="400" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">L₁</text>
+<text x="200" y="102" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">2.5 V　0.3 A</text>
+<text x="200" y="124" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">较暗</text>
+<circle cx="360" cy="50" r="24" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<circle cx="360" cy="50" r="22" fill="#bf8d08" opacity="0.90"/>
+<path d="M343.2 33.2L376.8 66.8M343.2 66.8L376.8 33.2" stroke="#20272b" stroke-width="2"/>
+<text x="360" y="14" text-anchor="middle" font-size="20" font-weight="400" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">L₂</text>
+<text x="360" y="102" text-anchor="middle" font-size="14" font-weight="600" fill="#52626a" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">6 V　0.15 A</text>
+<text x="360" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#197a60" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">正常发光</text>
+<circle cx="280" cy="210" r="18" fill="#fff" stroke="#20272b" stroke-width="2.5"/>
+<text x="280" y="217" text-anchor="middle" font-size="20" font-weight="400" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">A</text>
+<text x="280" y="252" text-anchor="middle" font-size="16" font-weight="700" fill="#20272b" stroke="#fff" stroke-width="4" paint-order="stroke fill" stroke-linejoin="round">I = 0.15 A</text>
+</svg>

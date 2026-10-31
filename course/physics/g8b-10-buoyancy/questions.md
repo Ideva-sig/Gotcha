@@ -100,6 +100,13 @@ grading: 自动
 answer_by: 原卷解析
 review:
   概念: PHY-8B-10-2a
+widget: |
+  type: buoyancy-density
+  rho: 1.03
+  min: 1.0
+  max: 1.06
+  V: 2
+widget_figure: figures/gz2024-06-density.svg
 ```
 
 **题干**

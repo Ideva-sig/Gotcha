@@ -14,7 +14,7 @@ import {
   useState,
 } from "react";
 import {
-  getActiveMistakes,
+  getReviewQueue,
   getKpStatus,
   loadCourseV3Data,
   subscribeCourseV3,
@@ -88,7 +88,7 @@ const STATUS_CLASS = {
 };
 
 export function PhysicsHome({ availableKps = [], chapters = [], kpIndex = {}, questionsMap = {} }) {
-  const { loadCourseV3Data, subscribeCourseV3, getActiveMistakes, regradeChoiceAttempts, label } = useCourseStudy();
+  const { loadCourseV3Data, subscribeCourseV3, getReviewQueue, regradeChoiceAttempts, label } = useCourseStudy();
   const [ready, setReady] = useState(false);
   const [statuses, setStatuses] = useState({});
   const [mistakes, setMistakes] = useState([]);
@@ -102,7 +102,8 @@ export function PhysicsHome({ availableKps = [], chapters = [], kpIndex = {}, qu
       const next = {};
       for (const kp of availableKps) next[kp.id] = getKpStatus(kp, questionsMap, data);
       setStatuses(next);
-      setMistakes(getActiveMistakes(questionsMap));
+      const q = getReviewQueue(questionsMap);
+      setMistakes([...q.wrong, ...q.due]);
     } catch (_) {
       // 本机记录读不到时按“全部未开始”显示
     }
@@ -321,7 +322,7 @@ function MistakesCard({ mistakes, kpIndex }) {
           <span className={styles.emptyCheck}>
             <CheckMark />
           </span>
-          没有要复习的错题。做错的题会自动收进来。
+          今天没有要复习的错题。做错的题会自动收进来。
         </p>
       )}
 
